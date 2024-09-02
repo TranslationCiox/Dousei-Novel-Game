@@ -1,0 +1,65 @@
+\x1d\x1d
+\x01
+「ケーキを食べるのね
+ \n \x01
+　えっと、飲み物は何がいい？」
+NAME_TAG 
+CHOICE:
+ \x00
+コーヒーがいいな
+\x00
+紅茶がいいな
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\xf1
+\x00
+FEMALE_DIALOGUE:
+「ん、分かった
+ \n 　やっぱり、ケーキにはコーヒーじゃないとね」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、台所から、ケーキとコーヒーをお盆にのせ、リビングへと持ってきた
+NAME_TAG \x10i
+\x01
+FEMALE_DIALOGUE:
+「ん、分かった
+ \n 　結構ケーキに紅茶が合うのよね」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、台所から、ケーキと紅茶をお盆にのせ、リビングへと持ってきた
+NAME_TAG (_CGAA04
+\x00
+FEMALE_DIALOGUE:
+「ほんと、美味しそうだよね
+ \n \x01
+　じゃあ、いただきま～す」
+NAME_TAG \x1bb
+\x00
+*\x02\x1d
+\x01
+「う～ん、美味しい
+ \n \x01
+　このチョコレートが、ちょうどいい甘さを保ってて、口の中でとろけ　るような感じで・・・・・」
+NAME_TAG \x10\xfe\x02\x1bc
+\x00
+\x89\x02\x1d
+\x01
+「やっぱ、美味しいよねぇ
+ \n \x01
+　私、ケーキの中だったら、一番チーズケーキが好きだなぁ」
+NAME_TAG \x10\xfe\x02\x1d
+\x01
+「結構いけるね、このマロンケーキ
+ \n \x01
+　他の店のだと、ちょっと甘さがしつこいんだけど、ここのはそんなこ　とないよね」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、全部食べ終わると、満足そうな表情を浮かべた
+NAME_TAG FEMALE_DIALOGUE:
+「あ～、美味しかった
+ \n 　また、買ってきてね」
+NAME_TAG \x1a\xff

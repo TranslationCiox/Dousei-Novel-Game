@@ -1,0 +1,1264 @@
+\x11\x11\x16\x08
+\x00
+\x15\x1e
+\x00
+\x04\x16\x07
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x16\x07
+\x00
+\x15\x03
+\x00
+\x02\n\x16\x07
+\x00
+\x15
+ \n \x00
+\x02\n\x0f
+\x00
+\n
+\x01
+\x08'
+\x00
+\x01
+\x00
+\x1c@
+\x00
+3
+\x00
+\x10\x16
+\x01
+\x10\x07
+\x01
+\x11\x16'
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+D
+\x00
+\x10\xee\x07\x10\x07
+\x01
+\x11\x16'
+\x00
+\x15\x03
+\x00
+\x02
+\x00
+U
+\x00
+\x10\x99\x0b\x10\x07
+\x01
+\x11\x16'
+\x00
+\x15\x06
+\x00
+\x02
+\x00
+f
+\x00
+\x10}\x0f\x10\x07
+\x01
+\x11\x16'
+\x00
+\x15\t
+\x00
+\x02
+\x00
+w
+\x00
+\x10\xe0\x14\x10\x07
+\x01
+\x11\x16'
+\x00
+\x15\x0b
+\x00
+\x04\x17A
+\x00
+\x15
+\x00
+\x00
+\x02\x0f\x16\x07
+\x00
+\x15\x03
+\x00
+\x02\x0f
+\x00
+｣
+\x00
+\x1bF
+\x00
+\x9d
+\x00
+\x10\x1a\x1a\x10\xa0
+\x00
+\x10\xfd)\x10\x07
+\x01
+\x11\x17E
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x17B
+\x00
+\x15
+\x00
+\x00
+\x02\x0f
+\x00
+ｼ
+\x00
+\x10\x07!\x10\x07
+\x01
+\x11\x16'
+\x00
+\x15\x0e
+\x00
+\x04\x17C
+\x00
+\x15
+\x00
+\x00
+\x02\x0f\x17E
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x0f
+\x00
+ﾝ
+\x00
+\x10m%\x10\x07
+\x01
+\x1f\x03
+\x00
+\x04
+\x00
+\x11\x16\x04
+\x00
+\x15
+\x00
+\x00
+\x02
+\x00
+\xf3
+\x00
+\x10\x9b2\x10\x07
+\x01
+\x11\x16\x04
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x04
+\x01
+\x10\x035\x10\x07
+\x01
+MALE NAMEﾜ7MALE NAME
+\x01
+(_CGB01A
+\x00
+.
+\x01
+\x1a(_CGDA01
+\x00
+ DS07
+\x00
+6
+\x01
+「ねぇ、ちょっと」
+NAME_TAG NARRATION_DIALOGUE:
+通路の端に立ち、ぼうっと周りを見ていると不意に声をかけられた
+ \n CENTEREDあわてて声のした方を見ると、ずいぶんとラフな格好をした女の人が手招きをしていた
+NAME_TAG MALE_DIALOGUE:
+「はい、なんでしょう？」
+NAME_TAG 6
+\x01
+「玉がつまっちゃたのよ
+ \n 　直してくんない？」
+NAME_TAG MALE_DIALOGUE:
+「あ、はい、わかりました」
+NAME_TAG NARRATION_DIALOGUE:
+素早くパチンコ台を開けると、詰まっている玉を取り出し、それをスタートチャッカーへと入れた
+NAME_TAG MALE_DIALOGUE:
+「はい、直りましたよ」
+NAME_TAG 6
+\x01
+「ん、ありがと」
+NAME_TAG NARRATION_DIALOGUE:
+女の人はにっこりと微笑むと再び打ち始めた
+NAME_TAG 6
+\x01
+「はぁ～それにしても出ないわねぇ」
+NAME_TAG MALE_DIALOGUE:
+「す、すいません」
+NAME_TAG NARRATION_DIALOGUE:
+つい反射的に謝ってしまったあなたを、女の人は少しびっくりした表情で見つめた
+NAME_TAG NARRATION_DIALOGUE:
+そしてすぐに、けらけらと笑い始めた
+NAME_TAG 6
+\x01
+「別に君のせいだって言ってるんじゃないのよ
+ \n \x01
+　ここって前からこーなんだから」
+NAME_TAG MALE_DIALOGUE:
+「は、はぁ・・・・・」
+NAME_TAG 6
+\x01
+「君って最近入ったバイト君でしょ？
+ \n \x01
+　覚悟しといた方がいいわよぉ、結構うるさい客とかいるからね」
+NAME_TAG MALE_DIALOGUE:
+「そ、そうなんですか？」
+NAME_TAG 6
+\x01
+「そうだよ～
+ \n だから不機嫌そうな客がいたら近寄らないのが一番だね」
+NAME_TAG MALE_DIALOGUE:
+「それじゃあ、仕事にならないと思うんですが・・・」
+NAME_TAG 6
+\x01
+「かー、真面目だねぇ」
+NAME_TAG NARRATION_DIALOGUE:
+女の人はさも感心したように、首を大きく左右に振った
+NAME_TAG MALE_DIALOGUE:
+「あの～、ここにはよく来られるんですか？」
+NAME_TAG 6
+\x01
+「う～ん・・・ま、そうだね、週に３、４日は来てるんじゃないかな
+ \n \x01
+　実は、あんまり他に遊びとか知らなくて・・・
+ \n \x01
+　ダメだね～、おばさん通り越しておじさんになってるよ」
+NAME_TAG NARRATION_DIALOGUE:
+そう言って豪快に笑うねーちゃんを、あなたは楽しそうに見ていた
+NAME_TAG 6
+\x01
+「あ、向こうで人が呼んでるわよ」
+NAME_TAG MALE_DIALOGUE:
+「え？」
+NAME_TAG NARRATION_DIALOGUE:
+女の人の指さしている方向を見ると、台の上のランプが赤々と点灯していた
+NAME_TAG 6
+\x01
+「私はそろそろ帰るとするからさ、また来たときは話し相手にでもなっ　てね」
+NAME_TAG NARRATION_DIALOGUE:
+女の人は妖艶な視線を投げかけてくると、なまめかしい足どりで出口へと歩いていった
+NAME_TAG MALE_DIALOGUE:
+「う～ん、よくわかんない人だなぁ・・・・・
+ \n \x01
+　・・・っと仕事仕事」
+NAME_TAG \x04@
+\x00
+\x01
+\x00
+(_CGB01A
+\x00
+\x1a(_CGDA02
+\x00
+ DS07
+\x00
+6
+\x01
+「やっほー！　元気してた！」
+NAME_TAG NARRATION_DIALOGUE:
+女の人はあなたの姿を見つけると、近づいてきて軽く挨拶をした
+NAME_TAG MALE_DIALOGUE:
+「あ、いらっしゃいませ」
+NAME_TAG NARRATION_DIALOGUE:
+女の人は通路の一番端にいたあなたの真横の台に座った
+NAME_TAG 6
+\x01
+「さ～て、今日は勝つわよ～！」
+NAME_TAG MALE_DIALOGUE:
+「頑張って下さいね」
+NAME_TAG 6
+\x01
+「まかせといてよ！」
+NAME_TAG NARRATION_DIALOGUE:
+女の人は軽く上唇をなめると、真剣な表情で打ち始めた
+NAME_TAG MALE_DIALOGUE:
+「あの～お客さん？」
+NAME_TAG 6
+\x01
+「その呼び方嫌いだなぁ」
+NAME_TAG MALE_DIALOGUE:
+「は？」
+NAME_TAG NARRATION_DIALOGUE:
+何のことだかわからず呆然としていると、女の人があなたを見上げた
+NAME_TAG 6
+\x01
+「私ね、佐々木理恵って言うの
+ \n 　だから理恵って呼んでよぉ」
+NAME_TAG MALE_DIALOGUE:
+「は、はぁ・・・理恵さん・・・ですか？」
+NAME_TAG 6
+\x01
+「そ！
+ \n 　じゃあ、以後よろしくぅ！」
+NAME_TAG MALE_DIALOGUE:
+「はい、理恵さん」
+NAME_TAG 6
+\x01
+「あ、そうだ、君の名前も教えてよ
+ \n \x01
+　『バイト君』じゃあ呼びにくいし・・・」
+NAME_TAG MALE_DIALOGUE:
+「俺ですか・・・
+ \n えっと、MALE NAMEっていいます」
+NAME_TAG 6
+\x01
+「ふ～ん、じゃあ、MALE NAMEちゃんって訳ね」
+NAME_TAG MALE_DIALOGUE:
+「ちゃん・・・ですか？」
+NAME_TAG 6
+\x01
+「かわいくていいわよぉ、MALE NAMEちゃん！」
+NAME_TAG NARRATION_DIALOGUE:
+理恵はからかうように笑うと、再び台の方に集中し始めた
+NAME_TAG (_CGB01A
+\x00
+\x1a(_CGDA01
+\x00
+ DS07
+\x00
+NARRATION_DIALOGUE:
+今日もまた理恵はあなたの横に座り、話しかけてきた
+NAME_TAG 6
+\x01
+「ねぇ、今日はどの台が出てるぅ？」
+NAME_TAG MALE_DIALOGUE:
+「４番台と９番台ぐらいですかねぇ」
+NAME_TAG 6
+\x01
+「そりゃ、無い台でしょうが！」
+NAME_TAG NARRATION_DIALOGUE:
+既に理恵との会話では、ボケとつっこみが確立されていた
+NAME_TAG 6
+\x01
+「はぁ、普通なら親しくなったら、良い台を教えてくれそうなもんだけ　どねぇ」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は冗談ぽく溜息をついた
+NAME_TAG MALE_DIALOGUE:
+「悪い台に座ってたら・・・ちゃんと教えますよ」
+NAME_TAG 6
+\x01
+「・・・なるほどね
+ \n 　ありがと」
+NAME_TAG NARRATION_DIALOGUE:
+理恵はあなたに向かってにっこりと微笑んだ
+NAME_TAG NARRATION_DIALOGUE:
+その表情には妖艶さと幼さが同居していた
+NAME_TAG MALE_DIALOGUE:
+「ふと思ったんですけど、理恵さんて何歳なんですか？」
+NAME_TAG 6
+\x01
+「・・・いきなり女性に歳をきくかね・・・」
+NAME_TAG MALE_DIALOGUE:
+「あ、別に言いたく無ければいいっスよ」
+NAME_TAG 6
+\x01
+「MALE NAMEちゃんはいくつなの？」
+NAME_TAG MALE_DIALOGUE:
+「２１歳ですけど」
+NAME_TAG 6
+\x01
+「ふーん・・・
+ \n それよりは上」
+NAME_TAG MALE_DIALOGUE:
+「いや、それは、見ればわかるんですけど・・・」
+NAME_TAG 6
+\x01
+「ぬぁに言ってんのよぉ！
+ \n \x01
+　もしかしたらまだ女子高生かもしれないでしょうが」
+NAME_TAG MALE_DIALOGUE:
+「いや、それはないっス」
+NAME_TAG 6
+\x01
+「そりゃそうね」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は豪快に笑うと、パチンコに集中し始めた
+NAME_TAG (_CGB01A
+\x00
+\x1a(_CGDA01
+\x00
+ DS07
+\x00
+6
+\x01
+「ねぇ、私って最近勝ってる？」
+NAME_TAG MALE_DIALOGUE:
+「いいえ、負け続けてるっス」
+NAME_TAG 6
+\x01
+「だよねぇ～」
+NAME_TAG NARRATION_DIALOGUE:
+もう既に決まり事のようにあなたの隣に座った理恵が、大きく溜息をついた
+NAME_TAG 6
+\x01
+「ほんとにこれって悪い台じゃないの？」
+NAME_TAG MALE_DIALOGUE:
+「ええ、いっつも【理恵】さんが帰った後に大爆発してますよ」
+NAME_TAG 6
+\x01
+「くぅ～、あたしゃ一体なんなんだ」
+NAME_TAG NARRATION_DIALOGUE:
+理恵はあきれたように首を左右に振って笑っていた
+NAME_TAG MALE_DIALOGUE:
+「もうちょっと後になってから来たらどうっスか？
+ \n \x01
+　結構夕方から夜にかけては出てますよ」
+NAME_TAG 6
+\x01
+「ああ、それはお仕事の都合でダメなのよ」
+NAME_TAG MALE_DIALOGUE:
+「お仕事・・・って
+ \n 　仕事してるんスか！？」
+NAME_TAG 6
+\x01
+「そうよん！」
+NAME_TAG MALE_DIALOGUE:
+「いっつも、真っ昼間に来てるから、てっきり家事手伝いかなんかかと　思ってましたよ・・・」
+NAME_TAG 6
+\x01
+「へ～、そう思われてたんだぁ」
+NAME_TAG MALE_DIALOGUE:
+「で、なんの仕事を？」
+NAME_TAG 6
+\x01
+「夜の、お・し・ご・と」
+NAME_TAG NARRATION_DIALOGUE:
+理恵はあなたの体をつつきながら、いたずらっぽく微笑んだ
+NAME_TAG MALE_DIALOGUE:
+「へぇ・・・かっこいいっスね」
+NAME_TAG 6
+\x01
+「へっ？」
+NAME_TAG NARRATION_DIALOGUE:
+意外な答えに理恵はきょとんとした表情であなたを見つめた
+NAME_TAG 6
+\x01
+「どこが？」
+NAME_TAG MALE_DIALOGUE:
+「い、いや、やっぱそういう系のお仕事の人って、男の人とかを手玉に　とってるって感じがするじゃないですか
+ \n \x01
+　それに会話も多彩だし、包容力もあるし・・・」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は話しを聞いている内に優しい表情になっていった
+NAME_TAG 6
+\x01
+「なんかそうやって言ってもらうと、すっごく気分が良くなるわ」
+NAME_TAG MALE_DIALOGUE:
+「え、そうッスか？」
+NAME_TAG 6
+\x01
+「・・・・・MALE NAMEちゃんて、いい男だね～」
+NAME_TAG MALE_DIALOGUE:
+「い、いや、そんな・・・」
+NAME_TAG NARRATION_DIALOGUE:
+しきりに照れるあなたを、理恵は優しく見つめていた
+NAME_TAG (_CGB01A
+\x00
+\x1a(_CGDA03
+\x00
+ DS07
+\x00
+NARRATION_DIALOGUE:
+理恵はいつものように、通路の端にいるあなたの隣に座っていた
+NAME_TAG 6
+\x01
+「前から思ってたんだけどさ、ここって客が少ないわよねぇ」
+NAME_TAG MALE_DIALOGUE:
+「まぁ、普通の人は、平日の昼間からこんなとこには、来ないんじゃな　いですか」
+NAME_TAG 6
+\x01
+「じゃあ私は普通じゃないと？」
+NAME_TAG MALE_DIALOGUE:
+「そんな本当のことは、恐ろしくて俺の口からは・・・」
+NAME_TAG 6
+\x01
+「あのねぇ」
+NAME_TAG NARRATION_DIALOGUE:
+２人は顔を見合わせると、けらけらと笑い合った
+NAME_TAG 6
+\x01
+「・・・・・ねぇ、MALE NAMEちゃん？」
+NAME_TAG MALE_DIALOGUE:
+「なんスか？」
+NAME_TAG 6
+\x01
+「MALE NAMEちゃんて彼女いる？」
+NAME_TAG MALE_DIALOGUE:
+「いきなりですねぇ」
+NAME_TAG 6
+\x01
+「いいじゃない、教えてよぉ」
+NAME_TAG 
+CHOICE:
+ \x00
+ええ、いますよ
+\x00
+いや～、いないんですよ
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x9b\x186
+\x01
+「ふーん、そうなんだ」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は少し残念そうな表情を見せた
+NAME_TAG 6
+\x01
+「残念だったなぁ、MALE NAMEちゃんて結構好みだったから、喰っちゃおう　と思ってたのにぃ」
+NAME_TAG MALE_DIALOGUE:
+「え、本当に？
+ \n \x01
+　じゃあ喰ってくださいよ、今熟れ頃ですよ」
+NAME_TAG 6
+\x01
+「ダ～メ！
+ \n 　私、相手のいる人間は喰っちゃわない事に決めてるの」
+NAME_TAG MALE_DIALOGUE:
+「え～、残念だなぁ」
+NAME_TAG 6
+\x01
+「お互いにねぇ」
+NAME_TAG NARRATION_DIALOGUE:
+理恵の言葉には本当に残念がっている響きが含まれていた
+NAME_TAG \x10\x10\x1a6
+\x01
+「溜まってるだろぉ、青少年！！！」
+NAME_TAG NARRATION_DIALOGUE:
+いきなり背中を叩いてくる理恵に、なんと答えていいか迷ってしまった
+NAME_TAG MALE_DIALOGUE:
+「はぁ、その、なんというか・・・」
+NAME_TAG 6
+\x01
+「ダメよぉ、適度に女の子と遊ばなきゃあ」
+NAME_TAG MALE_DIALOGUE:
+「へ～い」
+NAME_TAG 6
+\x01
+「・・・でも、ラッキー！」
+NAME_TAG MALE_DIALOGUE:
+「え、何がですか？」
+NAME_TAG 6
+\x01
+「ん？
+ \n 　ああ、なんでもないの、こっちの話よん」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は嬉しそうな顔で答えると、台の方に目を移した
+NAME_TAG \x04F
+\x00
+\x01
+\x00
+(_CGB01A
+\x00
+\x1a(_CGDA01
+\x00
+ DS07
+\x00
+\x04A
+\x00
+\x01
+\x00
+NARRATION_DIALOGUE:
+いつものようにあなたの隣に座っていた理恵が、大きく体を伸ばした
+NAME_TAG 6
+\x01
+「ん～、やっぱ休みはいいねぇ」
+NAME_TAG MALE_DIALOGUE:
+「へぇ、理恵さん今日休みなんスか？」
+NAME_TAG 6
+\x01
+「そうよん！
+ \n 　うらやましいかい？　勤労青年！」
+NAME_TAG MALE_DIALOGUE:
+「いや、うらやましいというより・・・・・
+ \n \x01
+　休みの日に一人寂しくパチンコ屋にきてるってのが、寂しいっスね」
+NAME_TAG 6
+\x01
+「よけいなお世話じゃ！」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は軽くあなたの腹にパンチをかましてきた
+NAME_TAG MALE_DIALOGUE:
+「いてて・・・・・」
+NAME_TAG NARRATION_DIALOGUE:
+大げさに痛がる振りをしてしゃがみ込むと、理恵が耳元に口を近づけてきた
+NAME_TAG 6
+\x01
+「（ねぇねぇ）」
+NAME_TAG MALE_DIALOGUE:
+「（はい？）」
+NAME_TAG 6
+\x01
+「（やんない？）」
+NAME_TAG MALE_DIALOGUE:
+「（・・・こらまた、えらくストレートな質問ですねぇ）」
+NAME_TAG 6
+\x01
+「（私ってまどろっこしいこと嫌いなのよ
+ \n 　で、どうする？）」
+NAME_TAG 
+CHOICE:
+ \x00
+いいっスよ
+\x00
+いや、ちょっと・・・
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\\\x1e6
+\x01
+「（本当？）」
+NAME_TAG MALE_DIALOGUE:
+「（ええ、でもラッキーだな、理恵さんから誘ってもらえるなんて）」
+NAME_TAG 6
+\x01
+「（うれしいこと言ってくれるじゃない）」
+NAME_TAG NARRATION_DIALOGUE:
+理恵はあなたの胸をとんっとたたいて、顔を耳元から離した
+NAME_TAG 6
+\x01
+「バイトっていつごろ終わんの？」
+NAME_TAG MALE_DIALOGUE:
+「６時ぐらいっスかね」
+NAME_TAG 6
+\x01
+「ＯＫ！
+ \n 　じゃあ、それぐらいに店の前で待ってるわよ」
+NAME_TAG MALE_DIALOGUE:
+「は～い、楽しみにしてま～す」
+NAME_TAG \x04E
+\x00
+\x01
+\x00
+\x10\xfd 6
+\x01
+「（え～、ダメなのぉ
+ \n \x01
+　やっぱり、こんなおばさんは嫌なのね！）」
+NAME_TAG MALE_DIALOGUE:
+「（違いますって！）」
+NAME_TAG NARRATION_DIALOGUE:
+あわてて否定していると、理恵が耳元から顔を離して、くすっと笑った
+NAME_TAG 6
+\x01
+「わかってるわよ
+\x01
+　MALE NAMEちゃんがそんなこと思ってないって事ぐらいはね
+ \n \x01
+　・・・・・やっぱり、彼女に操をたててるの？」
+NAME_TAG MALE_DIALOGUE:
+「！・・・知ってたんですか？」
+NAME_TAG 6
+\x01
+「ま、何となくね・・・
+ \n \x01
+　でも・・・はっきりとわかったのは今なんだけどね」
+NAME_TAG MALE_DIALOGUE:
+「・・・・・すいません、ウソついてて」
+NAME_TAG 6
+\x01
+「いいって、いいって
+ \n \x01
+　でも今時、そこまで彼女の事を思いやってる子ってのも珍しいよねぇ
+ \n \x01
+　・・・でも、MALE NAMEちゃんのそういうところって好きだよ」
+NAME_TAG MALE_DIALOGUE:
+「・・・・・憶病なだけっスよ」
+NAME_TAG NARRATION_DIALOGUE:
+照れて頭をかくあなたを、理恵は優しげに見つめていた
+NAME_TAG (_CGB01A
+\x00
+\x1a(_CGB01B
+\x00
+ DS07
+\x00
+MALE_DIALOGUE:
+「はぁ・・・」
+NAME_TAG NARRATION_DIALOGUE:
+理恵とやってしまったことで、心の中には色々な想いが渦巻いていた
+NAME_TAG MALE_DIALOGUE:
+「な、なんか妙に意識してしまうなぁ」
+NAME_TAG NARRATION_DIALOGUE:
+一人で思い悩んでいると、入り口の方から脳天機な声が聞こえてきた
+NAME_TAG (_CGDA02
+\x00
+6
+\x01
+「MALE NAMEちゃ～ん、おはよ！」
+NAME_TAG MALE_DIALOGUE:
+「・・・もう昼すぎてますよ・・・」
+NAME_TAG 6
+\x01
+「私にとっては、早朝なのよぉ」
+NAME_TAG NARRATION_DIALOGUE:
+理恵はあくびをしながら、いつものようにあなたの立っている横の席に座った
+NAME_TAG NARRATION_DIALOGUE:
+いつものように話しかけることが出来ず、ちょっと視線を泳がせていると、理恵がいたずらっぽく見上げてきた
+NAME_TAG 6
+\x01
+「どうしちゃったのよぉ
+ \n \x01
+　もしかして、照れてるの？
+ \n 　かわいい～！」
+NAME_TAG MALE_DIALOGUE:
+「い、いや、だって、ほら・・・」
+NAME_TAG 6
+\x01
+「ほんと、最近じゃあ国宝もんだね」
+NAME_TAG NARRATION_DIALOGUE:
+いつもと変わらない理恵の口振りに、だんだんといつもの調子を取り戻してきた
+NAME_TAG MALE_DIALOGUE:
+「そうっスか？
+ \n \x01
+　結構最近の男の子って、こんな感じだと思いますよ」
+NAME_TAG 6
+\x01
+「う～ん、そうかも・・・
+ \n \x01
+　今の世の中、女の方があっけらかんとしてそうだしね」
+NAME_TAG MALE_DIALOGUE:
+「その代表が目の前にいますしね」
+NAME_TAG 6
+\x01
+「やん、恥ずかしい」
+NAME_TAG NARRATION_DIALOGUE:
+理恵はわざとかわいげな表情をつくってあなたを見つめた
+NAME_TAG MALE_DIALOGUE:
+「・・・・・似合いませんねぇ」
+NAME_TAG 6
+\x01
+「私もそう思う・・・」
+NAME_TAG NARRATION_DIALOGUE:
+２人は大きな溜息をついた後、思いきり笑い出した
+NAME_TAG \x04B
+\x00
+\x01
+\x00
+(_CGB01A
+\x00
+\x1a(_CGDA03
+\x00
+ DS07
+\x00
+\x04C
+\x00
+\x01
+\x00
+NARRATION_DIALOGUE:
+いつものようにあなたの横の席でパチンコをしていた理恵が、いたずらっぽくあなたを見上げた
+NAME_TAG 6
+\x01
+「ねぇ、またお店休みなの」
+NAME_TAG MALE_DIALOGUE:
+「え、そうなんスか？」
+NAME_TAG 6
+\x01
+「だからさぁ
+ \n 　ね☆」
+NAME_TAG NARRATION_DIALOGUE:
+理恵の言わんとしていることはわかっていたが、少しとぼけることにした
+NAME_TAG MALE_DIALOGUE:
+「さ～て仕事仕事！」
+NAME_TAG 6
+\x01
+「もう、意地悪ねぇ」
+NAME_TAG NARRATION_DIALOGUE:
+理恵はちょっとした抗議の目をあなたに向けてきた
+NAME_TAG 6
+\x01
+「やっぱり遊びだったのねぇ！
+ \n \x01
+　私の体だけが目的・・・むぐっ」
+NAME_TAG NARRATION_DIALOGUE:
+いきなり大きな声でとんでもないことを言い出す理恵の口をあわてて押さえた
+NAME_TAG MALE_DIALOGUE:
+「理恵さ～ん・・・」
+NAME_TAG NARRATION_DIALOGUE:
+弱り切っている顔を見て、理恵はくすくすと笑っていた
+NAME_TAG 6
+\x01
+「ごめん、ごめん
+ \n 　で、ほんとどうする？」
+NAME_TAG 
+CHOICE:
+ \x00
+つきあいますよ
+\x00
+今日はちょっと・・・
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x80(6
+\x01
+「さすが、いい返事を返してくれるじゃない！
+ \n \x01
+　じゃあ、またバイト終わったら待ってるわね」
+NAME_TAG \x04G
+\x00
+\x01
+\x00
+\x10\xf3)6
+\x01
+「え～、そうなの～」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は少し残念そうな表情を見せたが、すぐに笑顔に戻った
+NAME_TAG 6
+\x01
+「ま、仕方ないね
+ \n 　そういう時もあるかぁ」
+NAME_TAG MALE_DIALOGUE:
+「すいません」
+NAME_TAG 6
+\x01
+「いいの、いいの
+ \n \x01
+　やっぱりこういう事ってさ、お互いの気持ちが盛り上がってるときに　やんないとね」
+NAME_TAG MALE_DIALOGUE:
+「大人ですね・・・」
+NAME_TAG 6
+\x01
+「ちょっとは見直したかな、おね～さんを」
+NAME_TAG NARRATION_DIALOGUE:
+理恵はそう言うと、いたずらっぽくウインクした
+NAME_TAG (_CGB01A
+\x00
+\x1a\x04A
+\x00
+\x01
+\x00
+(_CGDA01
+\x00
+ DS07
+\x00
+NARRATION_DIALOGUE:
+いつもの様にあなたの横に座ってパチンコをしていた理恵だったが、今日はなんだか様子が違った
+NAME_TAG NARRATION_DIALOGUE:
+いつもなら、うるさいぐらいにちょっかいを出してくるのに、今日は何も言わずパチンコをしているだけだった
+NAME_TAG MALE_DIALOGUE:
+「どうしたんスか？」
+NAME_TAG 6
+\x01
+「ん・・・ちょっとね
+ \n \x01
+　今日はあんまりはしゃぐ気になんないの・・・ゴメンね」
+NAME_TAG 
+CHOICE:
+ \x00
+わかりました、じゃあゆっくり考え事をして下さいね
+\x00
+何かあったんですか
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x13,6
+\x01
+「ありがと・・・・・
+ \n 次来たときには復活しとくから」
+NAME_TAG MALE_DIALOGUE:
+「はい」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は力無い笑顔を見せ、再びパチンコ台に向き直った
+NAME_TAG \x10\x912(I2
+\x00
+ DS11
+\x00
+NARRATION_DIALOGUE:
+CENTERED理恵は今まで見せたこと無い表情であなたを見上げた
+NAME_TAG 6
+\x01
+「私達の仕事ってなんなのかな・・・」
+NAME_TAG MALE_DIALOGUE:
+「理恵・・・・・
+ \n さん？」
+NAME_TAG 6
+\x01
+「・・・昨日ね、お店に来てた人がね、しきりに言うの『あんた達の仕　事は楽でいいねぇ、俺達は日夜国民の為に働いてるから大変でねぇ』　ってね」
+NAME_TAG 6
+\x01
+「いつもなら気にも留めないんだけど・・・あんまりしつこいからつい　喧嘩しちゃって・・・」
+NAME_TAG NARRATION_DIALOGUE:
+理恵はすがるような目つきであなたを見つめていた
+NAME_TAG 6
+\x01
+「やっぱり私たちの仕事って・・・・・」
+NAME_TAG MALE_DIALOGUE:
+「気にすることないですよ！」
+NAME_TAG 6
+\x01
+「え？」
+NAME_TAG MALE_DIALOGUE:
+「そんな馬鹿は、ほっときゃいいんですよ」
+ \n \x01
+\x00
+MALE_DIALOGUE:
+「大体、てめえが必要だから理恵さんの店に行っときながら、自分らは　すごい仕事してるなんて言う方が馬鹿ですよ」
+NAME_TAG MALE_DIALOGUE:
+「それに本当に国民の為を思って働いてる奴だったら、そんな事は絶対　言いっこないですって」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは力強くそう言うと、笑顔を見せた
+NAME_TAG 6
+\x01
+「MALE NAMEちゃん・・・
+ \n どうしよう・・・」
+NAME_TAG MALE_DIALOGUE:
+「どうしたんです？」
+NAME_TAG 6
+\x01
+「約束・・・・・
+ \n 破りたくなっちゃったの・・・」
+NAME_TAG MALE_DIALOGUE:
+「約束って？」
+NAME_TAG 6
+\x01
+「相手のいる人間は喰っちゃわないって約束なんだけど・・・」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は潤んだ瞳であなたを見つめていた
+NAME_TAG MALE_DIALOGUE:
+「でも、俺は・・・・・」
+NAME_TAG 6
+\x01
+「別に好きになってとか、つきあってとかいうんじゃないの
+ \n \x01
+　ただ、今回だけでいいの・・・」
+NAME_TAG NARRATION_DIALOGUE:
+理恵の表情は真剣そのものだった
+NAME_TAG 
+CHOICE:
+ \x00
+・・・いいっスよ
+\x00
+すんません、やっぱ俺は・・・
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+f16
+\x01
+「・・・ありがと」
+NAME_TAG MALE_DIALOGUE:
+「じゃあ、バイト終わってから」
+NAME_TAG NARRATION_DIALOGUE:
+その言葉に理恵はこくんと頷いた
+NAME_TAG \x04H
+\x00
+\x01
+\x00
+\x10\x912\x15
+\x01
+理恵はしばらくうつむいていたが、やがてすっきりとした表情で顔を上げた
+NAME_TAG (_CGDA02
+\x00
+6
+\x01
+「ま、しょうがないかぁ」
+NAME_TAG MALE_DIALOGUE:
+「すいません」
+NAME_TAG 6
+\x01
+「あやまることなんか何にもないわよ
+ \n \x01
+　なんかね、ほっとしてる部分もあるの
+ \n \x01
+　ああ、やっぱりこの子は私の好きな、MALE NAMEちゃんだなってね」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は、今日始めて笑顔を見せた
+NAME_TAG (_CGB01A
+\x00
+\x1a(_CGDA01
+\x00
+ DS07
+\x00
+NARRATION_DIALOGUE:
+いつもの様にあなたの横の席に座っていた理恵に、そっと声をかけた
+NAME_TAG MALE_DIALOGUE:
+「あ、理恵さん
+ \n \x01
+　昨日からあっちの台がよく出てるんですよ」
+NAME_TAG 6
+\x01
+「え、どこどこ？」
+NAME_TAG NARRATION_DIALOGUE:
+興味深げに指さした方向をみている理恵の耳元で、そっとその台の番号を告げた
+NAME_TAG 6
+\x01
+「ふ～ん」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は２．３度頷くと、再び自分が打っていた台を打ち始めた
+NAME_TAG MALE_DIALOGUE:
+「あれ、台を移らないんですか？」
+NAME_TAG 6
+\x01
+「ん～、だって私が移ったら、本来あの台で稼ぐはずだった人が稼げな　いでしょ？」
+NAME_TAG MALE_DIALOGUE:
+「はぁ？」
+NAME_TAG 6
+\x01
+「それにね、私はこの場所が、い・い・の・よ」
+NAME_TAG NARRATION_DIALOGUE:
+訳が分からず頭をかいているあなたの隣で、理恵は嬉しそうな表情を浮かべながら目の前の台を打ち続けた
+NAME_TAG (_CGB01A
+\x00
+\x1a(_CGDA01
+\x00
+ DS07
+\x00
+NARRATION_DIALOGUE:
+いつもの様にあなたの横の台を打っていた理恵が、今日は大当たりを連発していた
+NAME_TAG MALE_DIALOGUE:
+「理恵さ～ん、すごいじゃないですか！」
+NAME_TAG 6
+\x01
+「これが実力よ～！
+ \n \x01
+　・・・って言いたいとこだけど、完全に運だねこりゃ」
+NAME_TAG MALE_DIALOGUE:
+「ま、どっちだっていいじゃないですか、勝ってるんだから」
+NAME_TAG 6
+\x01
+「そだね」
+NAME_TAG NARRATION_DIALOGUE:
+少し興奮気味のあなたに比べて、理恵は結構落ちついていた
+ \n CENTERED何度目かの大当たりの後、理恵は受け皿に玉を残したままイスから立ち上がった
+NAME_TAG 6
+\x01
+「なんか飲む？」
+NAME_TAG MALE_DIALOGUE:
+「仕事中はまずいっス」
+NAME_TAG 6
+\x01
+「へぇ、そうなの・・・残念ねぇ」
+NAME_TAG NARRATION_DIALOGUE:
+理恵はジュースを買ってくると、少し飲んでからあなたに差し出した
+NAME_TAG 6
+\x01
+「でも、１口ぐらいならいいでしょ」
+NAME_TAG MALE_DIALOGUE:
+「・・・ですね
+ \n 　じゃあ頂きます」
+NAME_TAG NARRATION_DIALOGUE:
+差し出されたジュースに口をつけるのを、理恵が楽しそうに見ていた
+NAME_TAG (_CGB01A
+\x00
+\x1a(_CGDA03
+\x00
+ DS07
+\x00
+NARRATION_DIALOGUE:
+いつもの様にあなたの横の席に座っていた理恵が、声をかけてきた
+NAME_TAG 6
+\x01
+「それにしても・・・MALE NAMEちゃんて、仕事してないねぇ」
+NAME_TAG NARRATION_DIALOGUE:
+思わずこけてしまいそうになった体を立て直し、理恵に文句を言った
+NAME_TAG MALE_DIALOGUE:
+「してますって！」
+NAME_TAG 6
+\x01
+「うそぉ、いっつもしゃべってばっかじゃない」
+NAME_TAG MALE_DIALOGUE:
+「誰のせいだと思ってるんですか！」
+NAME_TAG 6
+\x01
+「いかんねぇ、人のせいにするようじゃあ」
+NAME_TAG NARRATION_DIALOGUE:
+そう言って笑う理恵を、しかたないなぁといった表情で眺めた
+NAME_TAG MALE_DIALOGUE:
+「・・・・・まじな話し、今の時間帯は暇なんですよ
+ \n \x01
+　もうちょっとしたら忙しくなるんですけどね」
+NAME_TAG 6
+\x01
+「ま、今の時間帯が暇ってのは、私にとっちゃあ、ありがたいけどね」
+NAME_TAG MALE_DIALOGUE:
+「俺にとってもですよ」
+NAME_TAG (_CGB01A
+\x00
+\x1a(_CGDB01
+\x00
+ DS07
+\x00
+NARRATION_DIALOGUE:
+バイトを終えてパチンコ屋の外に出ると、そこに理恵が待っていた
+NAME_TAG MALE_DIALOGUE:
+「結構待ちました？」
+NAME_TAG 6
+\x01
+「ううん、そうでもないわよ」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は軽く首を振った
+NAME_TAG MALE_DIALOGUE:
+「えっと・・・」
+NAME_TAG 6
+\x01
+「ホテルでいいでしょ」
+NAME_TAG MALE_DIALOGUE:
+「そうっスね」
+NAME_TAG 6
+\x01
+「じゃあ、早速行きましょうか」
+NAME_TAG NARRATION_DIALOGUE:
+理恵はあなたの腕に抱きつくと、体を預けるようにして歩きだした
+NAME_TAG MALE_DIALOGUE:
+「（さて・・・あまり知り合いに会わない道を行かないとな・・・）」
+NAME_TAG 
+CHOICE:
+ \x00
+繁華街
+\x00
+裏通り
+\x00
+公園の中を通る
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+C<\x1e
+\x01
+「（意外と人混みにまぎれたらわかんないかもな）」
+NAME_TAG \x04i
+\x00
+\x01
+\x00
+MALE NAMEﾇ<FEMALE NAME
+\x01
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+\x8e<\x1e
+\x01
+「（まさか、ここで知り合いに会うってことはないだろう）」
+NAME_TAG MALE NAMEﾇ<
+\x01
+「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
+NAME_TAG 6
+\x01
+「どうかした？」
+NAME_TAG MALE_DIALOGUE:
+「いえ、なんでもないっス」
+NAME_TAG NARRATION_DIALOGUE:
+あなたはさも自然にそこを通るように、そっと進路を変更した
+NAME_TAG \x1a(_CGDB03
+\x00
+ DS07
+\x00
+NARRATION_DIALOGUE:
+バイトを終えてパチンコ屋の外に出ると、そこに理恵が待っていた
+NAME_TAG MALE_DIALOGUE:
+「結構待ちました？」
+NAME_TAG 6
+\x01
+「ううん、そうでもないわよ」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は軽く首を振った
+NAME_TAG MALE_DIALOGUE:
+「さって、今日もホテルにしときますか？」
+NAME_TAG 6
+\x01
+「う～ん・・・今日はちょっと違う所でやってみない？」
+NAME_TAG MALE_DIALOGUE:
+「違う所・・・ですか？
+ \n \x01
+　あ、あの、俺ん家はダメですよ！
+ \n \x01
+　とてもじゃ無いけどそんな事出来るような状況じゃないし！」
+NAME_TAG NARRATION_DIALOGUE:
+あせって言い訳をしていると、理恵が色っぽい眼差しを飛ばしてきた
+NAME_TAG 6
+\x01
+「違うわよぉ
+ \n \x01
+　もっと、刺激的な所よん」
+NAME_TAG MALE_DIALOGUE:
+「はぁ・・・どこです？」
+NAME_TAG 6
+\x01
+「こ・う・え・ん」
+NAME_TAG MALE_DIALOGUE:
+「こうえん・・・
+ \n 公園て、野外プレイをする気っスか！」
+NAME_TAG 6
+\x01
+「そういう趣向って嫌い？」
+NAME_TAG MALE_DIALOGUE:
+「・・・いや、別に嫌いじゃないっスよ」
+NAME_TAG 6
+\x01
+「じゃあ決まりね！」
+NAME_TAG NARRATION_DIALOGUE:
+野外プレイよりも、自宅プレイの方がはるかに刺激的になることは言わないでおくことにした
+NAME_TAG MALE_DIALOGUE:
+「（さて・・・あまり知り合いに会わない道を行かないとな・・・）」
+NAME_TAG 
+CHOICE:
+ \x00
+繁華街
+\x00
+裏通り
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\xef@\x1e
+\x01
+「（意外と人混みにまぎれたらわかんないかもな）」
+NAME_TAG \x101A\x1e
+\x01
+「（まさか、ここで知り合いに会うってことはないだろう）」
+NAME_TAG \x04i
+\x00
+\x01
+\x00
+6
+\x01
+「どうかした？」
+NAME_TAG MALE_DIALOGUE:
+「いえ、なんでもないっス」
+NAME_TAG NARRATION_DIALOGUE:
+あなたはさも自然にそこを通るように、そっと進路を変更した
+NAME_TAG \x1a\xff

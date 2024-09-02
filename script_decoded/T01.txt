@@ -1,0 +1,547 @@
+\x1f\x1f\n
+\x00
+\x04
+\x00
+\x11\x16\x04
+\x00
+\x15
+\x00
+\x00
+\x02
+\x00
+\x16
+\x00
+\x10\x1c
+\x01
+\x10\x7f
+\x00
+\x11\x16\x04
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+'
+\x00
+MALE NAMEｾMALE NAME
+\x00
+\x11\x16\x04
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+8
+\x00
+\x10\xef
+ \n \x10\x7f
+\x00
+\x11\x16\x04
+\x00
+\x15\x03
+\x00
+\x02
+\x00
+I
+\x00
+MALE NAMEﾟMALE NAME
+\x00
+\x11\x16\x04
+\x00
+\x15\x04
+\x00
+\x02
+\x00
+Z
+\x00
+MALE NAMEﾙ	MALE NAME
+\x00
+\x11\x16\x04
+\x00
+\x15
+ \n \x00
+\x02
+\x00
+k
+\x00
+\x10\xeb\x0b\x10\x7f
+\x00
+\x11\x16\x04
+\x00
+\x15\x06
+\x00
+\x02
+\x00
+|
+\x00
+\x10t\x0e\x10\x7f
+\x00
+\x10\x80
+\x00
+\x1a(_CGAA04
+\x00
+FEMALE_DIALOGUE:
+「え？　何か手伝うこと・・・そうねえ・・・
+ \n \x01
+　今のところ何もないんだけど・・・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「また今度、なんかあったときにお願いするね☆」
+NAME_TAG \x08\x1e
+\x00
+\n
+\x00
+3\x1a(_CGAA04
+\x00
+FEMALE_DIALOGUE:
+「え、手伝ってくれるの？
+ \n \x01
+　じゃあねえ、このシャツたたんでくれる？」
+NAME_TAG 
+CHOICE:
+ \x00
+わかったよ
+\x00
+えっと、どうやってたたむんだ？
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+ﾙCENTERED
+\x01
+「じゃ、おねがいね」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・・・・・・・・・・・・・・・・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「あーっ！ちょ、ちょっと、そういうたたみ方だとしわになるの！」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・そ、そうじゃなくて・・・
+ \n もう、いいわ、後は私がやるから」
+NAME_TAG FEMALE_DIALOGUE:
+「え？　なーにあやまってんのよ
+ \n \x01
+　いいから、いいから、気持ちは嬉しかったから」
+NAME_TAG \x08\x1e
+\x00
+\n
+\x00
+MALE NAMEｧ
+\x01
+「あのね、こうやって・・・こうやって・・・こう・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「わかった？
+ \n 　じゃあ、後、お願いね」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・・・・・・・・・・・・・・・・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「あ、全部やってくれたんだ、ありがとう☆」
+NAME_TAG \x08\x1e
+\x00
+\x14
+\x00
+\x0c\x0e
+\x00
+\x14
+\x00
+\x11\x16\x0e
+\x00
+\x15
+\x00
+\x00
+\x03
+\x00
+ｼ
+\x00
+\x0e
+\x00
+\x00
+\x00
+3\x1a(_CGAA04
+\x00
+FEMALE_DIALOGUE:
+「え、手伝ってくれるの？
+ \n 　じゃあねえ、この下着たたんでくれる？」
+NAME_TAG 
+CHOICE:
+ \x00
+ああ
+\x00
+な、なんかすごい下着があるぞ
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x19
+ \n FEMALE_DIALOGUE:
+「たたみ方ってわかる？
+ \n ・・・そうそう、へえ、良く知ってるね」
+NAME_TAG FEMALE_DIALOGUE:
+「じゃあ、残りのやつもお願いね」
+NAME_TAG NARRATION_DIALOGUE:
+・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
+NAME_TAG FEMALE_DIALOGUE:
+「あ、もう、終わったの？早いなぁ」
+NAME_TAG \x08\x1e
+\x00
+\x14
+\x00
+MALE NAMEﾘ
+ \n FEMALE_DIALOGUE:
+「キャー！！！」
+NAME_TAG FEMALE_DIALOGUE:
+「な、なんで～？
+ \n ・・・あ、そっか、今日一緒に洗っちゃったんだ」
+NAME_TAG FEMALE_DIALOGUE:
+「あ、あのね、それはね・・・ここぞって時用の・・・・・
+ \n \x01
+　も、もういいから、早くたたんで！」
+NAME_TAG \x08\x1e
+\x00
+\n
+\x00
+\x0c\x0e
+\x00
+\x14
+\x00
+\x11\x16\x0e
+\x00
+\x15
+\x00
+\x00
+\x03
+\x00
+\xed
+ \n \x00
+\x0e
+\x00
+\x00
+\x00
+3\x1a(_CGAA04
+\x00
+FEMALE_DIALOGUE:
+「え、手伝ってくれるの？
+ \n 　じゃあねえ、そのタオルたたんでくれる」
+NAME_TAG 
+CHOICE:
+ \x00
+わかった
+\x00
+このタオルって・・・・・
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\xf2\x06\x1d
+\x01
+「じゃ、お願いね」
+NAME_TAG NARRATION_DIALOGUE:
+・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
+NAME_TAG FEMALE_DIALOGUE:
+「ありがと、助かったわ☆」
+NAME_TAG \x08\x1e
+\x00
+\n
+\x00
+MALE NAMEﾈ
+\x01
+「あ、やっぱ、わかった？
+ \n \x01
+　そう、そのタオルって私達が初めて旅行した時の、旅館のやつだよ」
+NAME_TAG FEMALE_DIALOGUE:
+「ほら、記念にってパクってきたじゃない」
+NAME_TAG FEMALE_DIALOGUE:
+「でも、考えてみれば私達って、旅行先で悪さばっかりしてたよね～」
+NAME_TAG \x08\x1e
+\x00
+\x14
+\x00
+\x0c\x0e
+\x00
+\x14
+\x00
+\x11\x16\x0e
+\x00
+\x15
+\x00
+\x00
+\x03
+\x00
+ﾝ
+\x00
+\x0e
+\x00
+\x00
+\x00
+3\x1a(_CGAA04
+\x00
+FEMALE_DIALOGUE:
+「え、手伝ってくれるの？
+ \n 　じゃあねぇ、靴下をたたんでくれる？」
+NAME_TAG 
+CHOICE:
+ \x00
+ＯＫ
+\x00
+靴下かぁ、わかったよ
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\xe7\x08\x1d
+\x01
+「・・・・・へぇ、結構、器用にまるめるのねぇ、どうやってるの？」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・へぇ、そうやるんだ、今度から私も、その方法でやろうっと」
+NAME_TAG \x08\x1e
+\x00
+\x14
+\x00
+MALE NAMEﾂ	
+\x01
+「靴下ってさぁ、結構、面倒くさいんだよね」
+NAME_TAG FEMALE_DIALOGUE:
+「そんでまた、人によってたたみ方も全然違うしね」
+NAME_TAG NARRATION_DIALOGUE:
+・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
+NAME_TAG FEMALE_DIALOGUE:
+「ありがと、気が向いたらまた手伝ってね」
+NAME_TAG \x08\x1e
+\x00
+\n
+\x00
+\x0c\x0e
+\x00
+\x14
+\x00
+\x11\x16\x0e
+\x00
+\x15
+\x00
+\x00
+\x03
+\x00
+ﾗ	
+\x00
+\x0e
+\x00
+\x00
+\x00
+3\x1a(_CGAI04
+\x00
+FEMALE_DIALOGUE:
+「え、手伝ってくれるの？
+ \n 　じゃあねぇ、食事の後片づけ手伝って」
+NAME_TAG 
+CHOICE:
+ \x00
+じゃあ、テーブルを拭くよ
+\x00
+じゃあ、洗い物を手伝うよ
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+/\x0b\x1d
+\x01
+「ん、じゃあ、お願いね
+ \n 　その間に私は、洗い物をしてくるからね」
+NAME_TAG NARRATION_DIALOGUE:
+・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
+NAME_TAG FEMALE_DIALOGUE:
+「あ、出来たの？　へぇ、綺麗！、綺麗！
+ \n 　ありがとね☆」
+NAME_TAG MALE NAMEﾏ
+\x01
+「本当？　じゃあ一緒にしよっか？
+ \n \x01
+　・・・フフ、昔、こうやって夫婦で一緒に洗い物してるようなＣＭが　あったよね」
+NAME_TAG FEMALE_DIALOGUE:
+「あの光景って私の憧れだったんだよぉ」
+NAME_TAG \x08\x1e
+\x00
+\x14
+\x00
+\x0c\x0e
+\x00
+\x14
+\x00
+\x11\x16\x0e
+\x00
+\x15
+\x00
+\x00
+\x03
+\x00
+\xe9\x0b
+\x00
+\x0e
+\x00
+\x00
+\x00
+3\x1a(_CGAA04
+\x00
+FEMALE_DIALOGUE:
+「え、手伝ってくれるの？
+ \n \x01
+　うーん、今は別になんにも・・・
+ \n あ、じゃあねぇ、肩もんで☆」
+NAME_TAG 
+CHOICE:
+ \x00
+肩ぁ～？そんなにこってるのか？
+\x00
+ああ、いいよ
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+ｰ
+\x01
+「もうねぇ、コリコリよ～」
+NAME_TAG FEMALE_DIALOGUE:
+「やっぱ、これだけ胸が大きいとねぇ・・・・
+ \n \x01
+　こらこら、なんで首を横に振ってんのよぉ！」
+NAME_TAG FEMALE_DIALOGUE:
+「じゃ、お願いね☆・・・あ、あん
+ \n ちょ、ちょっと・・・そこ、ちが・
+ \n \x01
+　あ、・・・・・はぁはぁ・・・
+ \n あ、あのねぇこれ以上、肩こりをひど　くしてどうするのよ！」
+NAME_TAG \x08\x1e
+\x00
+\n
+\x00
+\x10]\x0e\x1d
+\x01
+「じゃ、お願いね☆
+ \n ・・・・・はぁ、気持ち良い～☆」
+NAME_TAG NARRATION_DIALOGUE:
+・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
+NAME_TAG FEMALE_DIALOGUE:
+「あ～、ありがと、だいぶ楽になったわ」
+NAME_TAG \x08\x1e
+\x00
+\x14
+\x00
+\x0c\x0e
+\x00
+\x14
+\x00
+\x11\x16\x0e
+\x00
+\x15
+\x00
+\x00
+\x03
+\x00
+r\x0e
+\x00
+\x0e
+\x00
+\x00
+\x00
+3\x1a(_CGAA04
+\x00
+FEMALE_DIALOGUE:
+「え、手伝ってくれるの？
+ \n \x01
+　うーん、じゃあねぇ、このハガキ書くの手伝ってよ」
+NAME_TAG FEMALE_DIALOGUE:
+「最近ね、懸賞に凝っててね、いろんな所でチェックしてるの
+ \n \x01
+　だから、ここと
+ \n 　ここと
+ \n 　ここに
+ \n 　５枚ずつお願いね☆」
+NAME_TAG 
+CHOICE:
+ \x00
+ああ、わかった
+\x00
+え、そんなに出すの？
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x87\x10\x1d
+\x01
+「じゃあ、ちゃんと書いてね」
+NAME_TAG NARRATION_DIALOGUE:
+・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
+NAME_TAG FEMALE_DIALOGUE:
+「え、もう書いてくれたの？ありがと」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・でも、ちょっと見栄えしないなぁ
+ \n 　え、関係ないだろって？」
+NAME_TAG FEMALE_DIALOGUE:
+「ううん、結構重要なのよぉ、そういうのって」
+NAME_TAG \x08\x1e
+\x00
+\x14
+\x00
+\x10F\x11\x1d
+\x01
+「何言ってんのよ、これでも少ないぐらいなんだからぁ
+ \n \x01
+　多い人なんて、何十通も出すんだからね」
+NAME_TAG FEMALE_DIALOGUE:
+「だからこっちは、一枚一枚の質で勝負するつもりなの！
+ \n \x01
+　だからちゃんと書いてよね！」
+NAME_TAG \x08\x1e
+\x00
+\n
+\x00
+\x0c\x0e
+\x00
+\x14
+\x00
+\x11\x16\x0e
+\x00
+\x15
+\x00
+\x00
+\x03
+\x00
+[\x11
+\x00
+\x0e
+\x00
+\x00
+\x00
+3\x1a\xff

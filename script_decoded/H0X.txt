@@ -1,0 +1,184 @@
+\x1b\x1bu
+\x00
+\r
+\x00
+\x04u
+\x00
+\x00
+\x00
+\x10T\x08(_CGB07B
+\x00
+ DS02
+\x00
+MALE_DIALOGUE:
+「な、なんか、トイレに行きたくなっちまったな
+ \n \x01
+　えーと、トイレはどこだったっけ・・・」
+NAME_TAG NARRATION_DIALOGUE:
+あなたはトイレを探して、歌手達の楽屋の前を通っていた
+ \n CENTEREDその中の一つを通っていた時、不意に中から声が聞こえた
+NAME_TAG <
+\x01
+「・・・あ・・・ああ・・・ん・・・」
+NAME_TAG MALE_DIALOGUE:
+「ん？・・・なんの声なんだろう」
+NAME_TAG <
+\x01
+「ああん、ダメ・・・もっとぉ」
+NAME_TAG MALE_DIALOGUE:
+「・・・この声って・・・」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは扉の所に張ってある文字に目をやった
+ \n CENTEREDそこには、今売り出し中のアイドルの名前が書いてあった
+NAME_TAG MALE_DIALOGUE:
+「やっぱり・・・
+ \n 　で、この子が何してるんだろう・・・」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、思わず扉に手をかけてみた
+NAME_TAG MALE_DIALOGUE:
+「開いてる・・・」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、音がしないように少しだけ扉を開け、中の様子を覗いてみた
+NAME_TAG MALE_DIALOGUE:
+（うわっ！）
+NAME_TAG (L4
+\x00
+ DS05
+\x00
+NARRATION_DIALOGUE:
+CENTEREDそこでは、まだ幼さの残るアイドルと、２人の男が絡み合っていた
+NAME_TAG NARRATION_DIALOGUE:
+若いマネージャー風の男がアイドルを後ろから抱え、少し歳をくった男が前から腰を突き出していた
+NAME_TAG ;
+\x01
+「いいの！すごくいいの！」
+NAME_TAG NARRATION_DIALOGUE:
+アイドルの小さな割れ目に、男の大きな物がきつそうに収まっていた
+NAME_TAG MALE_DIALOGUE:
+（うっわ～すごいなぁ）
+NAME_TAG =
+\x01
+「う～ん、いつもながら最高のお○んこだねぇ」
+NAME_TAG ;
+\x01
+「おじさんのも最高！」
+NAME_TAG NARRATION_DIALOGUE:
+アイドルは幼い外見とは裏腹に、顔は喜びの表情を浮かべていた
+ \n CENTEREDそこには清純派アイドルの面影などは全くなかった
+NAME_TAG MALE_DIALOGUE:
+（・・・あのおっさん、誰なんだろう？）
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、ちょっとおっさんに視線を移したが、すぐにアイドルの方に視線を戻した
+NAME_TAG MALE_DIALOGUE:
+（まっ誰でもいいか～、それよりこんな場面滅多にないんだし、もっと　よく見せて貰おうっと）
+NAME_TAG NARRATION_DIALOGUE:
+あなたの目には、アイドルの小さな胸や、細い手足、まだ薄い毛しか生えていない秘処がしっかり映し出されていた
+NAME_TAG MALE_DIALOGUE:
+（しっかし、こんな所で良くやるよなぁ）
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、ふと回りを見回した
+ \n CENTEREDすると、少し離れた所から話し声が聞こえ始めた
+NAME_TAG MALE_DIALOGUE:
+（やべっ！誰か来る）
+NAME_TAG NARRATION_DIALOGUE:
+あなたはすぐにその場を離れようとしたが、中のアイドル達に知らせた方がいいと思い、ドアを軽くノックした
+NAME_TAG ;
+\x01
+「あっ・・・は、はい！」
+NAME_TAG (_CGB07B
+\x00
+ DS02
+\x00
+NARRATION_DIALOGUE:
+ドタッバタッと音がして、あわてた声が中から帰ってきた
+ \n CENTEREDあなたは笑いをこらえながら中に声をかけた
+NAME_TAG MALE_DIALOGUE:
+「すいません、そろそろリハーサルの準備お願いします」
+NAME_TAG NARRATION_DIALOGUE:
+あなたはそう言うと扉も開けずに、足早にそこを後にした
+NAME_TAG MALE_DIALOGUE:
+「ま、あれで、なんとか大丈夫だろ・・・
+ \n \x01
+　あ、そうだ！トイレ！トイレ！」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは下半身を押さえて、トイレへと走っていった
+NAME_TAG \x1a(_CGB08A
+\x00
+ DS02
+\x00
+MALE_DIALOGUE:
+「えっと、人員整理用のコーンとロープは、どこだったっけな～」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは午後から始まるパレードの為の道具を探しに、幽霊屋敷の裏に来ていた
+NAME_TAG MALE_DIALOGUE:
+「あ、あった、あそこだ」
+NAME_TAG NARRATION_DIALOGUE:
+幽霊屋敷の裏手には小さな道具小屋があり、コーンとロープはその周りに置いてあった
+ \n CENTEREDあなたがさっそくそれらを拾い広場の方へ戻ろうとした時、小屋の中から声が聞こえてきた
+NAME_TAG <
+\x01
+「・・・いや、やめて・・・」
+NAME_TAG MALE_DIALOGUE:
+「？」
+NAME_TAG NARRATION_DIALOGUE:
+不振に思ったあなたがそっと中を覗いてみると、そこではパレードの主役のお姫さまが、着ぐるみの動物にやられていた
+NAME_TAG (L5
+\x00
+ DS05
+\x00
+:
+\x01
+「・・・あっ・・・いや・・・」
+NAME_TAG NARRATION_DIALOGUE:
+お姫さまは、手と足をロープで縛られ、身動き出来なくなっていた
+ \n CENTERED着ぐるみ動物は、お姫さまの胸をその大きな手でもみしだいていた
+NAME_TAG :
+\x01
+「も、もう、許して・・・」
+NAME_TAG NARRATION_DIALOGUE:
+着ぐるみ動物は、声を発することもなく、お姫さまの秘処に小道具の人参をつっこんでいた
+NAME_TAG :
+\x01
+「あ、あん、ダメ」
+NAME_TAG NARRATION_DIALOGUE:
+お姫さまは手足を縛られ不自由な体を、必死に揺らして抵抗していた
+ \n CENTEREDしかしその行為は、着ぐるみのざらざらとした表面に自分の体をすりつけるだけでしかなかった
+ \n CENTEREDその行為により乳首はピンッっと立ち、秘処にくわえ込まされている人参は愛液で、てかてかと光っていた
+NAME_TAG :
+\x01
+「ん・・んん・・・あっ・・・」
+NAME_TAG NARRATION_DIALOGUE:
+お姫さまの顔は上気し、恥じらいと快感が交互に襲ってきているようだった
+NAME_TAG MALE_DIALOGUE:
+（これって無理矢理やられてんのかなぁ・・・だったら助けた方が）
+NAME_TAG NARRATION_DIALOGUE:
+あなたがどうしようか迷っていると、不意に着ぐるみ動物がしゃべった
+NAME_TAG 9
+\x01
+「なあ、これって暑いんだけど・・・・・
+ \n \x01
+　脱いでもいいかなぁ・・・」
+NAME_TAG NARRATION_DIALOGUE:
+その瞬間、今まで涙を浮かべてあえいでいたお姫さまの顔が普通に戻った
+NAME_TAG :
+\x01
+「ダメよ！
+ \n \x01
+　これは、お姫さまが仲良しの兎さんにやられちゃうっていうシチュエ　ーションなんだから！」
+NAME_TAG 9
+\x01
+「・・・わかったよぉ」
+NAME_TAG NARRATION_DIALOGUE:
+着ぐるみ動物は、再び人参をお姫さまの割れ目にめり込ませた
+NAME_TAG :
+\x01
+「・・・ひどい・・・ねぇ、助けて・・・」
+NAME_TAG NARRATION_DIALOGUE:
+お姫さまは、再び目を潤ませながらいやがるしぐさを見せていた
+NAME_TAG MALE_DIALOGUE:
+（・・・・・良かった、出て行かなくて・・・）
+NAME_TAG NARRATION_DIALOGUE:
+あなたはほっと一息つくと、馬鹿らしくなってその場を後にした
+NAME_TAG (_CGB08A
+\x00
+\x1a\xff

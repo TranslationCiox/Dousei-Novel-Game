@@ -1,0 +1,1035 @@
+\x17\x17
+\x01
+\x00
+まっすぐ帰る
+\x00
+買い物をして帰る
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+c
+\x00
+(_CGS00
+\x00
+MALE_DIALOGUE:
+「ちょっと、買い物でもして帰ろうかな」
+NAME_TAG \x10d
+\x00
+\x1a\x17
+\x01
+\x00
+ほかのところへ行く
+\x00
+ゲーム屋
+\x00
+ケーキ屋
+\x00
+宝石店
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+･
+\x00
+\x10O
+\x01
+MALE NAMEﾄ
+\x00
+END_CHOICE:
+ \x01
+\x00
+\x15\x03
+\x00
+\x02
+\x00
+ｶ
+\x00
+MALE NAMEMALE NAMEﾄ
+\x00
+END_CHOICE:
+ \x01
+\x00
+\x15\x04
+\x00
+\x02
+\x00
+ﾄ
+\x00
+\x10+\t\x11\x16\x07
+\x00
+\x15\x06
+\x00
+\x02
+\x00
+ 
+\x01
+
+CHOICE:
+ \x00
+ほかのところへ行く
+\x00
+あやしげなお店
+\x00
+家に帰る
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x0f
+\x01
+\x10d
+\x00
+\x10\x1d
+\x01
+END_CHOICE:
+ \x01
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+FEMALE_DIALOGUE:
+\x10m\x0c\x10N
+\x01
+
+CHOICE:
+ \x00
+ほかのところへ行く
+\x00
+家に帰る
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+N
+\x01
+\x10d
+\x00
+\x1a(_CGS03
+\x00
+D
+\x01
+「いらっしゃいませ！
+ \n \x01
+　何になさいますか？」
+NAME_TAG \x11\x17^
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x17_
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x0f
+\x00
+\xe4
+\x01
+MALE_DIALOGUE:
+「あんまり面白そうなのがないなぁ
+ \n \x01
+　また今度にしよっか」
+NAME_TAG (_CGS00
+\x00
+\x10d
+\x00
+\x1a\x17
+\x01
+\x00
+やっぱりいらない
+\x00
+対戦パズルゲーム　　　　　　定価　５８００円
+\x00
+恋愛シミュレーション　　　　定価　６８００円
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+~\x02D
+\x01
+「また、おこしください」
+NAME_TAG \x10~\x04\x11\x16
+\x01
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+\x85\x03\x1b^
+\x00
+ﾇCENTERED
+\x01
+「あ、俺これもってるんだ
+ \n \x01
+　他のにしようっと」
+NAME_TAG \x10\xe4
+\x01
+\x10\x82\x03\x11\x16\r
+\x00
+\x15:
+\x00
+\x03
+\x00
+\x03\x03D
+\x01
+「お客さん、お金が足りないようですよ」
+NAME_TAG \x10\xe4
+\x01
+\x10\x82\x03D
+\x01
+「これで、よろしいですか？」
+NAME_TAG 
+CHOICE:
+ \x00
+はい
+\x00
+やっぱやめます
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x7f\x03\x0c\r
+\x00
+:
+\x00
+\x04^
+\x00
+\x01
+\x00
+D
+\x01
+「お買いあげ、ありがとうございました」
+NAME_TAG \x10\x82\x03\x10\xe4
+\x01
+\x10~\x04\x1b_
+\x00
+ﾃ
+\x01
+「あ、俺これもってるんだ
+ \n \x01
+　他のにしようっと」
+NAME_TAG \x10\xe4
+\x01
+\x10~\x04\x11\x16\r
+\x00
+\x15D
+\x00
+\x03
+\x00
+\xff\x03D
+\x01
+「お客さん、お金が足りないようですよ」
+NAME_TAG \x10\xe4
+\x01
+\x10~\x04D
+\x01
+「これで、よろしいですか？」
+NAME_TAG 
+CHOICE:
+ \x00
+はい
+\x00
+やっぱやめます
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+{\x04\x0c\r
+\x00
+D
+\x00
+\x04_
+\x00
+\x01
+\x00
+D
+\x01
+「お買いあげ、ありがとうございました」
+NAME_TAG \x10~\x04\x10\xe4
+\x01
+(_CGS00
+\x00
+\x10d
+\x00
+\x1a\x11\x16\x07
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x16\x07
+\x00
+\x15\x04
+\x00
+\x02\n\x16\x07
+\x00
+\x15
+\x00
+\x00
+\x02\n\x17T
+\x00
+\x15
+\x00
+\x00
+\x02\x0f
+\x00
+\x03
+ \n \x04T
+\x00
+\x01
+\x00
+\x19IJIN3
+\x00
+\x11\x17N
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x17P
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\n
+\x00
+ﾗN
+\x00
+\x00
+\x00
+\x04P
+\x00
+\x00
+\x00
+\x1a DS03
+\x00
+(_CGS02
+\x00
+D
+\x01
+「何になさいますか？」
+NAME_TAG \x10<
+ \n (_CGS02
+\x00
+D
+\x01
+「いらっしゃいませ！
+ \n \x01
+　何になさいますか？」
+NAME_TAG MALE_DIALOGUE:
+「買うんだったら、２つ買っとかないとな」
+NAME_TAG 
+CHOICE:
+ \x00
+やっぱりやめとこ
+\x00
+チョコレートケーキ　　　　　　定価　３００円
+\x00
+チーズケーキ　　　　　　　　　定価　２００円
+\x00
+マロンケーキ　　　　　　　　　定価　２００円
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+0\x06D
+\x01
+「また、おこしください」
+NAME_TAG \x10\x1f\t\x11\x16
+\x01
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+3\x07\x11\x16\r
+\x00
+\x15\x06
+\x00
+\x03
+\x00
+w\x06D
+\x01
+「お客さん、お金が足りないようですよ」
+NAME_TAG \x10i
+ \n \x100\x07D
+\x01
+「これで、よろしいですか？」
+NAME_TAG 
+CHOICE:
+ \x00
+はい
+\x00
+やっぱやめます
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+-\x07D
+\x01
+「チョコレートケーキ２つで、６００円になります」
+NAME_TAG \x0c\r
+\x00
+\x06
+\x00
+\x04b
+\x00
+\x01
+\x00
+\x08\x0c
+\x00
+\x01
+\x00
+D
+\x01
+「お買いあげ、ありがとうございました」
+NAME_TAG \x100\x07\x10i
+ \n \x10\x1f\t\x11\x16
+\x01
+\x00
+\x15\x03
+\x00
+\x02
+\x00
+0\x08\x11\x16\r
+\x00
+\x15\x04
+\x00
+\x03
+\x00
+z\x07D
+\x01
+「お客さん、お金が足りないようですよ」
+NAME_TAG \x10i
+ \n \x10-\x08D
+\x01
+「これで、よろしいですか？」
+NAME_TAG 
+CHOICE:
+ \x00
+はい
+\x00
+やっぱやめます
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+*\x08D
+\x01
+「チーズケーキ２つで、４００円になります」
+NAME_TAG \x0c\r
+\x00
+\x04
+\x00
+\x04c
+\x00
+\x01
+\x00
+\x08\x0c
+\x00
+\x01
+\x00
+D
+\x01
+「お買いあげ、ありがとうございました」
+NAME_TAG \x10-\x08\x10i
+ \n \x10\x1f\t\x11\x16\r
+\x00
+\x15\x04
+\x00
+\x03
+\x00
+l\x08D
+\x01
+「お客さん、お金が足りないようですよ」
+NAME_TAG \x10i
+ \n \x10\x1f\tD
+\x01
+「これで、よろしいですか？」
+NAME_TAG 
+CHOICE:
+ \x00
+はい
+\x00
+やっぱやめます
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x1c\tD
+\x01
+「マロンケーキ２つで、４００円になります」
+NAME_TAG \x0c\r
+\x00
+\x04
+\x00
+\x04d
+\x00
+\x01
+\x00
+\x08\x0c
+\x00
+\x01
+\x00
+D
+\x01
+「お買いあげ、ありがとうございました」
+NAME_TAG \x10\x1f\t\x10i
+ \n (_CGS00
+\x00
+\x10d
+\x00
+\x1a(_CGS01
+\x00
+D
+\x01
+「いらっしゃいませ！
+ \n \x01
+　何になさいますか？」
+NAME_TAG \x11\x17e
+\x00
+\x17g
+\x00
+\x0f
+\x00
+ｸ	
+\x01
+「あんまり良さそうなのがないなぁ
+ \n \x01
+　また今度にしよっか」
+NAME_TAG (_CGS00
+\x00
+\x10d
+\x00
+\x1a\x17
+\x01
+\x00
+やっぱりいらない
+\x00
+指輪　　　　　　　　　　　　定価　６００００円
+\x00
+ネックレス　　　　　　　　　定価　４００００円
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+V\nD
+\x01
+「また、おこしください」
+NAME_TAG \x10`\x0c\x11\x16
+\x01
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+b\x0b\x11\x17e
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+､
+
+\x01
+「あ、これは買ったんだよな
+ \n \x01
+　他のにしようっと」
+NAME_TAG MALE NAMEｸ	FEMALE NAME
+\x00
+\x15X\x02\x03
+\x00
+\xe0\nD
+\x01
+「お客さん、お金が足りないようですよ」
+NAME_TAG MALE NAMEｸ	MALE NAME_D
+\x01
+「これで、よろしいですか？」
+NAME_TAG 
+CHOICE:
+ \x00
+はい
+\x00
+やっぱやめます
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\\\x0b\x0c\r
+\x00
+X\x02\x04e
+\x00
+\x01
+\x00
+D
+\x01
+「お買いあげ、ありがとうございました」
+NAME_TAG MALE NAME_MALE NAMEｸ	MALE NAME`FEMALE NAMEg
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+･
+\x01
+「あ、これは買ったんだよな
+ \n \x01
+　他のにしようっと」
+NAME_TAG MALE NAMEｸ	FEMALE NAME
+\x00
+\x15\x90
+\x01
+\x03
+\x00
+\xe1\x0bD
+\x01
+「お客さん、お金が足りないようですよ」
+NAME_TAG MALE NAMEｸ	MALE NAME`D
+\x01
+「これで、よろしいですか？」
+NAME_TAG 
+CHOICE:
+ \x00
+はい
+\x00
+やっぱやめます
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+]\x0c\x0c\r
+\x00
+\x90
+\x01
+\x04g
+\x00
+\x01
+\x00
+D
+\x01
+「お買いあげ、ありがとうございました」
+NAME_TAG MALE NAME`MALE NAMEｸ	(_CGS00
+\x00
+\x10d
+\x00
+\x1a\x1a(_CGS04
+\x00
+D
+\x01
+「い、いらっしゃいませぇ
+ \n \x01
+　な、何になさいますかぁ？・・・ぐふふぅ」
+NAME_TAG \x11\x172
+\x00
+\x173
+\x00
+\x0f\x17*
+\x00
+\x0f\x174
+\x00
+\x0f\x175
+\x00
+\x0f
+\x00
+!\r\x1e
+\x01
+「もう、ほとんど買ったからなぁ」
+NAME_TAG D
+\x01
+「・・・・・やるねぇ」
+NAME_TAG (_CGS00
+\x00
+\x10d
+\x00
+\x1a\x17
+\x01
+\x00
+次を見てみよう
+\x00
+メイド服　　　　　　　　　　定価　４００００円
+\x00
+ファミレス服　　　　　　　　定価　４００００円
+\x00
+テニスウェア　　　　　　　　定価　１５０００円
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+ｱFEMALE NAME
+\x01
+\x00
+前に戻ろう　　　　　　　　　　　　　
+\x00
+体操服　　　　　　　　　　　定価　１００００円
+\x00
+コスプレ服　　　　　　　　　定価　３５０００円
+\x00
+やっぱりやめた　　　　　　　　　　　
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+MALE NAME!MALE NAMEｮFEMALE NAMEFEMALE NAME
+\x01
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+ｸMALE NAMEFEMALE NAME4
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+ﾁ
+\x01
+「あ、これは買ってたなぁ」
+NAME_TAG \x10!\r\x11\x16\r
+\x00
+\x15d
+\x00
+\x03
+\x00
+\xf9\x0eD
+\x01
+「お客さん、お金が足りませんよぉ」
+NAME_TAG MALE NAME!MALE NAMEｵMALE NAMED
+\x01
+「これで、よろしいんですかぁ？」
+NAME_TAG 
+CHOICE:
+ \x00
+はい
+\x00
+やっぱやめます
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+ｲMALE NAME
+\x00
+d
+\x00
+\x044
+\x00
+\x01
+\x00
+D
+\x01
+「お買いあげ、ありがとうございましたぁ
+ \n \x01
+　あ、お客さん、いいものをおつけしますよぉ・・ぐふふ」
+NAME_TAG MALE_DIALOGUE:
+「いいもの？」
+NAME_TAG D
+\x01
+「はい～！」
+NAME_TAG NARRATION_DIALOGUE:
+店員が出してきた物は、大きなバイブとアナル用のビーズだった
+NAME_TAG MALE_DIALOGUE:
+「こ、これは！」
+NAME_TAG D
+\x01
+「コレで楽しみも２倍になるよぉ、ぐふふぅ」
+NAME_TAG MALE_DIALOGUE:
+「・・・・ま、もらっとくか」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、服を入れている袋に、もらった物を放り込んだ
+NAME_TAG MALE NAMEｵMALE NAMEMALE NAME!MALE NAMEｮFEMALE NAMEFEMALE NAME
+\x01
+\x00
+\x15\x03
+\x00
+\x02
+\x00
+ｮFEMALE NAMEFEMALE NAME5
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\xf0\x10\x1e
+\x01
+「あ、これは買ってたなぁ」
+NAME_TAG \x10!\r\x11\x16\r
+\x00
+\x15^
+\x01
+\x03
+\x00
+(\x11D
+\x01
+「お客さん、お金が足りませんよぉ」
+NAME_TAG MALE NAME!MALE NAMEｫFEMALE NAMED
+\x01
+「これで、よろしいですかぁ？」
+NAME_TAG 
+CHOICE:
+ \x00
+はい
+\x00
+やっぱやめます
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+ｨFEMALE NAME
+\x00
+^
+\x01
+\x045
+\x00
+\x01
+\x00
+D
+\x01
+「お買いあげ、ありがとうございましたぁ」
+NAME_TAG MALE NAMEｫFEMALE NAMEMALE NAME!MALE NAMEｮFEMALE NAMEMALE NAMEFEMALE NAME
+\x01
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+ｩFEMALE NAME2
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\xe9\x11\x1e
+\x01
+「あ、これは買ってたなぁ」
+NAME_TAG \x10!\r\x11\x16\r
+\x00
+\x15\x90
+\x01
+\x03
+\x00
+!\x12D
+\x01
+「お客さん、お金が足りませんよぉ」
+NAME_TAG MALE NAME!MALE NAMEｦD
+\x01
+「これで、よろしいんですかぁ？」
+NAME_TAG 
+CHOICE:
+ \x00
+はい
+\x00
+やっぱやめます
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+｣
+\x00
+\x90
+\x01
+\x042
+\x00
+\x01
+\x00
+D
+\x01
+「お買いあげ、ありがとうございましたぁ」
+NAME_TAG MALE NAMEｦMALE NAME!MALE NAMEFEMALE NAME
+\x01
+\x00
+\x15\x03
+\x00
+\x02
+\x00
+\x9f\x13\x11\x173
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\xe1\x12\x1e
+\x01
+「あ、これは買ってたなぁ」
+NAME_TAG \x10!\r\x11\x16\r
+\x00
+\x15\x90
+\x01
+\x03
+\x00
+\x19\x13D
+\x01
+「お客さん、お金が足りませんよぉ」
+NAME_TAG \x10!\r\x10\x9c\x13D
+\x01
+「これで、よろしいですかぁ？」
+NAME_TAG 
+CHOICE:
+ \x00
+はい
+\x00
+やっぱやめます
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x99\x13\x0c\r
+\x00
+\x90
+\x01
+\x043
+\x00
+\x01
+\x00
+D
+\x01
+「お買いあげ、ありがとうございましたぁ」
+NAME_TAG \x10\x9c\x13\x10!\r\x10\x87\x14\x11\x17*
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+ﾌ
+\x01
+「あ、これは買ってたなぁ」
+NAME_TAG \x10!\r\x11\x16\r
+\x00
+\x15\x96
+\x00
+\x03
+\x00
+\x04\x14D
+\x01
+「お客さん、お金が足りませんよぉ」
+NAME_TAG \x10!\r\x10\x87\x14D
+\x01
+「これで、よろしいですかぁ？」
+NAME_TAG 
+CHOICE:
+ \x00
+はい
+\x00
+やっぱやめます
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x84\x14\x0c\r
+\x00
+\x96
+\x00
+\x04*
+\x00
+\x01
+\x00
+D
+\x01
+「お買いあげ、ありがとうございましたぁ」
+NAME_TAG \x10\x87\x14\x10!\rD
+\x01
+「また、おこしくださいねぇ」
+NAME_TAG (_CGS00
+\x00
+\x10d
+\x00
+\x1a\xff

@@ -1,0 +1,350 @@
+\x04\x04
+\x00
+\x00
+\x01
+\x00
+\x11\x17E
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x17H
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\n\x17I
+\x00
+\x15
+\x00
+\x00
+\x02\x0f
+\x00
+&
+\x00
+\x10=
+\x00
+\x10<
+\x00
+\x11\x17G
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x17J
+\x00
+\x15
+\x00
+\x00
+\x02\x0f
+\x00
+<
+\x00
+\x10>\x08\x1a(_CGDB01
+\x00
+ DS07
+\x00
+NARRATION_DIALOGUE:
+バイトを終えてパチンコ屋の外に出ると、そこに理恵が待っていた
+NAME_TAG MALE_DIALOGUE:
+「結構待ちました？」
+NAME_TAG 6
+\x01
+「ううん、そうでもないわよ」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は軽く首を振った
+NAME_TAG MALE_DIALOGUE:
+「えっと・・・」
+NAME_TAG 6
+\x01
+「ホテルでいいでしょ」
+NAME_TAG MALE_DIALOGUE:
+「そうっスね」
+NAME_TAG 6
+\x01
+「じゃあ、早速行きましょうか」
+NAME_TAG NARRATION_DIALOGUE:
+理恵はあなたの腕に抱きつくと、体を預けるようにして歩きだした
+NAME_TAG MALE_DIALOGUE:
+「（さて・・・あまり知り合いに会わない道を行かないとな・・・）」
+NAME_TAG 
+CHOICE:
+ \x00
+繁華街
+\x00
+裏通り
+\x00
+公園の中を通る
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+5\x02\x1e
+\x01
+「（意外と人混みにまぎれたらわかんないかもな）」
+NAME_TAG \x04i
+\x00
+\x01
+\x00
+MALE NAMEｹCENTEREDFEMALE NAME
+\x01
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+\x80\x02\x1e
+\x01
+「（まさか、ここで知り合いに会うってことはないだろう）」
+NAME_TAG MALE NAMEｹCENTERED
+\x01
+「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
+NAME_TAG 6
+\x01
+「どうかした？」
+NAME_TAG MALE_DIALOGUE:
+「いえ、なんでもないっス」
+NAME_TAG NARRATION_DIALOGUE:
+あなたはさも自然にそこを通るように、そっと進路を変更した
+NAME_TAG (_CGB13
+\x00
+ DS05
+\x00
+NARRATION_DIALOGUE:
+CENTEREDホテルに着いてからは、ほとんど理恵の独壇場だった
+NAME_TAG NARRATION_DIALOGUE:
+服を脱いだあなたは何もせずただ、ベッドに横になっているだけだった
+NAME_TAG NARRATION_DIALOGUE:
+理恵の愛撫に身を任せていると、ペニスがいつもより堅くなったような気がした
+NAME_TAG MALE_DIALOGUE:
+「す、すげえ、気持ちいい・・・」
+NAME_TAG NARRATION_DIALOGUE:
+理恵のテクニックは想像を軽く超えていた
+NAME_TAG 6
+\x01
+「どう？
+ \n 　結構初めての感覚でしょ？」
+NAME_TAG NARRATION_DIALOGUE:
+理恵はいたずらっぽく笑うと、人差し指でペニスの裏軽くなぞり、それを自分の秘処へと導いた
+NAME_TAG (I1
+\x00
+6
+\x01
+「んっ！」
+NAME_TAG NARRATION_DIALOGUE:
+理恵の膣内は結構な抵抗感があり、ペニスを心地よく締め付けていた
+NAME_TAG MALE_DIALOGUE:
+「・・き、気持ちいいっス・・・」
+NAME_TAG 6
+\x01
+「そ・・・そう・・・くっ・・・MALE NAMEちゃん・・のも
+ \n \x01
+　・・いいわよ・・・あんっ」
+NAME_TAG NARRATION_DIALOGUE:
+ペニスを出し入れする度に、根本から亀頭の先まで優しく揉みしだかれる感覚におそわれ、あなたの物は急速に熱くなっていた
+NAME_TAG MALE_DIALOGUE:
+「く、くぅ・・・たまんないっス」
+NAME_TAG 6
+\x01
+「あ、あん・・・ううん・・・こ、今度はこういうのは・・・どう？」
+NAME_TAG NARRATION_DIALOGUE:
+理恵はぞくっとするような妖艶な笑みを浮かべると、腰を大きくグラインドさせてきた
+NAME_TAG MALE_DIALOGUE:
+「こ、これはまた・・・」
+NAME_TAG NARRATION_DIALOGUE:
+ペニスを様々な角度から締め付けられる感触に、えもいわれぬ快感が全身を走った
+NAME_TAG MALE_DIALOGUE:
+「さ、さすがの・・・テクニッ・・・うっ・・」
+NAME_TAG 6
+\x01
+「うふふっ・・・まだまだこんなものじゃないわよ」
+NAME_TAG NARRATION_DIALOGUE:
+この調子で終始ペースを握られてしまい、ご休憩の時間が終わるまでに合計３発も抜かれてしまった
+NAME_TAG MALE_DIALOGUE:
+「さ、さすがというか・・・なんというか・・・」
+NAME_TAG \x04I
+\x00
+\x01
+\x00
+\x1a(_CGDB03
+\x00
+ DS07
+\x00
+NARRATION_DIALOGUE:
+バイトを終えてパチンコ屋の外に出ると、そこに理恵が待っていた
+NAME_TAG MALE_DIALOGUE:
+「結構待ちました？」
+NAME_TAG 6
+\x01
+「ううん、そうでもないわよ」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は軽く首を振った
+NAME_TAG MALE_DIALOGUE:
+「さって、今日もホテルにしときますか？」
+NAME_TAG 6
+\x01
+「う～ん・・・今日はちょっと違う所でやってみない？」
+NAME_TAG MALE_DIALOGUE:
+「違う所・・・ですか？
+ \n \x01
+　あ、あの、俺ん家はダメですよ！
+ \n \x01
+　とてもじゃ無いけどそんな事出来るような状況じゃないし！」
+NAME_TAG NARRATION_DIALOGUE:
+あせって言い訳をしていると、理恵が色っぽい眼差しを飛ばしてきた
+NAME_TAG 6
+\x01
+「違うわよぉ
+ \n \x01
+　もっと、刺激的な所よん」
+NAME_TAG MALE_DIALOGUE:
+「はぁ・・・どこです？」
+NAME_TAG 6
+\x01
+「こ・う・え・ん」
+NAME_TAG MALE_DIALOGUE:
+「こうえん・・・
+ \n 公園て、野外プレイをする気っスか！」
+NAME_TAG 6
+\x01
+「そういう趣向って嫌い？」
+NAME_TAG MALE_DIALOGUE:
+「・・・いや、別に嫌いじゃないっスよ」
+NAME_TAG 6
+\x01
+「じゃあ決まりね！」
+NAME_TAG NARRATION_DIALOGUE:
+野外プレイよりも、自宅プレイの方がはるかに刺激的になることは言わないでおくことにした
+NAME_TAG MALE_DIALOGUE:
+「（さて・・・あまり知り合いに会わない道を行かないとな・・・）」
+NAME_TAG 
+CHOICE:
+ \x00
+繁華街
+\x00
+裏通り
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\xf4\x0b\x1e
+\x01
+「（意外と人混みにまぎれたらわかんないかもな）」
+NAME_TAG \x106\x0c\x1e
+\x01
+「（まさか、ここで知り合いに会うってことはないだろう）」
+NAME_TAG \x04i
+\x00
+\x01
+\x00
+6
+\x01
+「どうかした？」
+NAME_TAG MALE_DIALOGUE:
+「いえ、なんでもないっス」
+NAME_TAG NARRATION_DIALOGUE:
+あなたはさも自然にそこを通るように、そっと進路を変更した
+NAME_TAG (I3
+\x00
+ DS05
+\x00
+MALE_DIALOGUE:
+「え、こんなところでやるんですか？」
+NAME_TAG 6
+\x01
+「そうよん！
+ \n 　なんかスリルがあっていいでしょ」
+NAME_TAG NARRATION_DIALOGUE:
+びびって周りを気にしているあなたをおもしろそうに見ながら、理恵はショーツを脱ぎ形のよいヒップを露わにした
+NAME_TAG MALE_DIALOGUE:
+「わ！わ！・・・ちょっと待ってくださいよぉ」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、むき出しの理恵のお尻を隠すように腰のあたりを抱きかかえた
+NAME_TAG 6
+\x01
+「だ～いじょうぶだって」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は笑って答えると、あなたに抱かれているお尻を少し揺らした
+NAME_TAG NARRATION_DIALOGUE:
+目の前でなまめかしく揺れる、大きなヒップとその間からのぞく花弁を見ているうちに、だんだんと欲望が羞恥心を上回ってきた
+NAME_TAG MALE_DIALOGUE:
+「・・・もうやけじゃ！」
+NAME_TAG NARRATION_DIALOGUE:
+観念したあなたは、ズボンのチャックを開け、自分のものを取り出した
+NAME_TAG 6
+\x01
+「あはっ」
+NAME_TAG NARRATION_DIALOGUE:
+理恵はうれしそうに、あなたのものを見つめていた
+NAME_TAG NARRATION_DIALOGUE:
+あなたはペニスを理恵の秘処の周りに軽くこすりつけた
+NAME_TAG 6
+\x01
+「は、早くぅ・・・もう用意は出来てるからぁ」
+NAME_TAG NARRATION_DIALOGUE:
+理恵の言葉を聞くまでもなく、秘処の周りにこすりつけていただけのペニスは、愛液でもうべとべとになっていた
+NAME_TAG MALE_DIALOGUE:
+「じゃあ、いきますね」
+NAME_TAG NARRATION_DIALOGUE:
+ペニスを割れ目の中に押し込むとぐちゅりと音がして、理恵の体が大きく反り返った
+NAME_TAG 6
+\x01
+「く、くふぅ・・・ん、んん・・・」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は後ろから突き上げてくる快感で崩れ落ちそうになる体を支えるために、木に手をついた
+NAME_TAG MALE_DIALOGUE:
+「・・・理恵さん・す、すごい・・しまりっス・・」
+NAME_TAG 6
+\x01
+「あ、あああん！」
+NAME_TAG NARRATION_DIALOGUE:
+理恵は周りを気にすることなく、大きな声を上げた
+NAME_TAG MALE_DIALOGUE:
+「ちょ、ちょっと理恵さん・・・声が・・・」
+NAME_TAG NARRATION_DIALOGUE:
+そんな忠告などお構いなしに理恵は大きな声を上げ、激しく腰を振った
+NAME_TAG MALE_DIALOGUE:
+「く、くぅ・・・はぁはぁ・・・」
+NAME_TAG NARRATION_DIALOGUE:
+始めはなるべく音がしないようにしていたあなただったが、次第に激しく腰を動かしていた
+NAME_TAG NARRATION_DIALOGUE:
+理恵の体はあなたの腰が打ちつけられる度に、木に押しつけられていた
+NAME_TAG 6
+\x01
+「あ・・・あん・・・も、もう・・い、いっちゃうぅ」
+NAME_TAG MALE_DIALOGUE:
+「お、俺も・・・もう・・」
+NAME_TAG NARRATION_DIALOGUE:
+二人の動きが一段と激しくなったとき、近くの茂みが、がさっと音をたてた
+NAME_TAG MALE_DIALOGUE:
+「！？」
+NAME_TAG NARRATION_DIALOGUE:
+思わずそちらを見た瞬間、理恵の膣内が強く締め付けてきた
+NAME_TAG MALE_DIALOGUE:
+「う、で、出る！」
+NAME_TAG 6
+\x01
+「いく、いく、いっちゃう！！」
+NAME_TAG NARRATION_DIALOGUE:
+白い液体が勢いよく理恵の膣内に流し込まれ、理恵の体は大きくのけぞった
+NAME_TAG NARRATION_DIALOGUE:
+２人は疲れ果てたようにその場に座り込んでしまった
+NAME_TAG 6
+\x01
+「はぁ、はぁ・・・やっぱいいわぁ、スリルがあって
+ \n \x01
+　・・・・・またやろうね」
+NAME_TAG MALE_DIALOGUE:
+「・・・心臓が・・・持つかなぁ」
+NAME_TAG \x04J
+\x00
+\x01
+\x00
+\x1a\xff

@@ -1,0 +1,1281 @@
+((KURO
+\x00
+
+CHOICE:
+ \x00
+最初から始める
+\x00
+続きから始める
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+J
+\x00
+%
+ \n \x00
+\x06
+\x00
+END_CHOICE:
+ \x00
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+F
+\x00
+\x10\x06
+\x00
+i\x10h\x1bl
+\x00
+ \n \x00
+\t
+\x00
+\x00
+\x06
+\x00
+\x0e
+\x00
+\x00
+\x07
+\x00
+\x00
+\x00
+\x00
+\x08
+\x00
+\x01
+\x00
+\x00
+\r
+\x00
+\xe8\x03
+\x00
+\x0e
+\x00
+ｼCENTERED
+\x00
+\x0f
+\x00
+ｼCENTERED
+\x00
+\x1b
+\x00
+ﾈ
+\x00
+\x00
+\x1e
+\x00
+ｼCENTERED
+\x00
+ 
+\x00
+\x01
+\x00
+\x00
+#
+\x00
+d
+\x00
+,\x11\x16
+\x00
+\x00
+\x15
+\x00
+\x00
+\x04
+\x00
+\x91
+\x00
+\x10\x06
+\x00
+-\x11\x16
+\x00
+\x00
+\x15
+\x00
+\x00
+\x04
+\x00
+\xa0
+\x00
+\x10\x82
+\x00
+i\x19OP
+\x00
+\x04
+\x00
+\x00
+\x00
+\x00
+\x04
+\x01
+\x00
+\x00
+\x00
+\x04\x02
+\x00
+\x00
+\x00
+\x04\x03
+\x00
+\x00
+\x00
+\x04\x04
+\x00
+\x00
+\x00
+(_CGBK
+\x00
+\x19A01
+\x00
+\x11\x16\x08
+\x00
+\x15[
+\x00
+\x02
+\x00
+ﾜ
+\x00
+\x19ST
+\x00
+\x10
+\x00
+\x00
+\x11\x16\x08
+\x00
+\x152
+\x00
+\x02
+\x00
+\xea
+\x00
+\x10\x17\x1a\x11\x16\x08
+\x00
+\x15Z
+\x00
+\x02\x17$
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x0f
+\x00
+\x8d
+\x01
+(_CGB20
+\x00
+NARRATION_DIALOGUE:
+あなたは買っておいたパンを牛乳で流し込んだ
+NAME_TAG \x11\x16\x10
+\x00
+\x15
+\x00
+\x00
+\x02
+\x00
+d
+\x01
+MALE_DIALOGUE:
+「さて、どうしようか？」
+NAME_TAG \x19OFF
+\x00
+\x10\x8a
+\x01
+MALE_DIALOGUE:
+「バイトにでも行くか・・・」
+NAME_TAG \x19B01
+\x00
+\x10Y\x0e\x11\x16\x08
+\x00
+\x15Y
+\x00
+\x02\x17$
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x0f
+\x00
+\x9f\x03\x04%
+\x00
+\x01
+\x00
+(_CGAI01
+\x00
+NARRATION_DIALOGUE:
+寝ぼけ眼をこすりながら食卓につき、みそ汁をすすりながら、朝の緩やかな時間を過ごしていた
+NAME_TAG FEMALE_DIALOGUE:
+「じゃあ、私はそろそろ出かけないと・・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「あ、今日の夜は適当に外ででも食べてきてね
+ \n \x01
+　それから、寝る前にガスの元栓をしめるのを忘れないようにね
+ \n \x01
+　多分、明日の夕方・・・遅くても夜には帰ってくるからね」
+NAME_TAG MALE_DIALOGUE:
+「ん、分かったよ」
+NAME_TAG (_CGAG04
+\x00
+FEMALE_DIALOGUE:
+「じゃ、行ってきま～す！」
+NAME_TAG MALE_DIALOGUE:
+「ほい、いってらっしゃい」
+NAME_TAG (_CGB12A
+\x00
+\x11\x16\x10
+\x00
+\x15
+\x00
+\x00
+\x02
+\x00
+v\x03\x1e
+\x01
+「さて、どうしようか？」
+NAME_TAG \x19OFF
+\x00
+\x10\x9c\x03\x1e
+\x01
+「バイトにでも行くか・・・」
+NAME_TAG \x19B01
+\x00
+\x10Y\x0e\x11\x16\x10
+\x00
+\x15
+\x00
+\x00
+\x02\x16\x07
+\x00
+\x15
+\x00
+\x00
+\x02\n
+\x00
+ｺOFF
+\x00
+\x10Y\x0e(_CGAI01
+\x00
+NARRATION_DIALOGUE:
+寝ぼけ眼をこすりながら食卓につき、みそ汁をすすりながら、朝の緩やかな時間を過ごしていた
+NAME_TAG \x1bl
+\x00
++\x04\x1f\r
+\x00
+\x04
+\x00
+\x100\x04\x1f\n
+\x00
+\x04
+\x00
+\x11\x16\x04
+\x00
+\x15
+\x00
+\x00
+\x02
+\x00
+ｺ
+\x01
+「ふあぁぁぁ・・・眠ぅ・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「ふふっ、まだ眠そうね」
+NAME_TAG MALE_DIALOGUE:
+「もう１回、眠らせてくれぇ・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「だ・め・よ☆」
+NAME_TAG \x103\r\x11\x16\x04
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+>
+ \n FEMALE_DIALOGUE:
+「今日は天気がとってもいいよ」
+NAME_TAG MALE_DIALOGUE:
+「う゛～～～まぶしい・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「ほらほら起きて起きてっ」
+NAME_TAG MALE_DIALOGUE:
+「うぃ～っす」
+NAME_TAG \x103\r\x11\x16\x04
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+ｩ
+ \n FEMALE_DIALOGUE:
+「そろそろ時間だよ・・・あらっ」
+NAME_TAG MALE_DIALOGUE:
+「もう起きてるよ」
+NAME_TAG FEMALE_DIALOGUE:
+「めずらしいこともあるのね」
+NAME_TAG \x103\r\x11\x16\x04
+\x00
+\x15\x03
+\x00
+\x02
+\x00
+\x00
+\x06\x1d
+\x01
+「よく眠れた？MALE NAME」kw;
+\x00
+MALE_DIALOGUE:
+「うん、よく眠れた？」
+NAME_TAG FEMALE_DIALOGUE:
+「そう、よかった」
+NAME_TAG \x103\r\x11\x16\x04
+\x00
+\x15\x04
+\x00
+\x02
+\x00
+\x95\x06\x1e
+\x01
+「う～ねむい～」
+NAME_TAG FEMALE_DIALOGUE:
+「おはよぉ～MALE NAME、あたまがボサボサよ」
+NAME_TAG MALE_DIALOGUE:
+「いやぁ、今日はワイルドに行こうと思って・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「ほほぉ・・・」
+NAME_TAG \x103\r\x11\x16\x04
+\x00
+\x15
+ \n \x00
+\x02
+\x00
+-\x07\x1e
+\x01
+「ふあぁぁぁあぁ・・・」
+\x01
+（ボリボリボリ・・・）
+NAME_TAG FEMALE_DIALOGUE:
+「ケツをかくなケツを！！」
+NAME_TAG MALE_DIALOGUE:
+（ボリボリボリボリボリボリボリボリボリボリ・・・）
+NAME_TAG \x103\r\x11\x16\x04
+\x00
+\x15\x06
+\x00
+\x02
+\x00
+ｧ
+\x01
+「ねぇ、MALE NAME・・・昨日の夜、地震なかった？」
+NAME_TAG MALE_DIALOGUE:
+「あ、それ俺のイビキだと思う・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・・」
+NAME_TAG \x103\r\x11\x16\x04
+\x00
+\x15\n
+\x00
+\x02
+\x00
+\x8f\x08\x1d
+\x01
+「へぇ、近所のスーパーが売り出しやってるんだ！」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEが広告を見ながら、嬉しそうな声を上げた
+NAME_TAG FEMALE_DIALOGUE:
+「あ～、今日は卵が安くなってる
+ \n \x01
+　これはチェックしとかないとね！」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、そんなFEMALE NAMEの様子をぼんやりと眺めていた
+NAME_TAG \x103\r\x11\x16\x04
+\x00
+\x15\x0b
+\x00
+\x02
+\x00
+\x9b\t\x1d
+\x01
+「それにしても、最近ろくなニュースがないわねぇ」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、新聞を広げてため息をついた
+NAME_TAG FEMALE_DIALOGUE:
+「たまには、『昨日は一日幸せな日でした』っていう記事があってもい　いのにね」
+NAME_TAG MALE_DIALOGUE:
+「無理いうなって・・・」
+NAME_TAG NARRATION_DIALOGUE:
+ぼうっとしながらも、つっこみを忘れないあなただった
+NAME_TAG \x103\r\x11\x16\x04
+\x00
+\x15\x0c
+\x00
+\x02
+\x00
+%\n\x1e
+\x01
+「ふあぁぁぁ・・・眠ぅ・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「ふふっ、まだ眠そうね」
+NAME_TAG MALE_DIALOGUE:
+「もっかい、眠らせてくれぇ・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「だ・め・よ☆」
+NAME_TAG \x103\r\x1d
+\x01
+「ねぇねぇ、朝のテレビの星占いで私ね、今日は絶好調らしいの～」
+NAME_TAG FEMALE_DIALOGUE:
+「で、MALE NAMEはね～・・・」
+NAME_TAG \x1f
+ \n \x00
+\x04
+\x00
+\x11\x16\x04
+\x00
+\x15
+\x00
+\x00
+\x02
+\x00
+ﾓ
+
+\x01
+「事故に注意だって」
+NAME_TAG MALE_DIALOGUE:
+「おいおい、縁起でもない・・・」
+NAME_TAG \x103\r\x11\x16\x04
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+･
+\x01
+「恋愛運が最高だって、私にとっては浮気にご注意って感じかな」
+NAME_TAG MALE_DIALOGUE:
+「いやいや、二人の仲がよりいっそう良くなると言うことだと思うぞ・・・・多分・・・・きっと・・・・
+ \n 万が一・・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「おい」
+NAME_TAG \x103\r\x11\x16\x04
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+4\x0c\x1d
+\x01
+「金運最悪。お金を落とすかも・・・だって、気を付けてよぉ～」
+NAME_TAG MALE_DIALOGUE:
+「う～む、ならば今のうちに落としておこう」
+\x01
+（ジャラジャラ）
+NAME_TAG \x103\r\x11\x16\x04
+\x00
+\x15\x03
+\x00
+\x02
+\x00
+｢
+\x01
+「ラッキーカラーは『どどめ色』だそうよ」
+NAME_TAG MALE_DIALOGUE:
+「それ自体、アンラッキーの様な気がする・・・」
+NAME_TAG \x103\r\x11\x16\x04
+\x00
+\x15\x04
+\x00
+\x02
+\x00
+3\r\x1d
+\x01
+「今日は最高だって、よかったね」
+NAME_TAG MALE_DIALOGUE:
+「おお、そうか、今日はなんて良い日なんだ・・・・・
+\x01
+ \n と、とりあえずはそう思っておこう・・・」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、おぼつかない手つきで食事を口に運んでいた
+NAME_TAG (_CGAG01
+\x00
+FEMALE_DIALOGUE:
+「行ってらっしゃい
+ \n 　なるべく早く帰ってきてね」
+NAME_TAG \x11\x16\x06
+\x00
+\x15\x0f
+\x00
+\x02
+\x00
+T\x0e\x1d
+\x01
+「あ、そうそう、２５日には家賃の７万円を大家さんに払わないといけないの。忘れないでね。」
+NAME_TAG MALE_DIALOGUE:
+「ああ、わかってるよ」
+NAME_TAG FEMALE_DIALOGUE:
+ 「うん、それじゃ、行ってらっしゃい」
+NAME_TAG \x19B01
+\x00
+\x1b
+\x00
+\x00
+a\x0e\x10\x90\x0e\x11\x16\x08
+\x00
+\x15\x06
+\x00
+\x04
+\x00
+u\x0e\x19SHOP
+\x00
+\x10\x90\x0e\x1e
+\x01
+「早く家に帰ろうっと」
+NAME_TAG \x1b
+\x01
+\x00
+MALE NAMEｯ DS02
+\x00
+\x19D01
+\x00
+\x1bj
+\x00
+ｯST
+\x00
+\x10
+\x00
+\x00
+\x1b\x02
+\x00
+ｷMALE NAMECENTERED DS02
+\x00
+\x1b\x04
+\x00
+E\x10(_CGB00
+\x00
+NARRATION_DIALOGUE:
+家に帰ってきた二人は、よろよろと部屋の中に入ると疲れ切ったようにその場に座り込んでしまった
+NAME_TAG FEMALE_DIALOGUE:
+「はぁ～・・・・・
+ \n \x01
+　なんか疲れちゃったから、今日の夕飯は簡単なものでいいよね」
+NAME_TAG NARRATION_DIALOGUE:
+そう言いながら台所へと入っていったFEMALE NAMEは、チャーハンを作り始めた
+NAME_TAG (_CGRY07
+\x00
+FEMALE_DIALOGUE:
+「・・・これでいい？」
+NAME_TAG MALE_DIALOGUE:
+「上出来だよ」
+NAME_TAG NARRATION_DIALOGUE:
+その言葉はお世辞半分で、出たものだが、実際味の方も決して悪くは無かった
+NAME_TAG MALE NAMEﾞ(_CGAI01
+\x00
+FEMALE_DIALOGUE:
+「今日のお夕飯はねぇ・・・・・」
+NAME_TAG \x11\x16\r
+\x00
+\x152
+\x00
+\x03
+\x00
+%\x11(_CGRY02
+\x00
+FEMALE_DIALOGUE:
+「カップラーメンなの
+ \n \x01
+　・・・今、本当に苦しい状態なのよ・・・」
+NAME_TAG MALE_DIALOGUE:
+「・・・・しかたないなぁ」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、少しわびしそうにカップラーメンをすすった
+NAME_TAG MALE NAMEﾞ
+\x00
+\x04
+\x00
+\x11\x16\x04
+\x00
+\x15
+\x00
+\x00
+\x02
+\x00
+ｦ(_CGRY08
+\x00
+FEMALE_DIALOGUE:
+「超豪華、FEMALE NAME特製スペシャルディナーよ～
+ \n \x01
+　腕によりをかけて作ったんだから味わって食べてね☆」
+NAME_TAG MALE_DIALOGUE:
+「じゃあ、いただきます！」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、胸躍らせながら、目の前に並ぶ豪華な食事を口にした
+NAME_TAG FEMALE_DIALOGUE:
+「どう？
+ \n 　おいしい？」
+NAME_TAG MALE_DIALOGUE:
+「・・・うん！、すっげー、おいしーよ！」
+NAME_TAG FEMALE_DIALOGUE:
+「本当？
+ \n 　良かったぁ・・・」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、あなたが食べている間中、にこにことその姿を見ていた
+NAME_TAG MALE NAMEﾞFEMALE NAME
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x8f\x14(_CGRY05
+\x00
+FEMALE_DIALOGUE:
+「苦心惨憺、FEMALE NAME特製、真心ディナーよ～
+ \n \x01
+　ちょっと見栄えが悪いかもしれないけど・・・・・
+ \n \x01
+　栄養は、ばっちりよ
+ \n 　あ、もちろん味もね☆」
+NAME_TAG MALE_DIALOGUE:
+「じゃあ、いただきます！」
+NAME_TAG NARRATION_DIALOGUE:
+勢いよく食べ出すあなたの横顔を、FEMALE NAMEは、心配そうに見つめていた
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・どう？」
+NAME_TAG MALE_DIALOGUE:
+「結構いけるんじゃないかな
+ \n 　うん、おいしいよ」
+NAME_TAG NARRATION_DIALOGUE:
+あなたの言葉に、FEMALE NAMEは顔をほころばせた
+NAME_TAG FEMALE_DIALOGUE:
+「まだまだ、いっぱいあるからね
+ \n \x01
+　どんどん食べてね」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEの言葉につられて、あなたは、ついつい食べ過ぎてしまった
+NAME_TAG MALE NAMEﾞFEMALE NAME
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+ \n \x16(_CGRY03
+\x00
+FEMALE_DIALOGUE:
+「出前を取ったの
+ \n 　近所のお寿司屋さんの並を取ったからね
+ \n \x01
+　食べ終わったらお盆を出しとかないと、いけないのよねぇ」
+NAME_TAG MALE_DIALOGUE:
+「じゃあ、いただきます！」
+NAME_TAG NARRATION_DIALOGUE:
+目の前に広げられたお寿司を、２人は黙々と食べていた
+NAME_TAG FEMALE_DIALOGUE:
+「・・・なかなか・・んぐっ・・・・おいしいわねぇ」
+NAME_TAG MALE_DIALOGUE:
+「・・・・・そうだな」
+NAME_TAG NARRATION_DIALOGUE:
+ものの１０分もしない内に、目の前のお寿司は無くなってしまった
+NAME_TAG MALE NAMEﾞFEMALE NAME
+\x00
+\x15\x03
+\x00
+\x02
+\x00
+ﾞ(_CGRY01
+\x00
+FEMALE_DIALOGUE:
+「近所のお弁当屋さんの、幕の内弁当よ
+ \n \x01
+　ちょっとさめちゃってるけど・・・・ま、しかたないよね」
+NAME_TAG MALE_DIALOGUE:
+「・・・いただきます」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、ちょっとさめてしまった幕の内弁当を、腹の中へと流し込んだ
+NAME_TAG (_CGAI01
+\x00
+MALE_DIALOGUE:
+「ごちそうさまでした」
+NAME_TAG \x1b\x03
+\x00
+\n\x17\x10\x17\x1a\x11\x16\x0e
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x03\x16\x0f
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x03\n\x16\x08
+\x00
+\x15Y
+\x00
+\x03\x0f
+\x00
+\xe5\x17\x1e
+\x01
+「ごめん、今日は疲れてるからもう寝るよ」
+NAME_TAG FEMALE_DIALOGUE:
+「え？・・・ちょ、ちょっと」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、疲れた足取りで寝室へと入っていった
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・もう！」
+NAME_TAG \x0c\x1e
+\x00
+2
+\x00
+\x11\x16\x0e
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x03
+\x00
+ﾒ
+\x00
+\x0e
+\x00
+\xfa
+\x00
+\x11\x16\x0f
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x03
+\x00
+\xe2\x17
+\x00
+\x0f
+\x00
+\xfa
+\x00
+\x10\x17\x1a\x1e
+\x01
+「さて、何をしようか？」
+NAME_TAG \x11\x16\x08
+\x00
+\x15\x0e
+\x00
+\x02\x16\x08
+\x00
+\x15\x1e
+\x00
+\x02\n\x16\x08
+\x00
+\x15(
+\x00
+\x02\n\x16\x08
+\x00
+\x15<
+\x00
+\x02\n\x16\x08
+\x00
+\x15P
+\x00
+\x02\n
+\x00
+5\x18\x19E03
+\x00
+\x10\x17\x1a\x11\x16\x08
+\x00
+\x15D
+\x00
+\x02\x16\x08
+\x00
+\x15X
+\x00
+\x02\n\x16\x08
+\x00
+\x15Y
+\x00
+\x02\n\x16\x08
+\x00
+\x15Z
+\x00
+\x02\n
+\x00
+`\x18\x19E06
+\x00
+\x10\x17\x1a\x11\x16\x08
+\x00
+\x15K
+\x00
+\x02\x17$
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x0f
+\x00
+{\x18\x19E06
+\x00
+\x10\x17\x1a\x11\x16 
+\x00
+\x15\xf4
+\x01
+\x04\x17\x1e
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x07\x0f
+\x00
+\x96\x18\x19E07
+\x00
+\x10\x17\x1a\x11\x16 
+\x00
+\x15\x90
+\x01
+\x04\x17\x1f
+\x00
+\x15
+\x00
+\x00
+\x02\x0f
+\x00
+ｱE07
+\x00
+\x10\x17\x1a\x11\x16 
+\x00
+\x15,
+\x01
+\x04\x17 
+\x00
+\x15
+\x00
+\x00
+\x02\x0f
+\x00
+ﾌE07
+\x00
+\x10\x17\x1a\x11\x172
+\x00
+\x177
+\x00
+\x15
+\x00
+\x00
+\x02\x0f\x173
+\x00
+\x178
+\x00
+\x15
+\x00
+\x00
+\x02\x0f\n\x17*
+\x00
+\x176
+\x00
+\x15
+\x00
+\x00
+\x02\x0f\n\x174
+\x00
+\x179
+\x00
+\x15
+\x00
+\x00
+\x02\x0f\n\x175
+\x00
+\x17:
+\x00
+\x15
+\x00
+\x00
+\x02\x0f\n
+\x00
+\x14\x19\x19FUKU
+\x00
+\x10\x17\x1a\x17
+\x01
+\x00
+リビングに行く
+\x00
+寝室に行く
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\r\x1a(_CGB00
+\x00
+\x11\x16\x08
+\x00
+\x15
+ \n \x00
+\x03
+\x00
+g\x19\x17
+\x01
+\x00
+話す
+\x00
+\x00
+ DS06
+\x00
+\x19K01
+\x00
+\x10\n\x1a\x11\x17b
+\x00
+\x17c
+\x00
+\n\x17d
+\x00
+\n
+\x00
+ｧ
+\x01
+\x00
+話す
+\x00
+手伝い
+\x00
+テレビ／ゲーム
+\x00
+ケーキを食べる
+\x00
+\x00
+MALE NAMEﾆ
+\x01
+\x00
+話す
+\x00
+手伝い
+\x00
+テレビ／ゲーム
+\x00
+\x00
+ DS06
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+ﾟK01
+\x00
+\x10\n\x1a\x11\x16
+\x01
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+\xf2\x19\x19T01
+\x00
+\x10\n\x1a\x11\x16
+\x01
+\x00
+\x15\x03
+\x00
+\x02
+\x00
+ \n \x1a\x19G01
+\x00
+\x10\n\x1a\x19K02
+\x00
+\x10\x17\x1a\x04r
+\x00
+\x01
+\x00
+\x19H01
+\x00
+\x1cs
+\x00
+\xf7\x1a!\x1br
+\x00
+=\x1a\x17
+\x01
+\x00
+おやすみなさい
+\x00
+\x00
+\x04r
+\x00
+\x00
+\x00
+\x10L\x1a\x17
+\x01
+\x00
+寝室に行く
+\x00
+\x00
+\x11\x17$
+\x00
+\x16\x08
+\x00
+\x15X
+\x00
+\x04\x0f
+\x00
+ﾙ(_CGBK
+\x00
+MALE_DIALOGUE:
+「今日はさっさと寝てしまおう・・・・・」
+NAME_TAG MALE_DIALOGUE:
+「・・・・・・・・・・・・・・・」
+NAME_TAG MALE_DIALOGUE:
+「・・・・・・・・FEMALE NAME・・・」
+NAME_TAG \x10\xf7\x1a(_CG20
+\x00
+FEMALE_DIALOGUE:
+「お休みなさぁい」
+NAME_TAG \x04s
+\x00
+\x00
+\x00
+(KURO
+\x00
+\x11\x16\x07
+\x00
+\x15
+\x00
+\x00
+\x02
+\x00
+h\x1b\x15
+\x01
+CENTEREDゲームの状態を保存しますか？
+NAME_TAG 
+CHOICE:
+ \x00
+保存しない
+\x00
+保存する
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+\x15
+\x00
+\x00
+\x02
+\x00
+X\x1b\x10\r\x1b\x10h\x1b\x11\x16
+\x01
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+h\x1b&
+ \n \x00
+\x06
+\x00
+\x11\x16\x06
+\x00
+\x15\x19
+\x00
+\x02
+\x00
+x\x1b\x0c\r
+\x00
+ｼCENTERED
+\x00
+\x01
+\x00
+\x08\x07
+\x00
+\x01
+\x00
+\x03\x07
+\x00
+\x16\x07
+\x00
+\x15\x07
+\x00
+\x0e
+\x00
+\x03\x06
+\x00
+\x16\x06
+\x00
+\x15\x1e
+\x00
+\x16
+ \n \x00
+\x15\n
+\x00
+\x02\x08\x0e
+\x00
+\x03
+ \n \x00
+\x16
+ \n \x00
+\x16\x06
+\x00
+\x15
+\x00
+\x00
+\x02\x08
+\x00
+\x08\x06
+\x00
+\x01
+\x00
+\x0c\r
+\x00
+\x14
+\x00
+\x11\x16\r
+\x00
+\x15
+\x00
+\x00
+ \n \x00
+ﾇMALE NAME
+\x00
+ｱ
+\x00
+\x11\x16\x0e
+\x00
+\x15
+\x00
+\x00
+\x03
+\x00
+ﾜ
+\x00
+\x0e
+\x00
+\x00
+\x00
+\x11\x16\x0e
+\x00
+\x15\xe7\x03\x04
+\x00
+\xec\x1b
+\x00
+\x0e
+\x00
+\xe8\x03\x08\x0f
+\x00
+o
+\x00
+\x11\x16\x0f
+\x00
+\x15
+\x00
+\x00
+\x03
+\x00
+\x01
+\x1c
+\x00
+\x0f
+\x00
+\x00
+\x00
+\x11\x16\x0f
+\x00
+\x15\xe7\x03\x04
+\x00
+\x11\x1c
+\x00
+\x0f
+\x00
+\xe8\x03\x08\x1b
+\x00
+ｱ
+\x00
+\x11\x16\x1b
+\x00
+\x15\xe8\x03\x04
+\x00
+&\x1c
+\x00
+\x1b
+\x00
+\xe8\x03\x08#
+\x00
+2
+\x00
+\x11\x16#
+\x00
+\x15\xe8\x03\x04
+\x00
+;\x1c
+\x00
+#
+\x00
+\xe8\x03\x11\x16#
+\x00
+\x15 \x03\x04
+\x00
+U\x1c\x03\x1e
+\x00
+\x16\x1e
+\x00
+\x16#
+\x00
+\x15\x1e
+\x00
+\r\t
+\x00
+\x11\x16\x1e
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x03
+\x00
+e\x1c
+\x00
+\x1e
+\x00
+\x00
+\x00
+\x11\x16\x1e
+\x00
+\x15\xe7\x03\x04
+\x00
+u\x1c
+\x00
+\x1e
+\x00
+\xe8\x03\x04T
+\x00
+\x00
+\x00
+\x04b
+\x00
+\x00
+\x00
+\x04c
+\x00
+\x00
+\x00
+\x04d
+\x00
+\x00
+\x00
+\x1b`
+\x00
+\x93\x1c\x08%
+\x00
+\n
+\x00
+\x1ba
+\x00
+\x9d\x1c\x08&
+\x00
+\n
+\x00
+MALE NAME･
+\x00
+ DS15
+\x00
+"(_ED07_1
+\x00
+NARRATION_DIALOGUE:
+CENTEREDあなたは破産してしまいました。
+ \n CENTERED　　　　　　～ゲームオーバー～
+NAME_TAG \x10
+\x00
+\x00
+\xff

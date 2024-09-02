@@ -1,0 +1,1014 @@
+\x11\x11\x17^
+\x00
+\x17_
+\x00
+\x0f
+\x00
+ｿ
+\x00
+
+CHOICE:
+ \x00
+対戦パズルゲームをやる
+\x00
+恋愛シミュレーションをやる
+\x00
+テレビを見る
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x8c
+\x00
+\x1c`
+\x00
+d
+\x00
+MALE NAME｢CENTEREDMALE NAME
+\x00
+\x11\x16%
+\x00
+ﾈ
+\x00
+\x03
+\x00
+u
+\x00
+\x10\xe5
+ \n \x10\x89
+\x00
+\x11\x16%
+\x00
+\x15\x90
+\x01
+\x03
+\x00
+\x86
+\x00
+\x10\xf1\x07\x10\x89
+\x00
+MALE NAMEﾜ	MALE NAMEｼ
+\x00
+\x1ca
+\x00
+\x97
+\x00
+MALE NAMEMALE NAMEｼ
+\x00
+\x11\x16&
+\x00
+ﾈ
+\x00
+\x03
+\x00
+ｨ
+\x00
+MALE NAMEMALE NAMEｼ
+\x00
+\x11\x16&
+\x00
+\x15\x90
+\x01
+\x03
+\x00
+ｹ
+\x00
+MALE NAMEﾝMALE NAMEｼ
+\x00
+MALE NAMEﾒFEMALE NAMEMALE NAME
+\x01
+\x11\x17^
+\x00
+\x17_
+\x00
+\n
+\x00
+\x9c
+\x01
+\x1b^
+\x00
+5
+\x01
+
+CHOICE:
+ \x00
+対戦パズルゲームをやる
+\x00
+テレビを見る
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+2
+\x01
+\x1c`
+\x00
+\r
+\x01
+MALE NAME｢CENTEREDMALE NAME2
+\x01
+\x11\x16%
+\x00
+ﾈ
+\x00
+\x03
+\x00
+MALE_DIALOGUE:
+\x10\xe5
+ \n \x102
+\x01
+\x11\x16%
+\x00
+\x15\x90
+\x01
+\x03
+\x00
+/
+\x01
+\x10\xf1\x07\x102
+\x01
+MALE NAMEﾜ	MALE NAME
+\x01
+
+CHOICE:
+ \x00
+恋愛シミュレーションをやる
+\x00
+テレビを見る
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x9c
+\x01
+\x1ca
+\x00
+w
+\x01
+\x10\x97\x0b\x10\x9c
+\x01
+\x11\x16&
+\x00
+ﾈ
+\x00
+\x03
+\x00
+\x88
+\x01
+\x10\x8c\r\x10\x9c
+\x01
+\x11\x16&
+\x00
+\x15\x90
+\x01
+\x03
+\x00
+\x99
+\x01
+MALE NAMEﾝMALE NAME
+\x01
+MALE NAMEﾒFEMALE NAMEFEMALE NAME
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+ｭ
+\x01
+MALE NAMEﾑMALE NAME｡CENTEREDFEMALE NAME
+\x00
+\x15\x02
+\x00
+\x02
+\x00
+ｾ
+\x01
+MALE NAMEzMALE NAME｡CENTEREDFEMALE NAME
+\x00
+\x15\x03
+\x00
+\x02
+\x00
+ﾏ
+\x01
+MALE NAMEbMALE NAME｡CENTEREDFEMALE NAME
+\x00
+\x15\x04
+\x00
+\x02
+\x00
+\xe0
+\x01
+MALE NAMEｼMALE NAME｡CENTEREDFEMALE NAME
+\x00
+\x15
+ \n \x00
+\x02
+\x00
+\xf1
+\x01
+MALE NAMEMALE NAME｡CENTEREDFEMALE NAME
+\x00
+\x15\x06
+\x00
+\x02
+\x00
+CENTEREDCENTEREDMALE NAMEHMALE NAME｡CENTERED(_CGAA01
+\x00
+FEMALE_DIALOGUE:
+「テレビを見るのね？
+ \n \x01
+　今日ってなんか面白いやつってあったかなぁ・・・・・」
+NAME_TAG NARRATION_DIALOGUE:
+いくつかのチャンネルを変えながら、２人はぼうっとテレビを見ていた
+NAME_TAG \x1a\x04`
+\x00
+\x01
+\x00
+(_CGAA01
+\x00
+MALE_DIALOGUE:
+「なあ、このゲームを、ちょっとやってみないか？」
+NAME_TAG FEMALE_DIALOGUE:
+「へぇ～、かわいいパッケージねぇ
+ \n 　で、どんなやつなの？」
+NAME_TAG FEMALE_DIALOGUE:
+「え、上から落ちてくる４種類の色のブロックをくっつけて・・・・・
+\x01
+　ああ、ぷ○○よみたいなやつね・・・
+ \n って、何こけてんの？」
+NAME_TAG FEMALE_DIALOGUE:
+「え、固有名詞って言っちゃまずかったの？
+ \n \x01
+　ま、まあ、とりあえずやろうよ、これって対戦出来るんでしょ？」
+NAME_TAG 
+CHOICE:
+ \x00
+（手を抜く）
+\x00
+（全力で）
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+O
+ \n \x0c\x1e
+\x00
+\x1e
+\x00
+FEMALE_DIALOGUE:
+「よーし、負けないわよー！」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・あ、ちょ、ちょっと止めて！
+ \n \x01
+　ちょっと説明書を・・・ん、わかった、じゃ続き！」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・あ、ちょっと、ダメ
+ \n ・・・あ、あ～あ、負けちゃった・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・ねえ・・・手加減してたでしょ？
+ \n 　あーくやしいー！！！」
+NAME_TAG \x08%
+\x00
+F
+\x00
+MALE NAMEﾞ
+ \n \x0c\x1e
+\x00
+2
+\x00
+FEMALE_DIALOGUE:
+「じゃ、やろっか！」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・ね、ちょ、ちょっと
+ \n 　あ・・・
+ \n 　あ～あ、ぼろ負け」
+NAME_TAG FEMALE_DIALOGUE:
+「ちょっとぐらい手加減してよねー！」
+NAME_TAG \x08%
+\x00
+2
+\x00
+3\x08\x0b
+\x00
+\x01
+\x00
+\x1a(_CGAA02
+\x00
+MALE_DIALOGUE:
+「 なあ、ゲームしよっか　」
+NAME_TAG FEMALE_DIALOGUE:
+「うっ・・・やるの？
+ \n \x01
+　・・・わかったわよ！今度は負けないからね！」
+NAME_TAG 
+CHOICE:
+ \x00
+（手を抜く）
+\x00
+（全力で）
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+C\x07\x0c\x1e
+\x00
+\x1e
+\x00
+FEMALE_DIALOGUE:
+「・・・・・あ、失敗！
+ \n \x01
+　・・・・・あ、ダメ！ち、ちがうのぉー！」
+NAME_TAG FEMALE_DIALOGUE:
+「あ、あー！・・・・・また、負けちゃった・・・
+ \n \x01
+　もー、なんで勝てないのよー！しかも、手加減されててー！！」
+NAME_TAG \x08%
+\x00
+2
+\x00
+\x10\xea\x07\x0c\x1e
+\x00
+2
+\x00
+FEMALE_DIALOGUE:
+「く、くぅぅぅ～、何で勝てないの！
+ \n ねえ！どうやったら勝てるの？
+ \n \x01
+　え、反射神経と、とっさの判断力？」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・悪かったわねー！どんくさくてー！！！」
+NAME_TAG \x08%
+\x00
+\x1e
+\x00
+3\x08\x0b
+\x00
+\x01
+\x00
+\x1a(_CGAA01
+\x00
+MALE_DIALOGUE:
+「な、ゲームしようか？」
+NAME_TAG FEMALE_DIALOGUE:
+「ゲームね？
+ \n 　いいわよ～、やりましょ！」
+NAME_TAG 
+CHOICE:
+ \x00
+（手を抜く）
+\x00
+（全力で）
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x0e\t\x08\x1e
+\x00
+\x1e
+\x00
+FEMALE_DIALOGUE:
+「・・・あ、ダメ！っと思ったけどセーフ！
+ \n \x01
+　・・・よーし、このまま、このまま・・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「やったぁ！勝ったぁ！
+ \n 　ねぇねぇ、もう一回やろ！！」
+NAME_TAG \x08%
+\x00
+\x1e
+\x00
+MALE NAMEﾕ	
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「いくわよ！」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・・・あ
+ \n ・・・・・・・よしっ
+ \n ・・・・・・・んっ・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「あーーーーー！・・・負けちゃった
+ \n \x01
+　でも、良い勝負だったよね。私も思わず無口になっちゃった」
+NAME_TAG \x08%
+\x00
+2
+\x00
+3\x08\x0b
+\x00
+\x01
+\x00
+\x1a(_CGAA04
+\x00
+MALE_DIALOGUE:
+「な、ゲームしようか？」
+NAME_TAG FEMALE_DIALOGUE:
+「うふふふふっ、ゲーム？
+ \n 　いいわよ、負けても泣かないでね☆」
+NAME_TAG 
+CHOICE:
+ \x00
+（手を抜く）
+\x00
+（全力で）
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+ﾖ
+
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「・・・・・ダメ！ダメ！ちゃんとやってよー！
+ \n \x01
+　じゃないと、もう相手になんないんだからぁ！！」
+NAME_TAG \x10\x90\x0b\x08\x1e
+\x00
+\x1e
+\x00
+FEMALE_DIALOGUE:
+「フフッ、軽くあしらってあげるわ！
+ \n \x01
+　・・・・・へぇ、結構やるわね、でも甘いわよ！
+ \n \x01
+　・・・ほ～ら、これで勝ちぃ！」
+NAME_TAG FEMALE_DIALOGUE:
+「ねぇねぇ、くやしい？
+ \n 　私はすっごく気持ちがいいわよ」
+NAME_TAG 3\x08\x0b
+\x00
+\x01
+\x00
+\x1a\x04a
+\x00
+\x01
+\x00
+(_CGAA01
+\x00
+MALE_DIALOGUE:
+「なあ、新しいゲームをしようと思うんだけど・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「へぇ～、どんなの？
+ \n \x01
+　げっ！これってもしかして、今はやりの恋愛シミュレーション？
+ \n \x01
+　・・・また、なんてもの買ってくるのよ・・・」
+NAME_TAG 
+CHOICE:
+ \x00
+（真剣にやる）
+\x00
+（てきとうにやる）
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+ \n \r\x0c\x1e
+\x00
+\x14
+\x00
+FEMALE_DIALOGUE:
+「・・・また、えらく真剣にプレーしてるわね～、そんなに面白いの？
+ \n \x01
+　・・・・・私には、わかんないわ」
+NAME_TAG \x10\x80\r\x0c\x1e
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「ね、これって面白い？
+ \n って、まだわかんないか・・・
+ \n \x01
+　ま、ゲームするのはいいけど・・・あんまり、はまらないでね」
+NAME_TAG 3\x08&
+\x00
+\x1e
+\x00
+\x08\x0b
+\x00
+\x01
+\x00
+\x1a(_CGAA02
+\x00
+MALE_DIALOGUE:
+「さっ、ゲームしようっと」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・また、『あれ』やるの？
+ \n ・・・ま、いいけどね・・・」
+NAME_TAG 
+CHOICE:
+ \x00
+（真剣にやる）
+\x00
+（てきとうにやる）
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\xf4\x0e\x0c\x1e
+\x00
+\x1e
+\x00
+FEMALE_DIALOGUE:
+「ねぇ、はたから見てると、結構間抜けな顔になってるよ
+ \n \x01
+　えっ、ウソじゃないよ、本当だよ！」
+ \n \x02;
+\x00
+FEMALE_DIALOGUE:
+「自分じゃ気づいていないかもしれないけどね、ゲームキャラの台詞に　結構一喜一憂してるんだからぁ。」
+NAME_TAG MALE NAMEﾑ
+\x00
+\x14
+\x00
+FEMALE_DIALOGUE:
+「・・・でもさあ、普通こんなゲームキャラの台詞みたいな事って、言　わないよねぇ。
+ \n \x01
+　特に最近の娘なんて、こんなに純情な娘なんていないわよぉ・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「でも、やっぱり男の人って、こういう感じの娘がいいのかなぁ」
+NAME_TAG 3\x08&
+\x00
+\x1e
+\x00
+\x08\x0b
+\x00
+\x01
+\x00
+\x1a(_CGAA01
+\x00
+MALE_DIALOGUE:
+「さ、ゲームしようっと」
+NAME_TAG FEMALE_DIALOGUE:
+「またぁ～？・・・結構はまってるのね」
+NAME_TAG 
+CHOICE:
+ \x00
+（真剣にやる）
+\x00
+（てきとうにやる）
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x18\x11\x1d
+\x01
+「あ、あのね、私もちょっとやらしてもらったんだけど・・・
+ \n \x01
+　結構楽しいよね、これって」
+NAME_TAG FEMALE_DIALOGUE:
+「とりあえず、セーブするところの一番下を使ってるから
+ \n \x01
+　もし邪魔になるんなら消してね」
+NAME_TAG MALE NAMEﾆFEMALE NAME
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「私もね、ちょっとやってみたの、そしたら、結構はまっちゃって
+ \n \x01
+　なーんか男の人の気持ちが、ちょっとわかったような気がしたわ
+ \n \x01
+　やっぱり、この娘達ってかわいいもんね」
+NAME_TAG 3\x08&
+\x00
+\x1e
+\x00
+\x08\x0b
+\x00
+\x01
+\x00
+\x1a(_CGAA04
+\x00
+MALE_DIALOGUE:
+「さ、ゲームしよっと」
+NAME_TAG FEMALE_DIALOGUE:
+「え、ゲームするの？じゃ、今日は違う娘から告白されないとね☆」
+NAME_TAG 
+CHOICE:
+ \x00
+（真剣にやる）
+\x00
+（てきとうにやる）
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+:\x13\x08\x1e
+\x00
+\x14
+\x00
+FEMALE_DIALOGUE:
+「あ、その娘は、それ選ぶとヤバイわよ
+ \n  え、なんで知ってるかって？
+ \n \x01
+　だって私、ほとんどのキャラをクリアしたもん」
+NAME_TAG FEMALE_DIALOGUE:
+「へっへー、すごいでしょ
+ \n \x01
+　だから、わからない事があったら、なんでも聞いてね」
+NAME_TAG MALE NAMEﾅ
+\x00
+\x14
+\x00
+FEMALE_DIALOGUE:
+「・・・それにしても、何回やっても同じ娘からしか告白されないね
+ \n \x01
+　結構不器用なんだね～
+ \n 　私なんか、ほとんどの娘から告白されたよ」
+NAME_TAG 3\x08&
+\x00
+\x1e
+\x00
+\x08\x0b
+\x00
+\x01
+\x00
+\x1a(_CGAA01
+\x00
+NARRATION_DIALOGUE:
+テレビをつけると、ニュースをやっていた
+NAME_TAG FEMALE_DIALOGUE:
+「ま～た、政治家が馬鹿なことやったみたいね・・・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「どうにかなんないかなぁ、この人達って」
+NAME_TAG 
+CHOICE:
+ \x00
+でも、俺達が選んだんだぜ
+\x00
+じゃあ、自分で立候補する？
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+$\x15\x0c\x1e
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「仕方なく・・・・・ね」
+NAME_TAG FEMALE_DIALOGUE:
+「それなら、せめて総理大臣だけでも、国民投票で選べるようにして欲　しいな」
+NAME_TAG \x10x\x15\x08\x1e
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「うん、それいいわねぇ
+ \n \x01
+　じゃあ、もし私が立候補したら応援はよろしくね☆」
+NAME_TAG 3\x1a(_CGAA04
+\x00
+NARRATION_DIALOGUE:
+テレビをつけると、世界の名所めぐりのような番組をやっていた
+NAME_TAG FEMALE_DIALOGUE:
+「うわ～、綺麗なところね～
+ \n \x01
+　私、こういう雄大な景色を見るのって大好きなの」
+NAME_TAG 
+CHOICE:
+ \x00
+俺もだよ
+\x00
+そうかぁ？
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x19\x17\x08\x1e
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「でしょ、でしょ～！
+ \n 　私ね、決めてるの
+ \n \x01
+　いつか、自分の目でこういう景色を見に行くんだって・・・・・」
+NAME_TAG 3\x17
+\x01
+\x00
+そんときは一緒に行こうな
+\x00
+がんばれよ～
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\xf4\x16\x08\x1e
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「うん☆」
+NAME_TAG \x10\x15\x17\x0c\x1e
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「MALE NAMEも一緒に行くの～！」
+NAME_TAG 3\x10a\x18\x1d
+\x01
+「あれ？
+ \n 　MALE NAMEは違うの？
+ \n \x01
+　・・・だめねえ、感受性の無い人ってのは」
+NAME_TAG 
+CHOICE:
+ \x00
+悪かったな
+\x00
+いやいや、やっぱりそういう景色は生で見ないと！
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\xf0\x17\x0c\x1e
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「怒っちゃた？
+ \n \x01
+　ごめん、ごめん、さっきのは冗談だからね」
+NAME_TAG \x10`\x18\x1d
+\x01
+「もちろん、それに越したことはないと思うけど・・・・・
+ \n \x01
+　じゃあ、今度、本物を見に行こうよ
+ \n 　二人きりで☆」
+NAME_TAG 3\x1a(_CGAA01
+\x00
+NARRATION_DIALOGUE:
+テレビをつけると、ＣＭが流れていた
+NAME_TAG FEMALE_DIALOGUE:
+「そういえば、最近のＣＭって凝ったのが多くなったよね
+ \n \x01
+　下手したらメインの放送より面白い場合とかあるもんね」
+NAME_TAG FEMALE_DIALOGUE:
+「ねぇねぇ、MALE NAMEはどんなＣＭが好き？」
+NAME_TAG 
+CHOICE:
+ \x00
+スポーツメーカーのやつがいいなぁ
+\x00
+し、下着メーカーのやつが・・・
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\xe1\x19\x08\x1e
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「うんうん！　かっこいいよね
+ \n \x01
+　なんと言ってもセンスがいいし、ついつい見入っちゃうもんね」
+NAME_TAG \x10=\x1a\x0c\x1e
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「・・・・・すけべ
+ \n \x01
+　って言いたい所だけど、別に今の下着のＣＭってＨじゃないかぁ」
+NAME_TAG 3\x1d
+\x01
+「え？、私の好きなＣＭ？
+ \n \x01
+　ふふふ、私の好きなのはねぇ・・・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「猫が出てるやつ～！」
+NAME_TAG MALE_DIALOGUE:
+「はいはい・・・・・」
+NAME_TAG \x1a(_CGAA04
+\x00
+NARRATION_DIALOGUE:
+テレビをつけると、トレンディードラマをやっていた
+NAME_TAG FEMALE_DIALOGUE:
+「キャー、たっくやく～ん、かっこいい！」
+NAME_TAG 
+CHOICE:
+ \x00
+あ、あのなぁ
+\x00
+そうだなぁ、かっこいいよな
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+B\x1c\x1d
+\x01
+「妬かない、妬かない」
+NAME_TAG 
+CHOICE:
+ \x00
+妬いてなんかないって
+\x00
+いや、だって・・・
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\n\x1c\x0c\x1e
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「え、そう？
+ \n 　ざ～んねん！
+ \n \x01
+　ちょっとぐらい妬いてくれるって思ったのになぁ」
+NAME_TAG \x10>\x1c\x08\x1e
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「うふふ、安心して
+ \n 　MALE NAMEは別格なんだから☆」
+NAME_TAG 3\x10\x8d\x1c\x1d
+\x01
+「でっしょ～！
+ \n 　MALE NAMEといい勝負だよね
+ \n \x01
+　・・・・・ん、なに照れてんの？」
+NAME_TAG \x1a(_CGAA01
+\x00
+NARRATION_DIALOGUE:
+テレビをつけると、昔の映画をやっていた
+NAME_TAG FEMALE_DIALOGUE:
+「へぇ、これはまた、ずいぶん昔の映画をやってるのね」
+NAME_TAG FEMALE_DIALOGUE:
+「でも昔見た映画って、ずいぶんと面白かったような気がするんだけど　気のせいかな？」
+NAME_TAG 
+CHOICE:
+ \x00
+純粋だったからじゃない？
+\x00
+まあ、作り手も好き勝手してたみたいだしね
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+\x8c\x1e\x0c\x1e
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「う～ん・・・・・そうかも」
+NAME_TAG FEMALE_DIALOGUE:
+「昔はただ単純にお話を楽しめたけど、今じゃあ、この俳優が嫌いとか　このシーンはどっかのパクリだとか、変なところに目がいっちゃうも　んね」
+NAME_TAG FEMALE_DIALOGUE:
+「今度は、何にも考えずに映画を見てみようっと」
+NAME_TAG \x10F\x1f\x08\x1e
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「そうね・・・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「私思うんだけど、映画に限らず、娯楽作品って商業的価値が出ちゃっ　たら、面白くなくなるような気がするの」
+NAME_TAG FEMALE_DIALOGUE:
+「やっぱり、本当に好きな人が作らないとね」
+NAME_TAG 3\x1a(_CGAA01
+\x00
+NARRATION_DIALOGUE:
+テレビをつけると、バラエティー番組をやっていた
+NAME_TAG FEMALE_DIALOGUE:
+「あははははははははは～、おもしろ～い！」
+NAME_TAG 
+CHOICE:
+ \x00
+はははははは！
+\x00
+それにしても、よく笑うよな
+\x00
+\x00
+END_CHOICE:
+ \x01
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02
+\x00
+C \x08\x1e
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「きゃははははははははは～
+ \n \x01
+　って、なんだかやばい２人だね私達・・・・・」
+NAME_TAG \x10\xe2 \x0c\x1e
+\x00
+\n
+\x00
+FEMALE_DIALOGUE:
+「え、そうかなぁ
+ \n \x01
+　ま、笑う事っていうのは、健康にもいいみたいだし、怒ってばっかよ　りいいよね」
+NAME_TAG FEMALE_DIALOGUE:
+「と、いうことで
+ \n \x01
+　きゃはははははははははは～」
+NAME_TAG 3\x1a\xff

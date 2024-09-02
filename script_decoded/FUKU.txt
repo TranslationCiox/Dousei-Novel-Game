@@ -1,0 +1,1329 @@
+\x1c\x1c;
+\x00
+ｭ;
+\x00
+\x01
+\x00
+(_CGAA04
+\x00
+ DS02
+\x00
+FEMALE_DIALOGUE:
+「そういえば、なんか買ってきてたよね
+ \n \x01
+　あれってなに？」
+NAME_TAG MALE_DIALOGUE:
+「服だよ、服」
+NAME_TAG FEMALE_DIALOGUE:
+「え、誰の？」
+NAME_TAG MALE_DIALOGUE:
+「俺のなんか買ってくるわけないだろ」
+NAME_TAG FEMALE_DIALOGUE:
+「え、それじゃあ・・・」
+NAME_TAG NARRATION_DIALOGUE:
+あなたが小さく頷くと、FEMALE NAMEの顔が見る見るうちに笑顔に変わっていった
+NAME_TAG FEMALE_DIALOGUE:
+「やったぁ！　私のなんだぁ！
+ \n \x01
+　ねぇねぇ、早速着てみていい？」
+NAME_TAG MALE_DIALOGUE:
+「ああ」
+NAME_TAG FEMALE_DIALOGUE:
+「じゃあ、ちょっと待っててね」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは服の入っている紙袋を大事そうにもって、寝室へと入っていった
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEの姿が見えなくなってから、あなたはニヤッとした表情を浮かべた
+NAME_TAG MALE_DIALOGUE:
+「・・・・・さ～て、そろそろ驚きの声が・・・」
+NAME_TAG NARRATION_DIALOGUE:
+あなたの声が終わらないうちに、寝室からFEMALE NAMEの驚きの声が聞こえてきた
+NAME_TAG FEMALE_DIALOGUE:
+「なによ、これ～！！！」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは笑いをこらえながら、寝室の中にいるFEMALE NAMEに声をかけた
+NAME_TAG MALE_DIALOGUE:
+「結構、いいだろ？」
+NAME_TAG FEMALE_DIALOGUE:
+「いいだろって・・・だいたいこんな物どこで買ってくるのよぉ！」
+NAME_TAG MALE_DIALOGUE:
+「秘密のお店！」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・あのねぇ・・・
+ \n はぁ、喜んだ私が馬鹿だったわ・・・
+ \n \x01
+　で、どうしたらいいの？　着ればいいの？」
+NAME_TAG MALE_DIALOGUE:
+「ぜひ！」
+NAME_TAG FEMALE_DIALOGUE:
+「はいはい、分かりましたぁ」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、あきらめたような口調で返事を返すと、服を着替えだした
+NAME_TAG \x11\x174
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x179
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x07\x0f
+\x00
+d\x04\x15
+\x01
+数分後、FEMALE NAMEが少し恥ずかしそうな顔で、寝室から出てきた
+NAME_TAG MALE NAMEｪ
+\x01
+数分後、あなたが寝室へ入ると、FEMALE NAMEが少し恥ずかしそうな顔で振り返った
+NAME_TAG MALE NAMEﾊ	<
+\x00
+\x19\x07\x04<
+\x00
+\x01
+\x00
+(_CGAA02
+\x00
+FEMALE_DIALOGUE:
+「ねぇ、なんか買ってきてたみたいだけど・・・
+ \n \x01
+　もしかして、また服なの？」
+NAME_TAG MALE_DIALOGUE:
+「ぴんぽ～ん！　大正解！」
+NAME_TAG NARRATION_DIALOGUE:
+楽しそうなあなたとは対照的に、FEMALE NAMEは頭を抱え込んでしまった
+NAME_TAG FEMALE_DIALOGUE:
+「・・・どうせ普段着なんかじゃない・・・
+ \n よね？」
+NAME_TAG MALE_DIALOGUE:
+「当然！」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・なんだかなぁ」
+NAME_TAG MALE_DIALOGUE:
+「ほらほら、そんなあきれてないで、早いとこ着てくれよぉ」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・はぁ、こんな趣味につきあうことになるとは・・・
+ \n \x01
+　とほほぉ～」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは紙袋を抱えると、ゆっくりと寝室に向かった
+NAME_TAG \x11\x174
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x179
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x07\x0f
+\x00
+ﾐ
+\x01
+数分後、FEMALE NAMEが少し恥ずかしそうな顔で、寝室から出てきた
+NAME_TAG \x10\x16\x07\x15
+\x01
+数分後、あなたが寝室へ入ると、FEMALE NAMEが少し恥ずかしそうな顔で振り返った
+NAME_TAG MALE NAMEﾊ	(_CGAA01
+\x00
+FEMALE_DIALOGUE:
+「ねぇ、もしかして今日も変な服を買ってきたの？」
+NAME_TAG MALE_DIALOGUE:
+「変な服って言うなぁ！」
+NAME_TAG FEMALE_DIALOGUE:
+「まともな服でも無いでしょうに・・・」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは大きな溜息をつくと、紙袋を持って、寝室へと歩きだした
+NAME_TAG MALE_DIALOGUE:
+「とか何とか言ってても、内心は結構楽しみにしてんだろ？」
+NAME_TAG NARRATION_DIALOGUE:
+あなたの冗談めかした問いに、FEMALE NAMEは笑顔を浮かべて振り返った
+NAME_TAG FEMALE_DIALOGUE:
+「あ、ばれてた？」
+NAME_TAG FEMALE_DIALOGUE:
+「いやぁ、なんか最近、こういうのもいいかなって思い始めちゃって
+ \n \x01
+　だって、やっぱ誰だって変身願望ってあるじゃない
+ \n \x01
+　結構そういうもんが刺激されちゃうのよ」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは楽しげにそう言うと、軽い足どりで寝室へと入っていった
+NAME_TAG \x11\x174
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x179
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x07\x0f
+\x00
+\x8c\t\x15
+\x01
+数分後、FEMALE NAMEが楽しそうな顔で、寝室から出てきた
+NAME_TAG MALE NAMEﾊ	
+\x01
+数分後、あなたが寝室へ入ると、FEMALE NAMEが楽しそうな顔で振り返った
+NAME_TAG \x11\x174
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x179
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x07\x0f
+\x00
+\xe8\t\x049
+\x00
+\x01
+\x00
+\x10oS\x10q\n\x11\x172
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x177
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x07\x0f
+\x00
+\x0b\n\x047
+\x00
+\x01
+\x00
+\x04r
+\x00
+\x01
+\x00
+\x10r\n\x10q\n\x11\x173
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x178
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x07\x0f
+\x00
+.\n\x048
+\x00
+\x01
+\x00
+\x04r
+\x00
+\x01
+\x00
+MALE NAMEｨ&MALE NAMEq
+FEMALE NAME*
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x176
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x07\x0f
+\x00
+Q\n\x046
+\x00
+\x01
+\x00
+\x04r
+\x00
+\x01
+\x00
+MALE NAME｢7MALE NAMEq
+FEMALE NAME5
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x02\x17:
+\x00
+NARRATION_DIALOGUE:
+\x00
+\x07\x0f
+\x00
+q\n\x04:
+\x00
+\x01
+\x00
+\x04r
+\x00
+\x01
+\x00
+\x10=d\x1a(Z1
+\x00
+ DS05
+\x00
+NARRATION_DIALOGUE:
+CENTERED着替えが終わったFEMALE NAMEが、チョコンとベッドの上に座る
+NAME_TAG FEMALE_DIALOGUE:
+「これでいいの？　なんかすごく怪しげな服なんだけど・・」
+NAME_TAG MALE_DIALOGUE:
+「・・・・・」
+NAME_TAG NARRATION_DIALOGUE:
+あまりに日常からかけ離れたFEMALE NAMEの姿に目の前がくらくらする
+ \n \x01
+深みのある、あい色の服の絶妙なシルエット、そしてヒラヒラとした装飾のフリルとのコントラストがひときわ服を引き立てている
+NAME_TAG FEMALE_DIALOGUE:
+「ねえ、なんか言ってよ～、どうなの？」
+NAME_TAG MALE_DIALOGUE:
+「おそるべしメイド服・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「はっ？」
+NAME_TAG MALE_DIALOGUE:
+「いやなんでもない、すごい似合ってるよ」
+NAME_TAG FEMALE_DIALOGUE:
+「うふふ、ありがとぉ、けどね・・・この首輪は一体なに？」
+NAME_TAG NARRATION_DIALOGUE:
+そう言ってメイド服の首のところについた首輪を指さす
+NAME_TAG FEMALE_DIALOGUE:
+「なんか犬とか猫とかみたいでいまいち気になるんだけど・・・・・
+ \n \x01
+　これはどういう意味でついてるの？」
+NAME_TAG MALE_DIALOGUE:
+「それは、その・・・えーっと・・・多分、御主人様に対する絶対服従　とかいう意味でついてるんじゃないのかな？」
+NAME_TAG NARRATION_DIALOGUE:
+適当に答えたが、あながち間違ってないと自分は思った
+NAME_TAG FEMALE_DIALOGUE:
+「ふーん、なるほどねー・・・ってことは、今日は私はメイドさんで」
+NAME_TAG MALE_DIALOGUE:
+「んでもってオレが旦那様～、今日は旦那様って呼びましょう」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・本気？」
+NAME_TAG MALE_DIALOGUE:
+「・・・本気！」
+NAME_TAG NARRATION_DIALOGUE:
+なんだかあきられている気がするが、もともとノリの良い彼女はとまどいながらもすぐ演技をはじめる
+NAME_TAG FEMALE_DIALOGUE:
+「・・・えーと、旦那様、何か私に御用でございましょうか？」
+NAME_TAG MALE_DIALOGUE:
+「今は特にないぞよ、苦しゅうない近こう寄れ」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・それじゃあ、どっかの殿様よ」
+NAME_TAG NARRATION_DIALOGUE:
+いまいち旦那様というイメージがわからない
+\x01
+なにやらボロが出そうなので（もう出ているが・・・）無理やりごまかしてやろうと考えた
+NAME_TAG MALE_DIALOGUE:
+「・・・うーん」
+NAME_TAG FEMALE_DIALOGUE:
+「？
+ \n 　旦那様？」
+NAME_TAG MALE_DIALOGUE:
+「君にやってもらいたい事があるんだが・・・・・
+ \n \x01
+　ちょっとそばまできてくれないか？」
+NAME_TAG FEMALE_DIALOGUE:
+「はい、旦那様」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEはベッドのはしに座っていたが、とてとてと中央まで膝で歩いて来る
+NAME_TAG NARRATION_DIALOGUE:
+なんだかペンギンみたいでかわいい
+NAME_TAG FEMALE_DIALOGUE:
+「何をすればよろしいのでしょうか？」
+NAME_TAG MALE_DIALOGUE:
+「うむ、実は、ここを奇麗にしてほしいのだ」
+NAME_TAG NARRATION_DIALOGUE:
+そう言って自分は、はちきれんばかりに硬くなっているものをズボンから引きずり出す
+NAME_TAG (Z2
+\x00
+FEMALE_DIALOGUE:
+「・・・はい、旦那様」
+NAME_TAG NARRATION_DIALOGUE:
+いきなりの展開で少し驚いたFEMALE NAMEだが、そっと手をペニスにのばし、そっと根元から揉みしだき、そのまま舌をもっていき、亀頭の裏筋をチロチロと舐めあげる
+NAME_TAG MALE_DIALOGUE:
+「うっ、いいぞ、もっと舐めてくれ・・・」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは口いっぱいに亀頭を含んだまま、大きく張った竿の部分を舐めあげ、裏筋を尖らせた舌の先でなぞる
+NAME_TAG FEMALE_DIALOGUE:
+「んっ、んっ、んっ・・・んんんん～ん？」
+NAME_TAG NARRATION_DIALOGUE:
+何か言っているようだが日本語になってない
+NAME_TAG FEMALE_DIALOGUE:
+「気持ちいいですか？　旦那様」
+NAME_TAG MALE_DIALOGUE:
+「ああ最高だよ」
+NAME_TAG NARRATION_DIALOGUE:
+すっかりなりきっている二人だが、まんざらでもない様子であった
+ \n \x01
+FEMALE NAMEはブラブラと揺れている玉袋を、コロコロと指でもて遊びながらペニスの先端のひときわ敏感な部分を舌と唇を使って吸いあげる
+NAME_TAG FEMALE_DIALOGUE:
+「んっ、んっ、んんっ」
+NAME_TAG MALE_DIALOGUE:
+「う、うっ、おっ、やっ、やばいやばいっ」
+NAME_TAG NARRATION_DIALOGUE:
+カリをせめられてかなりツボにきたのか、のけぞり悶えて耐える
+ \n \x01
+やられてばかりではいられない、こちらも反撃とばかりに、ペニスをむさぼるFEMALE NAMEのスカートを背中越しからめくりあげる
+NAME_TAG FEMALE_DIALOGUE:
+「んっ、んっ、やっ」
+NAME_TAG NARRATION_DIALOGUE:
+めくりあげたスカートの下には、白っぽく肌が透ける半透明のストッキングと、なぜか、くまのバックプリントの入ったかわいらしいショーツが隠れていた
+NAME_TAG MALE_DIALOGUE:
+「・・・なんか今日のパンティ、ミスマッチ・・・」
+NAME_TAG NARRATION_DIALOGUE:
+すると、FEMALE NAMEがペニスを半分口に入れながら反論する
+NAME_TAG FEMALE_DIALOGUE:
+「まにみゅっぺんのもー、ぽんまもぽにむんにょ
+\x01
+　みゃっめめみょーーー！！！」
+NAME_TAG MALE_DIALOGUE:
+「何となくニュアンスはわかるが・・・・・
+ \n \x01
+　やっぱりわからないぞ何いってるか」
+NAME_TAG NARRATION_DIALOGUE:
+むぅーっとむくれたメイドさんは、根元から先端まで一気にペニスを吸いあげていく
+ \n CENTEREDしぼりあげるような吸い付きに思わず悶絶する
+NAME_TAG MALE_DIALOGUE:
+「うのおぉーーーっ！！！」
+NAME_TAG NARRATION_DIALOGUE:
+これはたまらんっ
+NAME_TAG NARRATION_DIALOGUE:
+なおも吸いあげてくるFEMALE NAMEに反撃を開始する
+ \n \x01
+くまさんパンティの股部分の脇から直接割れ目を攻撃するとその瞬間ビクッとFEMALE NAMEが身体を震わす
+NAME_TAG FEMALE_DIALOGUE:
+「んっ、んっ、んあ、あっ」
+NAME_TAG NARRATION_DIALOGUE:
+しばらく割れ目をなぞりあげると、既に肥大化したクリトリスらしきものが指に触れる
+ \n CENTEREDそれを指先でグリグリとこねくりまわして、一気にキュッとつまみあげる
+NAME_TAG FEMALE_DIALOGUE:
+「！！んあああっ、あっ、はあっ」
+NAME_TAG NARRATION_DIALOGUE:
+ほおばっていたペニスから口をはなし、背筋をのけぞらしFEMALE NAMEはあえぎ声をあげる
+ \n CENTERED調子に乗って、自分はそのまま膣内に指を２本挿入してGスポットをえぐり攻撃する
+NAME_TAG FEMALE_DIALOGUE:
+「っあああっ、ああん、ふああああっ」
+NAME_TAG NARRATION_DIALOGUE:
+一気に２つの敏感な部分を攻められたFEMALE NAMEは、狂ったように悶絶している
+ \n CENTEREDFEMALE NAMEはもうフェラチオどころではなくなっていた
+NAME_TAG NARRATION_DIALOGUE:
+そのまま攻めつづけると、FEMALE NAMEは背中からベッドへもんどりうつように倒れていった
+NAME_TAG MALE_DIALOGUE:
+「いけないメイドだねえ、旦那様に挑戦するには早かったな
+ \n \x01
+　悪い子にはおしおきしなければね～」
+NAME_TAG NARRATION_DIALOGUE:
+完全に形成が逆転した自分は、メイド服を脱がしにかかる
+ \n CENTERED全部を脱がすとさすがに勿体ないので、髪止めとストッキングを残してひんむいてやった
+NAME_TAG (Z3
+\x00
+FEMALE_DIALOGUE:
+「んん、もうっ、耐えられない・・・」
+NAME_TAG NARRATION_DIALOGUE:
+むっちりとした太ももがブルブルと震えている
+ \n CENTERED溢れ出した透明の液が太ももをつたってシーツにしたたり落ちていて、いくつかシミを作っていた
+NAME_TAG MALE_DIALOGUE:
+「もう限界か・・・くまさんがグショグショに泣いてるけど・・・
+ \n \x01
+　何か言ってほしいのかな～？」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・て・・・・い・・・」
+NAME_TAG MALE_DIALOGUE:
+「んー、聞こえないよー」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・入れて下さい・・・」
+NAME_TAG MALE_DIALOGUE:
+「何の事かよくわからないぞ～、んっ？」
+NAME_TAG NARRATION_DIALOGUE:
+わざと意地悪してFEMALE NAMEを焦らしてやるとなかなかおもしろい
+\x01
+何かすごく新鮮味を感じる
+NAME_TAG FEMALE_DIALOGUE:
+「んもうー、いじめないで～っ！！
+\x01
+　私のオ◯ンコにあなたのオ◯ン◯ンを入れて下さい、旦那様っ！！」
+NAME_TAG NARRATION_DIALOGUE:
+近所に響きわたるような大声で叫ぶと同時に、自分は既に濡れ濡れの膣内へとペニスを挿入した
+NAME_TAG FEMALE_DIALOGUE:
+「ひああ！！」
+NAME_TAG NARRATION_DIALOGUE:
+硬く熱くいきりたった肉棒でFEMALE NAMEのほてったヴァギナをかき回し、子宮の奥まで届く勢いで腰を突き上げると、ヌチャヌチャといやらしい音が部屋中に響きわたる
+NAME_TAG MALE_DIALOGUE:
+「うう、ああっ」
+NAME_TAG FEMALE_DIALOGUE:
+「ああ、はあ、はあ、ふぅ、んっ、あっ、
+\x01
+　ん、はあ、ふぅ、んんっ、ああ！」
+NAME_TAG NARRATION_DIALOGUE:
+少しずつ早まっていく腰の動きにシンクロするように、悲鳴ともつかぬあえぎ声が連呼されていく
+NAME_TAG FEMALE_DIALOGUE:
+「ああっ、あはぁ、んっ、はっ、んん、んんっ」
+NAME_TAG FEMALE_DIALOGUE:
+「ああ、あぁ、はあっ、ふぁ、あっ、あっ、あん、ああっ」
+NAME_TAG NARRATION_DIALOGUE:
+ずんずんと正常位で腰を振りつつFEMALE NAMEの方を見ると、胸がタプタプと前後に揺れている
+ \n CENTERED慣性のついた胸独特の揺れかたが見ていてとても興奮する
+NAME_TAG MALE_DIALOGUE:
+「ああ、いいよ、すごくいいよ・・・・・
+ \n \x01
+　溶けてしまいそうなぐらいだ」
+NAME_TAG FEMALE_DIALOGUE:
+「私もいい、すごく感じるっ、もっと突いて、お願い突いてっっ！」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは自らの性欲をすべて吐き出すかのように、自分のペニスを求め、淫らな姿をみせつけあえぐ
+NAME_TAG NARRATION_DIALOGUE:
+それは、とても従順なメイドからは想像できないほど、いやらしい女の姿だった
+NAME_TAG FEMALE_DIALOGUE:
+「ああ、はあ、んん、んあ、はっ、はあ、ふぁ、あっ
+\x01
+　あふ、ふっ、はふっはふっ、はああ、ふあっ、ああっ」
+NAME_TAG FEMALE_DIALOGUE:
+「ああ、はあ、んん、んあ、はっ、はあ、ふぁ、あっ
+\x01
+　あふ、ふっ、はふっはふっ、はああ、ふあっ、ああっ」
+NAME_TAG NARRATION_DIALOGUE:
+もういきそうだっ
+\x01
+自分はFEMALE NAMEにかぶさると、抱きしめるように手を回した
+NAME_TAG NARRATION_DIALOGUE:
+よりいっそう腰の動きを早めると、FEMALE NAMEも応えるかのように首に腕を絡ませてくる
+NAME_TAG NARRATION_DIALOGUE:
+最後の瞬間に向かって二人はきつく抱きしめあう
+NAME_TAG FEMALE_DIALOGUE:
+「ああ、はあ、ふぁ、あっあっああっ、あっ、あっ、んっ、
+\x01
+　ああっ、ああっ、ああっ、はあっ、ああっ、あっ、ああっ、ああっ」
+NAME_TAG FEMALE_DIALOGUE:
+「あっ、あっあっ、ああっ、あっ、あっ、
+\x01
+　んっ、ああっ、ああっ、はあ、ふぁっ、あっ、あっ、あああっ」
+NAME_TAG MALE_DIALOGUE:
+「いくよ、いくよっ！！」
+NAME_TAG FEMALE_DIALOGUE:
+「ああっ、いきそう、いく、いく、いっちゃうぅ
+\x01
+　ああっ、ああっ、ああ、ああ、あああ、ああああああ！！！」
+NAME_TAG NARRATION_DIALOGUE:
+ビリビリと雷が走った感触が体中を駆け抜け、FEMALE NAMEが飛ぶような勢いで身体をのけぞらせる
+NAME_TAG NARRATION_DIALOGUE:
+二人はしばらく結合したまま抱きしめあった・・・
+NAME_TAG (_CGB18
+\x00
+ DS02
+\x00
+NARRATION_DIALOGUE:
+CENTERED・・・・・・・・・・・・・・・
+NAME_TAG NARRATION_DIALOGUE:
+しばらくして、添い寝していたFEMALE NAMEがうれしそうに話す
+NAME_TAG FEMALE_DIALOGUE:
+「あのねあのね、最後いく時ね、旦那様～～！！って叫ぼうとしたんだ　けどね、やっぱり必死になっちゃって出来なかったの」
+NAME_TAG MALE_DIALOGUE:
+「そこまで入りこまなくても・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「そんでね、そんでね、
+ \n \x01
+　今度ね、お嬢様と執事プレイっていうのはどうかなぁ？」
+NAME_TAG MALE_DIALOGUE:
+「・・・さあ、寝よう寝よう」
+NAME_TAG FEMALE_DIALOGUE:
+「え～～、ねぇってば～～～」
+NAME_TAG \x1a(14_1
+\x00
+ DS05
+\x00
+FEMALE_DIALOGUE:
+「・・・ねえ、この服、一体なに・・・？」
+NAME_TAG NARRATION_DIALOGUE:
+目の前に現われたFEMALE NAMEは、目を白黒させながら自分の姿を見つめる
+ \n \x01
+それは、膝上10cm位のやや短めのヒラヒラしたスカートに、白いブラウスにリボン
+NAME_TAG NARRATION_DIALOGUE:
+妙にフリルがたくさんついたロリっぽいエプロンは、必要以上に胸を目立たせる作りになっている
+NAME_TAG NARRATION_DIALOGUE:
+そう、いわずとしれた某ファミレスの制服そっくりである
+NAME_TAG MALE_DIALOGUE:
+「うーむ、よしよし、うーむ、よし！！」
+NAME_TAG FEMALE_DIALOGUE:
+「何がよしなんだか・・・
+ \n \x01
+　ねぇ、なんかすごい胸が目立つんだけど・・・
+ \n \x01
+　こういう服なの？これって」
+NAME_TAG MALE_DIALOGUE:
+「うーん、いいねえ」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・人の話聞いてる？」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは口では文句をつけているが、顔を見てみるとそんなにいやがってはいないようであった
+NAME_TAG MALE_DIALOGUE:
+「これは某ファミレスの制服なんだけど・・・うん、似合ってるよ
+ \n \x01
+　かわいい、かわいい」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・本当に？」
+NAME_TAG MALE_DIALOGUE:
+「本当だって、すっごくはまってるよ。このままお店に行って紛れ込ん　でも、お客も本物と区別つかないよ、絶対」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEの顔に笑顔がもどる。少しはにかんでいて、すごくかわいい
+NAME_TAG FEMALE_DIALOGUE:
+「んーなんか気にいっちゃったな、この服
+ \n \x01
+　ねえねえ、・・・私を見て、ドキドキする？」
+NAME_TAG MALE_DIALOGUE:
+「ええーと、ちょっとだけドキドキするけど」
+NAME_TAG FEMALE_DIALOGUE:
+「んもう、ちょっとだけ～？
+ \n \x01
+　んー、そんなに私って魅力が足りないかなぁ」
+NAME_TAG NARRATION_DIALOGUE:
+少し悩んだ後、おもむろにベッドに腰かけたFEMALE NAMEは、スカートの裾をたくしあげた
+NAME_TAG FEMALE_DIALOGUE:
+「えーい！」
+NAME_TAG (14_3
+\x00
+NARRATION_DIALOGUE:
+CENTEREDたくしあげたスカートの中から、白い肌とふとももに囲まれて白いショーツが見えている
+NAME_TAG NARRATION_DIALOGUE:
+心なしか、ショーツに入ったまっすぐなしわが、若干湿っているように見えた
+NAME_TAG FEMALE_DIALOGUE:
+「どう？ドキドキする？」
+NAME_TAG MALE_DIALOGUE:
+「・・・なぁ、恥ずかしくないか？」
+NAME_TAG FEMALE_DIALOGUE:
+「やーん、一人で冷静に見ないでよー
+ \n \x01
+　なんか私が馬鹿みたいじゃない」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEはぷうと頬を膨らます。すねてる姿がまた愛らしい
+NAME_TAG MALE_DIALOGUE:
+「ごめん、いやドキドキするよ。っていうか、その・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「その？」
+NAME_TAG MALE_DIALOGUE:
+「・・・ムラムラする」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・スケベ」
+NAME_TAG NARRATION_DIALOGUE:
+そう言うと、FEMALE NAMEは足をそろえて持ち上げて、ショーツを脱がせと言わんばかりにこちらにつきだしてきた
+NAME_TAG MALE_DIALOGUE:
+「どっちがスケベなんだか・・・」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEのエヘヘという顔を見ながら、もう既に湿っているショーツを片足を残して脱がす
+NAME_TAG NARRATION_DIALOGUE:
+そこは、触ってもいないのにビッショリに濡れていて、いつでも挿入出来る状態になっていた
+NAME_TAG FEMALE_DIALOGUE:
+「いらっしゃいませ～。当店自慢のメニューはいかが？」
+NAME_TAG NARRATION_DIALOGUE:
+そう言って、FEMALE NAMEは大きく両足を開く
+ \n CENTEREDこの妙なシチュエーションに興奮したらしいFEMALE NAMEは秘部をビショビショにしていて、開かれた割れ目からはネチャッと音をたてながら愛液が糸を引いている
+NAME_TAG MALE_DIALOGUE:
+「それじゃあ一つ貰おうかな」
+NAME_TAG NARRATION_DIALOGUE:
+そう言いながら、服を一気に脱ぎ捨てるとFEMALE NAMEをベッドに押し倒した
+NAME_TAG FEMALE_DIALOGUE:
+「温かいうちに召し上がれ」
+NAME_TAG (14_2
+\x00
+NARRATION_DIALOGUE:
+CENTEREDFEMALE NAMEの服の上から胸をもみしだく。下はブラを着けておらず、ツンと尖った乳首が、服の上からでも確認出来る
+NAME_TAG FEMALE_DIALOGUE:
+「やんっ、あん・・・もっと優しく・・・あん、んっ」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEの口を口で塞ぎ、舌と舌を絡ませる。ピチャピチャといやらしい音がして、なお、気分は高揚していき、FEMALE NAMEの呼吸が荒くなっていく
+NAME_TAG NARRATION_DIALOGUE:
+舌を徐々に首筋にはわしていき、進行を阻むであろうブラウスのボタンを外そうとするがうまくいかない
+NAME_TAG FEMALE_DIALOGUE:
+「早く～。んん、もう、私がやる～」
+NAME_TAG NARRATION_DIALOGUE:
+じれったく感じたのか、FEMALE NAMEは自らブラウスのボタンを外しだす
+NAME_TAG NARRATION_DIALOGUE:
+一つボタンを外すたびに、形のいい胸が目の前に徐々に現われる
+ \n \x01
+完全に胸が露出したところで、自分は乳首を舌で転がしてもて遊ぶ
+NAME_TAG FEMALE_DIALOGUE:
+「んっ、ああ、あん、ああ」
+NAME_TAG NARRATION_DIALOGUE:
+コロコロ
+NAME_TAG FEMALE_DIALOGUE:
+「あん、んっ、ああ」
+NAME_TAG NARRATION_DIALOGUE:
+コロコロコロ
+NAME_TAG FEMALE_DIALOGUE:
+「やん、もう、焦らさないでよ」
+NAME_TAG NARRATION_DIALOGUE:
+もう待ち切れないのかFEMALE NAMEは自分に乗りかかり、自らペニスを秘部に導いていく
+NAME_TAG FEMALE_DIALOGUE:
+「んっ、んんっ」
+NAME_TAG NARRATION_DIALOGUE:
+熱くなったこわばりが、FEMALE NAMEの秘唇にゆっくりとそして少しずつ挿入されていく
+NAME_TAG NARRATION_DIALOGUE:
+そして完全に挿入されると、FEMALE NAMEは自らそのまま腰をゆっくりとグラインドさせていく
+NAME_TAG FEMALE_DIALOGUE:
+「ああ、いい、すごくいい感じ・・・」
+NAME_TAG NARRATION_DIALOGUE:
+ぞくに言う座位の体制でFEMALE NAMEは、少しずつ、そして激しく上下にピストン運動を繰り返す
+NAME_TAG NARRATION_DIALOGUE:
+それに合わせて、FEMALE NAMEの胸もブルブルと小刻みに揺れ動き、それがまた見ていてとてもいやらしく卑猥だ
+NAME_TAG FEMALE_DIALOGUE:
+「ああん、あは、はあ、あっ、あっ、んっ・・」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEはもう口から出る声は言葉にならない
+NAME_TAG NARRATION_DIALOGUE:
+リズミカルに動く腰に合わせて、喘ぎ声も部屋中に響きわたる
+NAME_TAG FEMALE_DIALOGUE:
+「ああ、あっあっあっあっあ、はあ、ああ、
+ \n \x01
+　もう・・・だめ・・いく、いくっっ」
+NAME_TAG FEMALE_DIALOGUE:
+「んっんっんあ、んっ、あっあっあっ、あっ、あん、ふああっ」
+NAME_TAG FEMALE_DIALOGUE:
+「ああっううっ、はあ、はああん、ああああああああああああ！！！」
+NAME_TAG NARRATION_DIALOGUE:
+一瞬、FEMALE NAMEの身体がビクンと痙攣する
+ \n \x01
+そのまま、もたれるように崩れおちてゆく身体を自分は受け止めた
+NAME_TAG NARRATION_DIALOGUE:
+かすかに開いた目がじっと自分を見つめる。それに答えるように、自分は優しく唇を重ね舌を絡めていった
+NAME_TAG (_CGB18
+\x00
+ DS02
+\x00
+FEMALE_DIALOGUE:
+「・・・いかがでした、当店のメニューは？」
+NAME_TAG NARRATION_DIALOGUE:
+寝そべりながら、FEMALE NAMEが甘い声で問いかけてくる
+NAME_TAG MALE_DIALOGUE:
+「おいしかったよ」
+NAME_TAG NARRATION_DIALOGUE:
+うふふと笑いながらFEMALE NAMEは言った
+NAME_TAG FEMALE_DIALOGUE:
+「おかわりはいかが？」
+NAME_TAG MALE_DIALOGUE:
+「・・・満腹です」
+NAME_TAG \x1a(16_1
+\x00
+ DS05
+\x00
+FEMALE_DIALOGUE:
+「．．．全く変な服、手に入れてきてぇ」
+NAME_TAG NARRATION_DIALOGUE:
+そういいながらも、すでにちゃっかり着こんでいるのがなんとも彼女らしい
+ \n CENTERED今回手に入れたのはテニスウェアである
+\x01
+まあ、定番というか一般的なコスチュームだろう
+NAME_TAG MALE_DIALOGUE:
+「変な服・・・っても普通のテニスウェアだよ、
+\x01
+　テニスする人なら皆、着るものじゃないか」
+NAME_TAG NARRATION_DIALOGUE:
+そう、普通のテニスウェアである
+\x01
+全くもって仕入れたルートは普通ではないが・・・
+NAME_TAG MALE_DIALOGUE:
+「ま、とにかく、絶対に似合うにちがいないと思ったからわざわざ買っ　てきたんだよ」
+NAME_TAG MALE_DIALOGUE:
+「ほら、やっぱ似合ってるって、うん、かわいい、ビューティホー、ベ　リグー！」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・まあいいわ、じつはねー、ちゃんとしたテニスウェアって一度　でいいから着てみたかったの、うふふふふ」
+NAME_TAG FEMALE_DIALOGUE:
+「やっぱりいいよね、こういうのって・・・」
+NAME_TAG MALE_DIALOGUE:
+「喜んでくれてうれしいよ、うん」
+NAME_TAG NARRATION_DIALOGUE:
+無邪気に喜ぶ彼女を見て、よこしまな企みを言い出すタイミングを逃した自分は、娘を見守る父親のようにその場に立ち尽くしていた
+NAME_TAG MALE_DIALOGUE:
+「・・・いえない、まさかこのコスチュームで世界を目指すテニス少女
+\x01
+　とそれを厳しく見守る鬼コーチとの特訓の果てにたどり着いた禁断の
+ \n \x01
+　教え子との愛っ！！プレイをしようなんて・・・・・」
+NAME_TAG MALE_DIALOGUE:
+「口が裂けても絶対言えない・・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「ほほう」
+NAME_TAG MALE_DIALOGUE:
+「んごうっ！」
+NAME_TAG FEMALE_DIALOGUE:
+「思いっきり口から出てますが・・・」
+NAME_TAG MALE_DIALOGUE:
+「すみません・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・まあそんな感じだと思ってたけど・・・・
+ \n \x01
+　それを予想して、見て見て、この髪形☆」
+NAME_TAG MALE_DIALOGUE:
+「へっ？！」
+NAME_TAG NARRATION_DIALOGUE:
+よく見るとFEMALE NAMEの髪形がいつもと微妙に違う
+\x01
+なんだか心無しか、後ろの方の髪の毛先が『縦ロール』している気がする
+NAME_TAG FEMALE_DIALOGUE:
+「ちょっち意識してみました」
+NAME_TAG MALE_DIALOGUE:
+「・・・言われないと気がつかないと思うけど・・・・・
+ \n \x01
+　しかも場所が違うぞ、本家と」
+NAME_TAG FEMALE_DIALOGUE:
+「細かいことは気にしないのっ！」
+NAME_TAG NARRATION_DIALOGUE:
+そういってFEMALE NAMEは、くるりとその場で一回転する
+\x01
+ふわっとめくれあがったスカートの中にチラリとアンダースコートのフリフリが見えた
+NAME_TAG MALE_DIALOGUE:
+「う～ん、これはこれでなかなか・・・」
+NAME_TAG NARRATION_DIALOGUE:
+ピタッと止まったFEMALE NAMEは浮き上がるスカートを両手でおさえると、爽やかに自分に笑いかける
+\x01
+お世辞を言う訳では無く素直に可愛いと思ってしまう
+NAME_TAG FEMALE_DIALOGUE:
+「今、私のパンツ見てたでしょう・・・エッチ～」
+NAME_TAG NARRATION_DIALOGUE:
+小悪魔みたいな顔でFEMALE NAMEは問いかける
+NAME_TAG MALE_DIALOGUE:
+「確かに見たけど・・・パンツじゃなくてアンスコだろっ
+\x01
+　それは見せてもいいパンツだよ」
+NAME_TAG FEMALE_DIALOGUE:
+「う～・・・だけどちょっとエッチな気分になったでしょ？」
+NAME_TAG MALE_DIALOGUE:
+「少しムラムラと」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・・・・・・・・・・」
+NAME_TAG MALE_DIALOGUE:
+「・・・・・・・・・・・・・・・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「えいっ！！」
+NAME_TAG NARRATION_DIALOGUE:
+いきなり彼女はスカートの前をペロンとめくり上げた
+NAME_TAG NARRATION_DIALOGUE:
+突然の事に少し動きが固まるが、白い肌の太股に挟まれたアンダースコートを見てムラムラとスケベ心が沸き上がり、自分は本能のままにFEMALE NAMEをベッドに押し倒した
+NAME_TAG FEMALE_DIALOGUE:
+「いや～ん☆」
+NAME_TAG NARRATION_DIALOGUE:
+そのまま二人ともベッドで抱きあったままゴロゴロと転がり回る
+\x01
+ニャ～ニャ～と言いながらじゃれてくるFEMALE NAMEが可愛くてしかたない
+\x01
+甘えてくるその姿がまるでねこのようだ
+NAME_TAG NARRATION_DIALOGUE:
+ごろごろごろごろ
+\x01
+ぐるぐるぐるぐるごろごろごろごろ
+NAME_TAG MALE_DIALOGUE:
+「なんか目が回ってる～っ！」
+NAME_TAG FEMALE_DIALOGUE:
+「ほえほえ～っ」
+NAME_TAG NARRATION_DIALOGUE:
+さんざんじゃれあって、ふと気がつくとFEMALE NAMEの顔が目の前にあった
+\x01
+しばらく見つめあうとFEMALE NAMEは、ゆっくりと口を重ねていった
+NAME_TAG FEMALE_DIALOGUE:
+「んっ、んん・・・・」
+NAME_TAG NARRATION_DIALOGUE:
+しばらくキスを交わした後、テニスウェアをめくりあげ、FEMALE NAMEの胸を露出させる
+NAME_TAG NARRATION_DIALOGUE:
+テニスウェアのサイズがきつかったのか、それはプルルンと大きく震えながら目の前に現われた
+NAME_TAG MALE_DIALOGUE:
+「いつ見てもきれいだ・・・真っ白ですごく弾力があって・・・・・
+ \n \x01
+　プニプニしてる」
+NAME_TAG NARRATION_DIALOGUE:
+自分はFEMALE NAMEの柔らかな乳首をキュッとつまみあげて二本の指で揉みあげる
+ \n CENTEREDFEMALE NAMEの息が徐々に荒くなっていくのがわかる
+NAME_TAG FEMALE_DIALOGUE:
+「んっ、んあっ、はあぁ、ああ、ふっ、ふうん・・・」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEがあえぎ始める
+\x01
+そのまま乳首をもてあそびながら首筋を舌でなぞりつつ、硬くなりつつある敏感な乳首をチュパチュパと音をたてながら吸い上げる
+NAME_TAG FEMALE_DIALOGUE:
+「ひゃうっ！！」
+NAME_TAG MALE_DIALOGUE:
+「・・・すごく敏感になってきてるよ・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・いわないで・・・」
+NAME_TAG (16_3
+\x00
+NARRATION_DIALOGUE:
+CENTEREDFEMALE NAMEは、顔を真っ赤にさせながら目をそらした
+NAME_TAG NARRATION_DIALOGUE:
+自分はそのまま体を反転させて寝そべり、FEMALE NAMEを上にひざまずかせてシックスナインのポーズをとる
+\x01
+そのままFEMALE NAMEのショーツに手をかけると一気に膝までずりおとす
+NAME_TAG NARRATION_DIALOGUE:
+それによりFEMALE NAMEの恥ずかしい秘部が顔の正面にあらわれる
+\x01
+膝をつくことで軽く割れ目が左右に開き、そこは光を反射してヌラヌラといやらしく濡れて光っていた
+NAME_TAG FEMALE_DIALOGUE:
+「・・・やん、そんなにじろじろみないでよ・・・」
+NAME_TAG MALE_DIALOGUE:
+「じろじろじろじろ」
+NAME_TAG FEMALE_DIALOGUE:
+「や～んっ」
+NAME_TAG NARRATION_DIALOGUE:
+唐突に自分はFEMALE NAMEの秘部を前から後ろへとペロンと舐め上げる
+NAME_TAG FEMALE_DIALOGUE:
+「きゃんっ！！」
+NAME_TAG NARRATION_DIALOGUE:
+体を引くようにFEMALE NAMEはビクッと体をひくつかせる
+\x01
+面白がって割れ目を舌でほじくり回すと、まるいおしりが目の前でプルプルと動き回る
+NAME_TAG NARRATION_DIALOGUE:
+つかまえるように割れ目を左右に広げると濡れきった膣に指を挿入した
+NAME_TAG FEMALE_DIALOGUE:
+「んあっ、あっ、ああっ、あっ、あっ、」
+NAME_TAG NARRATION_DIALOGUE:
+指を前後に動かしてやると出し入れする度、ヌチャヌチャといやらしい音が響き、その締め付けは指一本でもキュウキュウに狭く感じる
+NAME_TAG FEMALE_DIALOGUE:
+「ああっ、ふぅっ、ふあっ、ああっ、ああっ、はああっ」
+NAME_TAG NARRATION_DIALOGUE:
+そのまま膨張してきたクリトリスを舌で攻めたてると秘裂は愛液でいっそうぬちゃぬちゃと音をたてて、ひくひくと震える
+\x01
+指と舌との同時攻撃でFEMALE NAMEは、今にもイッてしまう勢いでFEMALE NAMEはあえぐ
+NAME_TAG FEMALE_DIALOGUE:
+「ああっ、ああっ、はああっあっ、んんっ、んっ、あっ、ああっ
+\x01
+　だめっ、んっ、おっ、お願いっ・・・、んあっ、指じゃなくてっ・」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは湿ったあえぎ声を放ちながら、必死に哀願する
+NAME_TAG FEMALE_DIALOGUE:
+「ああっ、おねがいだからっ、あなたのかたいものをっ
+\x01
+　わたしのエッチな穴にぃぃっ、いれてっ、グチョグチョにかきまわし　てぇぇぇぇぇ～～っ」
+NAME_TAG NARRATION_DIALOGUE:
+もうFEMALE NAMEは怒涛の如く押し寄せてくる欲望と興奮に完全に身をまかせていた
+NAME_TAG NARRATION_DIALOGUE:
+自分はFEMALE NAMEのスカートを脱がすと四つん這いにひざまつかしたまま、そのままバックから挿入を試みる
+NAME_TAG (16_2
+\x00
+MALE_DIALOGUE:
+「いくよっ、身体の力を抜いてっ！！」
+NAME_TAG FEMALE_DIALOGUE:
+「ああっはやくぅぅぅぅっ」
+NAME_TAG NARRATION_DIALOGUE:
+ずぷぷっ
+NAME_TAG FEMALE_DIALOGUE:
+「！！ひううぅっっぅっ！！」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEはよりいっそう、大きな声であえぐ
+NAME_TAG NARRATION_DIALOGUE:
+びちょびちょに濡れた蜜壺は次から次へとよだれを垂らす
+\x01
+FEMALE NAMEの狭間は吸い付くように、きつく締め付けてくる
+NAME_TAG FEMALE_DIALOGUE:
+「はあぁ、あっ、ああ、ふぅ、んっ、んっ、んあ、あっ」
+NAME_TAG NARRATION_DIALOGUE:
+びったん　びったん
+\x01
+すぱん　すぱん
+NAME_TAG NARRATION_DIALOGUE:
+びったん　びったん
+\x01
+すぱん　すぱん
+NAME_TAG NARRATION_DIALOGUE:
+腰を動かすたび、愛液で濡れたお尻と自分の腰が激しくぶつかりあい、妙な音が響きわたる
+NAME_TAG NARRATION_DIALOGUE:
+リズミカルなこの音とFEMALE NAMEの淫らなあえぎ声がシンクロして、激しい興奮を呼び寄せた
+NAME_TAG FEMALE_DIALOGUE:
+「ああ、いい、すごくいい・・・感じちゃう・・・
+ \n \x01
+　あっああ、はあ、はふっ、んっ、んっ、ああっ」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEの頬がいっそう赤く火照っている
+NAME_TAG NARRATION_DIALOGUE:
+自分ははちきれそうになっているペニスを激しくピストンさせ、熱く潤む秘孔を深々と突きあげていく
+NAME_TAG FEMALE_DIALOGUE:
+「いい、いい、んっ、あっ、あっ、んっ、んっ、ああ、ああ、
+ \n \x01
+　はあ、あん、あん、ああん、いいっ、いいっ」
+NAME_TAG NARRATION_DIALOGUE:
+既に前戯だけで絶頂近くまで昇りつめていたFEMALE NAMEは、ひときわ大きな声を放ち、膣に挿入されたペニスをギューギューっと締めつけてくる
+NAME_TAG MALE_DIALOGUE:
+「うおぉっ、締まる、締まるーっ」
+NAME_TAG FEMALE_DIALOGUE:
+「ああっ、あっ、ああっ、もうっ、もうっ、
+\x01
+　いっちゃう、いく、いく、ああ、ああぁっ」
+NAME_TAG NARRATION_DIALOGUE:
+スパン　スパン　パン　パン　パン　パン
+\x01
+パン　パン　パン　パン　パン　パン　パン　パン
+NAME_TAG NARRATION_DIALOGUE:
+腰の動きが激しく速くなる。もう止まることはないというぐらいのピストン運動が繰り返され加速していくFEMALE NAMEが下半身をくねらせて、自らも腰を振り続ける
+NAME_TAG FEMALE_DIALOGUE:
+「ああ、ああああ、んっ、んあ、あっ、あっ、あっ、
+\x01
+　ああっ、ああっ、あああっ、んっ、ふぁっ、はあぁ、あ、
+\x01
+　あああ、ああ、いくっ、いくうぅぅーー！！！」
+NAME_TAG NARRATION_DIALOGUE:
+激しい快感が脳天を突き抜ける
+\x01
+背中にビクッと電流が走りFEMALE NAMEがのけぞる
+NAME_TAG NARRATION_DIALOGUE:
+同時にドクドクっと熱いスペルマがFEMALE NAMEの膣内に注ぎ込まれ、大量に発射されたそれは、結合部分から溢れるようにたれでてきた
+NAME_TAG (_CGB18
+\x00
+ DS02
+\x00
+MALE_DIALOGUE:
+「何でこうなるのかなー」
+NAME_TAG NARRATION_DIALOGUE:
+横でスヤスヤと寝息をたてるFEMALE NAMEを見ながら、コーチプレイに持ち込む事が出来なかった事を悔やむ。
+NAME_TAG MALE_DIALOGUE:
+「うーむ、次は男女ダブルスペア、
+\x01
+　秘密の作戦会議プレイ（謎）でいってみよう」
+NAME_TAG NARRATION_DIALOGUE:
+くだらぬ事を考えつつ、自分は眠りについた
+NAME_TAG \x1a(17_1
+\x00
+ DS05
+\x00
+FEMALE_DIALOGUE:
+「ねぇ・・・・・ちょっとこの服はマニアックすぎない？」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、少しとまどいながら、自分の姿を見つめていた
+NAME_TAG NARRATION_DIALOGUE:
+白地に赤いラインの入った半袖のシャツ、少しきつめの真っ赤なブルマ
+ \n \x01
+確かに少しマニアックに走りすぎてるような気がする
+NAME_TAG MALE_DIALOGUE:
+「ははは・・・気にしない、気にしない！」
+NAME_TAG FEMALE_DIALOGUE:
+「全く・・・・・」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、少し困ったような表情を見せながらも、久しぶりの体操服の感触にまんざらでもない様子だった
+NAME_TAG FEMALE_DIALOGUE:
+「ちょっと、私が学生時代に着てたのとは違うけど・・・・
+ \n \x01
+　でも、なんだか懐かしいな」
+NAME_TAG MALE_DIALOGUE:
+「うんうん」
+NAME_TAG NARRATION_DIALOGUE:
+久しぶりに見るFEMALE NAMEの体操服姿に、あなたはだんだんと興奮してきた
+NAME_TAG MALE_DIALOGUE:
+「な、なぁ」
+NAME_TAG FEMALE_DIALOGUE:
+「なに？」
+NAME_TAG NARRATION_DIALOGUE:
+床に座り込んで、少し体操のまねごとをしていたFEMALE NAMEが、きょとんとした表情であなたを見上げた
+NAME_TAG MALE_DIALOGUE:
+「ちょっと、それ着たままで、オナニーしてみてよ？」
+NAME_TAG FEMALE_DIALOGUE:
+「オナニィ？
+ \n 　ここで？」
+NAME_TAG MALE_DIALOGUE:
+「そ！　ほらぁ、昔よくやってただろ」
+NAME_TAG FEMALE_DIALOGUE:
+「してないわよ！」
+NAME_TAG MALE_DIALOGUE:
+「１回もやんなかったか～？」
+NAME_TAG FEMALE_DIALOGUE:
+「うっ・・・・・す、少しはやったことあるけど・・・・・」
+NAME_TAG MALE_DIALOGUE:
+「じゃあやってみてよ、その時のことを思い出してさ」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・じゃあ、ちょっとだけだよぉ」
+NAME_TAG (17_2
+\x00
+NARRATION_DIALOGUE:
+CENTEREDFEMALE NAMEは、大きく足を開いて座り直し、ブルマの上から秘処を指でなぞった
+NAME_TAG FEMALE_DIALOGUE:
+「んっ・・・あ、ああ・・・・」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、少し抑えた声を出しながら、割れ目に軽い刺激をあたえていた
+NAME_TAG NARRATION_DIALOGUE:
+やがて、片方の手が胸に伸び、体操服の上から自らの胸を揉み出すと、抑えていた声がだんだんと大きくなってきた
+NAME_TAG FEMALE_DIALOGUE:
+「あ、あん！・・・は、はぁ・・・」
+NAME_TAG MALE_DIALOGUE:
+「今度は、直に触って・・・」
+NAME_TAG NARRATION_DIALOGUE:
+あなたの言葉に、こくりと頷いたFEMALE NAMEは、ブルマを横にずらすと、そこから指を潜り込ませた
+NAME_TAG FEMALE_DIALOGUE:
+「はぅ！・・・ん、んん・・・・くぅ・・・」
+NAME_TAG NARRATION_DIALOGUE:
+グチュグチュと、淫猥な音が響く中、FEMALE NAMEの指の動きは激しさを増していった
+NAME_TAG NARRATION_DIALOGUE:
+胸の方を揉んでいた手も、今や服の上からでもはっきりと形が分かるようになった乳首を、こりこりといじっていた
+NAME_TAG FEMALE_DIALOGUE:
+「あはぁ・・・・んふ・・・」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、FEMALE NAMEの足の間に入り込むと、間近で濡れ濡れになっているFEMALE NAMEの秘処をのぞき込んだ
+NAME_TAG MALE_DIALOGUE:
+「もう、濡れ濡れだなぁ」
+NAME_TAG FEMALE_DIALOGUE:
+「だめぇ、見ないで・・・・」
+NAME_TAG NARRATION_DIALOGUE:
+恥ずかしそうに顔を背けるFEMALE NAMEだったが、割れ目の中に挿入されている指の動きは、激しさを増すばかりだった
+NAME_TAG MALE_DIALOGUE:
+「ここは、見てほしがってるみたいだぞ」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、ブルマの横から半分だけはみ出ている、花弁をそっとなぞった
+NAME_TAG FEMALE_DIALOGUE:
+「きゃうん！」
+NAME_TAG NARRATION_DIALOGUE:
+思い切り体をのけぞらすFEMALE NAMEの様子を見て調子づいたあなたは、悪巧みを思いついた
+NAME_TAG MALE_DIALOGUE:
+「ちょっと待ってるんだぞ」
+NAME_TAG FEMALE_DIALOGUE:
+「え？」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、服を買ったときに一緒にもらった、小道具を取り出してきた
+NAME_TAG FEMALE_DIALOGUE:
+「な、なに？」
+NAME_TAG MALE_DIALOGUE:
+「いいから、ちょっと四つん這いになって」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・こ、こう？」
+NAME_TAG (17_3
+\x00
+NARRATION_DIALOGUE:
+CENTEREDぼんやりとした表情を浮かべていたFEMALE NAMEは、文句を言うこともなく、素直にあなたの指示に従った
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、すっかり濡れてシミになっているブルマを、ぐいっと横にずらすと、少し大きめのバイブをFEMALE NAMEの秘処に挿入していった
+NAME_TAG FEMALE_DIALOGUE:
+「あ、ああ、あああん！」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、大きく息を吐きながら、体をのけぞらせた
+NAME_TAG FEMALE_DIALOGUE:
+「はっ、はっ・・・な、なんなの・・・こ、これ・・」
+NAME_TAG MALE_DIALOGUE:
+「ん？　ああ、これ？
+ \n \x01
+　いやぁ、服買ったときに一緒にもらっちゃってね」
+NAME_TAG FEMALE_DIALOGUE:
+「・・な、なによ・・・それ・・・・くっ」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、全身に力を入れ、打ち寄せる快感に必死に耐えていた
+NAME_TAG MALE_DIALOGUE:
+「ついでにこんな物も、もらったんだけど・・・」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、ビーズをアナルへと差し込んだ
+NAME_TAG FEMALE_DIALOGUE:
+「ひぐっ！」
+NAME_TAG NARRATION_DIALOGUE:
+今まで味わったことのない感触に、FEMALE NAMEの体は大きく反り返った
+NAME_TAG FEMALE_DIALOGUE:
+「そ、そこは・・・だめぇ！」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、入れられている物を抜こうと、下半身の方へ手を伸ばしてきたが、あなたに阻まれてしまった
+NAME_TAG MALE_DIALOGUE:
+「そうやって嫌がられると、ますますいじめたくなるなぁ」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、２個、３個とビーズを、すぼまったアナルへとめり込ませた
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、そのたびに、びくっと体をふるわせた
+NAME_TAG FEMALE_DIALOGUE:
+「く・・・んっ・・・はぁ・・・んくっ」
+NAME_TAG MALE_DIALOGUE:
+「お、こっちの方も、大洪水だな」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、あいている方の手で、割れ目に挟まり、卑わいな動きを見せているバイブを動かした
+NAME_TAG NARRATION_DIALOGUE:
+グチャリ、グチャリと、大きな音を立てて、バイブはFEMALE NAMEの膣内を暴れ回った
+NAME_TAG FEMALE_DIALOGUE:
+「ああ、あっあっあっあっあ、はあ、ああ、
+ \n \x01
+　もう・・・だめ・・いく、いくっっ」
+NAME_TAG MALE_DIALOGUE:
+「ＯＫ！
+ \n 　思う存分いっていいぞ」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、FEMALE NAMEの腰が揺れるほど、激しくバイブを突き動かした
+NAME_TAG FEMALE_DIALOGUE:
+「ああっううっ、はあ、はああん、ああああああああああああ！！！」
+NAME_TAG NARRATION_DIALOGUE:
+ひときわ大きな声を上げたFEMALE NAMEが、次の瞬間ぐったりとその場に倒れ込んだ
+NAME_TAG (_CGB00
+\x00
+ DS02
+\x00
+NARRATION_DIALOGUE:
+事が終わってからしばらく、FEMALE NAMEはぼんやりとした表情で座り込んでいた
+NAME_TAG MALE_DIALOGUE:
+「しっかし、すごい乱れようだったなぁ」
+NAME_TAG FEMALE_DIALOGUE:
+「あ、あのねぇ・・・・」
+NAME_TAG MALE_DIALOGUE:
+「でも、あんまり気持ちよかったからって、そのバイブでオナニィ三昧　ってのは、なしにしてくれよ」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・ばかぁ」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、少し怒った顔で、あなたにバイブを投げてきた
+NAME_TAG \x1a(18_1
+\x00
+ DS05
+\x00
+FEMALE_DIALOGUE:
+「ねぇねぇ、コレ何の服？」
+NAME_TAG MALE_DIALOGUE:
+「確か・・・・なんかのゲームキャラのコスチュームだったと思うんだ　けど・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「ふ～んそうなんだぁ
+ \n 　結構カワイイ服だね」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、この服が気に入ったのか、鏡に自分の姿を映しながら、くるくると回ったりしていた
+NAME_TAG MALE_DIALOGUE:
+「うん、よく似合ってるよ」
+NAME_TAG FEMALE_DIALOGUE:
+「本当？
+ \n 　嬉しい☆」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、嬉しそうに微笑んでいた
+NAME_TAG MALE_DIALOGUE:
+「・・・う～ん、その服を着てるって事は、何かで対戦でもしたいとこ　ろだなぁ」
+NAME_TAG FEMALE_DIALOGUE:
+「いいわよぉ、かかってらっしゃい」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、結構楽しそうにキャラクターを演じていた
+NAME_TAG FEMALE_DIALOGUE:
+「・・・で、なんで対決するの？」
+NAME_TAG MALE_DIALOGUE:
+「そうだなぁ・・・本当に格闘するわけにはいかないし・・・
+ \n \x01
+　あ、そうだ、腕相撲で勝負しようか」
+NAME_TAG FEMALE_DIALOGUE:
+「え～、そんなん絶対勝てないよぉ」
+NAME_TAG MALE_DIALOGUE:
+「ハンデとして、両手使っていいからさ」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・そ、それなら、いいかな」
+NAME_TAG MALE_DIALOGUE:
+「よ～し、決まり
+ \n \x01
+　それじゃあ、やるぞ！」
+NAME_TAG FEMALE_DIALOGUE:
+「負けないわよ！」
+NAME_TAG NARRATION_DIALOGUE:
+２人はテーブルの上に手つくと、お互いの手をがっちりと握った
+NAME_TAG MALE_DIALOGUE:
+「レディ・ゴー！」
+NAME_TAG FEMALE_DIALOGUE:
+「どりゃぁぁぁぁぁぁぁぁぁぁぁぁぁ！」
+NAME_TAG NARRATION_DIALOGUE:
+すさまじい気合いを入れたFEMALE NAMEだったが、結果はあなたの圧勝だった
+NAME_TAG MALE_DIALOGUE:
+「へっへー、ア～イ、ウイン！ってね」
+NAME_TAG FEMALE_DIALOGUE:
+「な、なんか・・・くやしい！」
+NAME_TAG NARRATION_DIALOGUE:
+本気で悔しがっているFEMALE NAMEに、あなたはにやにやとした視線を送った
+NAME_TAG MALE_DIALOGUE:
+「さ～て、負けた人には、ちょっとした罰を受けてもらおうかなぁ」
+NAME_TAG FEMALE_DIALOGUE:
+「な、なによそれ～！、聞いてないよぉ！」
+NAME_TAG MALE_DIALOGUE:
+「敗者に文句を言う資格はない！」
+NAME_TAG FEMALE_DIALOGUE:
+「うう・・・・・
+ \n で、何をすればいいのですか？」
+NAME_TAG NARRATION_DIALOGUE:
+さすがにノリのいい彼女だけあって、すぐに敗者の口振りになっていた
+NAME_TAG MALE_DIALOGUE:
+「では、まず、胸を見せてもらおうかな」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・分かりました」
+NAME_TAG (18_3
+\x00
+NARRATION_DIALOGUE:
+CENTEREDFEMALE NAMEが、胸の部分をはだけると、たわわな乳房がはじけ出た
+NAME_TAG FEMALE_DIALOGUE:
+「これで、よろしいでしょうか？」
+NAME_TAG MALE_DIALOGUE:
+「うんうん、いいねぇ」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、なかなか刺激的なその姿を、しばらくじっと眺めていた
+NAME_TAG FEMALE_DIALOGUE:
+「あまり見られると・・・恥ずかしいです」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、恥じらいの表情を浮かべながら、顔を背けていた
+NAME_TAG MALE_DIALOGUE:
+「（う～ん、ナイス！）」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、満足そうに頷くと、今度は、下半身に目を向けた
+NAME_TAG MALE_DIALOGUE:
+「今度は、下の下着もはずしてもらおうかな」
+NAME_TAG FEMALE_DIALOGUE:
+「これは、あの・・・・・
+ \n わ、分かりました」
+NAME_TAG NARRATION_DIALOGUE:
+恥ずかしそうに、ショーツを脱ぐFEMALE NAMEのしぐさに、あなたの下半身は急激に熱を帯びてきた
+NAME_TAG MALE_DIALOGUE:
+「（くぅ～！、たまらんねぇ）」
+NAME_TAG NARRATION_DIALOGUE:
+よく見ると、FEMALE NAMEも、このシチュエーションに興奮しているのか、乳首はピンッとたち、秘処は湿り気を帯びているようだった
+NAME_TAG FEMALE_DIALOGUE:
+「あ、あの・・・・」
+NAME_TAG NARRATION_DIALOGUE:
+もじもじと、切なそうに体を動かしていたFEMALE NAMEは、潤んだ目であなたを見つめていた
+NAME_TAG MALE_DIALOGUE:
+「よ～し、次は・・・・」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、服を脱ぐと、FEMALE NAMEの前に横たわった
+NAME_TAG MALE_DIALOGUE:
+「ここに、のってもらおうか」
+NAME_TAG NARRATION_DIALOGUE:
+あなたの指さしている先は、もちろんギンギンに堅くなったペニスだった
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・わ、分かりました」
+NAME_TAG (18_2
+\x00
+NARRATION_DIALOGUE:
+CENTEREDFEMALE NAMEは、おそるおそる、あなたの体をまたぐと、ゆっくりとペニスを自分の中へ沈めていった
+NAME_TAG FEMALE_DIALOGUE:
+「んん！・・・くぅ！」
+NAME_TAG NARRATION_DIALOGUE:
+苦しそうに息を吐きながら、FEMALE NAMEは、あなたの物を全部飲み込んだ
+NAME_TAG MALE_DIALOGUE:
+「よ、よし・・・今度は動いて・・」
+NAME_TAG FEMALE_DIALOGUE:
+「・・は、・・はい・・・んっ」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、少し腰を浮かすと、ゆっくりと腰を落としてきた
+NAME_TAG FEMALE_DIALOGUE:
+「く、くふぅ・・・んん・・・」
+NAME_TAG MALE_DIALOGUE:
+「ん・・気持ち・・いい」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、だんだんと慣れてきたのか、ずいぶんと激しく腰を動かし始めた
+NAME_TAG FEMALE_DIALOGUE:
+「ああん、あは、はあ、あっ、あっ、んっ・・」
+NAME_TAG NARRATION_DIALOGUE:
+その動きに合わせて、あなたも腰を動かし始めた
+NAME_TAG FEMALE_DIALOGUE:
+「ああ、あっあっあっあっあ、はあ、ああ」
+NAME_TAG MALE_DIALOGUE:
+「す、すごい、いいぞ」
+NAME_TAG FEMALE_DIALOGUE:
+「も、もう・・・いくっ」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEの秘処から、大量の愛液があふれ、あなたの下半身をぬらし始めたとき、あなたも限界を迎えた
+NAME_TAG MALE_DIALOGUE:
+「うっ！」
+NAME_TAG FEMALE_DIALOGUE:
+「ああっううっ、はあ、はああん、いっちゃうーーーーーーー！！！」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEの体が、一瞬硬直した後、ぐったりとあなたの上に倒れてきた
+NAME_TAG (_CGB18
+\x00
+ DS02
+\x00
+MALE_DIALOGUE:
+「いやぁ、良かった、良かった」
+NAME_TAG NARRATION_DIALOGUE:
+あなたが満足げに頷いているのを、FEMALE NAMEが不服そうな顔で見ていた
+NAME_TAG MALE_DIALOGUE:
+「・・・どうした？　怒ったのか？
+ \n \x01
+　FEMALE NAMEだって結構楽しんでたじゃないか」
+NAME_TAG FEMALE_DIALOGUE:
+「別に、そのことに関しては怒ってないんだけど・・・・
+ \n \x01
+　その前の勝負に負けたことが悔しいの！」
+NAME_TAG MALE_DIALOGUE:
+「い、いや、だって、あれは、しょうがないだろ
+ \n \x01
+　女の子なんだし・・・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「でも、悔しいの！
+ \n \x01
+　よ～し、決めたわ、私、トレーニングして強くなってやる！」
+NAME_TAG NARRATION_DIALOGUE:
+力強くそう言い切るFEMALE NAMEを、あなたは呆然と見つめた
+NAME_TAG MALE_DIALOGUE:
+「それはいいけど・・・・・
+ \n ムキムキの体になるのはやだなぁ」
+NAME_TAG \x1a\xff

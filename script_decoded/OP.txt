@@ -1,0 +1,317 @@
+((KURO
+\x00
+g(OP01
+\x00
+ DS14
+\x00
+NARRATION_DIALOGUE:
+CENTERED　　　　　きっかけは、ほんのささいな出来事だった
+\x00
+kP\x15
+\x01
+CENTERED　　　　　あの日偶然にあの場所でぶつからなければ
+\x01
+　　　　　俺達は別の運命を歩いていたかもしれない
+\x00
+kd\x15
+\x01
+CENTERED　　　　しかし、運命は俺達２人を引き合わせてくれた
+\x00
+kP\x15
+\x01
+CENTERED　　　そして、まるでずっと前から決まっていたかの様に
+\x01
+　　　　　　　　　つきあいが始まった
+\x00
+kP(OP02
+\x00
+NARRATION_DIALOGUE:
+CENTERED　　　　　　　全てが順風満帆だった訳じゃない
+\x01
+\x00
+kP\x15
+\x01
+CENTERED　　　大喧嘩をして別れる寸前までいったことだってあった
+\x01
+\x00
+kP\x15
+\x01
+CENTERED　　しかし、ここでも運命は俺達２人を引き離しはしなかった
+\x00
+kP(OP03
+\x00
+NARRATION_DIALOGUE:
+CENTERED　　　　　　　　　　　もしかしたら
+\x01
+　　　　　　　　俺達にとって最大の障害は
+\x01
+　　　　　　もう既にクリアしてるのかもしれない
+\x00
+kn\x15
+\x01
+CENTERED　　　だけど２人が本当に幸せになるのはこれからだと思う
+\x01
+\x00
+kP\x15
+\x01
+CENTERED　　　　　もちろん、確実にそうなるとは限らない
+\x00
+kP\x15
+\x01
+CENTERED　　　　　　　だけど、きっと大丈夫・・・
+\x01
+\x00
+kP\x15
+\x01
+CENTERED　　　　　俺達はきっと幸せになれるから・・・MALE NAME
+\x00
+kP(KURO
+\x00
+NARRATION_DIALOGUE:
+CENTERED　　　　　　　そして２人一緒の新しい生活が始まる
+\x00
+kP!h(TT00
+\x00
+ DS01
+\x00
+k\x96(OP04
+\x00
+FEMALE_DIALOGUE:
+「とうとうこの日が来たのね」
+NAME_TAG MALE_DIALOGUE:
+「そうだな」
+NAME_TAG NARRATION_DIALOGUE:
+CENTEREDFEMALE NAMEは、マンションを見上げると満足そうな表情を見せた
+NAME_TAG FEMALE_DIALOGUE:
+「今からずっと一緒に住むんだね・・・・・
+ \n なんだかウソみたい」
+NAME_TAG NARRATION_DIALOGUE:
+彼女の名前はFEMALE NAME
+ \n \x01
+学生時代からつきあっている彼女で、今から一緒に住むパートナーだ
+NAME_TAG MALE_DIALOGUE:
+「ああ」
+NAME_TAG NARRATION_DIALOGUE:
+そう答えるあなたは、期待に胸を膨らませていた
+NAME_TAG MALE_DIALOGUE:
+「（今からずっと一緒か・・・・・
+ \n 楽しみだな）」
+NAME_TAG NARRATION_DIALOGUE:
+少し、にやけているあなたを、FEMALE NAMEは不思議そうに見つめた
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・どうしたの？」
+NAME_TAG MALE_DIALOGUE:
+「い、いや何でもないよ
+ \n \x01
+　ただ、今からの生活が楽しみだなぁって思ってただけだよ」
+NAME_TAG FEMALE_DIALOGUE:
+「それは、私も同じだよ☆」
+NAME_TAG NARRATION_DIALOGUE:
+あなたの言葉に、FEMALE NAMEは嬉しそうな笑顔を返した
+NAME_TAG FEMALE_DIALOGUE:
+「じゃ、早速行くとしましょうか・・・・・
+ \n 『わが家』に！」
+NAME_TAG (_CGB00
+\x00
+NARRATION_DIALOGUE:
+それから怒涛の一日が始まった
+NAME_TAG NARRATION_DIALOGUE:
+部屋の掃除に始まり
+ \n 　あらかじめ送っておいた荷物の整理
+ \n \x01
+管理人さんへの挨拶
+ \n 　区役所への様々な登録
+ \n \x01
+生活必需品の買い物
+ \n 　その他もろもろＥＴＣ・・・
+NAME_TAG NARRATION_DIALOGUE:
+そんなこんなで結局全ての事が終わったのは、すっかり夜も更けた頃だった
+NAME_TAG (_CGAK01
+\x00
+FEMALE_DIALOGUE:
+「はぁ～、疲れたぁ～・・・
+ \n \x01
+　なんか今日は、もう何もやる気がしない～・・・」
+NAME_TAG MALE_DIALOGUE:
+「いやいや、大事なものを忘れてるぞ」
+NAME_TAG FEMALE_DIALOGUE:
+「え、大事な物って？
+ \n 　もしかして・・・・・
+ \n あれ？」
+NAME_TAG MALE_DIALOGUE:
+「そ、あれ！」
+NAME_TAG g DS10
+\x00
+(V1
+\x00
+h\x1d
+\x01
+「・・・・・そうだね
+ \n 　やっぱり初日だもんね」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは少し恥じらいの表情を浮かべながら、あなたの顔を見上げた
+NAME_TAG FEMALE_DIALOGUE:
+「・・・ど、どうしてかな・・・なんか、どきどきするの・・・
+ \n \x01
+　なんだか初めて結ばれるような気分で・・・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・優しくしてね・・・」
+NAME_TAG MALE_DIALOGUE:
+「・・・ああ」
+NAME_TAG (W1A
+\x00
+NARRATION_DIALOGUE:
+CENTEREDゆっくりと顔を近づける２人
+ \n \x01
+互いの唇を触れ合わすだけの軽めのキス
+ \n CENTEREDそれだけなのに、あなたの顔は火がついたように熱くなった
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・不思議
+ \n \x01
+　いつもと変わらないキスのはずなのに、なんだか・・・・・」
+NAME_TAG NARRATION_DIALOGUE:
+うっすらと頬を染め、小さな声でつぶやいているFEMALE NAMEの唇を、あなたは再びふさいだ
+NAME_TAG FEMALE_DIALOGUE:
+「・・・ん・・んむぅ・・・」
+NAME_TAG NARRATION_DIALOGUE:
+今度は互いの舌を絡ませあう濃厚なキス
+ \n \x01
+しばらく互いの舌の感触を味わった後、顔をはなした二人の唇を唾液の糸がつないだ
+NAME_TAG MALE_DIALOGUE:
+「初めて・・・だからだよ」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・そう・・ね」
+NAME_TAG MALE_DIALOGUE:
+「じゃあ、続きは寝室で・・・」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・・・うん」
+NAME_TAG NARRATION_DIALOGUE:
+２人は肩を寄せ合いながら寝室へと向かった
+NAME_TAG (_CG18B
+\x00
+ DS05
+\x00
+NARRATION_DIALOGUE:
+寝室へと入った２人は服を脱いでベッドに横になった
+NAME_TAG MALE_DIALOGUE:
+「綺麗だよ」
+NAME_TAG FEMALE_DIALOGUE:
+「・・・嬉しい☆」
+NAME_TAG NARRATION_DIALOGUE:
+少し恥ずかしげに目をそらすFEMALE NAMEの首筋に、軽くキスをして、そのまま胸の方へと舌をはわした
+NAME_TAG FEMALE_DIALOGUE:
+「・・・ん、・・・あ、ああ・・・」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、少し体をふるわせ、あなたの頭を両腕で抱えた
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、豊満な胸の谷間に顔を埋めると、心地よい弾力を楽しむように、顔を左右に振ってみた
+NAME_TAG FEMALE_DIALOGUE:
+「あんっ・・・もう、何やってるのよぉ・・・・」
+NAME_TAG NARRATION_DIALOGUE:
+少し困ったような表情を見せるFEMALE NAMEに、あなたはいたずらっ子のような笑顔を返した
+NAME_TAG MALE_DIALOGUE:
+「へへっ・・だって、気持ちいいからねぇ
+ \n \x01
+　特にここの感触とかがもう・・・」
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、胸の先端にある、苺色のつぼみに頬をすり寄せた
+NAME_TAG FEMALE_DIALOGUE:
+「あ、あんっ・・・」
+NAME_TAG NARRATION_DIALOGUE:
+すこしづつ大きくなっていく乳首を口に含み、舌先で転がしながら、あいている方の乳首を指先でもてあそんだ
+NAME_TAG FEMALE_DIALOGUE:
+「あ・ああ・・・くぅん」
+NAME_TAG NARRATION_DIALOGUE:
+もうすっかりと堅くなった、乳首から口を離したあなたは、FEMALE NAMEの足を開き、その間にある茂みへと顔を埋めた
+NAME_TAG NARRATION_DIALOGUE:
+そこはもう既に、十分な湿り気を帯びていた
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、少し盛り上がっている花弁に沿うように指をはわしながら、ゆっくりと赤い花びらを開いていった
+NAME_TAG FEMALE_DIALOGUE:
+「く、くぅ・・・ん・・・・あ、あはぁ・・・」
+NAME_TAG NARRATION_DIALOGUE:
+じっとりと濡れてくるむき出しの肉壁に舌をあて、柔らかい感触を確かめるように、ゆっくりと上下に動かした
+ \n \x01
+\x00
+FEMALE_DIALOGUE:
+「んんぅ・・あ・・・・く、くぅ・・・・」
+NAME_TAG MALE_DIALOGUE:
+「美味しいよ、FEMALE NAMEのここ」
+NAME_TAG FEMALE_DIALOGUE:
+「は、はぁ・・・・ん・・く、ああん・・・・・」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEは、あなたの言葉も耳に入らない様子で、打ち寄せる快感に身を委ねていた
+NAME_TAG NARRATION_DIALOGUE:
+あなたは、洪水のように愛液があふれている秘処から口を離すと、代わりに、もう十分に堅くなっている自分の物を押し当てた
+NAME_TAG MALE_DIALOGUE:
+「いくよ」
+NAME_TAG NARRATION_DIALOGUE:
+あなたの言葉に、FEMALE NAMEは、こくんと小さく頷いた
+ \n \x01
+それを合図に、あなたは、ぐいっと腰を前につきだした
+NAME_TAG (_CG19B
+\x00
+FEMALE_DIALOGUE:
+「んくっ！」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEの膣中は、あなたの物にねっとりと、まとわりついてきた
+NAME_TAG MALE_DIALOGUE:
+「くっ・・・」
+NAME_TAG NARRATION_DIALOGUE:
+しびれるような快感が下半身を走り抜け、あなたは、しばしその余韻に浸っていた
+NAME_TAG NARRATION_DIALOGUE:
+あなたが再び腰を動かし始めると、FEMALE NAMEは、自らも積極的に腰を動かし始めた
+NAME_TAG NARRATION_DIALOGUE:
+グチュ　ヌポッ　ジュルッ　グシュッ　ズポッ　チュバッ
+ \n \x01
+淫猥な音が部屋中に響き、２人の気持ちは、ますます高まっていった
+NAME_TAG FEMALE_DIALOGUE:
+「あ、あ、あ・・・・ん、ん・・・・はぁ、はぁ」
+NAME_TAG MALE_DIALOGUE:
+「く、くぅ・・・き、気持ち良すぎて・・・」
+NAME_TAG NARRATION_DIALOGUE:
+激しく、FEMALE NAMEの膣内に、出入りを繰り返すペニスは、もう限界を迎えようとしていた
+NAME_TAG MALE_DIALOGUE:
+「も、もう・・・いく・・」
+NAME_TAG FEMALE_DIALOGUE:
+「あ、あは・・・わ、私も・・・い、一緒に・・・」
+NAME_TAG MALE_DIALOGUE:
+「くっ！」
+NAME_TAG FEMALE_DIALOGUE:
+「いっくぅーーーーーーーーーーーーーーーーーーーー！！！」
+NAME_TAG g(_CG12b
+\x00
+h\x15
+\x01
+FEMALE NAMEは、一瞬全身を硬直させた後、力が抜けたように、ぐったりと寝そべった
+NAME_TAG (_CGB18
+\x00
+ DS10
+\x00
+FEMALE_DIALOGUE:
+「ねぇ」
+NAME_TAG MALE_DIALOGUE:
+「ん？」
+NAME_TAG FEMALE_DIALOGUE:
+「明日から、朝一番にMALE NAMEの顔を見られるんだよね」
+NAME_TAG MALE_DIALOGUE:
+「ああ、そうだよ」
+NAME_TAG FEMALE_DIALOGUE:
+「ふふ・・・・・楽しみ☆」
+NAME_TAG NARRATION_DIALOGUE:
+FEMALE NAMEはにっこりと笑うと、頭まで隠れるように布団をかぶった
+NAME_TAG FEMALE_DIALOGUE:
+「お休みなさぁい」
+NAME_TAG MALE_DIALOGUE:
+「お休み」
+NAME_TAG !(KURO
+\x00
+k\x1e\x08\x06
+\x00
+\x01
+\x00
+\x08\x07
+\x00
+\x01
+\x00
+\x1a\xff
