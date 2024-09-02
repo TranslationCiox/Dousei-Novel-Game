@@ -1,27 +1,32 @@
 \x17\x17
-\n \x00
+NEWLINE
+\x00
 まっすぐ帰る
 \x00
 買い物をして帰る
 \x00
 \x00
 END_CHOICE
- \n \x00
+ NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 c
 \x00
 (_CGS00
 \x00
-MALE_DIALOGUE:
+MALE_NAMETAG:
 「ちょっと、買い物でもして帰ろうかな」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10d
 \x00
 \x1a\x17
-\n \x00
+NEWLINE
+\x00
 ほかのところへ行く
 \x00
 ゲーム屋
@@ -32,31 +37,35 @@ CLEAR_TEXTBOX
 \x00
 \x00
 END_CHOICE
- \n \x00
+ NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ･
 \x00
 \x10O
-\n MALE NAMEﾄ
+NEWLINE
+MALE NAMEﾄ
 \x00
 END_CHOICE
- \n \x00
+ NEWLINE
+\x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ｶ
 \x00
-MALE NAMEMALE NAMEﾄ
+MALE NAME\x04 MALE NAMEﾄ
 \x00
 END_CHOICE
- \n \x00
+ NEWLINE
+\x00
 \x15\x04
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ﾄ
 \x00
@@ -64,10 +73,11 @@ END_CHOICE
 \x00
 \x15\x06
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
  
-\n 
+NEWLINE
+
 CHOICE
  \x00
 ほかのところへ行く
@@ -78,24 +88,29 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x0f
-\n \x10d
+NEWLINE
+\x10d
 \x00
 \x10\x1d
-\n END_CHOICE
- \n \x00
+NEWLINE
+END_CHOICE
+ NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 \x10m\x0c\x10N
-\n 
+NEWLINE
+
 CHOICE
  \x00
 ほかのところへ行く
@@ -104,41 +119,54 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 N
-\n \x10d
+NEWLINE
+\x10d
 \x00
 \x1a(_CGS03
 \x00
 D
-\n 「いらっしゃいませ！
- CLICKWAIT \n 　何になさいますか？」
+NEWLINE
+「いらっしゃいませ！
+CLICKWAIT
+NEWLINE
+　何になさいますか？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x17^
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x02\x17_
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x02\x0f
 \x00
 \xe4
-\n MALE_DIALOGUE:
+NEWLINE
+MALE_NAMETAG:
 「あんまり面白そうなのがないなぁ
- CLICKWAIT \n 　また今度にしよっか」
+CLICKWAIT
+NEWLINE
+　また今度にしよっか」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGS00
 \x00
 \x10d
 \x00
 \x1a\x17
-\n \x00
+NEWLINE
+\x00
 やっぱりいらない
 \x00
 対戦パズルゲーム　　　　　　定価　５８００円
@@ -147,40 +175,59 @@ CLEAR_TEXTBOX
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ~\x02D
-\n 「また、おこしください」
+NEWLINE
+「また、おこしください」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10~\x04\x11\x16
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x85\x03\x1b^
 \x00
-ﾇ???
-\n 「あ、俺これもってるんだ
- CLICKWAIT \n 　他のにしようっと」
+ﾇCLEAR_TEXTBOX
+
+NEWLINE
+「あ、俺これもってるんだ
+CLICKWAIT
+NEWLINE
+　他のにしようっと」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xe4
-\n \x10\x82\x03\x11\x16\r
+NEWLINE
+\x10\x82\x03\x11\x16\r
 \x00
 \x15:
 \x00
 \x03
 \x00
 \x03\x03D
-\n 「お客さん、お金が足りないようですよ」
+NEWLINE
+「お客さん、お金が足りないようですよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xe4
-\n \x10\x82\x03D
-\n 「これで、よろしいですか？」
+NEWLINE
+\x10\x82\x03D
+NEWLINE
+「これで、よろしいですか？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -190,10 +237,11 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x7f\x03\x0c\r
 \x00
@@ -201,31 +249,49 @@ NARRATION_DIALOGUE:
 \x00
 \x04^
 \x00
-\n \x00
+NEWLINE
+\x00
 D
-\n 「お買いあげ、ありがとうございました」
+NEWLINE
+「お買いあげ、ありがとうございました」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x82\x03\x10\xe4
-\n \x10~\x04\x1b_
+NEWLINE
+\x10~\x04\x1b_
 \x00
 ﾃ
-\n 「あ、俺これもってるんだ
- CLICKWAIT \n 　他のにしようっと」
+NEWLINE
+「あ、俺これもってるんだ
+CLICKWAIT
+NEWLINE
+　他のにしようっと」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xe4
-\n \x10~\x04\x11\x16\r
+NEWLINE
+\x10~\x04\x11\x16\r
 \x00
 \x15D
 \x00
 \x03
 \x00
 \xff\x03D
-\n 「お客さん、お金が足りないようですよ」
+NEWLINE
+「お客さん、お金が足りないようですよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xe4
-\n \x10~\x04D
-\n 「これで、よろしいですか？」
+NEWLINE
+\x10~\x04D
+NEWLINE
+「これで、よろしいですか？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -235,10 +301,11 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 {\x04\x0c\r
 \x00
@@ -246,18 +313,23 @@ D
 \x00
 \x04_
 \x00
-\n \x00
+NEWLINE
+\x00
 D
-\n 「お買いあげ、ありがとうございました」
+NEWLINE
+「お買いあげ、ありがとうございました」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10~\x04\x10\xe4
-\n (_CGS00
+NEWLINE
+(_CGS00
 \x00
 \x10d
 \x00
 \x1a\x11\x16\x07
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x02\x16\x07
 \x00
@@ -276,22 +348,24 @@ NARRATION_DIALOGUE:
 \x02\x0f
 \x00
 \x03
- CLICKWAIT \x04T
+CLICKWAIT
+\x04T
 \x00
-\n \x00
+NEWLINE
+\x00
 \x19IJIN3
 \x00
 \x11\x17N
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x02\x17P
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x02\n
 \x00
-ﾗN
+ﾗ\x04 \x04 N
 \x00
 \x00
 \x00
@@ -304,18 +378,29 @@ NARRATION_DIALOGUE:
 (_CGS02
 \x00
 D
-\n 「何になさいますか？」
+NEWLINE
+「何になさいますか？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10<
- CLICKWAIT (_CGS02
+CLICKWAIT
+(_CGS02
 \x00
 D
-\n 「いらっしゃいませ！
- CLICKWAIT \n 　何になさいますか？」
+NEWLINE
+「いらっしゃいませ！
+CLICKWAIT
+NEWLINE
+　何になさいますか？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「買うんだったら、２つ買っとかないとな」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -329,19 +414,24 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 0\x06D
-\n 「また、おこしください」
+NEWLINE
+「また、おこしください」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x1f\t\x11\x16
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 3\x07\x11\x16\r
 \x00
@@ -350,12 +440,19 @@ CLEAR_TEXTBOX
 \x03
 \x00
 w\x06D
-\n 「お客さん、お金が足りないようですよ」
+NEWLINE
+「お客さん、お金が足りないようですよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10i
- CLICKWAIT \x100\x07D
-\n 「これで、よろしいですか？」
+CLICKWAIT
+\x100\x07D
+NEWLINE
+「これで、よろしいですか？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -365,33 +462,44 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 -\x07D
-\n 「チョコレートケーキ２つで、６００円になります」
+NEWLINE
+「チョコレートケーキ２つで、６００円になります」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x0c\r
 \x00
 \x06
 \x00
 \x04b
 \x00
-\n \x00
+NEWLINE
+\x00
 \x08\x0c
 \x00
-\n \x00
+NEWLINE
+\x00
 D
-\n 「お買いあげ、ありがとうございました」
+NEWLINE
+「お買いあげ、ありがとうございました」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x100\x07\x10i
- CLICKWAIT \x10\x1f\t\x11\x16
-\n \x00
+CLICKWAIT
+\x10\x1f\t\x11\x16
+NEWLINE
+\x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 0\x08\x11\x16\r
 \x00
@@ -400,12 +508,19 @@ CLEAR_TEXTBOX
 \x03
 \x00
 z\x07D
-\n 「お客さん、お金が足りないようですよ」
+NEWLINE
+「お客さん、お金が足りないようですよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10i
- CLICKWAIT \x10-\x08D
-\n 「これで、よろしいですか？」
+CLICKWAIT
+\x10-\x08D
+NEWLINE
+「これで、よろしいですか？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -415,41 +530,58 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 *\x08D
-\n 「チーズケーキ２つで、４００円になります」
+NEWLINE
+「チーズケーキ２つで、４００円になります」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x0c\r
 \x00
 \x04
 \x00
 \x04c
 \x00
-\n \x00
+NEWLINE
+\x00
 \x08\x0c
 \x00
-\n \x00
+NEWLINE
+\x00
 D
-\n 「お買いあげ、ありがとうございました」
+NEWLINE
+「お買いあげ、ありがとうございました」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10-\x08\x10i
- CLICKWAIT \x10\x1f\t\x11\x16\r
+CLICKWAIT
+\x10\x1f\t\x11\x16\r
 \x00
 \x15\x04
 \x00
 \x03
 \x00
 l\x08D
-\n 「お客さん、お金が足りないようですよ」
+NEWLINE
+「お客さん、お金が足りないようですよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10i
- CLICKWAIT \x10\x1f\tD
-\n 「これで、よろしいですか？」
+CLICKWAIT
+\x10\x1f\tD
+NEWLINE
+「これで、よろしいですか？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -459,38 +591,53 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x1c\tD
-\n 「マロンケーキ２つで、４００円になります」
+NEWLINE
+「マロンケーキ２つで、４００円になります」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x0c\r
 \x00
 \x04
 \x00
 \x04d
 \x00
-\n \x00
+NEWLINE
+\x00
 \x08\x0c
 \x00
-\n \x00
+NEWLINE
+\x00
 D
-\n 「お買いあげ、ありがとうございました」
+NEWLINE
+「お買いあげ、ありがとうございました」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x1f\t\x10i
- CLICKWAIT (_CGS00
+CLICKWAIT
+(_CGS00
 \x00
 \x10d
 \x00
 \x1a(_CGS01
 \x00
 D
-\n 「いらっしゃいませ！
- CLICKWAIT \n 　何になさいますか？」
+NEWLINE
+「いらっしゃいませ！
+CLICKWAIT
+NEWLINE
+　何になさいますか？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x17e
 \x00
 \x17g
@@ -498,15 +645,21 @@ CLEAR_TEXTBOX
 \x0f
 \x00
 ｸ	
-\n 「あんまり良さそうなのがないなぁ
- CLICKWAIT \n 　また今度にしよっか」
+NEWLINE
+「あんまり良さそうなのがないなぁ
+CLICKWAIT
+NEWLINE
+　また今度にしよっか」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGS00
 \x00
 \x10d
 \x00
 \x1a\x17
-\n \x00
+NEWLINE
+\x00
 やっぱりいらない
 \x00
 指輪　　　　　　　　　　　　定価　６００００円
@@ -515,41 +668,57 @@ CLEAR_TEXTBOX
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 V\nD
-\n 「また、おこしください」
+NEWLINE
+「また、おこしください」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10`\x0c\x11\x16
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 b\x0b\x11\x17e
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ､
 
-\n 「あ、これは買ったんだよな
- CLICKWAIT \n 　他のにしようっと」
+NEWLINE
+「あ、これは買ったんだよな
+CLICKWAIT
+NEWLINE
+　他のにしようっと」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEｸ	FEMALE NAME
 \x00
 \x15X\x02\x03
 \x00
 \xe0\nD
-\n 「お客さん、お金が足りないようですよ」
+NEWLINE
+「お客さん、お金が足りないようですよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEｸ	MALE NAME_D
-\n 「これで、よろしいですか？」
+NEWLINE
+「これで、よろしいですか？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -559,40 +728,57 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \\\x0b\x0c\r
 \x00
 X\x02\x04e
 \x00
-\n \x00
+NEWLINE
+\x00
 D
-\n 「お買いあげ、ありがとうございました」
+NEWLINE
+「お買いあげ、ありがとうございました」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAME_MALE NAMEｸ	MALE NAME`FEMALE NAMEg
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ･
-\n 「あ、これは買ったんだよな
- CLICKWAIT \n 　他のにしようっと」
+NEWLINE
+「あ、これは買ったんだよな
+CLICKWAIT
+NEWLINE
+　他のにしようっと」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEｸ	FEMALE NAME
 \x00
 \x15\x90
-\n \x03
+NEWLINE
+\x03
 \x00
 \xe1\x0bD
-\n 「お客さん、お金が足りないようですよ」
+NEWLINE
+「お客さん、お金が足りないようですよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEｸ	MALE NAME`D
-\n 「これで、よろしいですか？」
+NEWLINE
+「これで、よろしいですか？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -602,20 +788,26 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ]\x0c\x0c\r
 \x00
 \x90
-\n \x04g
+NEWLINE
+\x04g
 \x00
-\n \x00
+NEWLINE
+\x00
 D
-\n 「お買いあげ、ありがとうございました」
+NEWLINE
+「お買いあげ、ありがとうございました」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAME`MALE NAMEｸ	(_CGS00
 \x00
 \x10d
@@ -623,9 +815,14 @@ MALE NAME`MALE NAMEｸ	(_CGS00
 \x1a\x1a(_CGS04
 \x00
 D
-\n 「い、いらっしゃいませぇ
- CLICKWAIT \n 　な、何になさいますかぁ？・・・ぐふふぅ」
+NEWLINE
+「い、いらっしゃいませぇ
+CLICKWAIT
+NEWLINE
+　な、何になさいますかぁ？・・・ぐふふぅ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x172
 \x00
 \x173
@@ -639,17 +836,24 @@ CLEAR_TEXTBOX
 \x0f
 \x00
 !\r\x1e
-\n 「もう、ほとんど買ったからなぁ」
+NEWLINE
+「もう、ほとんど買ったからなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 D
-\n 「・・・・・やるねぇ」
+NEWLINE
+「・・・・・やるねぇ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGS00
 \x00
 \x10d
 \x00
 \x1a\x17
-\n \x00
+NEWLINE
+\x00
 次を見てみよう
 \x00
 メイド服　　　　　　　　　　定価　４００００円
@@ -660,13 +864,15 @@ CLEAR_TEXTBOX
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ｱFEMALE NAME
-\n \x00
+NEWLINE
+\x00
 前に戻ろう　　　　　　　　　　　　　
 \x00
 体操服　　　　　　　　　　　定価　１００００円
@@ -677,26 +883,31 @@ NARRATION_DIALOGUE:
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 MALE NAME!MALE NAMEｮFEMALE NAMEFEMALE NAME
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ｸMALE NAMEFEMALE NAME4
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ﾁ
-\n 「あ、これは買ってたなぁ」
+NEWLINE
+「あ、これは買ってたなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10!\r\x11\x16\r
 \x00
 \x15d
@@ -704,11 +915,17 @@ CLEAR_TEXTBOX
 \x03
 \x00
 \xf9\x0eD
-\n 「お客さん、お金が足りませんよぉ」
+NEWLINE
+「お客さん、お金が足りませんよぉ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAME!MALE NAMEｵMALE NAMED
-\n 「これで、よろしいんですかぁ？」
+NEWLINE
+「これで、よろしいんですかぁ？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -718,10 +935,11 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ｲMALE NAME
 \x00
@@ -729,58 +947,91 @@ d
 \x00
 \x044
 \x00
-\n \x00
+NEWLINE
+\x00
 D
-\n 「お買いあげ、ありがとうございましたぁ
- CLICKWAIT \n 　あ、お客さん、いいものをおつけしますよぉ・・ぐふふ」
+NEWLINE
+「お買いあげ、ありがとうございましたぁ
+CLICKWAIT
+NEWLINE
+　あ、お客さん、いいものをおつけしますよぉ・・ぐふふ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「いいもの？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 D
-\n 「はい～！」
+NEWLINE
+「はい～！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 店員が出してきた物は、大きなバイブとアナル用のビーズだった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「こ、これは！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 D
-\n 「コレで楽しみも２倍になるよぉ、ぐふふぅ」
+NEWLINE
+「コレで楽しみも２倍になるよぉ、ぐふふぅ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・・ま、もらっとくか」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは、服を入れている袋に、もらった物を放り込んだ
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEｵMALE NAMEMALE NAME!MALE NAMEｮFEMALE NAMEFEMALE NAME
-\n \x00
+NEWLINE
+\x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ｮFEMALE NAMEFEMALE NAME5
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xf0\x10\x1e
-\n 「あ、これは買ってたなぁ」
+NEWLINE
+「あ、これは買ってたなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10!\r\x11\x16\r
 \x00
 \x15^
-\n \x03
+NEWLINE
+\x03
 \x00
 (\x11D
-\n 「お客さん、お金が足りませんよぉ」
+NEWLINE
+「お客さん、お金が足りませんよぉ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAME!MALE NAMEｫFEMALE NAMED
-\n 「これで、よろしいですかぁ？」
+NEWLINE
+「これで、よろしいですかぁ？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -790,46 +1041,63 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ｨFEMALE NAME
 \x00
 ^
-\n \x045
+NEWLINE
+\x045
 \x00
-\n \x00
+NEWLINE
+\x00
 D
-\n 「お買いあげ、ありがとうございましたぁ」
+NEWLINE
+「お買いあげ、ありがとうございましたぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEｫFEMALE NAMEMALE NAME!MALE NAMEｮFEMALE NAMEMALE NAMEFEMALE NAME
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
-ｩFEMALE NAME2
+ｩ\x12 FEMALE NAME2
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xe9\x11\x1e
-\n 「あ、これは買ってたなぁ」
+NEWLINE
+「あ、これは買ってたなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10!\r\x11\x16\r
 \x00
 \x15\x90
-\n \x03
+NEWLINE
+\x03
 \x00
 !\x12D
-\n 「お客さん、お金が足りませんよぉ」
+NEWLINE
+「お客さん、お金が足りませんよぉ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE NAME!MALE NAMEｦD
-\n 「これで、よろしいんですかぁ？」
+\x00
+MALE NAME!MALE NAMEｦ\x12 D
+NEWLINE
+「これで、よろしいんですかぁ？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -839,46 +1107,63 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
 \x00
-｣
+CLEAR_TEXTBOX
+\x00
+｣\x12 
 \x00
 \x90
-\n \x042
+NEWLINE
+\x042
 \x00
-\n \x00
+NEWLINE
+\x00
 D
-\n 「お買いあげ、ありがとうございましたぁ」
+NEWLINE
+「お買いあげ、ありがとうございましたぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE NAMEｦMALE NAME!MALE NAMEFEMALE NAME
-\n \x00
+\x00
+MALE NAMEｦ\x12 MALE NAME!MALE NAMEFEMALE NAME
+NEWLINE
+\x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x9f\x13\x11\x173
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xe1\x12\x1e
-\n 「あ、これは買ってたなぁ」
+NEWLINE
+「あ、これは買ってたなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10!\r\x11\x16\r
 \x00
 \x15\x90
-\n \x03
+NEWLINE
+\x03
 \x00
 \x19\x13D
-\n 「お客さん、お金が足りませんよぉ」
+NEWLINE
+「お客さん、お金が足りませんよぉ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10!\r\x10\x9c\x13D
-\n 「これで、よろしいですかぁ？」
+NEWLINE
+「これで、よろしいですかぁ？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -888,29 +1173,38 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x99\x13\x0c\r
 \x00
 \x90
-\n \x043
+NEWLINE
+\x043
 \x00
-\n \x00
+NEWLINE
+\x00
 D
-\n 「お買いあげ、ありがとうございましたぁ」
+NEWLINE
+「お買いあげ、ありがとうございましたぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x9c\x13\x10!\r\x10\x87\x14\x11\x17*
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ﾌ
-\n 「あ、これは買ってたなぁ」
+NEWLINE
+「あ、これは買ってたなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10!\r\x11\x16\r
 \x00
 \x15\x96
@@ -918,11 +1212,17 @@ CLEAR_TEXTBOX
 \x03
 \x00
 \x04\x14D
-\n 「お客さん、お金が足りませんよぉ」
+NEWLINE
+「お客さん、お金が足りませんよぉ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10!\r\x10\x87\x14D
-\n 「これで、よろしいですかぁ？」
+NEWLINE
+「これで、よろしいですかぁ？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -932,10 +1232,11 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x84\x14\x0c\r
 \x00
@@ -943,13 +1244,20 @@ NARRATION_DIALOGUE:
 \x00
 \x04*
 \x00
-\n \x00
+NEWLINE
+\x00
 D
-\n 「お買いあげ、ありがとうございましたぁ」
+NEWLINE
+「お買いあげ、ありがとうございましたぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x87\x14\x10!\rD
-\n 「また、おこしくださいねぇ」
+NEWLINE
+「また、おこしくださいねぇ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGS00
 \x00
 \x10d

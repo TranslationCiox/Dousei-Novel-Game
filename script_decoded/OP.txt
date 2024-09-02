@@ -4,54 +4,84 @@ g(OP01
 \x00
  DS14
 \x00
-NARRATION_DIALOGUE:
-???　　　　　きっかけは、ほんのささいな出来事だった
+NO_NAMETAG:
+CLEAR_TEXTBOX
+\x04 \x12 　　　　　きっかけは、ほんのささいな出来事だった
 \x00
 kP\x15
-\n ???　　　　　あの日偶然にあの場所でぶつからなければ
-\n 　　　　　俺達は別の運命を歩いていたかもしれない
+NEWLINE
+CLEAR_TEXTBOX
+　　　　　あの日偶然にあの場所でぶつからなければ
+NEWLINE
+　　　　　俺達は別の運命を歩いていたかもしれない
 \x00
 kd\x15
-\n ???　　　　しかし、運命は俺達２人を引き合わせてくれた
+NEWLINE
+CLEAR_TEXTBOX
+　　　　しかし、運命は俺達２人を引き合わせてくれた
 \x00
 kP\x15
-\n ???　　　そして、まるでずっと前から決まっていたかの様に
-\n 　　　　　　　　　つきあいが始まった
+NEWLINE
+CLEAR_TEXTBOX
+　　　そして、まるでずっと前から決まっていたかの様に
+NEWLINE
+　　　　　　　　　つきあいが始まった
 \x00
 kP(OP02
 \x00
-NARRATION_DIALOGUE:
-???　　　　　　　全てが順風満帆だった訳じゃない
-\n \x00
+NO_NAMETAG:
+CLEAR_TEXTBOX
+　　　　　　　全てが順風満帆だった訳じゃない
+NEWLINE
+\x00
 kP\x15
-\n ???　　　大喧嘩をして別れる寸前までいったことだってあった
-\n \x00
+NEWLINE
+CLEAR_TEXTBOX
+　　　大喧嘩をして別れる寸前までいったことだってあった
+NEWLINE
+\x00
 kP\x15
-\n ???　　しかし、ここでも運命は俺達２人を引き離しはしなかった
+NEWLINE
+CLEAR_TEXTBOX
+　　しかし、ここでも運命は俺達２人を引き離しはしなかった
 \x00
 kP(OP03
 \x00
-NARRATION_DIALOGUE:
-???　　　　　　　　　　　もしかしたら
-\n 　　　　　　　　俺達にとって最大の障害は
-\n 　　　　　　もう既にクリアしてるのかもしれない
+NO_NAMETAG:
+CLEAR_TEXTBOX
+　　　　　　　　　　　もしかしたら
+NEWLINE
+　　　　　　　　俺達にとって最大の障害は
+NEWLINE
+　　　　　　もう既にクリアしてるのかもしれない
 \x00
 kn\x15
-\n ???　　　だけど２人が本当に幸せになるのはこれからだと思う
-\n \x00
-kP\x15
-\n ???　　　　　もちろん、確実にそうなるとは限らない
+NEWLINE
+CLEAR_TEXTBOX
+　　　だけど２人が本当に幸せになるのはこれからだと思う
+NEWLINE
 \x00
 kP\x15
-\n ???　　　　　　　だけど、きっと大丈夫・・・
-\n \x00
+NEWLINE
+CLEAR_TEXTBOX
+　　　　　もちろん、確実にそうなるとは限らない
+\x00
 kP\x15
-\n ???　　　　　俺達はきっと幸せになれるから・・・MALE NAME
+NEWLINE
+CLEAR_TEXTBOX
+　　　　　　　だけど、きっと大丈夫・・・
+NEWLINE
+\x00
+kP\x15
+NEWLINE
+CLEAR_TEXTBOX
+　　　　　俺達はきっと幸せになれるから・・・\x04 MALE NAME
 \x00
 kP(KURO
 \x00
-NARRATION_DIALOGUE:
-???　　　　　　　そして２人一緒の新しい生活が始まる
+NO_NAMETAG:
+CLEAR_TEXTBOX
+　　　　　　　そして２人一緒の新しい生活が始まる
 \x00
 kP!h(TT00
 \x00
@@ -59,308 +89,517 @@ kP!h(TT00
 \x00
 k\x96(OP04
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「とうとうこの日が来たのね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「そうだな」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
-???FEMALE NAMEは、マンションを見上げると満足そうな表情を見せた
+\x00
+NO_NAMETAG:
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+FEMALE NAMEは、マンションを見上げると満足そうな表情を見せた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「今からずっと一緒に住むんだね・・・・・
- CLICKWAIT なんだかウソみたい」
+CLICKWAIT
+なんだかウソみたい」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 彼女の名前はFEMALE NAME
- CLICKWAIT \n 学生時代からつきあっている彼女で、今から一緒に住むパートナーだ
+CLICKWAIT
+NEWLINE
+学生時代からつきあっている彼女で、今から一緒に住むパートナーだ
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ああ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 そう答えるあなたは、期待に胸を膨らませていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「（今からずっと一緒か・・・・・
- CLICKWAIT 楽しみだな）」
+CLICKWAIT
+楽しみだな）」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 少し、にやけているあなたを、FEMALE NAMEは不思議そうに見つめた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・・・どうしたの？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「い、いや何でもないよ
- CLICKWAIT \n 　ただ、今からの生活が楽しみだなぁって思ってただけだよ」
+CLICKWAIT
+NEWLINE
+　ただ、今からの生活が楽しみだなぁって思ってただけだよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「それは、私も同じだよ☆」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたの言葉に、FEMALE NAMEは嬉しそうな笑顔を返した
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「じゃ、早速行くとしましょうか・・・・・
- CLICKWAIT 『わが家』に！」
+CLICKWAIT
+『わが家』に！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB00
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 それから怒涛の一日が始まった
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 部屋の掃除に始まり
- CLICKWAIT 　あらかじめ送っておいた荷物の整理
- CLICKWAIT \n 管理人さんへの挨拶
- CLICKWAIT 　区役所への様々な登録
- CLICKWAIT \n 生活必需品の買い物
- CLICKWAIT 　その他もろもろＥＴＣ・・・
+CLICKWAIT
+　あらかじめ送っておいた荷物の整理
+CLICKWAIT
+NEWLINE
+管理人さんへの挨拶
+CLICKWAIT
+　区役所への様々な登録
+CLICKWAIT
+NEWLINE
+生活必需品の買い物
+CLICKWAIT
+　その他もろもろＥＴＣ・・・
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 そんなこんなで結局全ての事が終わったのは、すっかり夜も更けた頃だった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGAK01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「はぁ～、疲れたぁ～・・・
- CLICKWAIT \n 　なんか今日は、もう何もやる気がしない～・・・」
+CLICKWAIT
+NEWLINE
+　なんか今日は、もう何もやる気がしない～・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「いやいや、大事なものを忘れてるぞ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え、大事な物って？
- CLICKWAIT 　もしかして・・・・・
- CLICKWAIT あれ？」
+CLICKWAIT
+　もしかして・・・・・
+CLICKWAIT
+あれ？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「そ、あれ！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 g DS10
 \x00
 (V1
 \x00
 h\x1d
-\n 「・・・・・そうだね
- CLICKWAIT 　やっぱり初日だもんね」
+NEWLINE
+「・・・・・そうだね
+CLICKWAIT
+　やっぱり初日だもんね」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは少し恥じらいの表情を浮かべながら、あなたの顔を見上げた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・ど、どうしてかな・・・なんか、どきどきするの・・・
- CLICKWAIT \n 　なんだか初めて結ばれるような気分で・・・・・」
+CLICKWAIT
+NEWLINE
+　なんだか初めて結ばれるような気分で・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・・・優しくしてね・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・ああ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (W1A
 \x00
-NARRATION_DIALOGUE:
-???ゆっくりと顔を近づける２人
- CLICKWAIT \n 互いの唇を触れ合わすだけの軽めのキス
- CLICKWAIT ???それだけなのに、あなたの顔は火がついたように熱くなった
+NO_NAMETAG:
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+ゆっくりと顔を近づける２人
+CLICKWAIT
+NEWLINE
+互いの唇を触れ合わすだけの軽めのキス
+CLICKWAIT
+CLEAR_TEXTBOX
+それだけなのに、あなたの顔は火がついたように熱くなった
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「・・・・・不思議
- CLICKWAIT \n 　いつもと変わらないキスのはずなのに、なんだか・・・・・」
+CLICKWAIT
+NEWLINE
+　いつもと変わらないキスのはずなのに、なんだか・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 うっすらと頬を染め、小さな声でつぶやいているFEMALE NAMEの唇を、あなたは再びふさいだ
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・ん・・んむぅ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 今度は互いの舌を絡ませあう濃厚なキス
- CLICKWAIT \n しばらく互いの舌の感触を味わった後、顔をはなした二人の唇を唾液の糸がつないだ
+CLICKWAIT
+NEWLINE
+しばらく互いの舌の感触を味わった後、顔をはなした二人の唇を唾液の糸がつないだ
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「初めて・・・だからだよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・そう・・ね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「じゃあ、続きは寝室で・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・・・うん」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ２人は肩を寄せ合いながら寝室へと向かった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CG18B
 \x00
  DS05
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 寝室へと入った２人は服を脱いでベッドに横になった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「綺麗だよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・嬉しい☆」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 少し恥ずかしげに目をそらすFEMALE NAMEの首筋に、軽くキスをして、そのまま胸の方へと舌をはわした
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・ん、・・・あ、ああ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、少し体をふるわせ、あなたの頭を両腕で抱えた
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは、豊満な胸の谷間に顔を埋めると、心地よい弾力を楽しむように、顔を左右に振ってみた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あんっ・・・もう、何やってるのよぉ・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 少し困ったような表情を見せるFEMALE NAMEに、あなたはいたずらっ子のような笑顔を返した
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「へへっ・・だって、気持ちいいからねぇ
- CLICKWAIT \n 　特にここの感触とかがもう・・・」
+CLICKWAIT
+NEWLINE
+　特にここの感触とかがもう・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは、胸の先端にある、苺色のつぼみに頬をすり寄せた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あ、あんっ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 すこしづつ大きくなっていく乳首を口に含み、舌先で転がしながら、あいている方の乳首を指先でもてあそんだ
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あ・ああ・・・くぅん」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 もうすっかりと堅くなった、乳首から口を離したあなたは、FEMALE NAMEの足を開き、その間にある茂みへと顔を埋めた
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 そこはもう既に、十分な湿り気を帯びていた
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは、少し盛り上がっている花弁に沿うように指をはわしながら、ゆっくりと赤い花びらを開いていった
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「く、くぅ・・・ん・・・・あ、あはぁ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 じっとりと濡れてくるむき出しの肉壁に舌をあて、柔らかい感触を確かめるように、ゆっくりと上下に動かした
- CLICKWAIT \n \x00
-FEMALE_DIALOGUE:
+CLICKWAIT
+NEWLINE
+\x00
+FEMALE_NAMETAG:
 「んんぅ・・あ・・・・く、くぅ・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「美味しいよ、FEMALE NAMEのここ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「は、はぁ・・・・ん・・く、ああん・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、あなたの言葉も耳に入らない様子で、打ち寄せる快感に身を委ねていた
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは、洪水のように愛液があふれている秘処から口を離すと、代わりに、もう十分に堅くなっている自分の物を押し当てた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「いくよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたの言葉に、FEMALE NAMEは、こくんと小さく頷いた
- CLICKWAIT \n それを合図に、あなたは、ぐいっと腰を前につきだした
+CLICKWAIT
+NEWLINE
+それを合図に、あなたは、ぐいっと腰を前につきだした
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CG19B
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「んくっ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEの膣中は、あなたの物にねっとりと、まとわりついてきた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「くっ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 しびれるような快感が下半身を走り抜け、あなたは、しばしその余韻に浸っていた
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたが再び腰を動かし始めると、FEMALE NAMEは、自らも積極的に腰を動かし始めた
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 グチュ　ヌポッ　ジュルッ　グシュッ　ズポッ　チュバッ
- CLICKWAIT \n 淫猥な音が部屋中に響き、２人の気持ちは、ますます高まっていった
+CLICKWAIT
+NEWLINE
+淫猥な音が部屋中に響き、２人の気持ちは、ますます高まっていった
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あ、あ、あ・・・・ん、ん・・・・はぁ、はぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「く、くぅ・・・き、気持ち良すぎて・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 激しく、FEMALE NAMEの膣内に、出入りを繰り返すペニスは、もう限界を迎えようとしていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「も、もう・・・いく・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あ、あは・・・わ、私も・・・い、一緒に・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「くっ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「いっくぅーーーーーーーーーーーーーーーーーーーー！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 g(_CG12b
 \x00
 h\x15
-\n FEMALE NAMEは、一瞬全身を硬直させた後、力が抜けたように、ぐったりと寝そべった
+NEWLINE
+FEMALE NAMEは、一瞬全身を硬直させた後、力が抜けたように、ぐったりと寝そべった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB18
 \x00
  DS10
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ねぇ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ん？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「明日から、朝一番にMALE NAMEの顔を見られるんだよね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ああ、そうだよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ふふ・・・・・楽しみ☆」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEはにっこりと笑うと、頭まで隠れるように布団をかぶった
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「お休みなさぁい」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「お休み」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 !(KURO
 \x00
 k\x1e\x08\x06
 \x00
-\n \x00
+NEWLINE
+\x00
 \x08\x07
 \x00
-\n \x00
+NEWLINE
+\x00
 END_FILE

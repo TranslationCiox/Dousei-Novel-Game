@@ -1,6 +1,7 @@
 \x08\x08\t
 \x00
-\n \x00
+NEWLINE
+\x00
 \x11\x16\x08
 \x00
 \x15\x08
@@ -11,9 +12,9 @@
 \x00
 \x11\x16\t
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 !
 \x00
@@ -23,7 +24,7 @@ NARRATION_DIALOGUE:
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 2
 \x00
@@ -33,7 +34,7 @@ NARRATION_DIALOGUE:
 \x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 C
 \x00
@@ -43,7 +44,7 @@ C
 \x00
 \x15\x04
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 T
 \x00
@@ -52,8 +53,9 @@ T
 \x11\x16\t
 \x00
 \x15
- CLICKWAIT \x00
-\x02
+CLICKWAIT
+\x00
+CLEAR_TEXTBOX
 \x00
 e
 \x00
@@ -63,21 +65,22 @@ e
 \x00
 \x15\x06
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 v
 \x00
-MALE NAMEｪMALE NAME
+MALE NAMEｪ\x12 MALE NAME
 \x00
 \x11\x16\t
 \x00
 \x15\x07
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x84
 \x00
-MALE NAMEｰMALE NAMEU???d
+MALE NAMEｰMALE NAMEUCLEAR_TEXTBOX
+d
 \x00
 \x04
 \x00
@@ -131,7 +134,7 @@ MALE NAME､XFEMALE NAME
 \x00
 \x1f2
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x11\x16\t
 \x00
@@ -140,7 +143,8 @@ MALE NAME､XFEMALE NAME
 \x03
 \x00
 u
-\n \x11\x16\x04
+NEWLINE
+\x11\x16\x04
 \x00
 \x15\n
 \x00
@@ -149,63 +153,79 @@ u
 \xf8
 \x00
 \x10|\x10\x10r
-\n \x11\x16\x04
+NEWLINE
+\x11\x16\x04
 \x00
 \x15\x14
 \x00
 \x03
 \x00
 \t
-\n \x10\xa0\x17\x10r
-\n \x11\x16\x04
+NEWLINE
+\x10\xa0\x17\x10r
+NEWLINE
+\x11\x16\x04
 \x00
 \x15\x1e
 \x00
 \x03
 \x00
 \x1a
-\n \x10\xe8\x1a\x10r
-\n \x11\x16\x04
+NEWLINE
+\x10\xe8\x1a\x10r
+NEWLINE
+\x11\x16\x04
 \x00
 \x152
 \x00
 \x03
 \x00
 +
-\n \x10\x83\x1f\x10r
-\n \x11\x16\x04
+NEWLINE
+\x10\x83\x1f\x10r
+NEWLINE
+\x11\x16\x04
 \x00
 \x15<
 \x00
 \x03
 \x00
 <
-\n MALE NAMEｸ!MALE NAMEr
-\n \x11\x16\x04
+NEWLINE
+MALE NAMEｸ!MALE NAMEr
+NEWLINE
+\x11\x16\x04
 \x00
 \x15F
 \x00
 \x03
 \x00
 M
-\n \x10\xe3%\x10r
-\n \x11\x16\x04
+NEWLINE
+\x10\xe3%\x10r
+NEWLINE
+\x11\x16\x04
 \x00
 \x15P
 \x00
 \x03
 \x00
 ^
-\n \x10\xf1'\x10r
-\n \x11\x16\x04
+NEWLINE
+\x10\xf1'\x10r
+NEWLINE
+\x11\x16\x04
 \x00
 \x15P
 \x00
 \x03
 \x00
 o
-\n \x10\xf9)\x10r
-\n MALE NAMEﾑDMALE NAMEU???FEMALE NAME	
+NEWLINE
+\x10\xf9)\x10r
+NEWLINE
+MALE NAMEﾑDMALE NAMEUCLEAR_TEXTBOX
+FEMALE NAME	
 \x00
 \x15!
 \x00
@@ -218,50 +238,60 @@ o
 \x03
 \x00
 \x91
-\n MALE NAMEｪMALE NAME???FEMALE NAME
+NEWLINE
+MALE NAMEｪ\x12 MALE NAMECLEAR_TEXTBOX
+FEMALE NAME\x04 
 \x00
 \x15\x1e
 \x00
 \x03
 \x00
 ｢
-\n MALE NAMEｰMALE NAME???FEMALE NAME
+NEWLINE
+MALE NAMEｰMALE NAMECLEAR_TEXTBOX
+FEMALE NAME\x04 
 \x00
 \x15(
 \x00
 \x03
 \x00
 ｳ
-\n \x10l.\x10\x0b\x02\x11\x16\x04
+NEWLINE
+\x10l.\x10\x0b\x02\x11\x16\x04
 \x00
 \x152
 \x00
 \x03
 \x00
 ﾄ
-\n \x10D4\x10\x0b\x02\x11\x16\x04
+NEWLINE
+\x10D4\x10\x0b\x02\x11\x16\x04
 \x00
 \x15<
 \x00
 \x03
 \x00
 ﾕ
-\n \x10I7\x10\x0b\x02\x11\x16\x04
+NEWLINE
+\x10I7\x10\x0b\x02\x11\x16\x04
 \x00
 \x15F
 \x00
 \x03
 \x00
 \xe6
-\n \x10
- CLICKWAIT ;\x10\x0b\x02\x11\x16\x04
+NEWLINE
+\x10
+CLICKWAIT
+;\x10\x0b\x02\x11\x16\x04
 \x00
 \x15P
 \x00
 \x03
 \x00
 \xf7
-\n \x10\xe0<\x10\x0b\x02\x11\x16\x04
+NEWLINE
+\x10\xe0<\x10\x0b\x02\x11\x16\x04
 \x00
 \x15Z
 \x00
@@ -279,7 +309,9 @@ o
 \x00
 \x03
 \x00
-0???MALE NAMEｬIMALE NAMEU???FEMALE NAME
+0CLEAR_TEXTBOX
+MALE NAMEｬIMALE NAMEUCLEAR_TEXTBOX
+FEMALE NAME\x04 
 \x00
 \x15<
 \x00
@@ -293,12 +325,16 @@ A\x02\x10VM\x10U\x02\x11\x16\x04
 \x00
 R\x02\x10\xf0P\x10U\x02\x10mS\x1a(_CGAA04
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「とうとう二人で生活するのね～、なんだかドキドキするな～」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ねえねえ、やっぱりさ、一緒に生活するっていうのは、今までとは全　然違うのかな？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -308,20 +344,29 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 N\x03\x1d
-\n 「そっか～、やっぱ、そうだよね」
+NEWLINE
+「そっか～、やっぱ、そうだよね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEﾃ
-\n 「えーそういうもんかな～？　ほら、私って、親以外の誰かと一緒に住　むのって初めてだから、良くわかんなくて・・・」
+NEWLINE
+「えーそういうもんかな～？　ほら、私って、親以外の誰かと一緒に住　むのって初めてだから、良くわかんなくて・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「でもでも、楽しみだな～、あ、そうそう、まだ、ちゃんとした挨拶っ　てしてなかったよね？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -331,39 +376,60 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x89\x04\x1d
-\n 「そうよ、だからほら、ちゃんと私の前に座って」
+NEWLINE
+「そうよ、だからほら、ちゃんと私の前に座って」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x19
- CLICKWAIT FEMALE_DIALOGUE:
+CLICKWAIT
+FEMALE_NAMETAG:
 「ダーメ、こういうのは、けじめみたいなもんなんだから、ちゃんとし　とかないとダメなの！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ほら、恥ずかしがってないで、私の前に座って」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え～と、こういう時は何て言ったらいいのかな～」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「う～んとね・・・じゃ、じゃあ、ふつつか者ですが・・・ってこれじ　ゃあちょっと堅いよね・・・えーと、えーと、あーもうわかんない
-\n  CLICKWAIT 　とりあえず『これから、よろしくね☆』ってことで・・・ね」
+NEWLINE
+CLICKWAIT
+　とりあえず『これから、よろしくね☆』ってことで・・・ね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「こちらこそ、よろしく・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「あ～なんだか不思議な気分だわ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え？なんでって、私達、一緒に住んでるのよ、もう半分、夫婦みたい　なものじゃない」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -373,21 +439,31 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 N\x07\x1d
-\n 「ひっどーい！」
+NEWLINE
+「ひっどーい！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「そこは、もし、そう思ってたとしても、『そうだよね』って言うのが　愛情ってものよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10n\t\x1d
-\n 「ね、ね、と言うことはよ、私って若奥様ってことになるのかな・・・
-\n 　じゃあさ、『あなた☆』って呼んでもいい？」
+NEWLINE
+「ね、ね、と言うことはよ、私って若奥様ってことになるのかな・・・
+NEWLINE
+　じゃあさ、『あなた☆』って呼んでもいい？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -397,43 +473,68 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ｾ
-\n 「じゃあ、『あ・な・た・☆』」
+NEWLINE
+「じゃあ、『あ・な・た・☆』」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「キャーーー言っちゃった、言っちゃった
- CLICKWAIT ・・・って、何あきれ顔で見　てるのよ！
- CLICKWAIT 　そこは、あなたも真っ赤な顔して『おまえ☆』って言っ　てくれないと、私、一人が馬鹿みたいじゃない」
+CLICKWAIT
+・・・って、何あきれ顔で見　てるのよ！
+CLICKWAIT
+　そこは、あなたも真っ赤な顔して『おまえ☆』って言っ　てくれないと、私、一人が馬鹿みたいじゃない」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10n\t\x1d
-\n 「今から恥ずかしがってどうするのよ。結婚したら結局そう呼ぶんだか　らね」
+NEWLINE
+「今から恥ずかしがってどうするのよ。結婚したら結局そう呼ぶんだか　らね」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「それとも『ダーリン☆』ってのが良い？　いやでしょ？
- CLICKWAIT \n 　だったら、恥ずかしがったりしないの！」
+CLICKWAIT
+NEWLINE
+　だったら、恥ずかしがったりしないの！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「まったく、乙女心ってのが解ってないんだから・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え？『もう乙女って歳じゃあないだろ』って・・・・・余計なことを　言わない！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・・・でもさ、なんか私達ってこれからずっと、こんなことばっ　かり言ってそうな気がするね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「あ、そうそう、今日ね、近所の人達に挨拶して回ったんだけど、みん　ないい人ばかりだったわよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「それでね、みんなにね『若いのに良く出来たお嫁さんだ』って言われ　たのぉ☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -443,21 +544,32 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ｲ
-\n 「へへへ・・・でも、ちょっと、こそばゆい感じで、い、いや、別にネ　コ被ってたわけじゃ無いんだけどね」
+NEWLINE
+「へへへ・・・でも、ちょっと、こそばゆい感じで、い、いや、別にネ　コ被ってたわけじゃ無いんだけどね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x0b\x0c\x1d
-\n 「まあ、その人達の勘違いなんだけどね、なんか面倒くさかったから否　定もしなかったの」
+NEWLINE
+「まあ、その人達の勘違いなんだけどね、なんか面倒くさかったから否　定もしなかったの」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「それにしても、最近の人って、あんまり近所つきあいってしないのね
-\n  CLICKWAIT 　私が挨拶しても、会釈だけって人も結構いたしね」
+NEWLINE
+CLICKWAIT
+　私が挨拶しても、会釈だけって人も結構いたしね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -467,33 +579,56 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \\\r\x1d
-\n 「うん、解ってはいるのよ
- CLICKWAIT \n 　でも、私は人と人とのつきあいって、一番大切だと思ってるから」
+NEWLINE
+「うん、解ってはいるのよ
+CLICKWAIT
+NEWLINE
+　でも、私は人と人とのつきあいって、一番大切だと思ってるから」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「な、なによ、人の顔じっと見て、も、もう、照れるじゃない」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10*\x0e\x1d
-\n 「でも、みんな、悪い人じゃないのよ
- CLICKWAIT \n 　ただ、ちょっと知らない人と話すのが、恥ずかしいのよ」
+NEWLINE
+「でも、みんな、悪い人じゃないのよ
+CLICKWAIT
+NEWLINE
+　ただ、ちょっと知らない人と話すのが、恥ずかしいのよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え？　私？　私は人と話すの好きだもの、恥ずかしくなんかないよ
- CLICKWAIT \n 　それは、あなたが一番良く知ってるでしょ」
+CLICKWAIT
+NEWLINE
+　それは、あなたが一番良く知ってるでしょ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「今日ね、お義母様から電話があったんだけど・・・
- CLICKWAIT \n 　なんか、ずいぶんと心配してたみたいだったよ
- CLICKWAIT \n 　ねぇ、ちょっとは、連絡とかしてるの？」
+CLICKWAIT
+NEWLINE
+　なんか、ずいぶんと心配してたみたいだったよ
+CLICKWAIT
+NEWLINE
+　ねぇ、ちょっとは、連絡とかしてるの？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -503,33 +638,51 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ﾁ
-\n 「・・・・・やっぱりね
- CLICKWAIT \n 　あのねえ、超放任主義の私んちはともかく、初めて子供を外に出す親　っていうのは、誰でも心配なんだからね」
+NEWLINE
+「・・・・・やっぱりね
+CLICKWAIT
+NEWLINE
+　あのねえ、超放任主義の私んちはともかく、初めて子供を外に出す親　っていうのは、誰でも心配なんだからね」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「たまには、電話の一本でも入れなきゃだめよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10{\x10\x1d
-\n 「そう・・・・・ま、子供が『親離れ』するよりも、親が『子離れ』す　る方が時間がかかるって言うしね」
+NEWLINE
+「そう・・・・・ま、子供が『親離れ』するよりも、親が『子離れ』す　る方が時間がかかるって言うしね」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「でも、もうちょっとお義母様が安心するまでは、こまめに連絡は入れ　てあげてね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
 \x04l
 \x00
-\n \x00
-FEMALE_DIALOGUE:
+NEWLINE
+\x00
+FEMALE_NAMETAG:
 「そういえば今日、新聞の勧誘が来たの・・・
- CLICKWAIT \n 　ま、結局すぐにはとらなかったんだけど・・・・・どうする？」
+CLICKWAIT
+NEWLINE
+　ま、結局すぐにはとらなかったんだけど・・・・・どうする？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -539,32 +692,53 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ﾛFEMALE NAME
-\n 「解ったわ。じゃあ、明日にでも近くの新聞屋さんに電話してみるね」
+NEWLINE
+「解ったわ。じゃあ、明日にでも近くの新聞屋さんに電話してみるね」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あっ、でも、この近くの○○新聞て、私嫌いなのよねぇ・・・・・
-\n  CLICKWAIT 　ということで××新聞にしておくね」
+NEWLINE
+CLICKWAIT
+　ということで××新聞にしておくね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE NAMEｩ
-\n 「そうかな～、新聞てさ、結構役に立つのよ～
- CLICKWAIT \n 　もちろん記事もそうなんだけど、私としては広告がね・・・・・」
+\x00
+MALE NAMEｩ\x12 
+NEWLINE
+「そうかな～、新聞てさ、結構役に立つのよ～
+CLICKWAIT
+NEWLINE
+　もちろん記事もそうなんだけど、私としては広告がね・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・え？　とっていいの？　本当？
- CLICKWAIT \n 　ありがと！　じゃあ、明日、さっそく電話しておくね」
+CLICKWAIT
+NEWLINE
+　ありがと！　じゃあ、明日、さっそく電話しておくね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「あ、そうそう
- CLICKWAIT \n 　そろそろ、いろんな小物とか買いに行こうよ」
+CLICKWAIT
+NEWLINE
+　そろそろ、いろんな小物とか買いに行こうよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -574,18 +748,26 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 J\x13\x1d
-\n 「だって、この部屋って、なんか、殺風景なんだもん」
+NEWLINE
+「だって、この部屋って、なんか、殺風景なんだもん」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「でねでね、今日、近くで、カワイイお店を見つけたの
- CLICKWAIT \n 　今度、一緒に行ってみようよ」
+CLICKWAIT
+NEWLINE
+　今度、一緒に行ってみようよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -595,25 +777,38 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 r\x14\x1d
-\n 「い～じゃない、ちょっとぐらい恥ずかしかったって
-\n  CLICKWAIT 　そういう所に、二人で、嬉しそうな顔して、入っていけるようになっ　てこそ、『本当の恋人』ってものよ」
+NEWLINE
+「い～じゃない、ちょっとぐらい恥ずかしかったって
+NEWLINE
+CLICKWAIT
+　そういう所に、二人で、嬉しそうな顔して、入っていけるようになっ　てこそ、『本当の恋人』ってものよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEｯ
-\n 「本当に本当ね？
- CLICKWAIT 　絶対だよ！
- CLICKWAIT 　楽しみにしてるからね！」
+NEWLINE
+「本当に本当ね？
+CLICKWAIT
+　絶対だよ！
+CLICKWAIT
+　楽しみにしてるからね！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ねぇ、私の性格って・・・・・どう思う？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -623,21 +818,32 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ｭ
-\n 「い、いや、別になんてことは無いんだけど・・・・・
- CLICKWAIT \n 　わ、私の友達が、彼と、性格の不一致とかで別れたりしたのとかは、　全然関係ないからね！」
+NEWLINE
+「い、いや、別になんてことは無いんだけど・・・・・
+CLICKWAIT
+NEWLINE
+　わ、私の友達が、彼と、性格の不一致とかで別れたりしたのとかは、　全然関係ないからね！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xe2\x15\x1d
-\n 「言っておくけど、お世辞なんかはいらないからね」
+NEWLINE
+「言っておくけど、お世辞なんかはいらないからね」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・・・で、正直どう思ってる？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -647,39 +853,62 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x0e\x17\x1d
-\n 「それって・・・・・ほめてるの？」
+NEWLINE
+「それって・・・・・ほめてるの？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「『もちろん！』って
- CLICKWAIT \n 　自分の恋人を『変！』って事は無いでしょうが！！！」
+CLICKWAIT
+NEWLINE
+　自分の恋人を『変！』って事は無いでしょうが！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「まったく・・・ま、確かに、正直ってのは自分でも認めるけどね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x9f\x17\x1d
-\n 「どっちやねん！！！」
+NEWLINE
+「どっちやねん！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・って、つい関西弁になっちゃたじゃない！
- CLICKWAIT \n 　・・・でも、それって、ほめてるってことだよね」
+CLICKWAIT
+NEWLINE
+　・・・でも、それって、ほめてるってことだよね」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ありがと」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「そういえば、今日読んだ雑誌に載ってたんだけど、最近、熟年離婚が　増えてるんだって」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「何十年も連れ添った夫婦が、突然別れちゃうなんて、私には考えられ　ないんだけど・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -689,25 +918,39 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \t\x19\x1d
-\n 「ブッブー！
- CLICKWAIT 　どっちかって言うと、奥さんの方から離婚を言い出す方　が多いんだって」
+NEWLINE
+「ブッブー！
+CLICKWAIT
+　どっちかって言うと、奥さんの方から離婚を言い出す方　が多いんだって」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x93\x19\x1d
-\n 「でっしょー！」
+NEWLINE
+「でっしょー！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「でも、本当のとこは、その時になってみないと、解らないのかもね
-\n  CLICKWAIT 　大体、将来の事なんて、誰にも解らないんだしね」
+NEWLINE
+CLICKWAIT
+　大体、将来の事なんて、誰にも解らないんだしね」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ねえ、もし将来が決めれるものだとしたら、どんな将来がいい？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -717,35 +960,49 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 )\x1a\x1d
-\n 「ふ～ん、そうなんだ」
+NEWLINE
+「ふ～ん、そうなんだ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10T\x1a\x1d
-\n 「・・・・・言ってて、むなしくない？」
+NEWLINE
+「・・・・・言ってて、むなしくない？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
 じゃぁFEMALE NAMEはどうなんだよ
 \x00
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「え、私？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「私はねえ・・・・・
- CLICKWAIT これからもずっと、こうやって、今、目の前にい　る人を見ていたいだけ・・・・・」
+CLICKWAIT
+これからもずっと、こうやって、今、目の前にい　る人を見ていたいだけ・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA02
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「今日ね・・・・・お医者様の所に行ってきたの・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -755,18 +1012,26 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 |\x1b\x1d
-\n 「・・・・・ううん、違うの」
+NEWLINE
+「・・・・・ううん、違うの」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「それでね、あ、あのね、驚かないで聞いてね・・・・・
- CLICKWAIT \n 　・・・・・『おめでた』だって、・・・・・」
+CLICKWAIT
+NEWLINE
+　・・・・・『おめでた』だって、・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -776,25 +1041,40 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ｶ
-\n 「・・・・・なんてリアクションするのよ！！！
- CLICKWAIT \n 　そこは、うそでもいいから『良かったな』って言うものなの！
- CLICKWAIT \n 　まったく・・・・・女心が解ってないんだから」
+NEWLINE
+「・・・・・なんてリアクションするのよ！！！
+CLICKWAIT
+NEWLINE
+　そこは、うそでもいいから『良かったな』って言うものなの！
+CLICKWAIT
+NEWLINE
+　まったく・・・・・女心が解ってないんだから」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xe3\x1c\x1d
-\n 「・・・・・良かった、そう言ってくれて」
+NEWLINE
+「・・・・・良かった、そう言ってくれて」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「でも、今回これで『本当』に子供が出来たときの態度が解ったわ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え？　今回？　あ～、うそよ、うそ！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -804,17 +1084,23 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 6\x1e\x1d
-\n 「ごめんなさーい！」
+NEWLINE
+「ごめんなさーい！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あ、あのね、こういう時に、なんて言ってくれるか確かめたくて」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -823,14 +1109,23 @@ CHOICE
 人を試すなんてダメ
 \x00
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「あ、あの、・・・ごめんなさい」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x82\x1f\x1d
-\n 「思いっきり、ほっとするんじゃない！！！
- CLICKWAIT \n 　ここは、残念がるところでしょ！！！
- CLICKWAIT \n 　ま、今回は、私の方が悪かったから、これであいこにしてあげるね」
+NEWLINE
+「思いっきり、ほっとするんじゃない！！！
+CLICKWAIT
+NEWLINE
+　ここは、残念がるところでしょ！！！
+CLICKWAIT
+NEWLINE
+　ま、今回は、私の方が悪かったから、これであいこにしてあげるね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -839,24 +1134,32 @@ CHOICE
 （いや、俺たち結婚してるわけじゃないんだから・・・）
 \x00
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「え？　なに？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
 い、いえ、なんでもないです
 \x00
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「・・・・・ほんとかな～」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「今日ね、中学の時の同級生から手紙が来てたんだけど・・・・・
-\n  CLICKWAIT 　来年の３月にぐらいに結婚するんだって」
+NEWLINE
+CLICKWAIT
+　来年の３月にぐらいに結婚するんだって」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -866,20 +1169,29 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ` \x1d
-\n 「でしょ～こんなに早くに結婚なんかしたら、多分苦労するわよねぇ」
+NEWLINE
+「でしょ～こんなに早くに結婚なんかしたら、多分苦労するわよねぇ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x97 \x1d
-\n 「まーたそうやって、興味のない振りをするんだから」
+NEWLINE
+「まーたそうやって、興味のない振りをするんだから」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・でも、私達だって、いつかはそんな日がくる・・・のかな」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -889,25 +1201,36 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 +!\x1d
-\n 「・・・そうね☆」
+NEWLINE
+「・・・そうね☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEｷ!
-\n 「ごまかさないの！！！麻雀の隠しサインじゃないんだから」
+NEWLINE
+「ごまかさないの！！！麻雀の隠しサインじゃないんだから」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・まったく、こういう話になると、急に話をそらそうとするんだ　からぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ねーねー、『ねこ』飼いたくない？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -917,32 +1240,45 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ﾒ"
-\n 「あのね、今日ね、近くのペットショップでね、カワイイ子猫を、見か　けたの」
+NEWLINE
+「あのね、今日ね、近くのペットショップでね、カワイイ子猫を、見か　けたの」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「それでね、その子猫がね、私の方を『連れってって』言う感じでね、　じーっと見てたのぉ～」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10X#\x1d
-\n 「それは、そうだけど・・・・・」
+NEWLINE
+「それは、そうだけど・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「でもね、でもね、近所のペットショップにね、すーーーーーーっごく　カワイイ子猫がいたのよ～」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
 ・・そうですか・・・
 \x00
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ねえ、ねえ、ネコってカワイイと思わない？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -952,39 +1288,61 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ﾈ$
-\n 「え、もちろん、犬もカワイイのいるわよ」
+NEWLINE
+「え、もちろん、犬もカワイイのいるわよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「でも、私はネコの方がいいなあ
- CLICKWAIT \n 　普段はぜーんぜん甘えてもこないのに、餌とか貰うときになると急に　甘え出すようなとこなんかが、もう・・・・・」
+CLICKWAIT
+NEWLINE
+　普段はぜーんぜん甘えてもこないのに、餌とか貰うときになると急に　甘え出すようなとこなんかが、もう・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え？　私、変？　
- CLICKWAIT うーん・・・・・そうかも」
+CLICKWAIT
+うーん・・・・・そうかも」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x103%\x1d
-\n 「でっしょー！　ネコの目って、じーっと見てると、ほんとに綺麗だし　肉球もぷにぷにしてて気持ちいいのお」
+NEWLINE
+「でっしょー！　ネコの目って、じーっと見てると、ほんとに綺麗だし　肉球もぷにぷにしてて気持ちいいのお」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「まあ、でも、ここじゃ飼えないもんね・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「よーし、じゃあもし、将来、ペットが飼えるようになったら、その時　は、絶対ネコ飼うからね」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・絶対だからね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ねえ、私のこと好き？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -994,24 +1352,37 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \xf5&\x1d
-\n 「うふふふふふふ☆嬉しい☆」
+NEWLINE
+「うふふふふふふ☆嬉しい☆」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え？何でいきなりそんなことを聞くのかって？
- CLICKWAIT \n 　『好き』って言葉はね、ちゃんと口に出しておかないと、肝心な時に　出てこなくなっちゃうからね」
+CLICKWAIT
+NEWLINE
+　『好き』って言葉はね、ちゃんと口に出しておかないと、肝心な時に　出てこなくなっちゃうからね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xf0'\x1d
-\n 「い・い・か・ら」
+NEWLINE
+「い・い・か・ら」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ねえ、私のこと好き？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1021,29 +1392,43 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x97'\x1d
-\n 「何、真っ赤になってのよぉ」
+NEWLINE
+「何、真っ赤になってのよぉ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・・でも、嬉しい☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xf0'\x1d
-\n 「何か言ってよね、もう！」
+NEWLINE
+「何か言ってよね、もう！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「まったく
- CLICKWAIT 　肝心なときになると、黙っちゃうんだから」
+CLICKWAIT
+　肝心なときになると、黙っちゃうんだから」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ねえ、私のこと好き？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1053,21 +1438,32 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ｶ(
-\n 「うふふふふふふ☆嬉しい☆
- CLICKWAIT \n 　そうやって、即答してくれるって事は、ずっとそう思ってくれてるっ　てことだよね」
+NEWLINE
+「うふふふふふふ☆嬉しい☆
+CLICKWAIT
+NEWLINE
+　そうやって、即答してくれるって事は、ずっとそう思ってくれてるっ　てことだよね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xf8)\x1d
-\n 「い・い・か・ら」
+NEWLINE
+「い・い・か・ら」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ねえ、私のこと好き？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1077,27 +1473,41 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ､)
-\n 「・・・・・ありがと」
+NEWLINE
+「・・・・・ありがと」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え？礼なんて言われるもんじゃないだろって・・・・・
- CLICKWAIT \n 　確かに、そうなんだけど、嬉しかったからつい・・・ね」
+CLICKWAIT
+NEWLINE
+　確かに、そうなんだけど、嬉しかったからつい・・・ね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xf8)\x1d
-\n 「まーた、だんまりなの？
- CLICKWAIT 　まったく、肝心なときになると、黙っちゃ　うんだから」
+NEWLINE
+「まーた、だんまりなの？
+CLICKWAIT
+　まったく、肝心なときになると、黙っちゃ　うんだから」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ねえ、私のこと好き？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1107,23 +1517,34 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ﾉ*
-\n 「うふふふふふふ☆嬉しい☆」
+NEWLINE
+「うふふふふふふ☆嬉しい☆」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あ、言うまでも無いことなのかもしれないけど、私もあなたのことは　だ～い好きだからね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xe9,\x1d
-\n 「い・い・か・ら」
+NEWLINE
+「い・い・か・ら」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ねえ、私のこと好き？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1133,18 +1554,26 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 k+\x1d
-\n 「うふふ・・・
- CLICKWAIT 私ね、その言葉を聞くと、すっごく安心するの」
+NEWLINE
+「うふふ・・・
+CLICKWAIT
+私ね、その言葉を聞くと、すっごく安心するの」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xe9,\x1d
-\n 「もう、それくらい言ってくれたって良いじゃない！ケチーーー！！」
+NEWLINE
+「もう、それくらい言ってくれたって良いじゃない！ケチーーー！！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1154,17 +1583,24 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 O,\x1d
-\n 「いつもじゃなくていいから、言ってよ、もーーー」
+NEWLINE
+「いつもじゃなくていいから、言ってよ、もーーー」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xe9,\x1d
-\n 「・・・・・ぜんぜん気が付かなかったわよ」
+NEWLINE
+「・・・・・ぜんぜん気が付かなかったわよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1173,19 +1609,27 @@ CHOICE
 ア・ウンの呼吸で気付かなきゃあ
 \x00
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「・・・そんな言い訳の仕方があるかぁ！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「今日はまた、一段と冷えるわねえ・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・あーーー！
- CLICKWAIT 　ねえ！　外見て！　外！
- CLICKWAIT 　雪が、降ってる」
+CLICKWAIT
+　ねえ！　外見て！　外！
+CLICKWAIT
+　雪が、降ってる」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1195,31 +1639,48 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x1b.\x1d
-\n 「・・・私、雪って好きだな～」
+NEWLINE
+「・・・私、雪って好きだな～」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「雪って、どんな景色でも真っ白に染めてくれて、どんな景色でも綺麗　に見せてくれるもんね・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10k.\x1d
-\n 「だらしないなあ！
- CLICKWAIT 　この程度の寒さで、コタツムリになっててどうす　んのよ」
+NEWLINE
+「だらしないなあ！
+CLICKWAIT
+　この程度の寒さで、コタツムリになっててどうす　んのよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「今ねえ、クロスワードパズルに凝ってるんだけど・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え？　『古い』？　悪かったわねー！
- CLICKWAIT \n 　本人は結構楽しんでいるんだからね！
- CLICKWAIT 　だから、協力してよね！」
+CLICKWAIT
+NEWLINE
+　本人は結構楽しんでいるんだからね！
+CLICKWAIT
+　だから、協力してよね！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1229,26 +1690,39 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ･/
-\n 「なによ、ケチ！！！」
+NEWLINE
+「なによ、ケチ！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・ま、そんなこと言ってても、ちゃーんと協力してくれるもんね　MALE NAMEは☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEｾ/
-\n 「頼りにしてるわよ」
+NEWLINE
+「頼りにしてるわよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「と、言うことで、いきなり質問です」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 『第二次大戦中、イギリス、ロシア、アメリカの３カ国の首相が集まっ　てヤルタ会談が行われましたが、その時のロシア代表の人物は誰でし　ょう』
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1258,23 +1732,34 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \xed0\x1d
-\n 「ほんとに～？ロシア代表だよ～！・・・とりあえず、書いておくけど　ね・・・」
+NEWLINE
+「ほんとに～？ロシア代表だよ～！・・・とりあえず、書いておくけど　ね・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1021\x1d
-\n 「うーん、それっぽいわねえ・・・じゃあ『スターリン』・・・っと」
+NEWLINE
+「うーん、それっぽいわねえ・・・じゃあ『スターリン』・・・っと」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「じゃあ次ね」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 『エディ・マーフィ主演でお馴染みのヒットシリーズ、『ビバリーヒル　ズ・コップ』この作品の中で、エディ・マーフィが演じる刑事の名前　は』
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x17\x02
 \x00
 アクセル
@@ -1284,49 +1769,68 @@ CLEAR_TEXTBOX
 \x00
 \x11\x16\x02
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 %2\x1d
-\n 「『アクセル』か～、ア・ク・セ・ル・・・と」
+NEWLINE
+「『アクセル』か～、ア・ク・セ・ル・・・と」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10V2\x1d
-\n 「『ラクセル』か～、ラ・ク・セ・ル・・・と」
+NEWLINE
+「『ラクセル』か～、ラ・ク・セ・ル・・・と」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「さ～てこれで、全部埋まったから、チェックの枠をつなげて・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 END_CHOICE
- \n \x00
+ NEWLINE
+\x00
 \x15\x02
 \x00
 \x02\x16\x02
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x02\x0f
 \x00
 83\x1d
-\n 「『ア』『ン』『ミ』『ツ』・・・・・
- CLICKWAIT \n 　『あんみつ』かあ、ヒントも甘い物ってなってたから大正解だね～　　さっすが、頼りになるう！」
+NEWLINE
+「『ア』『ン』『ミ』『ツ』・・・・・
+CLICKWAIT
+NEWLINE
+　『あんみつ』かあ、ヒントも甘い物ってなってたから大正解だね～　　さっすが、頼りになるう！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10C4\x11\x16
-\n \x00
-NARRATION_DIALOGUE:
+NEWLINE
+\x00
+NO_NAMETAG:
 \x00
 \x02\x16\x02
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x02\x0f
 \x00
 u3\x1d
-\n 『ラ』『ン』『ミ』『ツ』・・・・・
+NEWLINE
+『ラ』『ン』『ミ』『ツ』・・・・・
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xec3\x11\x16
-\n \x00
-NARRATION_DIALOGUE:
+NEWLINE
+\x00
+NO_NAMETAG:
 \x00
 \x02\x16\x02
 \x00
@@ -1335,10 +1839,14 @@ NARRATION_DIALOGUE:
 \x02\x0f
 \x00
 ｲ3
-\n 『ラ』『ル』『ミ』『ツ』・・・・・
+NEWLINE
+『ラ』『ル』『ミ』『ツ』・・・・・
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xec3\x11\x16
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
 \x02\x16\x02
@@ -1348,16 +1856,23 @@ CLEAR_TEXTBOX
 \x02\x0f
 \x00
 \xec3\x1d
-\n 『ア』『ル』『ミ』『ツ』・・・・・
+NEWLINE
+『ア』『ル』『ミ』『ツ』・・・・・
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「はあ？なにこれ？　・・・間違ってるじゃない！　もう、頼りになら　ないんだから！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA02
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ねえ！ねえ！ねえ！　地球人の半分は異星人が化けてるって本当？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1367,21 +1882,31 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 t5\x1d
-\n 「それでね、テレビに出てる有名人とか、政治家も、みーんなエイリア　ンなんだって！！
- CLICKWAIT 　え？・・・おかしくなんかなってないわよ！！！　全部、この本に出てたんだから！」
+NEWLINE
+「それでね、テレビに出てる有名人とか、政治家も、みーんなエイリア　ンなんだって！！
+CLICKWAIT
+　え？・・・おかしくなんかなってないわよ！！！　全部、この本に出てたんだから！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEｭ5
-\n 「でも、でも、ちゃんとこの本に載ってたんだからあ！」
+NEWLINE
+「でも、でも、ちゃんとこの本に載ってたんだからあ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「後ね、今、アメリカとかで秘密のＵＦＯが作られてて、あと２．３年　の内に攻めてくる宇宙人と戦争するんだって」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1391,40 +1916,60 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ﾅ6
-\n 「ううん、信じてないよ」
+NEWLINE
+「ううん、信じてないよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
 あ、あのなぁ
 \x00
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「でもでも、そういうこと考えるのって楽しいじゃない！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10H7\x1d
-\n 「いや、あのね、別に私だって信じてる訳じゃないのよ
- CLICKWAIT \n 　でも、こういう考え方って、なんか夢があるじゃない、それが、楽し　いのよ」
+NEWLINE
+「いや、あのね、別に私だって信じてる訳じゃないのよ
+CLICKWAIT
+NEWLINE
+　でも、こういう考え方って、なんか夢があるじゃない、それが、楽し　いのよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ね、トランプしよ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・なによ、そのつまらなそーな顔は！
-\n  CLICKWAIT 　トランプって、はまったら面白いんだからね」
+NEWLINE
+CLICKWAIT
+　トランプって、はまったら面白いんだからね」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ほら、ちゃんと、私の前に座って・・・
- CLICKWAIT 　で、何しようか？」
+CLICKWAIT
+　で、何しようか？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1434,54 +1979,90 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ﾂ9
-\n 「え、マジで？
- CLICKWAIT 　２人しかいないのに？」
+NEWLINE
+「え、マジで？
+CLICKWAIT
+　２人しかいないのに？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「うーん、ま、とにかく、やってみるだけ、やってみましょうか」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「じゃあ、とりあえず、くばって、ペアになってある奴を捨てて・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「パッ、パツ、パッっと、やったあ終了！
- CLICKWAIT 　・・・って、あれ、なんで　２人とも終わってるの？
- CLICKWAIT ・・・もしかして・・・やっぱりー！！！　　このトランプ、ババが無いわ・・・」
+CLICKWAIT
+　・・・って、あれ、なんで　２人とも終わってるの？
+CLICKWAIT
+・・・もしかして・・・やっぱりー！！！　　このトランプ、ババが無いわ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「な、なんか、馬鹿みたいね、私達」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x04;\x1d
-\n 「ポーカー？
- CLICKWAIT 　ポーカーでいいのね？
- CLICKWAIT \n 　うふふふふ、言っておくけど私、ポーカーはすっごく強いわよ」
+NEWLINE
+「ポーカー？
+CLICKWAIT
+　ポーカーでいいのね？
+CLICKWAIT
+NEWLINE
+　うふふふふ、言っておくけど私、ポーカーはすっごく強いわよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ふーんそれでもやるの？　じゃあ、軽くもんで上げるわ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・はい！　フルハウス」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・次は！　フォーカード」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・ゴメンね！　ロイヤルストレート・・・フラッシュ～！
- CLICKWAIT \n 　１０年早かったみたいね☆」
+CLICKWAIT
+NEWLINE
+　１０年早かったみたいね☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「今日ね、近所のＣＤ屋さんで、ＣＤ買って来たの
- CLICKWAIT \n 　ほら、最近評判になってる、ダンスミュージックの奴なんだけど
-\n 　なんか私には、合わなかったな」
+CLICKWAIT
+NEWLINE
+　ほら、最近評判になってる、ダンスミュージックの奴なんだけど
+NEWLINE
+　なんか私には、合わなかったな」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1491,29 +2072,43 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 {<\x1d
-\n 「そうだよね
- CLICKWAIT 　やっぱり、私は、ちょっと前にあったような、ゆっくり　と優しげな音楽が好きだな」
+NEWLINE
+「そうだよね
+CLICKWAIT
+　やっぱり、私は、ちょっと前にあったような、ゆっくり　と優しげな音楽が好きだな」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「よーし、今度は、そういう奴買って来ようっと」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEﾟ<
-\n 「そう、・・・私はちょっとダメ・・・」
+NEWLINE
+「そう、・・・私はちょっとダメ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「これって、おばさんになってるって、ことなのかなあ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA04
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ねえ、ねえ、いいもの見せてあげようか？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1523,26 +2118,39 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 {=\x1d
-\n 「ま、ま、そう言わずに、ぜーったい気に入ると思うからぁ」
+NEWLINE
+「ま、ま、そう言わずに、ぜーったい気に入ると思うからぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x9c=\x1d
-\n 「きっと気に入ると思うわよ」
+NEWLINE
+「きっと気に入ると思うわよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「そ・れ・は・ね・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ジャーン！　これよ、これ！　『裏ビデオ』のチラシでしたぁ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「どう、どう、１本３０００円なんて安いわよ、１本買ってみる？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1552,14 +2160,18 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x07@\x1d
-\n 「まーた、また、無理しちゃってぇ本当は好きなくせに」
+NEWLINE
+「まーた、また、無理しちゃってぇ本当は好きなくせに」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1569,43 +2181,73 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 k?\x1d
-\n 「え、えーと、それって・・・そういうこと・・・だよね？」
+NEWLINE
+「え、えーと、それって・・・そういうこと・・・だよね？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「や、やだあ、照れるじゃない」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x04@\x1d
-\n 「なんか、やけに詳しいわね・・・
-\n  CLICKWAIT 　大体その『評価』ってなんなのよ！」
+NEWLINE
+「なんか、やけに詳しいわね・・・
+NEWLINE
+CLICKWAIT
+　大体その『評価』ってなんなのよ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え？
- CLICKWAIT 　雑誌に載ってた？
- CLICKWAIT \n 　そんな雑誌を愛読してんのか、あんたわ！！！」
+CLICKWAIT
+　雑誌に載ってた？
+CLICKWAIT
+NEWLINE
+　そんな雑誌を愛読してんのか、あんたわ！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\tA\x1d
-\n 「じゃあ、どれにしよっか～・・・
- CLICKWAIT これって、どこで売ってるの？」
+NEWLINE
+「じゃあ、どれにしよっか～・・・
+CLICKWAIT
+これって、どこで売ってるの？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え？　宅配？　へー、最近はそーなってるんだ・・・・・
- CLICKWAIT \n 　それにしても、面白そうな物が無いわね」
+CLICKWAIT
+NEWLINE
+　それにしても、面白そうな物が無いわね」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ま、無理することもないし、今回は見送りね・・・
- CLICKWAIT \n 　そんなに残念そうな顔しないの！」
+CLICKWAIT
+NEWLINE
+　そんなに残念そうな顔しないの！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「今日ね、実家からミカンを送ってきてくれたんだけど・・食べる？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1615,30 +2257,47 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 hB\x1d
-\n 「私もね～昔っから、ミカンて好きだったの」
+NEWLINE
+「私もね～昔っから、ミカンて好きだったの」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ほら、昔って、冬になったら、家族みんなでコタツに入ってミカンを　食べるのが、あたりまえだったじゃない
- CLICKWAIT \n 　私ね、ああいう普通の、平凡な幸せに、憧れてたの」
+CLICKWAIT
+NEWLINE
+　私ね、ああいう普通の、平凡な幸せに、憧れてたの」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x02C\x1d
-\n 「えー、どうしてー？」
+NEWLINE
+「えー、どうしてー？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あ、解ったぁ　多分、小さい頃に、すっぱいミカンだけ、食べさせら　れたんでしょ
- CLICKWAIT \n 　あのね、ミカンってね、本当は甘いんだよ」
+CLICKWAIT
+NEWLINE
+　あのね、ミカンってね、本当は甘いんだよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ねえ、お茶でも飲む？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1648,34 +2307,55 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 "D\x1d
-\n 「はーい、ちょっと待ってね☆・・・・・」
+NEWLINE
+「はーい、ちょっと待ってね☆・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「はい、お待たせ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「でもさぁ、やっぱり日本人なら、お茶を飲まなきゃね・・・
- CLICKWAIT \n 　う～ん・・・でもちょっと、年寄りくさいかなぁ」
+CLICKWAIT
+NEWLINE
+　う～ん・・・でもちょっと、年寄りくさいかなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEﾐD
-\n 「え、そう、じゃあコーヒーにするね・・・・・
- CLICKWAIT \n 　はい、あ、熱いから気を付けてね・・・」
+NEWLINE
+「え、そう、じゃあコーヒーにするね・・・・・
+CLICKWAIT
+NEWLINE
+　はい、あ、熱いから気を付けてね・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「やっぱり冬は、暖かい飲み物に限るよね
- CLICKWAIT \n 　なんたって、体の芯から暖まるもんね」
+CLICKWAIT
+NEWLINE
+　なんたって、体の芯から暖まるもんね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「今日ね、ちょっと近くの公園に行ったらね、小さい子を連れた若　奥様って感じの人達がいてね、なんか楽しそうに話してたから、仲間　に入れてもらっちゃった」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1685,27 +2365,42 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x04F\x1d
-\n 「みんな、結構若かったんだけど・・・やっぱりお母さんね、しっかり　してるわ」
+NEWLINE
+「みんな、結構若かったんだけど・・・やっぱりお母さんね、しっかり　してるわ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEｪF
-\n 「ああ、そういえば、なんか公園デビューが、どうとか言うのが話題に　なってたっけ」
+NEWLINE
+「ああ、そういえば、なんか公園デビューが、どうとか言うのが話題に　なってたっけ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「うーん、他の所の事は良くわかんなかったけど、みんないい人ばかり　だったよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「でもねぇ、話とか聞いてると、みんなやっぱり『うちの子が一番』っ　てなっちゃうみたいね」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「なんか口では、うちの子なんかダメよ、なんて言ってても、言葉の節　々に、そーいうのが、現れまくりで、私おかしくって・・・
-\n  CLICKWAIT 　でも、私もそうなっちゃうのかなぁ？」
+NEWLINE
+CLICKWAIT
+　でも、私もそうなっちゃうのかなぁ？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1715,21 +2410,32 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ~H\x1d
-\n 「そう？・・・かな～～～」
+NEWLINE
+「そう？・・・かな～～～」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「うーん、やっぱり、そうだろうね～　私って、子供大好きだもんね
- CLICKWAIT \n 　でもさ、寂しい思いをさせるよりは、断然良いよね」
+CLICKWAIT
+NEWLINE
+　でもさ、寂しい思いをさせるよりは、断然良いよね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEｫI
-\n 「わっかんないわよー『うちの子が１番ザマス、オーホッホッホー」』　とか言ってるかもよー」
+NEWLINE
+「わっかんないわよー『うちの子が１番ザマス、オーホッホッホー」』　とか言ってるかもよー」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1739,24 +2445,35 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 LI\x1d
-\n 「いや、やっぱ、こういう台詞はこう言わないと！」
+NEWLINE
+「いや、やっぱ、こういう台詞はこう言わないと！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEｫI
-\n 「あー、あきれてるー
- CLICKWAIT 　冷たいなー
- CLICKWAIT 　ちょっとぐらい、つっこんでくれ　ても、いいじゃない！」
+NEWLINE
+「あー、あきれてるー
+CLICKWAIT
+　冷たいなー
+CLICKWAIT
+　ちょっとぐらい、つっこんでくれ　ても、いいじゃない！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA02
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「今日ねー、近所に泥棒が入ったんだってー」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1766,15 +2483,21 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ゜
-\n 「本当にねぇ、ただね、すぐに家の人が帰ってきたらしくて、実質的な　被害は無かったみたいなんだけど・・・
- CLICKWAIT \n 　まだ、犯人つかまって無いんだって～」
+NEWLINE
+「本当にねぇ、ただね、すぐに家の人が帰ってきたらしくて、実質的な　被害は無かったみたいなんだけど・・・
+CLICKWAIT
+NEWLINE
+　まだ、犯人つかまって無いんだって～」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1784,21 +2507,32 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 CK\x1d
-\n 「うん、とりあえず、戸締まりと、ドアのチェーンは、絶対に確認する　つもりなの」
+NEWLINE
+「うん、とりあえず、戸締まりと、ドアのチェーンは、絶対に確認する　つもりなの」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10~K\x1d
-\n 「だと、いいんだけど・・・やっぱり、恐いな・・・・・」
+NEWLINE
+「だと、いいんだけど・・・やっぱり、恐いな・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10UM\x1d
-\n 「そうなの、パトカーとかが何台もきて、現場検証ってのをやってたん　だけど・・・
- CLICKWAIT 私、そういうの間近で見るのって初めてで、なんか興奮　しちゃってね～」
+NEWLINE
+「そうなの、パトカーとかが何台もきて、現場検証ってのをやってたん　だけど・・・
+CLICKWAIT
+私、そういうの間近で見るのって初めてで、なんか興奮　しちゃってね～」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1808,28 +2542,44 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 絖
-\n 「それは、まかせてよ！」
+NEWLINE
+「それは、まかせてよ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あー、何よ、その不安そうな顔は！！
- CLICKWAIT \n 　わ、私だって・・・ほんとは不安・・・なんだからね」
+CLICKWAIT
+NEWLINE
+　わ、私だって・・・ほんとは不安・・・なんだからね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10UM\x1d
-\n 「なんか、すぐに家の人が帰ってきたらしくて実質的な被害って無かっ　たんだって
- CLICKWAIT 　これって、不幸中の幸いだよね」
+NEWLINE
+「なんか、すぐに家の人が帰ってきたらしくて実質的な被害って無かっ　たんだって
+CLICKWAIT
+　これって、不幸中の幸いだよね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA03
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ねえ、ねえ、聞いてよ！！！今日、近くの公園に行ったらね
- CLICKWAIT \n 　がきんちょが子猫をいじめてたのよ！！！」
+CLICKWAIT
+NEWLINE
+　がきんちょが子猫をいじめてたのよ！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1839,25 +2589,39 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 4P\x1d
-\n 「でしょー、でね、そのガキの横には、母親もいたのよ！
- CLICKWAIT \n 　私、頭にきてたから、その２人に止めて下さい！って言ったのよ」
+NEWLINE
+「でしょー、でね、そのガキの横には、母親もいたのよ！
+CLICKWAIT
+NEWLINE
+　私、頭にきてたから、その２人に止めて下さい！って言ったのよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「そしたら、その母親、なんていったと思う？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「『いいじゃない、野良猫でしょ』よー！！！
- CLICKWAIT \n 　私、すっごい頭にきたから、速攻で子猫を抱え上げて、２人をにらん　でやったの」
+CLICKWAIT
+NEWLINE
+　私、すっごい頭にきたから、速攻で子猫を抱え上げて、２人をにらん　でやったの」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「そしたら、すごすごと逃げてったわ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1867,35 +2631,57 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ﾎO
-\n 「ああいう母親がいるから、いじめとかが無くなんないのよ！！！」
+NEWLINE
+「ああいう母親がいるから、いじめとかが無くなんないのよ！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x101P\x1d
-\n 「だぁーって、本当に腹がたってたんだもん
- CLICKWAIT \n 　だいたい、その子猫にはなんの罪もないんだよ！！！」
+NEWLINE
+「だぁーって、本当に腹がたってたんだもん
+CLICKWAIT
+NEWLINE
+　だいたい、その子猫にはなんの罪もないんだよ！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xefP\x1d
-\n 「当然！
- CLICKWAIT 　私ってほら、ネコの事になると、押さえきかないから」
+NEWLINE
+「当然！
+CLICKWAIT
+　私ってほら、ネコの事になると、押さえきかないから」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「でもね、たぶん、あれが犬であろうと、人間であろうと、助けたんじ　ゃないかな
- CLICKWAIT \n 　私、ああいうのが、１番嫌いだもん！」
+CLICKWAIT
+NEWLINE
+　私、ああいうのが、１番嫌いだもん！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA04
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「今日ね、すっごくラッキーな事があったのー」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あのね、今日ね、たまたまいつも買い物をしてる所とは別の所に行っ　たのよぉ
- CLICKWAIT 　そしたらね、特売やっててね、お肉とか卵とかが、すっご　く安かったのー！　なーんか幸せな気分だわ～」
+CLICKWAIT
+　そしたらね、特売やっててね、お肉とか卵とかが、すっご　く安かったのー！　なーんか幸せな気分だわ～」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1905,29 +2691,47 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ｰR
-\n 「悪かったわね、単純で！
- CLICKWAIT 　でもね、こういう性格って得なのよぉ
- CLICKWAIT \n 　なんたって、今は毎日が幸せでいっぱいなんだもん」
+NEWLINE
+「悪かったわね、単純で！
+CLICKWAIT
+　でもね、こういう性格って得なのよぉ
+CLICKWAIT
+NEWLINE
+　なんたって、今は毎日が幸せでいっぱいなんだもん」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10lS\x1d
-\n 「え～・・・そうかな？
- CLICKWAIT \n 　本人は、メチャメチャ若いつもりなんだけどな～」
+NEWLINE
+「え～・・・そうかな？
+CLICKWAIT
+NEWLINE
+　本人は、メチャメチャ若いつもりなんだけどな～」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ま、ちょっとぐらい話し方がおばさんになっても、この美貌には少し　の衰えも・・・
- CLICKWAIT \n 　こらー！　ねるなー！」
+CLICKWAIT
+NEWLINE
+　こらー！　ねるなー！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「あー、今日は疲れたわぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1937,23 +2741,37 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 *T\x1d
-\n 「近所の子供達一緒にね、サッカーしてたのよ
-\n  CLICKWAIT 　なんか、今日一日で、一年分ぐらい運動したって感じだわ」
+NEWLINE
+「近所の子供達一緒にね、サッカーしてたのよ
+NEWLINE
+CLICKWAIT
+　なんか、今日一日で、一年分ぐらい運動したって感じだわ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEﾙT
-\n 「なんてこと言うのよ！！！　若いからこそ疲れたのよ！！」
+NEWLINE
+「なんてこと言うのよ！！！　若いからこそ疲れたのよ！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「何たって今日は、子供達とサッカーしてたんだからね
-\n  CLICKWAIT 　何でそんなことしたかって？
- CLICKWAIT 　ふふふ　若いからよ！！！」
+NEWLINE
+CLICKWAIT
+　何でそんなことしたかって？
+CLICKWAIT
+　ふふふ　若いからよ！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1963,24 +2781,37 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 廼
-\n 「え、別にこれって理由はないけどね
-\n  CLICKWAIT 　ただ子供達が、楽しそうにサッカーしてるのを見てたら、急にやりた　くなったから、入れてもらったの☆」
+NEWLINE
+「え、別にこれって理由はないけどね
+NEWLINE
+CLICKWAIT
+　ただ子供達が、楽しそうにサッカーしてるのを見てたら、急にやりた　くなったから、入れてもらったの☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x17V\x1d
-\n 「何言ってんのよ！まだまだ若いんだからね、私は！
-\n  CLICKWAIT 　今日だって、子供達にはちゃーんと『おねーさん』って呼ばせてたん　だからぁ」
+NEWLINE
+「何言ってんのよ！まだまだ若いんだからね、私は！
+NEWLINE
+CLICKWAIT
+　今日だって、子供達にはちゃーんと『おねーさん』って呼ばせてたん　だからぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA03
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1990,14 +2821,18 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 oW\x1d
-\n 「・・・・・・・・・・・・・・・・・・・・・・・・・・・・・」
+NEWLINE
+「・・・・・・・・・・・・・・・・・・・・・・・・・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -2007,25 +2842,37 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 1W\x1d
-\n 「・・・・・なんか・・・・・」
+NEWLINE
+「・・・・・なんか・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10lW\x1d
-\n 「べつに～・・・ただ、ちょっと、しゃべりたくないだけ」
+NEWLINE
+「べつに～・・・ただ、ちょっと、しゃべりたくないだけ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAME係
-\n 「ち・が・う・わ・よ！」
+NEWLINE
+「ち・が・う・わ・よ！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA02
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「はぁ・・・なーんか体が重いなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -2035,27 +2882,41 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 %X\x1d
-\n 「んー、わかんない
- CLICKWAIT ・・・・・ちょっと疲れてんのかもね」
+NEWLINE
+「んー、わかんない
+CLICKWAIT
+・・・・・ちょっと疲れてんのかもね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAME｣X
-\n 「え、うん、そんなにひどい訳じゃないのよ」
+NEWLINE
+「え、うん、そんなにひどい訳じゃないのよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ただ、なんか、体重くて・・・
- CLICKWAIT \n 　あ、大丈夫よ！一晩寝れば直ると思うから」
+CLICKWAIT
+NEWLINE
+　あ、大丈夫よ！一晩寝れば直ると思うから」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGAA02
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「だぁ～、な～んにもする気がしないんだけど～」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -2065,19 +2926,29 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 榛
-\n 「そ、なんかやろうとは思うんだけど、体がついて来ないのよ」
+NEWLINE
+「そ、なんかやろうとは思うんだけど、体がついて来ないのよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「私って、行動派の方だから、こういう時って妙にあせっちゃってね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEﾔY
-\n 「そう
- CLICKWAIT 　じゃ、たまには２人でぼぉーーーーーーーっとしてよっか」
+NEWLINE
+「そう
+CLICKWAIT
+　じゃ、たまには２人でぼぉーーーーーーーっとしてよっか」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 END_FILE

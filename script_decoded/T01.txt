@@ -7,18 +7,19 @@
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x16
 \x00
 \x10\x1c
-\n \x10\x7f
+NEWLINE
+\x10\x7f
 \x00
 \x11\x16\x04
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 '
 \x00
@@ -28,18 +29,19 @@ MALE NAMEｾMALE NAME
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 8
 \x00
 \x10\xef
- CLICKWAIT \x10\x7f
+CLICKWAIT
+\x10\x7f
 \x00
 \x11\x16\x04
 \x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 I
 \x00
@@ -49,7 +51,7 @@ MALE NAMEﾟMALE NAME
 \x00
 \x15\x04
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 Z
 \x00
@@ -58,8 +60,9 @@ MALE NAMEﾙ	MALE NAME
 \x11\x16\x04
 \x00
 \x15
- CLICKWAIT \x00
-\x02
+CLICKWAIT
+\x00
+CLEAR_TEXTBOX
 \x00
 k
 \x00
@@ -69,7 +72,7 @@ k
 \x00
 \x15\x06
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 |
 \x00
@@ -79,23 +82,33 @@ k
 \x00
 \x1a(_CGAA04
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「え？　何か手伝うこと・・・そうねえ・・・
- CLICKWAIT \n 　今のところ何もないんだけど・・・・・」
+CLICKWAIT
+NEWLINE
+　今のところ何もないんだけど・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「また今度、なんかあったときにお願いするね☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x08\x1e
 \x00
 \n
 \x00
 3\x1a(_CGAA04
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「え、手伝ってくれるの？
- CLICKWAIT \n 　じゃあねえ、このシャツたたんでくれる？」
+CLICKWAIT
+NEWLINE
+　じゃあねえ、このシャツたたんでくれる？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -105,45 +118,71 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
 \x00
-ﾙ???
-\n 「じゃ、おねがいね」
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+ﾙCLEAR_TEXTBOX
+
+NEWLINE
+「じゃ、おねがいね」
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「・・・・・・・・・・・・・・・・・・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あーっ！ちょ、ちょっと、そういうたたみ方だとしわになるの！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・そ、そうじゃなくて・・・
- CLICKWAIT もう、いいわ、後は私がやるから」
+CLICKWAIT
+もう、いいわ、後は私がやるから」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え？　なーにあやまってんのよ
- CLICKWAIT \n 　いいから、いいから、気持ちは嬉しかったから」
+CLICKWAIT
+NEWLINE
+　いいから、いいから、気持ちは嬉しかったから」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x08\x1e
 \x00
 \n
 \x00
 MALE NAMEｧ
-\n 「あのね、こうやって・・・こうやって・・・こう・・・」
+NEWLINE
+「あのね、こうやって・・・こうやって・・・こう・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「わかった？
- CLICKWAIT 　じゃあ、後、お願いね」
+CLICKWAIT
+　じゃあ、後、お願いね」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・・・・・・・・・・・・・・・・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あ、全部やってくれたんだ、ありがとう☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x08\x1e
 \x00
 \x14
@@ -167,10 +206,13 @@ CLEAR_TEXTBOX
 \x00
 3\x1a(_CGAA04
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「え、手伝ってくれるの？
- CLICKWAIT 　じゃあねえ、この下着たたんでくれる？」
+CLICKWAIT
+　じゃあねえ、この下着たたんでくれる？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -180,41 +222,62 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x19
- CLICKWAIT FEMALE_DIALOGUE:
+CLICKWAIT
+FEMALE_NAMETAG:
 「たたみ方ってわかる？
- CLICKWAIT ・・・そうそう、へえ、良く知ってるね」
+CLICKWAIT
+・・・そうそう、へえ、良く知ってるね」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「じゃあ、残りのやつもお願いね」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あ、もう、終わったの？早いなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x08\x1e
 \x00
 \x14
 \x00
 MALE NAMEﾘ
- CLICKWAIT FEMALE_DIALOGUE:
+CLICKWAIT
+FEMALE_NAMETAG:
 「キャー！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「な、なんで～？
- CLICKWAIT ・・・あ、そっか、今日一緒に洗っちゃったんだ」
+CLICKWAIT
+・・・あ、そっか、今日一緒に洗っちゃったんだ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あ、あのね、それはね・・・ここぞって時用の・・・・・
- CLICKWAIT \n 　も、もういいから、早くたたんで！」
+CLICKWAIT
+NEWLINE
+　も、もういいから、早くたたんで！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x08\x1e
 \x00
 \n
@@ -231,17 +294,21 @@ CLEAR_TEXTBOX
 \x03
 \x00
 \xed
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 \x0e
 \x00
 \x00
 \x00
 3\x1a(_CGAA04
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「え、手伝ってくれるの？
- CLICKWAIT 　じゃあねえ、そのタオルたたんでくれる」
+CLICKWAIT
+　じゃあねえ、そのタオルたたんでくれる」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -251,34 +318,51 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \xf2\x06\x1d
-\n 「じゃ、お願いね」
+NEWLINE
+「じゃ、お願いね」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ありがと、助かったわ☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x08\x1e
 \x00
 \n
 \x00
 MALE NAMEﾈ
-\n 「あ、やっぱ、わかった？
- CLICKWAIT \n 　そう、そのタオルって私達が初めて旅行した時の、旅館のやつだよ」
+NEWLINE
+「あ、やっぱ、わかった？
+CLICKWAIT
+NEWLINE
+　そう、そのタオルって私達が初めて旅行した時の、旅館のやつだよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ほら、記念にってパクってきたじゃない」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「でも、考えてみれば私達って、旅行先で悪さばっかりしてたよね～」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x08\x1e
 \x00
 \x14
@@ -302,10 +386,13 @@ CLEAR_TEXTBOX
 \x00
 3\x1a(_CGAA04
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「え、手伝ってくれるの？
- CLICKWAIT 　じゃあねぇ、靴下をたたんでくれる？」
+CLICKWAIT
+　じゃあねぇ、靴下をたたんでくれる？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -315,33 +402,48 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \xe7\x08\x1d
-\n 「・・・・・へぇ、結構、器用にまるめるのねぇ、どうやってるの？」
+NEWLINE
+「・・・・・へぇ、結構、器用にまるめるのねぇ、どうやってるの？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・へぇ、そうやるんだ、今度から私も、その方法でやろうっと」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x08\x1e
 \x00
 \x14
 \x00
 MALE NAMEﾂ	
-\n 「靴下ってさぁ、結構、面倒くさいんだよね」
+NEWLINE
+「靴下ってさぁ、結構、面倒くさいんだよね」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「そんでまた、人によってたたみ方も全然違うしね」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ありがと、気が向いたらまた手伝ってね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x08\x1e
 \x00
 \n
@@ -365,10 +467,13 @@ CLEAR_TEXTBOX
 \x00
 3\x1a(_CGAI04
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「え、手伝ってくれるの？
- CLICKWAIT 　じゃあねぇ、食事の後片づけ手伝って」
+CLICKWAIT
+　じゃあねぇ、食事の後片づけ手伝って」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -378,29 +483,46 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 /\x0b\x1d
-\n 「ん、じゃあ、お願いね
- CLICKWAIT 　その間に私は、洗い物をしてくるからね」
+NEWLINE
+「ん、じゃあ、お願いね
+CLICKWAIT
+　その間に私は、洗い物をしてくるからね」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あ、出来たの？　へぇ、綺麗！、綺麗！
- CLICKWAIT 　ありがとね☆」
+CLICKWAIT
+　ありがとね☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEﾏ
-\n 「本当？　じゃあ一緒にしよっか？
- CLICKWAIT \n 　・・・フフ、昔、こうやって夫婦で一緒に洗い物してるようなＣＭが　あったよね」
+NEWLINE
+「本当？　じゃあ一緒にしよっか？
+CLICKWAIT
+NEWLINE
+　・・・フフ、昔、こうやって夫婦で一緒に洗い物してるようなＣＭが　あったよね」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あの光景って私の憧れだったんだよぉ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x08\x1e
 \x00
 \x14
@@ -424,11 +546,16 @@ CLEAR_TEXTBOX
 \x00
 3\x1a(_CGAA04
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「え、手伝ってくれるの？
- CLICKWAIT \n 　うーん、今は別になんにも・・・
- CLICKWAIT あ、じゃあねぇ、肩もんで☆」
+CLICKWAIT
+NEWLINE
+　うーん、今は別になんにも・・・
+CLICKWAIT
+あ、じゃあねぇ、肩もんで☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -438,38 +565,60 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ｰ
-\n 「もうねぇ、コリコリよ～」
+NEWLINE
+「もうねぇ、コリコリよ～」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「やっぱ、これだけ胸が大きいとねぇ・・・・
- CLICKWAIT \n 　こらこら、なんで首を横に振ってんのよぉ！」
+CLICKWAIT
+NEWLINE
+　こらこら、なんで首を横に振ってんのよぉ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「じゃ、お願いね☆・・・あ、あん
- CLICKWAIT ちょ、ちょっと・・・そこ、ちが・
- CLICKWAIT \n 　あ、・・・・・はぁはぁ・・・
- CLICKWAIT あ、あのねぇこれ以上、肩こりをひど　くしてどうするのよ！」
+CLICKWAIT
+ちょ、ちょっと・・・そこ、ちが・
+CLICKWAIT
+NEWLINE
+　あ、・・・・・はぁはぁ・・・
+CLICKWAIT
+あ、あのねぇこれ以上、肩こりをひど　くしてどうするのよ！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x08\x1e
 \x00
 \n
 \x00
 \x10]\x0e\x1d
-\n 「じゃ、お願いね☆
- CLICKWAIT ・・・・・はぁ、気持ち良い～☆」
+NEWLINE
+「じゃ、お願いね☆
+CLICKWAIT
+・・・・・はぁ、気持ち良い～☆」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あ～、ありがと、だいぶ楽になったわ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x08\x1e
 \x00
 \x14
@@ -493,17 +642,28 @@ r\x0e
 \x00
 3\x1a(_CGAA04
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「え、手伝ってくれるの？
- CLICKWAIT \n 　うーん、じゃあねぇ、このハガキ書くの手伝ってよ」
+CLICKWAIT
+NEWLINE
+　うーん、じゃあねぇ、このハガキ書くの手伝ってよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「最近ね、懸賞に凝っててね、いろんな所でチェックしてるの
- CLICKWAIT \n 　だから、ここと
- CLICKWAIT 　ここと
- CLICKWAIT 　ここに
- CLICKWAIT 　５枚ずつお願いね☆」
+CLICKWAIT
+NEWLINE
+　だから、ここと
+CLICKWAIT
+　ここと
+CLICKWAIT
+　ここに
+CLICKWAIT
+　５枚ずつお願いね☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -513,39 +673,61 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x87\x10\x1d
-\n 「じゃあ、ちゃんと書いてね」
+NEWLINE
+「じゃあ、ちゃんと書いてね」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え、もう書いてくれたの？ありがと」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・でも、ちょっと見栄えしないなぁ
- CLICKWAIT 　え、関係ないだろって？」
+CLICKWAIT
+　え、関係ないだろって？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ううん、結構重要なのよぉ、そういうのって」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x08\x1e
 \x00
 \x14
 \x00
 \x10F\x11\x1d
-\n 「何言ってんのよ、これでも少ないぐらいなんだからぁ
- CLICKWAIT \n 　多い人なんて、何十通も出すんだからね」
+NEWLINE
+「何言ってんのよ、これでも少ないぐらいなんだからぁ
+CLICKWAIT
+NEWLINE
+　多い人なんて、何十通も出すんだからね」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「だからこっちは、一枚一枚の質で勝負するつもりなの！
- CLICKWAIT \n 　だからちゃんと書いてよね！」
+CLICKWAIT
+NEWLINE
+　だからちゃんと書いてよね！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x08\x1e
 \x00
 \n

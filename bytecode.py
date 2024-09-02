@@ -4,10 +4,14 @@ import re
 
 
 ##### Notes:
+# ( loads graphical things like backgrounds.
+# Music is loaded by just using the music name surrounded by \x00
 # \x01 seems to be a new line.
+# \x02 wipes the textbox
 # \x05 is a clickwait, but will continue on the same line.
-# ( loads a cg, sprite, etc.
-# DS0X is music.
+# \x1d female nametag
+# \x1e male nametag
+# \x17 gives a choice
 patterns = [
     {
         "pattern": [b'\x1a\xff'],
@@ -25,35 +29,35 @@ patterns = [
         "action": "END_CHOICE\n "
     },
     {
-        "pattern": [b'\x05', b'\x02', b'\x00'],
-        #
-        "action": "CLEAR_TEXTBOX\n"
-    },
-    {
         "pattern": [b'\x15', b'\x01'],
         #
-        "action": "NARRATION_DIALOGUE:\n"
+        "action": "NO_NAMETAG:\n"
     },
     {
         "pattern": [b'\x1d', b'\x01'],
         #
-        "action": "FEMALE_DIALOGUE:\n"
+        "action": "FEMALE_NAMETAG:\n"
     },
     {
         "pattern": [b'\x1e', b'\x01'],
         #
-        "action": "MALE_DIALOGUE:\n"
+        "action": "MALE_NAMETAG:\n"
     },
 
     {
         "pattern": [b'\x05'],
         #
-        "action": " CLICKWAIT "
+        "action": "CLICKWAIT\n"
+    },
+    {
+        "pattern": [b'\x02'],
+        #
+        "action": "CLEAR_TEXTBOX\n"
     },
     {
         "pattern": [b'\x01'],
         #
-        "action": "\\n "
+        "action": "NEWLINE\n"
     },
     {
         "pattern": [b'('],
@@ -115,9 +119,12 @@ def save_text(lines, output_path):
             if contains_japanese(line.decode("932", errors='ignore')):
                 print(line.decode("932", errors='ignore'))
                 line = line.decode("932", errors='ignore')
-                line = line.replace("", "MALE NAME")
-                line = line.replace("", "FEMALE NAME")
-                line = line.replace("", "???") # No clue what this does.
+                line = line.replace("", "MALE NAME")   # \x10
+                line = line.replace("", "FEMALE NAME") # \x11
+                line = line.replace("", "CLEAR_TEXTBOX\n")      # No clue what this does.
+                line = line.replace("", "\\x04 ")      # No clue what this does.
+                line = line.replace("", "\\x12 ")      # No clue what this does.
+
                 f.write(line + "\n")
             else:
                 matched = False

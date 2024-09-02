@@ -12,7 +12,8 @@ hk\x1e4\x0e
 \x00
 !
 \x00
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 \x06
 \x00
 \x07

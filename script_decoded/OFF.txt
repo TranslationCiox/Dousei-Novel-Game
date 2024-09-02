@@ -11,10 +11,11 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 4
 \x00
@@ -24,43 +25,56 @@ MALE NAMEｮMALE NAME=
 \x00
 \x10l\x12\x1a\x04p
 \x00
-\n \x00
+NEWLINE
+\x00
 (_CGAI01
 \x00
  DS02
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 二人で朝御飯を食べていると、FEMALE NAMEが、あなたに声をかけてきた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x16\x10
 \x00
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ﾇ
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ねぇねぇ、今日は何をする予定なの？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x0c
-\n FEMALE_DIALOGUE:
+NEWLINE
+FEMALE_NAMETAG:
 「ねぇねぇ、今日はお休みなんだよね～
- CLICKWAIT \n 　で、何をする予定なの？」
+CLICKWAIT
+NEWLINE
+　で、何をする予定なの？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「そうだなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x16\x10
 \x00
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 `
-\n 
+NEWLINE
+
 CHOICE
  \x00
 アルバイトを探す
@@ -71,7 +85,8 @@ CHOICE
 \x00
 \x00
 \x10\x87
-\n 
+NEWLINE
+
 CHOICE
  \x00
 １人で行動する
@@ -80,13 +95,16 @@ CHOICE
 \x00
 \x00
 \x08
-\n \x00
-\n \x00
-END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+NEWLINE
 \x00
-\x02
+NEWLINE
+\x00
+END_CHOICE
+ NEWLINE
+\x00
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \xfa\x02\x1bp
 \x00
@@ -96,42 +114,71 @@ NARRATION_DIALOGUE:
 \x00
 \x1ck
 \x00
-ｺ???
-\n 「え～アルバイトに行っちゃうの～」
+ｺCLEAR_TEXTBOX
+
+NEWLINE
+「え～アルバイトに行っちゃうの～」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「行っちゃうの～って言われても・・・・・
- CLICKWAIT お金がないと困るでしょ」
+CLICKWAIT
+お金がないと困るでしょ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「解ってるわよ～それくらい
- CLICKWAIT \n 　でもね、MALE NAMEと過ごす時間が減っちゃうって思って・・・」
+CLICKWAIT
+NEWLINE
+　でもね、MALE NAMEと過ごす時間が減っちゃうって思って・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「大丈夫、バイトが終わったらまっすぐ家に帰るからさ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「うん、わかった」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10l
- CLICKWAIT \x10\xf7\x02\x1d
-\n 「今度はどのアルバイトにするの？」
+CLICKWAIT
+\x10\xf7\x02\x1d
+NEWLINE
+「今度はどのアルバイトにするの？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「そうだなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10l
- CLICKWAIT \x10e
- CLICKWAIT END_CHOICE
- \n \x00
+CLICKWAIT
+\x10e
+CLICKWAIT
+END_CHOICE
+ NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 G\x04\x1d
-\n 「え、ちょっとどっかに行ってくるの？
- CLICKWAIT \n 　ま、たまには１人で羽を伸ばすのもいいかもね」
+NEWLINE
+「え、ちょっとどっかに行ってくるの？
+CLICKWAIT
+NEWLINE
+　ま、たまには１人で羽を伸ばすのもいいかもね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -143,36 +190,48 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \xe4\x03(_CGAG01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「じゃ、行ってらっしゃい
- CLICKWAIT \n 　夕飯までには帰ってきてね☆」
+CLICKWAIT
+NEWLINE
+　夕飯までには帰ってきてね☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
  DS03
 \x00
-MALE NAMEｮMALE NAMEDFEMALE NAME
-\n \x00
+MALE NAMEｮMALE NAMED\x04 FEMALE NAME
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 A\x04(_CGAG01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「じゃ、行ってらっしゃい
- CLICKWAIT \n 　夕飯までには帰ってきてね☆」
+CLICKWAIT
+NEWLINE
+　夕飯までには帰ってきてね☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
  DS03
 \x00
 \x10l\x12\x10D\x04\x10\x1f
-\n \x10e
- CLICKWAIT 
+NEWLINE
+\x10e
+CLICKWAIT
+
 CHOICE
  \x00
 ずっと家にいる
@@ -183,60 +242,89 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \xe9\x04\x1d
-\n 「ふ～ん、今日は家でゆっくりするのね
- CLICKWAIT \n 　じゃ、今日はずっと２人きりでいられるね☆」
+NEWLINE
+「ふ～ん、今日は家でゆっくりするのね
+CLICKWAIT
+NEWLINE
+　じゃ、今日はずっと２人きりでいられるね☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGAA01
 \x00
 \x04
 \x00
 \x00
-\n \x00
+NEWLINE
+\x00
 \x04
-\n \x00
-\n \x00
+NEWLINE
+\x00
+NEWLINE
+\x00
 MALE NAMEﾞMALE NAMEe
- CLICKWAIT END_CHOICE
- \n \x00
+CLICKWAIT
+END_CHOICE
+ NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 b
- CLICKWAIT FEMALE_DIALOGUE:
+CLICKWAIT
+FEMALE_NAMETAG:
 「え、お出かけ？
- CLICKWAIT 　２人で？
- CLICKWAIT 　やったぁ！！
- CLICKWAIT \n 　そうと決まったら、ほら、早く食べてぇ」
+CLICKWAIT
+　２人で？
+CLICKWAIT
+　やったぁ！！
+CLICKWAIT
+NEWLINE
+　そうと決まったら、ほら、早く食べてぇ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04\x04
 \x00
-\n \x00
+NEWLINE
+\x00
 \x04
 \x00
 \x00
-\n \x00
+NEWLINE
+\x00
 \x04
-\n \x00
-\n \x00
+NEWLINE
+\x00
+NEWLINE
+\x00
 \x10\x84\x1b\x10e
- CLICKWAIT \x10\x1f
-\n  ds02
+CLICKWAIT
+\x10\x1f
+NEWLINE
+ ds02
 \x00
 \x1a\x15
-\n 食事を終えたあなたは、アルバイト情報誌を広げた
+NEWLINE
+食事を終えたあなたは、アルバイト情報誌を広げた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGAB
 \x00
-MALE_DIALOGUE:
+MALE_NAMETAG:
 「すんげー楽で給料のいいバイト、ないかなぁ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -250,16 +338,20 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
+\x00
+NO_NAMETAG:
 \x00
 \x04
 \x00
 \x99\x06\x0c
-\n \x00
-\n \x00
+NEWLINE
+\x00
+NEWLINE
+\x00
 MALE NAMEｪ	
-\n \x00
+NEWLINE
+\x00
 他を探す
 \x00
 建設業　　　　　　日給１２,０００円　勤務時間８時間
@@ -270,14 +362,16 @@ MALE NAMEｪ	
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
+\x00
+NO_NAMETAG:
 \x00
 \x04
 \x00
 U\x07\x08
-\n \x00
-\x02
+NEWLINE
+\x00
+CLEAR_TEXTBOX
 \x00
 MALE NAMEｪ	FEMALE NAME
 \x00
@@ -286,7 +380,8 @@ MALE NAMEｪ	FEMALE NAME
 \x04
 \x00
 \x0c\x08\x17
-\n \x00
+NEWLINE
+\x00
 他を探す
 \x00
 ケーキ屋　　　　　時給　 　６００円　勤務時間８時間
@@ -303,7 +398,8 @@ MALE NAMEﾛFEMALE NAME
 \x04
 \x00
 \x8f\x08\x17
-\n \x00
+NEWLINE
+\x00
 他を探す
 \x00
 ケーキ屋　　　　　時給　 　６００円　勤務時間８時間
@@ -318,63 +414,80 @@ MALE NAMEﾛFEMALE NAME
 \x04
 \x00
 ﾛ
-\n \x00
+NEWLINE
+\x00
 他を探す
 \x00
 ケーキ屋　　　　　時給　 　６００円　勤務時間８時間
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
+\x00
+NO_NAMETAG:
 \x00
 \x04
 \x00
 \xee\x08\x08
-\n \x00
- CLICKWAIT \x00
+NEWLINE
+\x00
+CLICKWAIT
+\x00
 MALE NAMEｪ	
-\n \x00
+NEWLINE
+\x00
 アルバイト情報誌を最初から読みなおす
 \x00
 やっぱりプータロウがいい
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 A	MALE NAMEﾝ
- CLICKWAIT MALE NAMEｪ	(_CGAA01
+CLICKWAIT
+MALE NAMEｪ	(_CGAA01
 \x00
  DS02
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「どうしたの？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「やっぱ、今日はやめとく」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「そう、じゃあ、何をするの？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x1f
-\n \x04k
+NEWLINE
+\x04k
 \x00
-\n \x00
+NEWLINE
+\x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ﾑ	
 \x00
 \x10
 \x00
-\n \x00
+NEWLINE
+\x00
 \x00
 \x14
 \x00
@@ -392,16 +505,18 @@ P
 \x00
 MALE NAMEﾓ
 FEMALE NAME
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xf3\t
 \x00
 \x10
 \x00
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 \x00
 \x14
 \x00
@@ -419,10 +534,11 @@ FEMALE NAME
 \x00
 MALE NAMEﾓ
 FEMALE NAME
-\n \x00
+NEWLINE
+\x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x15\n
 \x00
@@ -447,10 +563,11 @@ L
 \x00
 MALE NAMEﾓ
 FEMALE NAME
-\n \x00
+NEWLINE
+\x00
 \x15\x04
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 7\n
 \x00
@@ -475,16 +592,18 @@ x
 \x00
 MALE NAMEﾓ
 FEMALE NAME
-\n \x00
+NEWLINE
+\x00
 \x15
- CLICKWAIT \x00
-\x02
+CLICKWAIT
+\x00
+CLEAR_TEXTBOX
 \x00
 Y\n
 \x00
 \x10
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x00
 \x14
@@ -503,10 +622,11 @@ F
 \x00
 MALE NAMEﾓ
 FEMALE NAME
-\n \x00
+NEWLINE
+\x00
 \x15\x06
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 {\n
 \x00
@@ -531,10 +651,11 @@ H
 \x00
 MALE NAMEﾓ
 FEMALE NAME
-\n \x00
+NEWLINE
+\x00
 \x15\x07
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x9d\n
 \x00
@@ -559,10 +680,11 @@ x
 \x00
 MALE NAMEﾓ
 FEMALE NAME
-\n \x00
+NEWLINE
+\x00
 \x15\x08
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ｿ
 
@@ -608,58 +730,92 @@ MALE NAMEﾓ
 \x00
 ﾞ
 \x00
-MALE_DIALOGUE:
+MALE_NAMETAG:
 「よしっこれにしよう。さっそく電話して・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 　（　ピッポッパッポ・・・　）
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「もしもし、アルバイトしたいんですけど・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 A
-\n 『あ、どうもありがとうございます。どちらのアルバイト情報誌をご覧　になられましたか？』
+NEWLINE
+『あ、どうもありがとうございます。どちらのアルバイト情報誌をご覧　になられましたか？』
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「え～と、『Ｋ１』です。」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 A
-\n 『さっそく今日のお昼過ぎぐらいに面接を行いたいのですが、ご予定の　方は・・・』
+NEWLINE
+『さっそく今日のお昼過ぎぐらいに面接を行いたいのですが、ご予定の　方は・・・』
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「はい、大丈夫です
- CLICKWAIT \n 　さっそくお伺いしますので、よろしくお願いします」
+CLICKWAIT
+NEWLINE
+　さっそくお伺いしますので、よろしくお願いします」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 A
-\n 『はい、お待ちしております。』
+NEWLINE
+『はい、お待ちしております。』
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「それでは失礼します。」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 A
-\n 『失礼します。』
+NEWLINE
+『失礼します。』
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 （カチャッ）
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「それじゃ、さっそく出かけよう」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGAG01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「いってらっしゃ～い、なるべく早く帰ってきてね」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは早速、面接へと向かった。
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
  DS01
 \x00
 \x11\x16\x10
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x81\r(_CGB01A
 \x00
@@ -667,7 +823,7 @@ NARRATION_DIALOGUE:
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x9a\r(_CGB02A
 \x00
@@ -675,7 +831,7 @@ NARRATION_DIALOGUE:
 \x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ｳ(_CGB03A
 \x00
@@ -683,15 +839,16 @@ NARRATION_DIALOGUE:
 \x00
 \x15\x04
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ﾌ(_CGB04A
 \x00
 .\x0e\x10F\x0e\x11\x16\x10
 \x00
 \x15
- CLICKWAIT \x00
-\x02
+CLICKWAIT
+\x00
+CLEAR_TEXTBOX
 \x00
 \xe5\r(_CGB05A
 \x00
@@ -699,7 +856,7 @@ NARRATION_DIALOGUE:
 \x00
 \x15\x06
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xfe\r(_CGB06A
 \x00
@@ -707,7 +864,7 @@ NARRATION_DIALOGUE:
 \x00
 \x15\x07
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x17\x0e(_CGB07A
 \x00
@@ -715,7 +872,7 @@ NARRATION_DIALOGUE:
 \x00
 \x15\x08
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 0\x0e(_CGB08A
 \x00
@@ -723,34 +880,57 @@ NARRATION_DIALOGUE:
 \x00
 \x15\t
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 F\x0e(_CGB09A
 \x00
 .\x13\x15
-\n 「これで、すべて終了しました
- CLICKWAIT \n 　では、明日から来てもらえますか」
+NEWLINE
+「これで、すべて終了しました
+CLICKWAIT
+NEWLINE
+　では、明日から来てもらえますか」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「はい、分かりました」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGBK
 \x00
 \x1a(_CGB01B
 \x00
-NARRATION_DIALOGUE:
-???やはり休みの日の娯楽はパチンコに限る！
- CLICKWAIT \n と、いうことで自然と足はパチンコ屋へと向いていた
- CLICKWAIT ???なじみのパチンコ屋へつくと、さっそくフィーバー台を打ちはじめた
+NO_NAMETAG:
 CLEAR_TEXTBOX
+やはり休みの日の娯楽はパチンコに限る！
+CLICKWAIT
+NEWLINE
+と、いうことで自然と足はパチンコ屋へと向いていた
+CLICKWAIT
+CLEAR_TEXTBOX
+なじみのパチンコ屋へつくと、さっそくフィーバー台を打ちはじめた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
 .\x19\x15
-\n 小一時間ばかり打って、財布の中の金が半分ぐらいになった時、突然当たりが来た
+NEWLINE
+小一時間ばかり打って、財布の中の金が半分ぐらいになった時、突然当たりが来た
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ・・・・・
- CLICKWAIT ???・・・・・・・・・・
- CLICKWAIT ???・・・・・・・・・・・・・・・
+CLICKWAIT
 CLEAR_TEXTBOX
+・・・・・・・・・・
+CLICKWAIT
+CLEAR_TEXTBOX
+・・・・・・・・・・・・・・・
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
 \x1fd
 \x00
 \x04
@@ -762,11 +942,16 @@ CLEAR_TEXTBOX
 \x03
 \x00
 ｹMALE NAME
-\n それからは、信じられないくらい当たりが連発し、夕方までには財布の中身は３倍ぐらいになっていた
+NEWLINE
+それからは、信じられないくらい当たりが連発し、夕方までには財布の中身は３倍ぐらいになっていた
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 厚くなった財布を懐に納めパチンコ屋を出ると、軽い足どりで家へと向かった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x03\r
 \x00
 \x16\r
@@ -784,18 +969,31 @@ CLEAR_TEXTBOX
 \x03
 \x00
 }\x11\x15
-\n しかし、それからも、金がなくなる頃に当たりがくるという状況が続き、夕方になっても、財布の中身はなんら変わることはなかった
+NEWLINE
+しかし、それからも、金がなくなる頃に当たりがくるという状況が続き、夕方になっても、財布の中身はなんら変わることはなかった
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 結局、現状維持という、一番疲れる結果となってしまった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10a\x12\x15
-\n ???しかしその喜びもつかの間、それからはまったく当たりが止まってしまった
+NEWLINE
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+しかしその喜びもつかの間、それからはまったく当たりが止まってしまった
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+NO_NAMETAG:
 やがて夕方になる頃には、財布の中身も無くなっていた
- CLICKWAIT ???最後に残っていた小銭で、ジュースを買い、一気に飲み干すと、重い足取りで家路についた
+CLICKWAIT
 CLEAR_TEXTBOX
+最後に残っていた小銭で、ジュースを買い、一気に飲み干すと、重い足取りで家路についた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
 \x03\r
 \x00
 \x16\r
@@ -816,15 +1014,26 @@ CLEAR_TEXTBOX
 \x00
 \x1a(_CGB14
 \x00
-NARRATION_DIALOGUE:
-???久しぶりに馬が走る姿を見たくなり、電車に乗って隣町にある競馬場へと向かった
- CLICKWAIT ???競馬場の中は、いつものように活気に満ちていた
- CLICKWAIT ???あらかじめ買っておいた競馬新聞に目を通し、メインレースの予想をたてることにした
+NO_NAMETAG:
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+久しぶりに馬が走る姿を見たくなり、電車に乗って隣町にある競馬場へと向かった
+CLICKWAIT
+CLEAR_TEXTBOX
+競馬場の中は、いつものように活気に満ちていた
+CLICKWAIT
+CLEAR_TEXTBOX
+あらかじめ買っておいた競馬新聞に目を通し、メインレースの予想をたてることにした
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+NO_NAMETAG:
 何度も検討した結果、３点まで絞ることが出来た
- CLICKWAIT ???しかし、『男は１点買い』という信念のもと１つに絞ることにした
+CLICKWAIT
 CLEAR_TEXTBOX
+しかし、『男は１点買い』という信念のもと１つに絞ることにした
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -844,15 +1053,20 @@ CHOICE
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x00
 \x15\x15
-\n レースは、序盤思わぬ逃げ馬が出現し、混乱したが途中からは予想通りの展開になり、見事に予想は的中した
+NEWLINE
+レースは、序盤思わぬ逃げ馬が出現し、混乱したが途中からは予想通りの展開になり、見事に予想は的中した
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 予想の当たった喜びと、入ってきたお金の多さに幸せを感じながら競馬場を後にした
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x03\r
 \x00
 \x16\r
@@ -864,12 +1078,19 @@ CLEAR_TEXTBOX
 \r
 \x00
 MALE NAMEﾓ
-\n レースは最後の直線までは予想通りだった
- CLICKWAIT ???しかし４コーナーを回ったところで、穴馬が強烈な追い込みを見せ、予想は見事に外れてしまった
+NEWLINE
+レースは最後の直線までは予想通りだった
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+しかし４コーナーを回ったところで、穴馬が強烈な追い込みを見せ、予想は見事に外れてしまった
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+NO_NAMETAG:
 自信のあったレースを落とし、気落ちしながら競馬場を後にした
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x03\r
 \x00
 \x16\r
@@ -889,8 +1110,11 @@ CLEAR_TEXTBOX
 2
 \x00
 \x1a\x1d
-\n 「で、今日は何をするの？」
+NEWLINE
+「で、今日は何をするの？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -902,99 +1126,154 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ﾉ DS03
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「だめねぇ、若い内からそうやってダラダラしてると、すぐにおじさん　になっちゃうわよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・とは言っても、疲れてるんだったら仕方ないわよねぇ
- CLICKWAIT \n 　よーし決めた、私も今日はお休みしよ～っと」
+CLICKWAIT
+NEWLINE
+　よーし決めた、私も今日はお休みしよ～っと」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは冷蔵庫からジュースを２本だしてくると、隣に座り込んだ
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「じゃ、ゆっくりとテレビでも見てよっか」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB00
 \x00
 .\x1a\x15
-\n FEMALE NAMEはテレビをつけると、体を密着させて、幸せそうな顔でテレビを見ていた
+NEWLINE
+FEMALE NAMEはテレビをつけると、体を密着させて、幸せそうな顔でテレビを見ていた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10r\x1b\x11\x16
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ｧ DS03
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「へぇ、めずらしい
- CLICKWAIT \n 　いつもなら、読んだ本すら片づけないのにね～」
+CLICKWAIT
+NEWLINE
+　いつもなら、読んだ本すら片づけないのにね～」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「じゃ、気が変わらない内に、色々とやってもらおうっと」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB00
 \x00
 .\x1c\x15
-\n FEMALE NAMEはここぞとばかりに色々なことを頼み込み、ほとんど大掃除になってしまった
+NEWLINE
+FEMALE NAMEはここぞとばかりに色々なことを頼み込み、ほとんど大掃除になってしまった
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ふぅ、だいぶ綺麗になったね・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あ、こき使っちゃってゴメンね～
- CLICKWAIT \n 　でも、やっぱり男の人ってこういう時は、すっごく頼りになるのよ」
+CLICKWAIT
+NEWLINE
+　でも、やっぱり男の人ってこういう時は、すっごく頼りになるのよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEの言葉は、お世辞半分だったかもしれないが、その言葉は掃除の疲れを忘れさせてくれるものだった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10r\x1b DS03
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ゲーム？
- CLICKWAIT 　１日中？
- CLICKWAIT \n 　はぁ～、もうちょっと健康的な遊びをしたら？
- CLICKWAIT \n 　たとえば、外に遊びに行くとかぁ」
+CLICKWAIT
+　１日中？
+CLICKWAIT
+NEWLINE
+　はぁ～、もうちょっと健康的な遊びをしたら？
+CLICKWAIT
+NEWLINE
+　たとえば、外に遊びに行くとかぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは大きく溜息をつきながら、洗濯物を洗濯機の中に放り込んでいた
- CLICKWAIT ???しかし、しばらくすると、FEMALE NAMEもゲームに興味をしめし、真っ昼間から大ゲーム大会になっていた
+CLICKWAIT
 CLEAR_TEXTBOX
+しかし、しばらくすると、FEMALE NAMEもゲームに興味をしめし、真っ昼間から大ゲーム大会になっていた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
 (_CGB00
 \x00
 .\x15\x15
-\n やがて夕方になり、２人は疲れ切った表情でコントローラーを置いた
+NEWLINE
+やがて夕方になり、２人は疲れ切った表情でコントローラーを置いた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・こんなになるまでやるなんて・・・
- CLICKWAIT \n 　私達もかなりなゲーム好きだよね～」
+CLICKWAIT
+NEWLINE
+　私達もかなりなゲーム好きだよね～」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、疲れ切った表情で笑った
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (KURO
 \x00
 !\x08\x0e
 \x00
 ,
-\n \x08\x0f
+NEWLINE
+\x08\x0f
 \x00
 d
 \x00
 \x1a(_CGAG01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ねぇ、今日はどこ行くの？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1006,17 +1285,19 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x16\x1e\x11\x16\x1b
 \x00
 \x15\x84\x03\x04\x16 
 \x00
 \x15,
-\n \x04\x0f\x17!
+NEWLINE
+\x04\x0f\x17!
 \x00
 \x15
 \x00
@@ -1024,43 +1305,67 @@ NARRATION_DIALOGUE:
 \x02\x0f
 \x00
 !\x1c\x10\xf8!\x10\x13\x1e\x1d
-\n 「２人でウインドウショッピングかぁ～
- CLICKWAIT \n 　うん、それいいよね～
- CLICKWAIT 　じゃあ、早く行こうよ」
+NEWLINE
+「２人でウインドウショッピングかぁ～
+CLICKWAIT
+NEWLINE
+　うん、それいいよね～
+CLICKWAIT
+　じゃあ、早く行こうよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、にこやかな顔で腕を取り、足早に歩き始めた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
  DS03
 \x00
 (_CGB16
 \x00
-NARRATION_DIALOGUE:
-???町外れにある巨大なショッピングセンター
- CLICKWAIT \n ２人の買い物はいつもそこだった
+NO_NAMETAG:
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+町外れにある巨大なショッピングセンター
+CLICKWAIT
+NEWLINE
+２人の買い物はいつもそこだった
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「ね、ね、次は服を見たいんだけど・・・・・
- CLICKWAIT \n 　あ、でも先に小物やさんに行ったほうがいいかな～」
+CLICKWAIT
+NEWLINE
+　あ、でも先に小物やさんに行ったほうがいいかな～」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、６階建てのショッピングセンターを何度も往復し、次々と買い物をしていった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 .\x18\x15
-\n やがて２人の手で持ちきれないほどの買い物をすますと、ショッピングセンターを後にした
+NEWLINE
+やがて２人の手で持ちきれないほどの買い物をすますと、ショッピングセンターを後にした
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xe8!\x11\x16
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \t \x11\x16\x1b
 \x00
 \x15\x84\x03\x04\x16 
 \x00
 \x15^
-\n \x04\x0f\x17"
+NEWLINE
+\x04\x0f\x17"
 \x00
 \x15
 \x00
@@ -1068,38 +1373,60 @@ CLEAR_TEXTBOX
 \x02\x0f
 \x00
 B\x1e\x10\x060\x10\x06 \x1d
-\n 「映画に行くの？
- CLICKWAIT 　う～ん今おもしろいのやってたかなぁ
- CLICKWAIT \n 　ま、とりあえず行ってみましょ！」
+NEWLINE
+「映画に行くの？
+CLICKWAIT
+　う～ん今おもしろいのやってたかなぁ
+CLICKWAIT
+NEWLINE
+　ま、とりあえず行ってみましょ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、にこやかな顔で腕を取り、足早に歩き始めた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
  DS03
 \x00
 (_CGB11
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 映画館へとついたあなた達は、早速面白そうな映画を探した
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ね、ね、これにしようよ
- CLICKWAIT \n 　全米ナンバーワンなんだってぇ」
+CLICKWAIT
+NEWLINE
+　全米ナンバーワンなんだってぇ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え？
- CLICKWAIT 　ほとんどの洋画が全米ナンバーワンなの？
- CLICKWAIT \n 　・・・・・ま、いいじゃない！　面白そうなんだから」
+CLICKWAIT
+　ほとんどの洋画が全米ナンバーワンなの？
+CLICKWAIT
+NEWLINE
+　・・・・・ま、いいじゃない！　面白そうなんだから」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEはあなたの腕をとると、嬉しそうな顔で映画館へと入っていった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 .\x14\x10\xe8!\x11\x16\x1b
 \x00
 \x15\x84\x03\x04\x16 
 \x00
 \x15^
-\n \x04\x0f\x17#
+NEWLINE
+\x04\x0f\x17#
 \x00
 \x15
 \x00
@@ -1107,35 +1434,56 @@ CLEAR_TEXTBOX
 \x02\x0f
 \x00
 * \x10\xfe;\x10\xe8!\x1d
-\n 「遊園地！
- CLICKWAIT 　うんうん！　行こう！」
+NEWLINE
+「遊園地！
+CLICKWAIT
+　うんうん！　行こう！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたの言葉を聞いた瞬間、FEMALE NAMEは飛び上がって喜んだ
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「じゃあ、じゃあ、早く行こ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、靴を履きかけのあなたの手をとって、早足で歩き出した
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
  DS03
 \x00
 (_CGB08A
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「やっぱり、いくつになっても遊園地って夢があるよね」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEの目は、子供のように輝いていた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「さ～て、まだまだいろんな物に乗るわよぉ
- CLICKWAIT \n 　今日は一日中遊ぶんだからね」
+CLICKWAIT
+NEWLINE
+　今日は一日中遊ぶんだからね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 .\x1b\x15
-\n FEMALE NAMEの宣言したとおり、結局この日は、日が暮れるまで遊び倒した２人だった
+NEWLINE
+FEMALE NAMEの宣言したとおり、結局この日は、日が暮れるまで遊び倒した２人だった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x0c\x0e
 \x00
 2
@@ -1150,515 +1498,875 @@ CLEAR_TEXTBOX
 \x00
 \x1a(_CGB16
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 町外れにある巨大なショッピングセンター
-\n  CLICKWAIT ２人の買い物はいつもそこだった
+NEWLINE
+CLICKWAIT
+２人の買い物はいつもそこだった
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「後、欲しいのはねぇ・・・・・
-\n 　あ、そうそう前来たときに、かわいいクッションを見つけてたの
-\n 　それ見に行こうよぉ」
+NEWLINE
+　あ、そうそう前来たときに、かわいいクッションを見つけてたの
+NEWLINE
+　それ見に行こうよぉ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「あ、ああ、それはいいけど・・・何階にあんの？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「確か・・・５階だったと思うんだけど・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「５階かぁ・・・ちょっと５階分階段を上がるのは疲れるなぁ
-\n  CLICKWAIT 　と言うことで、エレベータでいこうか？」
+NEWLINE
+CLICKWAIT
+　と言うことで、エレベータでいこうか？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「そだね」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ２人はエレベータまで歩いていくと、ボタンを押して待っていた
- CLICKWAIT \n 少ししてエレベータが降りてくると、中から５、６人の客が出てきた
- CLICKWAIT \n 無人になったエレベータに２人が乗り込むと同時に扉が閉まった
+CLICKWAIT
+NEWLINE
+少ししてエレベータが降りてくると、中から５、６人の客が出てきた
+CLICKWAIT
+NEWLINE
+無人になったエレベータに２人が乗り込むと同時に扉が閉まった
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・ねぇ、この中で２人だけになるなんて、久しぶりだよね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「そうだなぁ・・・いつもなら誰かが一緒に・・・うわっ！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (KURO
 \x00
 !\x15
-\n ???その時、不意にエレベータが揺れたかと思うと、証明が消え室内は闇に包まれた
+NEWLINE
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+その時、不意にエレベータが揺れたかと思うと、証明が消え室内は闇に包まれた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「キャーーーーーー！！！
-\n 　なに？　何？　なんなのよーーー！！！」
+NEWLINE
+　なに？　何？　なんなのよーーー！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人はパニックに陥りながらあなたの腕にしがみついてきた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・なんか事故でもあったのかなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは恋人の背中を軽くさすりながら、冷静に状況を判断していた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・そろそろ・・・あっ、ついたな」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (10_1
 \x00
  DS05
 \x00
-NARRATION_DIALOGUE:
-???非常用の電灯がつき、室内に多少の光が戻ったのを確認して、あなたは非常用のベルを押した
- CLICKWAIT ???そして、備え付けられているマイクを通して外部と連絡をとり始めた
+NO_NAMETAG:
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+非常用の電灯がつき、室内に多少の光が戻ったのを確認して、あなたは非常用のベルを押した
+CLICKWAIT
+CLEAR_TEXTBOX
+そして、備え付けられているマイクを通して外部と連絡をとり始めた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+NO_NAMETAG:
 そのやりとりを、恋人は不安そうな表情を浮かべて聞いていた
- CLICKWAIT \n もちろんあなたの腕にしっかりとしがみついたままで・・・
+CLICKWAIT
+NEWLINE
+もちろんあなたの腕にしっかりとしがみついたままで・・・
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「まいったなぁ、しばらくかかるんだってよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「し、しばらくって・・・ど、どれくらいかなぁ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「さあ・・・
-\n 　ま、焦ってもどうしようもないし、ゆっくり待つとしようか」
+NEWLINE
+　ま、焦ってもどうしようもないし、ゆっくり待つとしようか」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたの軽い言葉にも恋人は堅い表情をくずさなかった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「別に心配すること無いって、しばらくすれば動きだすんだから」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・わ、私、ダメなの・・・こういうの・・・
-\n  CLICKWAIT 　ど、どうしようもなく、恐くなってきて・・・」
+NEWLINE
+CLICKWAIT
+　ど、どうしようもなく、恐くなってきて・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人は泣きそうな顔であなたを見上げてきた
- CLICKWAIT \n あなたはいつもと違う恋人の表情に、ついムラムラとよこしまな考えが浮かんできてしまった
+CLICKWAIT
+NEWLINE
+あなたはいつもと違う恋人の表情に、ついムラムラとよこしまな考えが浮かんできてしまった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「そんなに恐いんなら、その恐さを忘れさせてやるよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたはそうささやくと、恋人の服のボタンを外し、その中に手を忍び込ませた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「心臓はどきどきしてるのかなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは、なるべく明るい声で話しかけながら、恋人の胸をまさぐった
- CLICKWAIT \n しかし、恋人は恐怖の為か、まったく感じていない様子だった
+CLICKWAIT
+NEWLINE
+しかし、恋人は恐怖の為か、まったく感じていない様子だった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「えっと・・・そ、それどころじゃ無いみたいだな・・・
-\n  CLICKWAIT 　・・・ごめん・・・」
+NEWLINE
+CLICKWAIT
+　・・・ごめん・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたが素直に謝り手を抜こうとすると、その手を恋人が押さえた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
  DS10
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「・・・やめないで・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「え？」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 意外な言葉にあなたが恋人の顔をのぞき込むと、恋人はうっすらと涙を浮かべた瞳であなたを見つめた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (V3
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「・・・あなたの手の温もりを感じていると安心するの・・・
- CLICKWAIT \n 　だから、もうちょっとこのままで・・・」
+CLICKWAIT
+NEWLINE
+　だから、もうちょっとこのままで・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人は自分の胸に差し込まれているあなたの腕に、ぎゅっとしがみついた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・わかったよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたはもう一方の手で、恋人の頭をゆっくりなでた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「大丈夫だって！　心配ないから」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「う、うん・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人の緊張も多少やわらいだ様だったが、あなたの手には冷たい汗がべっとりとついていた
- CLICKWAIT ???そして数十分後、無事にエレベータは動きだした
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+そして数十分後、無事にエレベータは動きだした
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+MALE_NAMETAG:
 「あ、やっと直ったみたいだな、これでもう大丈夫だ！
-\n  CLICKWAIT 　・・・良かったな」
+NEWLINE
+CLICKWAIT
+　・・・良かったな」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・う、うん・・・ひっく・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人は安心したのか、あなたの胸に顔を埋めると、泣き出してしまった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ったく・・・泣くなって」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは恋人の胸から手を抜くと、シャツのボタンを留めてやり、優しく肩をたたいた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB16
 \x00
  DS03
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 エレベータは無事に５階へとたどりつき、２人は無事に外に出ることが出来た
- CLICKWAIT ???やがて、買い物を済ませた２人は再びエレベータの前までやってきた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+やがて、買い物を済ませた２人は再びエレベータの前までやってきた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+MALE_NAMETAG:
 「さ～て、帰りはどうする？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「エレベータだけは絶対に嫌！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「まあそうだろうな、じゃ、帰りは階段を使おうか」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ２人はエレベータの横にある階段をゆっくりと降り始めた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04!
 \x00
-\n \x00
+NEWLINE
+\x00
 \x0c\x1b
 \x00
 \xf4
-\n \x1a(_CGB11
+NEWLINE
+\x1a(_CGB11
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 電車に乗り３つめの駅で降りた所に、目の前に大きな映画館があった
- CLICKWAIT ???恋人はチケット売場で２枚のチケットを買うと１枚をあなたに渡した
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+恋人はチケット売場で２枚のチケットを買うと１枚をあなたに渡した
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+MALE_NAMETAG:
 「・・・なあ、この映画って」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ほら、今世間をにぎわしている噂の２人の初共演とかいって話題にな
-\n 　ってる映画よ
- CLICKWAIT \n 　結構泣けるラブストーリーって評判なんだよぉ」
+NEWLINE
+　ってる映画よ
+CLICKWAIT
+NEWLINE
+　結構泣けるラブストーリーって評判なんだよぉ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・恋愛映画かぁ・・・しかも邦画とは・・・・・
- CLICKWAIT \n 　な、なぁ、他のにしないか？」
+CLICKWAIT
+NEWLINE
+　な、なぁ、他のにしないか？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「何言ってるのよ、もうチケットだって買っちゃたんだからね
- CLICKWAIT \n 　あ～！　もう始まっちゃうじゃない！　早いとこ中に入ろうよぉ！」
+CLICKWAIT
+NEWLINE
+　あ～！　もう始まっちゃうじゃない！　早いとこ中に入ろうよぉ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人はまったく乗り気では無いあなたを引っ張って、映画館の中へと入っていった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGBK
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 ・・・そして３０分が過ぎた
- CLICKWAIT ???始めの方こそ真面目に見ていたあなただったが、その映画が邦画によくありがちなあまりにもお決まりのパターンだったためすぐに飽きてきた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+始めの方こそ真面目に見ていたあなただったが、その映画が邦画によくありがちなあまりにもお決まりのパターンだったためすぐに飽きてきた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+MALE_NAMETAG:
 「・・・やっぱり、つまんないなぁ・・・・・
- CLICKWAIT \n 　なぁ、これって、たぶん最後は・・・・・」
+CLICKWAIT
+NEWLINE
+　なぁ、これって、たぶん最後は・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「黙ってて！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたとは対照的に、恋人は食い入るように映画に見入っていた
- CLICKWAIT ???あなたは仕方なく、再びスクリーンに視線を向けたが、またすぐに飽きてきた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+あなたは仕方なく、再びスクリーンに視線を向けたが、またすぐに飽きてきた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+MALE_NAMETAG:
 （・・・しかし、つまんね～な～、なんか他に面白いことないかなぁ）
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたはきょろきょろと辺りを見回していたが、ふと恋人のスカートがめくれているのに気が付いた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 （くくくっ・・・ちょっとからかってやるか）
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (11_1
 \x00
  DS05
 \x00
-NARRATION_DIALOGUE:
-???あなたはそっと恋人の股間に手を伸ばすと、ショーツを軽く触った
+NO_NAMETAG:
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+あなたはそっと恋人の股間に手を伸ばすと、ショーツを軽く触った
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人はびっくりした表情であなたに視線を向けた
- CLICKWAIT ???しかし、あなたはわざと視線を合わせず、にやにやした表情でスクリーンの方を見ていた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+しかし、あなたはわざと視線を合わせず、にやにやした表情でスクリーンの方を見ていた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 （ねぇ、ちょっとやめてよぉ）
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人は小声であなたに文句を言ってきた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ん～なにが？」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたはそう答えながらも、恋人の股間をしつようになで回していた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 （だ、だからぁ・・・・・あっ）
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人は頬を赤らめながら、必死であなたの手をのけようとしていたが、力ではかなうはずがなかった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 （あんまり、騒いでると、回りの人に気づかれるぞぉ）
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 （そ、そんなぁ・・・）
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人はきょろきょろと辺りを見回した後、抵抗の手をゆるめて視線をスクリーンに戻した
- CLICKWAIT ???あなたは少し笑って、再びショーツの上から割れ目をなぞった
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+あなたは少し笑って、再びショーツの上から割れ目をなぞった
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「ん・・・んん・・・くっ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人は声が出そうになるのを我慢しながら、必死でスクリーンを見ていた
- CLICKWAIT ???あなたは濡れてきたショーツを少し横にずらすと、直接、秘処に手を当てた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+あなたは濡れてきたショーツを少し横にずらすと、直接、秘処に手を当てた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「あんっ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 思わず大きな声を出してしまった恋人は、あわてて周りを見回した後、真っ赤な顔でうつむいてしまった
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 （だ、だめだってばぁ）
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは聞こえない振りをしながら、中指を割れ目の中にめり込ませた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ん、くくぅ・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人は恥ずかしさのあまり、目に涙を浮かべていたが、周りの人に気づかれないためにじっとスクリーンを見つめていた
- CLICKWAIT ???そんな恋人の態度をいいことに、その後もあなたの手は秘処をなぞりまくり、あふれたでた愛液がじっとりとシートを濡らした
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+そんな恋人の態度をいいことに、その後もあなたの手は秘処をなぞりまくり、あふれたでた愛液がじっとりとシートを濡らした
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 （・・・・・もう・・やだぁ・・・・）
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人は体をふるわせながらも、指をかんで必死に声を押し殺していた
- CLICKWAIT ???やがて、映画が終了し、館内に明かりが戻ると、あなたは何事も無かったように、手を恋人の股間から離し、恋人の方に向き直った
+CLICKWAIT
 CLEAR_TEXTBOX
+やがて、映画が終了し、館内に明かりが戻ると、あなたは何事も無かったように、手を恋人の股間から離し、恋人の方に向き直った
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
 (_CGB11
 \x00
  DS03
 \x00
-MALE_DIALOGUE:
+MALE_NAMETAG:
 「いや～楽しかったなぁ～
- CLICKWAIT \n 　ん、どうしたんだよ涙なんか浮かべて、そんなに感動したのか？」
+CLICKWAIT
+NEWLINE
+　ん、どうしたんだよ涙なんか浮かべて、そんなに感動したのか？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・・・ばかぁ・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 涙目で怒っている恋人の頭を軽くなでて、あなたは椅子から立ち上がった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04"
 \x00
-\n \x00
+NEWLINE
+\x00
 \x0c\x1b
 \x00
 \xf4
-\n \x1a(_CGB08A
+NEWLINE
+\x1a(_CGB08A
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 遊園地に着いたあなた達は、いきなり絶叫マシーンめぐりを始めた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「きゃあ、きゃあ、きゃあ、きゃあ、きゃあーーーーーー！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人の絶叫がひびく中、４台目の絶叫マシーンが終了した
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「やーっぱり、面白いわぁ！
- CLICKWAIT \n 　じゃあね、次はあれ！」
+CLICKWAIT
+NEWLINE
+　じゃあね、次はあれ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ちょ、ちょっと待てぃ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは、早くも次の絶叫マシーンに向かおうとしていた恋人の腕を捕まえた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え？　なあに？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「いくらなんでも、５連チャンはきついって・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「えーーー、だらしないなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人は、青い顔をしてうつむいているあなたの背中を軽くさすった
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「じゃあどうする？　ベンチででも休んでる？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「うーん・・・それもなんかしゃくだなぁ・・・・・
- CLICKWAIT \n 　あ、そうだ、観覧車に乗ろうぜ」
+CLICKWAIT
+NEWLINE
+　あ、そうだ、観覧車に乗ろうぜ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「観覧車かぁ・・・それもいいかもね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「じゃ、決まりだな」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ２人はさっそく観覧車へと乗り込んだ
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ふぅ～これで一息つける・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ほんと、だらしないわねぇ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人は弱っているあなたを見て、くすっと笑うと視線を外に移した
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「うわ～！綺麗～！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人が楽しそうに窓の外を眺めている内に、あなたは体力を回復させていった
- CLICKWAIT ???かなり体力が回復してきたあなたの目に、無防備な恋人の姿が映った
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+かなり体力が回復してきたあなたの目に、無防備な恋人の姿が映った
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+MALE_NAMETAG:
 （これは美味しい状況だぜぇ）
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (12_1
 \x00
  DS05
 \x00
-NARRATION_DIALOGUE:
-???あなたは景色を見ている恋人に気が付かれないように床に座り込むと、恋人の膝の前までつめよった
- CLICKWAIT ???そしておもむろに恋人の足を開くと、股間に顔を埋めた
+NO_NAMETAG:
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+あなたは景色を見ている恋人に気が付かれないように床に座り込むと、恋人の膝の前までつめよった
+CLICKWAIT
+CLEAR_TEXTBOX
+そしておもむろに恋人の足を開くと、股間に顔を埋めた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「ひゃっ！　な、何してんのよぉ！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ん、ちょっと暇だったから・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ひ、暇だからって・・・あっ・・そんなとこ・・・なめないでよぉ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたはショーツの上から割れ目をなぞるように舌をはわしていった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「このままじゃあ、コレが濡れちゃうなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたはそう言うと、一気にショーツをずらして生の肌に顔を埋めた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「だ、だめっだってぇ・・・あ、ううん・・・誰かに見られちゃう」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人は身をかがめて、あなたの頭の上に上半身を預けてきた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「あんまり、そうやってると、他の客が怪しむよ～」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたの言葉に恋人は顔を上げると、きょろきょろと他の観覧車を見回した
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あっ・・・誰か見てるよぉ・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人は赤い顔をしながら姿勢を直し、平静を装いながら外に目をやった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「そーそー、ちゃんとそうやってるんだぞ～」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは満足げに頷くと、おもむろに指で秘処を左右に開き、内側の赤い肉壁に舌をなぞらせた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ん、・・・くっ・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人は指をかみながら、うちよせる快感に必死に耐えていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「いや～奥までよく見えるなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「も、もう、・・・変な事・・言わないでよぉ・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは柔らかい肉壁を限界まで広げると、２本の指を差し込んだ
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あん！！・・・ん・・くっ・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恋人はたまらないといったように、あなたの頭の上に倒れ込んできた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「も、もう・・・んっ・・ゆるして・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「だめだよ～ん！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは冗談めかしてそういうと、目の前で熟れきった果実のようになっている秘処にかぶりついた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「くぅん・・・・・そ、そこ、だめぇ！・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは観覧車が一周する間中、ずっと恋人のあそこをもてあそんでいた
- CLICKWAIT ???やがて観覧車から地上に降りたときには、恋人はぐったりと疲れていた
+CLICKWAIT
 CLEAR_TEXTBOX
+やがて観覧車から地上に降りたときには、恋人はぐったりと疲れていた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
 (_CGB08A
 \x00
  DS03
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 あなたは恋人を近くのベンチに連れていくと、そこに座らせた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「観覧車で疲れちゃったのかぁ　全く、だらしないなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「誰のせいだと思ってんのよ！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 にやにやと笑っているあなたを、恋人は膨れっ面で見上げていた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04#
 \x00
-\n \x00
+NEWLINE
+\x00
 \x0c\x1b
 \x00
 \xf4
-\n END_FILE
+NEWLINE
+END_FILE

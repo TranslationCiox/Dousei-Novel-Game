@@ -9,23 +9,25 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
+ NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 J
 \x00
 %
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 \x06
 \x00
 END_CHOICE
  \x00
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 F
 \x00
@@ -33,7 +35,8 @@ F
 \x00
 i\x10h\x1bl
 \x00
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 \t
 \x00
 \x00
@@ -49,7 +52,8 @@ i\x10h\x1bl
 \x00
 \x08
 \x00
-\n \x00
+NEWLINE
+\x00
 \x00
 \r
 \x00
@@ -57,11 +61,13 @@ i\x10h\x1bl
 \x00
 \x0e
 \x00
-ｼ???
+ｼCLEAR_TEXTBOX
+
 \x00
 \x0f
 \x00
-ｼ???
+ｼCLEAR_TEXTBOX
+
 \x00
 \x1b
 \x00
@@ -70,11 +76,13 @@ i\x10h\x1bl
 \x00
 \x1e
 \x00
-ｼ???
+ｼCLEAR_TEXTBOX
+
 \x00
  
 \x00
-\n \x00
+NEWLINE
+\x00
 \x00
 #
 \x00
@@ -112,7 +120,8 @@ i\x19OP
 \x00
 \x00
 \x04
-\n \x00
+NEWLINE
+\x00
 \x00
 \x00
 \x04\x02
@@ -135,7 +144,7 @@ i\x19OP
 \x00
 \x15[
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ﾜ
 \x00
@@ -148,7 +157,7 @@ i\x19OP
 \x00
 \x152
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xea
 \x00
@@ -158,33 +167,42 @@ i\x19OP
 \x00
 \x02\x17$
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x02\x0f
 \x00
 \x8d
-\n (_CGB20
+NEWLINE
+(_CGB20
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 あなたは買っておいたパンを牛乳で流し込んだ
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x16\x10
 \x00
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 d
-\n MALE_DIALOGUE:
+NEWLINE
+MALE_NAMETAG:
 「さて、どうしようか？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x19OFF
 \x00
 \x10\x8a
-\n MALE_DIALOGUE:
+NEWLINE
+MALE_NAMETAG:
 「バイトにでも行くか・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x19B01
 \x00
 \x10Y\x0e\x11\x16\x08
@@ -193,37 +211,54 @@ CLEAR_TEXTBOX
 \x00
 \x02\x17$
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x02\x0f
 \x00
 \x9f\x03\x04%
 \x00
-\n \x00
+NEWLINE
+\x00
 (_CGAI01
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 寝ぼけ眼をこすりながら食卓につき、みそ汁をすすりながら、朝の緩やかな時間を過ごしていた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「じゃあ、私はそろそろ出かけないと・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あ、今日の夜は適当に外ででも食べてきてね
- CLICKWAIT \n 　それから、寝る前にガスの元栓をしめるのを忘れないようにね
- CLICKWAIT \n 　多分、明日の夕方・・・遅くても夜には帰ってくるからね」
+CLICKWAIT
+NEWLINE
+　それから、寝る前にガスの元栓をしめるのを忘れないようにね
+CLICKWAIT
+NEWLINE
+　多分、明日の夕方・・・遅くても夜には帰ってくるからね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ん、分かったよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGAG04
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「じゃ、行ってきま～す！」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ほい、いってらっしゃい」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB12A
 \x00
 \x11\x16\x10
@@ -231,16 +266,22 @@ CLEAR_TEXTBOX
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 v\x03\x1e
-\n 「さて、どうしようか？」
+NEWLINE
+「さて、どうしようか？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x19OFF
 \x00
 \x10\x9c\x03\x1e
-\n 「バイトにでも行くか・・・」
+NEWLINE
+「バイトにでも行くか・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x19B01
 \x00
 \x10Y\x0e\x11\x16\x10
@@ -259,9 +300,11 @@ CLEAR_TEXTBOX
 \x00
 \x10Y\x0e(_CGAI01
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 寝ぼけ眼をこすりながら食卓につき、みそ汁をすすりながら、朝の緩やかな時間を過ごしていた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1bl
 \x00
 +\x04\x1f\r
@@ -277,186 +320,278 @@ CLEAR_TEXTBOX
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
-ｺ
-\n 「ふあぁぁぁ・・・眠ぅ・・・」
+ｺ\x04 
+NEWLINE
+「ふあぁぁぁ・・・眠ぅ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ふふっ、まだ眠そうね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「もう１回、眠らせてくれぇ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「だ・め・よ☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x103\r\x11\x16\x04
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 >
- CLICKWAIT FEMALE_DIALOGUE:
+CLICKWAIT
+FEMALE_NAMETAG:
 「今日は天気がとってもいいよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「う゛～～～まぶしい・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ほらほら起きて起きてっ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「うぃ～っす」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x103\r\x11\x16\x04
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ｩ
- CLICKWAIT FEMALE_DIALOGUE:
+CLICKWAIT
+FEMALE_NAMETAG:
 「そろそろ時間だよ・・・あらっ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「もう起きてるよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「めずらしいこともあるのね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x103\r\x11\x16\x04
 \x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x00
 \x06\x1d
-\n 「よく眠れた？MALE NAME」kw;
+NEWLINE
+「よく眠れた？MALE NAME」kw;
 \x00
-MALE_DIALOGUE:
+MALE_NAMETAG:
 「うん、よく眠れた？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「そう、よかった」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x103\r\x11\x16\x04
 \x00
 \x15\x04
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x95\x06\x1e
-\n 「う～ねむい～」
+NEWLINE
+「う～ねむい～」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「おはよぉ～MALE NAME、あたまがボサボサよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「いやぁ、今日はワイルドに行こうと思って・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ほほぉ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x103\r\x11\x16\x04
 \x00
 \x15
- CLICKWAIT \x00
-\x02
+CLICKWAIT
+\x00
+CLEAR_TEXTBOX
 \x00
 -\x07\x1e
-\n 「ふあぁぁぁあぁ・・・」
-\n （ボリボリボリ・・・）
+NEWLINE
+「ふあぁぁぁあぁ・・・」
+NEWLINE
+（ボリボリボリ・・・）
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ケツをかくなケツを！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 （ボリボリボリボリボリボリボリボリボリボリ・・・）
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x103\r\x11\x16\x04
 \x00
 \x15\x06
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ｧ
-\n 「ねぇ、MALE NAME・・・昨日の夜、地震なかった？」
+NEWLINE
+「ねぇ、MALE NAME・・・昨日の夜、地震なかった？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「あ、それ俺のイビキだと思う・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x103\r\x11\x16\x04
 \x00
 \x15\n
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x8f\x08\x1d
-\n 「へぇ、近所のスーパーが売り出しやってるんだ！」
+NEWLINE
+「へぇ、近所のスーパーが売り出しやってるんだ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEが広告を見ながら、嬉しそうな声を上げた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あ～、今日は卵が安くなってる
- CLICKWAIT \n 　これはチェックしとかないとね！」
+CLICKWAIT
+NEWLINE
+　これはチェックしとかないとね！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは、そんなFEMALE NAMEの様子をぼんやりと眺めていた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x103\r\x11\x16\x04
 \x00
 \x15\x0b
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x9b\t\x1d
-\n 「それにしても、最近ろくなニュースがないわねぇ」
+NEWLINE
+「それにしても、最近ろくなニュースがないわねぇ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、新聞を広げてため息をついた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「たまには、『昨日は一日幸せな日でした』っていう記事があってもい　いのにね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「無理いうなって・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ぼうっとしながらも、つっこみを忘れないあなただった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x103\r\x11\x16\x04
 \x00
 \x15\x0c
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 %\n\x1e
-\n 「ふあぁぁぁ・・・眠ぅ・・・」
+NEWLINE
+「ふあぁぁぁ・・・眠ぅ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ふふっ、まだ眠そうね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「もっかい、眠らせてくれぇ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「だ・め・よ☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x103\r\x1d
-\n 「ねぇねぇ、朝のテレビの星占いで私ね、今日は絶好調らしいの～」
+NEWLINE
+「ねぇねぇ、朝のテレビの星占いで私ね、今日は絶好調らしいの～」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「で、MALE NAMEはね～・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1f
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 \x04
 \x00
 \x11\x16\x04
@@ -464,93 +599,136 @@ CLEAR_TEXTBOX
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ﾓ
 
-\n 「事故に注意だって」
+NEWLINE
+「事故に注意だって」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「おいおい、縁起でもない・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x103\r\x11\x16\x04
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ･
-\n 「恋愛運が最高だって、私にとっては浮気にご注意って感じかな」
+NEWLINE
+「恋愛運が最高だって、私にとっては浮気にご注意って感じかな」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「いやいや、二人の仲がよりいっそう良くなると言うことだと思うぞ・・・・多分・・・・きっと・・・・
- CLICKWAIT 万が一・・・・」
+CLICKWAIT
+万が一・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「おい」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x103\r\x11\x16\x04
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 4\x0c\x1d
-\n 「金運最悪。お金を落とすかも・・・だって、気を付けてよぉ～」
+NEWLINE
+「金運最悪。お金を落とすかも・・・だって、気を付けてよぉ～」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「う～む、ならば今のうちに落としておこう」
-\n （ジャラジャラ）
+NEWLINE
+（ジャラジャラ）
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x103\r\x11\x16\x04
 \x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ｢
-\n 「ラッキーカラーは『どどめ色』だそうよ」
+NEWLINE
+「ラッキーカラーは『どどめ色』だそうよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「それ自体、アンラッキーの様な気がする・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x103\r\x11\x16\x04
 \x00
 \x15\x04
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 3\r\x1d
-\n 「今日は最高だって、よかったね」
+NEWLINE
+「今日は最高だって、よかったね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「おお、そうか、今日はなんて良い日なんだ・・・・・
-\n  CLICKWAIT と、とりあえずはそう思っておこう・・・」
+NEWLINE
+CLICKWAIT
+と、とりあえずはそう思っておこう・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは、おぼつかない手つきで食事を口に運んでいた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGAG01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「行ってらっしゃい
- CLICKWAIT 　なるべく早く帰ってきてね」
+CLICKWAIT
+　なるべく早く帰ってきてね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x16\x06
 \x00
 \x15\x0f
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 T\x0e\x1d
-\n 「あ、そうそう、２５日には家賃の７万円を大家さんに払わないといけないの。忘れないでね。」
+NEWLINE
+「あ、そうそう、２５日には家賃の７万円を大家さんに払わないといけないの。忘れないでね。」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ああ、わかってるよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
  「うん、それじゃ、行ってらっしゃい」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x19B01
 \x00
 \x1b
@@ -565,10 +743,14 @@ a\x0e\x10\x90\x0e\x11\x16\x08
 u\x0e\x19SHOP
 \x00
 \x10\x90\x0e\x1e
-\n 「早く家に帰ろうっと」
+NEWLINE
+「早く家に帰ろうっと」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1b
-\n \x00
+NEWLINE
+\x00
 MALE NAMEｯ DS02
 \x00
 \x19D01
@@ -582,38 +764,55 @@ CLEAR_TEXTBOX
 \x00
 \x1b\x02
 \x00
-ｷMALE NAME??? DS02
+ｷMALE NAMECLEAR_TEXTBOX
+ DS02
 \x00
 \x1b\x04
 \x00
 E\x10(_CGB00
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 家に帰ってきた二人は、よろよろと部屋の中に入ると疲れ切ったようにその場に座り込んでしまった
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「はぁ～・・・・・
- CLICKWAIT \n 　なんか疲れちゃったから、今日の夕飯は簡単なものでいいよね」
+CLICKWAIT
+NEWLINE
+　なんか疲れちゃったから、今日の夕飯は簡単なものでいいよね」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 そう言いながら台所へと入っていったFEMALE NAMEは、チャーハンを作り始めた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGRY07
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「・・・これでいい？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「上出来だよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 その言葉はお世辞半分で、出たものだが、実際味の方も決して悪くは無かった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEﾞ(_CGAI01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「今日のお夕飯はねぇ・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x16\r
 \x00
 \x152
@@ -622,17 +821,25 @@ CLEAR_TEXTBOX
 \x00
 %\x11(_CGRY02
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「カップラーメンなの
- CLICKWAIT \n 　・・・今、本当に苦しい状態なのよ・・・」
+CLICKWAIT
+NEWLINE
+　・・・今、本当に苦しい状態なのよ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・・しかたないなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは、少しわびしそうにカップラーメンをすすった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE NAMEﾞ
+\x00
+MALE NAMEﾞ\x04 
 \x00
 \x04
 \x00
@@ -641,131 +848,199 @@ MALE NAMEﾞ
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
-ｦ(_CGRY08
+ｦ\x12 (_CGRY08
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「超豪華、FEMALE NAME特製スペシャルディナーよ～
- CLICKWAIT \n 　腕によりをかけて作ったんだから味わって食べてね☆」
+CLICKWAIT
+NEWLINE
+　腕によりをかけて作ったんだから味わって食べてね☆」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「じゃあ、いただきます！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは、胸躍らせながら、目の前に並ぶ豪華な食事を口にした
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「どう？
- CLICKWAIT 　おいしい？」
+CLICKWAIT
+　おいしい？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・うん！、すっげー、おいしーよ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「本当？
- CLICKWAIT 　良かったぁ・・・」
+CLICKWAIT
+　良かったぁ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、あなたが食べている間中、にこにことその姿を見ていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE NAMEﾞFEMALE NAME
 \x00
-NARRATION_DIALOGUE:
+MALE NAMEﾞFEMALE NAME\x04 
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x8f\x14(_CGRY05
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「苦心惨憺、FEMALE NAME特製、真心ディナーよ～
- CLICKWAIT \n 　ちょっと見栄えが悪いかもしれないけど・・・・・
- CLICKWAIT \n 　栄養は、ばっちりよ
- CLICKWAIT 　あ、もちろん味もね☆」
+CLICKWAIT
+NEWLINE
+　ちょっと見栄えが悪いかもしれないけど・・・・・
+CLICKWAIT
+NEWLINE
+　栄養は、ばっちりよ
+CLICKWAIT
+　あ、もちろん味もね☆」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「じゃあ、いただきます！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 勢いよく食べ出すあなたの横顔を、FEMALE NAMEは、心配そうに見つめていた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・・・どう？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「結構いけるんじゃないかな
- CLICKWAIT 　うん、おいしいよ」
+CLICKWAIT
+　うん、おいしいよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたの言葉に、FEMALE NAMEは顔をほころばせた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「まだまだ、いっぱいあるからね
- CLICKWAIT \n 　どんどん食べてね」
+CLICKWAIT
+NEWLINE
+　どんどん食べてね」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEの言葉につられて、あなたは、ついつい食べ過ぎてしまった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE NAMEﾞFEMALE NAME
+\x00
+MALE NAMEﾞFEMALE NAME\x04 
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
- CLICKWAIT \x16(_CGRY03
+CLICKWAIT
+\x16(_CGRY03
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「出前を取ったの
- CLICKWAIT 　近所のお寿司屋さんの並を取ったからね
- CLICKWAIT \n 　食べ終わったらお盆を出しとかないと、いけないのよねぇ」
+CLICKWAIT
+　近所のお寿司屋さんの並を取ったからね
+CLICKWAIT
+NEWLINE
+　食べ終わったらお盆を出しとかないと、いけないのよねぇ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「じゃあ、いただきます！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 目の前に広げられたお寿司を、２人は黙々と食べていた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・なかなか・・んぐっ・・・・おいしいわねぇ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・・・そうだな」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ものの１０分もしない内に、目の前のお寿司は無くなってしまった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE NAMEﾞFEMALE NAME
+\x00
+MALE NAMEﾞFEMALE NAME\x04 
 \x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ﾞ(_CGRY01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「近所のお弁当屋さんの、幕の内弁当よ
- CLICKWAIT \n 　ちょっとさめちゃってるけど・・・・ま、しかたないよね」
+CLICKWAIT
+NEWLINE
+　ちょっとさめちゃってるけど・・・・ま、しかたないよね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・いただきます」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは、ちょっとさめてしまった幕の内弁当を、腹の中へと流し込んだ
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGAI01
 \x00
-MALE_DIALOGUE:
+MALE_NAMETAG:
 「ごちそうさまでした」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1b\x03
 \x00
 \n\x17\x10\x17\x1a\x11\x16\x0e
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x03\x16\x0f
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x03\n\x16\x08
 \x00
@@ -774,24 +1049,33 @@ NARRATION_DIALOGUE:
 \x03\x0f
 \x00
 \xe5\x17\x1e
-\n 「ごめん、今日は疲れてるからもう寝るよ」
+NEWLINE
+「ごめん、今日は疲れてるからもう寝るよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え？・・・ちょ、ちょっと」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは、疲れた足取りで寝室へと入っていった
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・・・もう！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x0c\x1e
 \x00
 2
 \x00
 \x11\x16\x0e
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x03
 \x00
@@ -803,7 +1087,7 @@ NARRATION_DIALOGUE:
 \x00
 \x11\x16\x0f
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x03
 \x00
@@ -814,8 +1098,11 @@ NARRATION_DIALOGUE:
 \xfa
 \x00
 \x10\x17\x1a\x1e
-\n 「さて、何をしようか？」
+NEWLINE
+「さて、何をしようか？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x16\x08
 \x00
 \x15\x0e
@@ -866,7 +1153,7 @@ CLEAR_TEXTBOX
 \x00
 \x02\x17$
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x02\x0f
 \x00
@@ -875,9 +1162,10 @@ NARRATION_DIALOGUE:
 \x10\x17\x1a\x11\x16 
 \x00
 \x15\xf4
-\n \x04\x17\x1e
+NEWLINE
+\x04\x17\x1e
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x07\x0f
 \x00
@@ -886,7 +1174,8 @@ NARRATION_DIALOGUE:
 \x10\x17\x1a\x11\x16 
 \x00
 \x15\x90
-\n \x04\x17\x1f
+NEWLINE
+\x04\x17\x1f
 \x00
 \x15
 \x00
@@ -898,7 +1187,8 @@ NARRATION_DIALOGUE:
 \x10\x17\x1a\x11\x16 
 \x00
 \x15,
-\n \x04\x17 
+NEWLINE
+\x04\x17 
 \x00
 \x15
 \x00
@@ -947,28 +1237,32 @@ NARRATION_DIALOGUE:
 \x14\x19\x19FUKU
 \x00
 \x10\x17\x1a\x17
-\n \x00
+NEWLINE
+\x00
 リビングに行く
 \x00
 寝室に行く
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \r\x1a(_CGB00
 \x00
 \x11\x16\x08
 \x00
 \x15
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 \x03
 \x00
 g\x19\x17
-\n \x00
+NEWLINE
+\x00
 話す
 \x00
 \x00
@@ -985,7 +1279,8 @@ g\x19\x17
 \n
 \x00
 ｧ
-\n \x00
+NEWLINE
+\x00
 話す
 \x00
 手伝い
@@ -996,7 +1291,8 @@ g\x19\x17
 \x00
 \x00
 MALE NAMEﾆ
-\n \x00
+NEWLINE
+\x00
 話す
 \x00
 手伝い
@@ -1007,34 +1303,39 @@ MALE NAMEﾆ
  DS06
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ﾟK01
 \x00
 \x10\n\x1a\x11\x16
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xf2\x19\x19T01
 \x00
 \x10\n\x1a\x11\x16
-\n \x00
+NEWLINE
+\x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
- CLICKWAIT \x1a\x19G01
+CLICKWAIT
+\x1a\x19G01
 \x00
 \x10\n\x1a\x19K02
 \x00
 \x10\x17\x1a\x04r
 \x00
-\n \x00
+NEWLINE
+\x00
 \x19H01
 \x00
 \x1cs
@@ -1042,7 +1343,8 @@ NARRATION_DIALOGUE:
 \xf7\x1a!\x1br
 \x00
 =\x1a\x17
-\n \x00
+NEWLINE
+\x00
 おやすみなさい
 \x00
 \x00
@@ -1051,7 +1353,8 @@ NARRATION_DIALOGUE:
 \x00
 \x00
 \x10L\x1a\x17
-\n \x00
+NEWLINE
+\x00
 寝室に行く
 \x00
 \x00
@@ -1065,20 +1368,28 @@ NARRATION_DIALOGUE:
 \x00
 ﾙ(_CGBK
 \x00
-MALE_DIALOGUE:
+MALE_NAMETAG:
 「今日はさっさと寝てしまおう・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・・・・・・・・・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・・・・・・FEMALE NAME・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xf7\x1a(_CG20
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「お休みなさぁい」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04s
 \x00
 \x00
@@ -1090,11 +1401,15 @@ CLEAR_TEXTBOX
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 h\x1b\x15
-\n ???ゲームの状態を保存しますか？
+NEWLINE
 CLEAR_TEXTBOX
+ゲームの状態を保存しますか？
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -1104,36 +1419,42 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
+ NEWLINE
+\x00
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 X\x1b\x10\r\x1b\x10h\x1b\x11\x16
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 h\x1b&
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 \x06
 \x00
 \x11\x16\x06
 \x00
 \x15\x19
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 x\x1b\x0c\r
 \x00
-ｼ???
+ｼCLEAR_TEXTBOX
+
 \x00
-\n \x00
+NEWLINE
+\x00
 \x08\x07
 \x00
-\n \x00
+NEWLINE
+\x00
 \x03\x07
 \x00
 \x16\x07
@@ -1149,15 +1470,18 @@ x\x1b\x0c\r
 \x15\x1e
 \x00
 \x16
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 \x15\n
 \x00
 \x02\x08\x0e
 \x00
 \x03
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 \x16
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 \x16\x06
 \x00
 \x15
@@ -1167,7 +1491,8 @@ x\x1b\x0c\r
 \x00
 \x08\x06
 \x00
-\n \x00
+NEWLINE
+\x00
 \x0c\r
 \x00
 \x14
@@ -1177,7 +1502,8 @@ x\x1b\x0c\r
 \x15
 \x00
 \x00
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 ﾇMALE NAME
 \x00
 ｱ
@@ -1214,7 +1540,8 @@ o
 \x00
 \x03
 \x00
-\n \x1c
+NEWLINE
+\x1c
 \x00
 \x0f
 \x00
@@ -1268,7 +1595,7 @@ U\x1c\x03\x1e
 \x00
 \x11\x16\x1e
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x03
 \x00
@@ -1320,10 +1647,15 @@ MALE NAME･
 \x00
 "(_ED07_1
 \x00
-NARRATION_DIALOGUE:
-???あなたは破産してしまいました。
- CLICKWAIT ???　　　　　　～ゲームオーバー～
+NO_NAMETAG:
 CLEAR_TEXTBOX
+あなたは破産してしまいました。
+CLICKWAIT
+CLEAR_TEXTBOX
+　　　　　　～ゲームオーバー～
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
 \x10
 \x00
 \x00

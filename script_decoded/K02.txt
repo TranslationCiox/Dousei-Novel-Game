@@ -1,7 +1,12 @@
 \x1d\x1d
-\n 「ケーキを食べるのね
- CLICKWAIT \n 　えっと、飲み物は何がいい？」
+NEWLINE
+「ケーキを食べるのね
+CLICKWAIT
+NEWLINE
+　えっと、飲み物は何がいい？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -11,55 +16,91 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \xf1
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ん、分かった
- CLICKWAIT 　やっぱり、ケーキにはコーヒーじゃないとね」
+CLICKWAIT
+　やっぱり、ケーキにはコーヒーじゃないとね」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、台所から、ケーキとコーヒーをお盆にのせ、リビングへと持ってきた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10i
-\n FEMALE_DIALOGUE:
+NEWLINE
+FEMALE_NAMETAG:
 「ん、分かった
- CLICKWAIT 　結構ケーキに紅茶が合うのよね」
+CLICKWAIT
+　結構ケーキに紅茶が合うのよね」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、台所から、ケーキと紅茶をお盆にのせ、リビングへと持ってきた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGAA04
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ほんと、美味しそうだよね
- CLICKWAIT \n 　じゃあ、いただきま～す」
+CLICKWAIT
+NEWLINE
+　じゃあ、いただきま～す」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1bb
 \x00
 *\x02\x1d
-\n 「う～ん、美味しい
- CLICKWAIT \n 　このチョコレートが、ちょうどいい甘さを保ってて、口の中でとろけ　るような感じで・・・・・」
+NEWLINE
+「う～ん、美味しい
+CLICKWAIT
+NEWLINE
+　このチョコレートが、ちょうどいい甘さを保ってて、口の中でとろけ　るような感じで・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xfe\x02\x1bc
 \x00
 \x89\x02\x1d
-\n 「やっぱ、美味しいよねぇ
- CLICKWAIT \n 　私、ケーキの中だったら、一番チーズケーキが好きだなぁ」
+NEWLINE
+「やっぱ、美味しいよねぇ
+CLICKWAIT
+NEWLINE
+　私、ケーキの中だったら、一番チーズケーキが好きだなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xfe\x02\x1d
-\n 「結構いけるね、このマロンケーキ
- CLICKWAIT \n 　他の店のだと、ちょっと甘さがしつこいんだけど、ここのはそんなこ　とないよね」
+NEWLINE
+「結構いけるね、このマロンケーキ
+CLICKWAIT
+NEWLINE
+　他の店のだと、ちょっと甘さがしつこいんだけど、ここのはそんなこ　とないよね」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、全部食べ終わると、満足そうな表情を浮かべた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あ～、美味しかった
- CLICKWAIT 　また、買ってきてね」
+CLICKWAIT
+　また、買ってきてね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 END_FILE

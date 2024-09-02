@@ -20,30 +20,33 @@
 \x00
 \x08(
 \x00
-\n \x00
+NEWLINE
+\x00
 \x1cV
 \x00
 3
 \x00
 \x10&
-\n \x10\xec
+NEWLINE
+\x10\xec
 \x00
 \x11\x16(
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 D
 \x00
 \x10\xf2
- CLICKWAIT \x10\xec
+CLICKWAIT
+\x10\xec
 \x00
 \x11\x16(
 \x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 U
 \x00
@@ -52,8 +55,9 @@ MALE NAMEﾏ	MALE NAME
 \x11\x16(
 \x00
 \x15
- CLICKWAIT \x00
-\x02
+CLICKWAIT
+\x00
+CLEAR_TEXTBOX
 \x00
 f
 \x00
@@ -63,7 +67,7 @@ f
 \x00
 \x15\x08
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 w
 \x00
@@ -71,7 +75,7 @@ w
 \x00
 \x11\x17W
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x02\x17Z
 \x00
@@ -90,7 +94,7 @@ NARRATION_DIALOGUE:
 \x00
 \x04\x17Z
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x02\x0f\x17[
 \x00
@@ -112,7 +116,7 @@ MALE NAMEﾞMALE NAME
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ﾇ
 \x00
@@ -120,9 +124,9 @@ MALE NAMEﾜMALE NAME
 \x00
 \x11\x16\x04
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ﾘ
 \x00
@@ -132,328 +136,550 @@ MALE NAMEﾈMALE NAME
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xe9
 \x00
 \x10\x9f"\x10\xec
 \x00
 \x10Q%\x10%
-\n (_CGB02A
+NEWLINE
+(_CGB02A
 \x00
-MALE_DIALOGUE:
+MALE_NAMETAG:
 「さってと、今日もがんばってやるぞぉ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 .\x02\x1a(_CGB02B
 \x00
  DS08
 \x00
 B
-\n 「くん、ちょっと」
+NEWLINE
+「\x12 くん、ちょっと」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「はい、なんですか？」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 いつものように奥で皿洗いをしていると、不意に店長に声を掛けられた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 B
-\n 「今日から、新しいバイトの子が入るから」
+NEWLINE
+「今日から、新しいバイトの子が入るから」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「そうなんですか」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 B
-\n 「この子なんだけどね」
+NEWLINE
+「この子なんだけどね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGCA01
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 店長は自分の後ろに隠れるように立っていた女の子を紹介した
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 B
-\n 「知り合いの子供さんでね
- CLICKWAIT \n 　しばらくうちでバイトしたいということになってね
- CLICKWAIT \n 　えーっと名前は・・・」
+NEWLINE
+「知り合いの子供さんでね
+CLICKWAIT
+NEWLINE
+　しばらくうちでバイトしたいということになってね
+CLICKWAIT
+NEWLINE
+　えーっと名前は・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「・・・佐伯恵・・・です」
+NEWLINE
+「・・・佐伯恵・・・です」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵の声は今にも消え入りそうだった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 B
-\n 「そうそう恵ちゃん！
-\n 　で、恵ちゃんにはウエイトレスの仕事をやって貰おうと思ってるんだ　けど、教育係をくんにまかせてもいいかな？」
+NEWLINE
+「そうそう恵ちゃん！
+NEWLINE
+　で、恵ちゃんにはウエイトレスの仕事をやって貰おうと思ってるんだ　けど、教育係を\x12 くんにまかせてもいいかな？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ええ、いいですよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 B
-\n 「よろしく頼むよ
-\n 　じゃあ、２人とも仲良くね」
+NEWLINE
+「よろしく頼むよ
+NEWLINE
+　じゃあ、２人とも仲良くね」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 店長は、にこやかな表情で２人の肩を叩くと、あわただしそうに店の方へと走り去っていった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「まったく、忙しい人だなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 頭をかきながら少し笑うと、厨房の入り口に立っている恵に声をかけた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「えーっと、恵ちゃんだっけ
-\n 　俺の名前は、MALE NAME。よろしくな」
+NEWLINE
+　俺の名前は、\x12 MALE NAME。よろしくな」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「佐伯恵・・・です
-\n 　・・・よろしく・・・お願いします」
+NEWLINE
+「佐伯恵・・・です
+NEWLINE
+　・・・よろしく・・・お願いします」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は小さな声でそう言うと、軽く頭を下げた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「（う～んおとなしい子だなぁ）」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵とFEMALE NAMEとの強烈なギャップに少し悩んだが、とりあえず仕事を教えることにした
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「じゃあとりあえず、メニューの取り方なんだけど・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04V
 \x00
-\n \x00
+NEWLINE
+\x00
 (_CGB02A
 \x00
 \x1a(_CGCC02
 \x00
  DS08
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 昼時が過ぎ、少し暇になったとき、恵があなたのいる厨房へと入ってきた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「あ、やっと休憩に入ったのかい？
- CLICKWAIT 　なんか食べる？」
+CLICKWAIT
+　なんか食べる？」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵はこくんと頷くと、端の方に置いてあったイスに座り込んだ
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「えーっと、飲み物はコーヒーでいい？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「・・・はい」
+NEWLINE
+「・・・はい」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたはホットコーヒーを入れると、恵に差し出した
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「食べ物の方はもうちょっと待ってて
- CLICKWAIT \n 　今、電子レンジで暖めてるから」
+CLICKWAIT
+NEWLINE
+　今、電子レンジで暖めてるから」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は小さく頷くと、差し出されたコーヒーを両手で受け取った
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 熱いコーヒーを冷ましながら口へと運んだ恵は、ちょっと驚いたような表情を見せた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「・・・おいしい」
+NEWLINE
+「・・・おいしい」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「あ、やっぱ恵ちゃんもそう思う？
- CLICKWAIT \n 　俺もここのコーヒーだけはすっげー好きなんだ
- CLICKWAIT \n 　あ・・・だけなんて言うと店長に怒られるかなぁ」
+CLICKWAIT
+NEWLINE
+　俺もここのコーヒーだけはすっげー好きなんだ
+CLICKWAIT
+NEWLINE
+　あ・・・だけなんて言うと店長に怒られるかなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 その言葉に、恵は思わず笑ってしまった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「へぇ、笑顔もかわいいねぇ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「え・・・」
+NEWLINE
+「え・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 軽く言った言葉に、恵は敏感に反応して顔を真っ赤にした
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「（また、こういう表情もかわいいねぇ）」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は照れた顔を隠すように、口元にコーヒーカップを持っていくと、こくこくとコーヒーを飲んでいた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB02A
 \x00
 \x1a(_CGCC01
 \x00
  DS08
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 休憩の為、厨房へと入ってきた恵は、大きく溜息をついた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「どうしたんだい？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「やっぱり私・・・
- CLICKWAIT この仕事向いてないんでしょうか・・・」
+NEWLINE
+「やっぱり私・・・
+CLICKWAIT
+この仕事向いてないんでしょうか・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「どうしたの、なにかあったの？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「・・・・・いえ、別に・・・・・
- CLICKWAIT \n 　ただ、今だに、ちゃんと大きな声で挨拶とかが出来なくて・・・」
+NEWLINE
+「・・・・・いえ、別に・・・・・
+CLICKWAIT
+NEWLINE
+　ただ、今だに、ちゃんと大きな声で挨拶とかが出来なくて・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は少しすねたような表情で、うつむいてぼそぼそとしゃべっていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「わっ！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 突然の大声に恵はきょとんとした表情を浮かべて、あなたを見上げた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「な、なんですか？」
+NEWLINE
+「な、なんですか？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「い、いや、こうやって大声を出せば、恵チャンが大きな声を出して驚　いてくれるかなって思ってね・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「そうすれば、大きな声もでるじゃないって励ます事が出来たんだけど　そう冷静に対処されると・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 困った顔で頭をかいていると、恵がくすくすと笑いだした
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 その恵の笑顔をしばらくぼんやりと見つめていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・・・やっぱ、この仕事に向いてないなんて事は、ないんじゃな　いかな」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「えっ？」
+NEWLINE
+「えっ？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「そんだけ、いい笑顔が出来るんなら、素質は充分だよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「あ・・・・・」
+NEWLINE
+「あ・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は真っ赤になった顔を両手で隠すと、しきりに照れていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「後は、経験だな」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「・・・はい」
+NEWLINE
+「・・・はい」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 そう答える恵の顔は、少し晴れやかに見えた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB02A
 \x00
 \x1a(_CGCC03
 \x00
  DS08
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 休憩の為、厨房へと入ってきた恵に、コーヒーを差し出した
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「あ、ありがとうございます」
+NEWLINE
+「あ、ありがとうございます」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は笑顔でカップを受け取ると、息をかけてさましながら、ゆっくりとコーヒーを飲んでいた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「しっかし、すっかりなじんできたねぇ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「え、そうですか」
+NEWLINE
+「え、そうですか」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「自分では、どう思ってるの？」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は少し視線を上に向け考えをめぐらせた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「少し・・・・・
- CLICKWAIT 自信がついた様に思います」
+NEWLINE
+「少し・・・・・
+CLICKWAIT
+自信がついた様に思います」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「そりゃ、良かった」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「さんのおかげです」
+NEWLINE
+「\x12 さんのおかげです」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ぺこりと頭を下げる恵を、優しげな表情で眺めた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB02A
 \x00
 \x1a(_CGCC02
 \x00
  DS08
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 厨房に入ってきた恵は、いつもと違う雰囲気を漂わせていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ん、どうしたの？
- CLICKWAIT 　なんか注文でも入った？」
+CLICKWAIT
+　なんか注文でも入った？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「あ、あの・・・」
+NEWLINE
+「あ、あの・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵はもじもじと手を合わせながら、あなたの前に立ち尽くしていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「何？」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 料理の手を休め恵の方に向き直ると、顔をのぞき込んだ
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「え、えっと・・・」
+NEWLINE
+「え、えっと・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は視線を合わせないようにして、どう言い出そうかと迷っていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「あ、ちょっと待って火を止めてくるから」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 後ろを向いてコンロの方に歩こうとした時、恵が意を決したようにしゃべり始めた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「あ、あの、私の・・・始めての人に・・・なって・・・もらえません　か・・・」
+NEWLINE
+「あ、あの、私の・・・始めての人に・・・なって・・・もらえません　か・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 最後の方はほとんど聞こえないような声になっていたが、思わず足を止めて振り返った
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「今・・・なんて？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (K1
 \x00
  DS11
 \x00
 7
-\n 「私の・・・・・
- CLICKWAIT 始めての人に・・・なってください」
+NEWLINE
+「私の・・・・・
+CLICKWAIT
+始めての人に・・・なってください」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵の顔は耳まで真っ赤になっていた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -463,42 +689,70 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x81\x147
-\n 「・・・さんが
- CLICKWAIT 　いいんです」
+NEWLINE
+「・・・\x12 さんが
+CLICKWAIT
+　いいんです」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「俺は恵ちゃんが思ってるような奴じゃ、無いかもしれないよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「・・・いいんです
- CLICKWAIT 　私がそう信じていれば」
+NEWLINE
+「・・・いいんです
+CLICKWAIT
+　私がそう信じていれば」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「わかった・・・・・
- CLICKWAIT \n 　じゃあ、仕事が終わったら外でちょっと待っててくれる」
+CLICKWAIT
+NEWLINE
+　じゃあ、仕事が終わったら外でちょっと待っててくれる」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は小さく頷くと、店の中へと走り去った
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04W
 \x00
-\n \x00
+NEWLINE
+\x00
 \x10\x06\x18\x15
-\n 恵は、はっとした表情で顔を上げが、すぐに真剣な表情になった
+NEWLINE
+恵は、はっとした表情で顔を上げが、すぐに真剣な表情になった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「それでも・・・かまいません・・・
- CLICKWAIT \n 　ただ１度だけ・・・思い出が欲しいんです・・・」
+NEWLINE
+「それでも・・・かまいません・・・
+CLICKWAIT
+NEWLINE
+　ただ１度だけ・・・思い出が欲しいんです・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵の目は真剣そのものだった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -508,133 +762,217 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 L\x167
-\n 「本当・・・ですか？」
+NEWLINE
+「本当・・・ですか？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「俺ごときをそこまで慕ってくれてるのに、断るわけにはいかないよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「ありがとうございます・・・」
+NEWLINE
+「ありがとうございます・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「じゃあ、仕事が終わったら外でちょっと待っててくれる」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は小さく頷くと、店の中へと走り去った
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04X
 \x00
-\n \x00
+NEWLINE
+\x00
 \x10\x06\x187
-\n 「そうですか・・・・・」
+NEWLINE
+「そうですか・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は落胆の表情でうつむいた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「お、俺なんかより、いいやつはいっぱいいるし
- CLICKWAIT \n 　明るくなった恵ちゃんならすぐに彼氏が出来るって」
+CLICKWAIT
+NEWLINE
+　明るくなった恵ちゃんならすぐに彼氏が出来るって」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 必死で言い訳をしていると、恵は少しほほえみを返してきた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「さん」
+NEWLINE
+「\x12 さん」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「え？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「私、さんの彼女ぐらい愛して貰える彼氏を見つけますね」
+NEWLINE
+「私、\x12 さんの彼女ぐらい愛して貰える彼氏を見つけますね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・ああ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 優しい表情でそういう答えを返しながら、心の中でこう叫んでいた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「（この台詞をあいつにきかせてやりてーよ！）」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB02A
 \x00
 \x1a\x04Z
 \x00
-\n \x00
+NEWLINE
+\x00
 (_CGCC02
 \x00
  DS08
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 休憩の為、厨房へと入ってきた恵は、目線を合わせられずに下を向いていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「恵ちゃん？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「は、はい！」
+NEWLINE
+「は、はい！」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「はい、コーヒー」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 驚いたように顔を上げた恵の前に、コーヒーを差し出した
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵はコーヒーを受け取ると、それに口を付けながら、ちらちらとあなたの方を見ていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ん、どうかした？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「いえ、なんでも・・・・・
- CLICKWAIT ないです」
+NEWLINE
+「いえ、なんでも・・・・・
+CLICKWAIT
+ないです」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は幸せそうな笑みを浮かべると、両手で持っていたコーヒーのカップをくるくると回していた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB02A
 \x00
 \x1a\x04[
 \x00
-\n \x00
+NEWLINE
+\x00
 (_CGCC01
 \x00
  DS08
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 休憩の為、厨房へと入ってきた恵は、そわそわしていた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「あの・・・さん？」
+NEWLINE
+「あの・・・\x12 さん？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「何？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「今日お暇・・・・・ですか？」
+NEWLINE
+「今日お暇・・・・・ですか？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「う～ん、暇といったら暇だけど・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「よかった・・・」
+NEWLINE
+「よかった・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「それがどうかした？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「あ、あの、良かったらもう一度・・・その・・・」
+NEWLINE
+「あ、あの、良かったらもう一度・・・その・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵はうつむいて両手をもてあそびながら、誘いをかけてきた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -644,278 +982,467 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x88\x1c7
-\n 「本当ですか？」
+NEWLINE
+「本当ですか？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「恵ちゃんみたいなかわいい娘の頼みなら、いくらでも聞いちゃうよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「・・・・・嬉しい」
+NEWLINE
+「・・・・・嬉しい」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は幸せそうな顔で微笑んだ
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「じゃあ、またバイトが終わったら待っていますから・・・」
+NEWLINE
+「じゃあ、またバイトが終わったら待っていますから・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「はいよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は軽くおじぎをすると、店の中へと走り去った
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04Y
 \x00
-\n \x00
+NEWLINE
+\x00
 MALE NAMEﾒ7
-\n 「あっ・・・・・そうですか」
+NEWLINE
+「あっ・・・・・そうですか」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ゴメンな」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「い、いえ、いいんです」
+NEWLINE
+「い、いえ、いいんです」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は、あわてて手を振った
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「それにしても・・・奥手だと思ってた恵ちゃんが男を誘うようになっ　たか」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「・・・・・・・・」
+NEWLINE
+「・・・・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は、真っ赤な顔でうつむいてしまった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「成長したねぇ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「も、もう・・・・・」
+NEWLINE
+「も、もう・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は、抗議の目を向けてきた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB02A
 \x00
 \x1a(_CGCC01
 \x00
  DS08
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 休憩時間になり、厨房の端にあるイスに座り込んでいた恵が、話しかけてきた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「あの・・・・・さん」
+NEWLINE
+「あの・・・・・\x12 さん」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ん、なに？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「さんて・・・・・いつも楽しそうですね」
+NEWLINE
+「\x12 さんて・・・・・いつも楽しそうですね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「そう？
- CLICKWAIT 　まあ確かに、結構人生楽しんでるかなぁ」
+CLICKWAIT
+　まあ確かに、結構人生楽しんでるかなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「・・・・・いいですね」
+NEWLINE
+「・・・・・いいですね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「恵ちゃんは人生楽しくないかい？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「・・・・・わからないです・・・」
+NEWLINE
+「・・・・・わからないです・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ふ～ん・・・じゃ、今は？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「・・・・・楽しい・・・
- CLICKWAIT です・・・」
+NEWLINE
+「・・・・・楽しい・・・
+CLICKWAIT
+です・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は真っ赤な顔をしながら、消え入りそうな声でそうつぶやいた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB02A
 \x00
 \x1a(_CGCC01
 \x00
  DS08
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 休憩時間になり、厨房の端にあるイスに座り込んでいた恵が、話しかけてきた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「あの・・・さん」
+NEWLINE
+「あの・・・\x12 さん」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ん、なに？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「さんて・・・・・どんな娘が好きですか」
+NEWLINE
+「\x12 さんて・・・・・どんな娘が好きですか」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「う～ん・・・そうだなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 天井を見つめて思い悩んでいると、恵の方が口を開いた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「例えば・・・明るいとか・・・
- CLICKWAIT おしゃべりが上手とか・・・」
+NEWLINE
+「例えば・・・明るいとか・・・
+CLICKWAIT
+おしゃべりが上手とか・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「まあ、そういう娘も好きだけどなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「やっぱり・・・」
+NEWLINE
+「やっぱり・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 少し表情を曇らせている恵に、あなたは言葉を続けた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「でも、実際は好きになった娘が、好きな娘だよ
- CLICKWAIT \n 　理屈なんかないね」
+CLICKWAIT
+NEWLINE
+　理屈なんかないね」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 そう言って笑っていると、恵もつられて笑ってしまった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「じゃあ、恵ちゃんの好きなタイプってどんな人？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「・・・・・秘密です」
+NEWLINE
+「・・・・・秘密です」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵はチラッとこちらに視線を送ってから、店の中へと戻っていった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB02A
 \x00
 \x1a(_CGCC03
 \x00
  DS08
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 休憩時間になり、厨房の端にあるイスに座り込んでいた恵に話しかけた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ねぇ恵ちゃん？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「・・・・・はい？」
+NEWLINE
+「・・・・・はい？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「家とかではいっつも何してんの？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「家ですか・・・・・
- CLICKWAIT よくビデオとか見てます」
+NEWLINE
+「家ですか・・・・・
+CLICKWAIT
+よくビデオとか見てます」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「へぇ、どんなの見てるの？
- CLICKWAIT 　やっぱ恋愛映画とか？」
+CLICKWAIT
+　やっぱ恋愛映画とか？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「・・・ホラーが好きなんです・・・」
+NEWLINE
+「・・・ホラーが好きなんです・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 思わず飲んでいたコーヒーを吐いてしまったあなたを、恵が不思議そうに見つめていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ホ、ホラーね・・・・・
- CLICKWAIT それってサスペンス系の？」
+CLICKWAIT
+それってサスペンス系の？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「・・・スプラッタの方が好きですけど・・・」
+NEWLINE
+「・・・スプラッタの方が好きですけど・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「好きな・・・監督は？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「ジョージ・Ａ・ロメロとか、サム・ライミとか・・・」
+NEWLINE
+「ジョージ・Ａ・ロメロとか、サム・ライミとか・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「（・・・本物だ・・・）」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 少し知ってはいけない事を知ってしまったような気がした
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB02A
 \x00
 \x1a(_CGCC03
 \x00
  DS08
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 休憩時間になり、厨房でくつろいでいた恵に店長から声がかかった
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 B
-\n 「休んでいる所悪いんだけど、ちょっと店に出てくれる？」
+NEWLINE
+「休んでいる所悪いんだけど、ちょっと店に出てくれる？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「あ、はい！
- CLICKWAIT 　わかりました」
+NEWLINE
+「あ、はい！
+CLICKWAIT
+　わかりました」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵がはっきりとした声で返事を返すと、店長はほっとした表情を見せ、あわただしく店の中へと駆け込んでいった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「大変だねぇ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「これも、仕事ですから」
+NEWLINE
+「これも、仕事ですから」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 大げさに首を振るあなたに、恵は笑顔を見せた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「それに・・・・・最近は店に出るのが楽しいんです」
+NEWLINE
+「それに・・・・・最近は店に出るのが楽しいんです」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 晴れやかな顔で、はなしている恵を、あなたは満足そうな顔で眺めていた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB02A
 \x00
 \x1a(_CGCB03
 \x00
  DS08
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 バイトを終えて喫茶店の外に出ると、そこに恵が待っていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「待った？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「い、いえ・・・」
+NEWLINE
+「い、いえ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は、恥ずかしそうに目を背けた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「えーっと・・・・・
- CLICKWAIT ホテルで・・・いいよね？」
+CLICKWAIT
+ホテルで・・・いいよね？」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は、目を合わせずにこくんと頷いた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「じゃあ、行こうか」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 そう言って肩を抱くと、恵はびくっと体を硬くした
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「（さて・・・あまり知り合いに会わない道を行かないとな・・・）」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -927,67 +1454,104 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 5)\x1e
-\n 「（意外と人混みにまぎれたらわかんないかもな）」
+NEWLINE
+「（意外と人混みにまぎれたらわかんないかもな）」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEｾ)FEMALE NAME
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x80)\x1e
-\n 「（まさか、ここで知り合いに会うってことはないだろう）」
+NEWLINE
+「（まさか、ここで知り合いに会うってことはないだろう）」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEｾ)
-\n 「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
+NEWLINE
+「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04i
 \x00
-\n \x00
-NARRATION_DIALOGUE:
+NEWLINE
+\x00
+NO_NAMETAG:
 あなたは、さも自然にそこを通るように、そっと進路を変更した
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1a(_CGCB05
 \x00
  DS08
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 バイトを終えて喫茶店の外に出ると、そこに恵が待っていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「待った？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「いえ、私も今来たところです」
+NEWLINE
+「いえ、私も今来たところです」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵は少し息を切らしながら、そう答えた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「じゃあ、行こうか・・・
- CLICKWAIT 場所はホテルでいいよね」
+CLICKWAIT
+場所はホテルでいいよね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 7
-\n 「はい」
+NEWLINE
+「はい」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 恵はそう答えると、あなたの腕に抱きついてきた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「（ずいぶん大胆になったなぁ）」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 腕に恵の体温を感じながら、少し感慨に耽ってしまった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「（さて・・・あまり知り合いに会わない道を行かないとな・・・）」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 
 CHOICE
  \x00
@@ -999,30 +1563,44 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 #,\x1e
-\n 「（意外と人混みにまぎれたらわかんないかもな）」
+NEWLINE
+「（意外と人混みにまぎれたらわかんないかもな）」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04i
 \x00
-\n \x00
+NEWLINE
+\x00
 MALE NAMEｧ,FEMALE NAME
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 n,\x1e
-\n 「（まさか、ここで知り合いに会うってことはないだろう）」
+NEWLINE
+「（まさか、ここで知り合いに会うってことはないだろう）」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEｧ,
-\n 「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
+NEWLINE
+「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは、さも自然にそこを通るように、そっと進路を変更した
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 END_FILE

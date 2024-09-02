@@ -5,7 +5,7 @@
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x18
 \x00

@@ -1,7 +1,8 @@
 \x11\x11\x16 
 \x00
 \x15\xf4
-\n \x04\x17\x1e
+NEWLINE
+\x04\x17\x1e
 \x00
 \x15
 \x00
@@ -27,9 +28,10 @@
 \x11\x16 
 \x00
 \x15\x90
-\n \x04\x17\x1f
+NEWLINE
+\x04\x17\x1f
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x07\x0f
 \x00
@@ -40,9 +42,10 @@ F
 \x11\x16 
 \x00
 \x15,
-\n \x04\x17 
+NEWLINE
+\x04\x17 
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x07\x0f
 \x00
@@ -50,785 +53,1347 @@ NARRATION_DIALOGUE:
 \x00
 \x10X+(_CGAA04
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「そういえば今日ねぇ、面白い物見つけたの！」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「面白い物？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「そ！、ちょっとこっちにきて」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、まるで宝物を見せる子供のように、はしゃぎながら寝室へと入っていった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・一体何を見せる気なんだか」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB18
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 あなたが寝室へと入るとFEMALE NAMEが、高校時代の制服を抱き抱えていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「それって・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「へっへっ～、なつかしいでしょう？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ああ・・・・・
- CLICKWAIT でもそんなもん、よくあったなぁ」
+CLICKWAIT
+でもそんなもん、よくあったなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「そう、私も驚いてるんだけど、なんかいろんな服を鞄に詰め込んだ時　に、紛れこんじゃったみたいね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ふ～ん・・・
- CLICKWAIT 　なあ、ちょっと着てみたら？」
+CLICKWAIT
+　なあ、ちょっと着てみたら？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ふふふっ、最初っからそのつもりよん」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (15_1
 \x00
  DS05
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「久しぶりの制服かぁ、やっぱりなつかしいなあ。」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは体が覚えてるのか、馴れた手つきで高校時代の制服へと着替えた後、感慨深げに自分の姿を見回した
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「けど、なんか腰のあたりがきついような・・・・
- CLICKWAIT 気のせいよね？」
+CLICKWAIT
+気のせいよね？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「いや、それはなんともいえないけど・・・・・
- CLICKWAIT \n 　なんかこうして見ると、ほんと、昔を思い出すなあ～」
+CLICKWAIT
+NEWLINE
+　なんかこうして見ると、ほんと、昔を思い出すなあ～」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・なんかごまかされたみたいな気がするけど・・・
- CLICKWAIT \n 　うん、ほんと懐かしいわね・・・あの頃のことが昨日のことみたい」
+CLICKWAIT
+NEWLINE
+　うん、ほんと懐かしいわね・・・あの頃のことが昨日のことみたい」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あの頃といってもそんなに昔のことではないのだけれど、二人の始まりである高校時代はいろんな事がありすぎて、思い出も多い
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEの制服姿を見ていると、懐かしい日々が目の前を通りすぎていく
- CLICKWAIT \n それはFEMALE NAMEにとっても同じ事であろう
+CLICKWAIT
+NEWLINE
+それはFEMALE NAMEにとっても同じ事であろう
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ねえ、今日は二人ともあの頃に戻ろ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「えっ？」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、腰掛けていたベッドからすっと立ち上がると、自分に寄り添ってきた
- CLICKWAIT ???そしてじっと愛くるしい瞳で自分をみつめる
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+そしてじっと愛くるしい瞳で自分をみつめる
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+NO_NAMETAG:
 それは濁りの無い純真無垢な瞳でいて、そして何よりも可愛らしい瞳
- CLICKWAIT \n たまらなくなった自分はFEMALE NAMEをぎゅっと抱きしめた
+CLICKWAIT
+NEWLINE
+たまらなくなった自分はFEMALE NAMEをぎゅっと抱きしめた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あんっ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 二人は少しの間抱きしめあったたあと、自然にくちびるを重ね合わした
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「んっ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 柔らかいFEMALE NAMEの感触は今も昔も変わっていない・・・
- CLICKWAIT \n 初めてのキスからこれは何回目なのだろうか
- CLICKWAIT ???しばらくして二人は寄り添うようにベッドに座り込んだ
+CLICKWAIT
+NEWLINE
+初めてのキスからこれは何回目なのだろうか
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+しばらくして二人は寄り添うようにベッドに座り込んだ
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「・・・あの頃は二人とも初々しかったよね・・・・・
- CLICKWAIT \n 　って今でも私は十分初々しいけど」
+CLICKWAIT
+NEWLINE
+　って今でも私は十分初々しいけど」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ある意味子供っぽいところが初々しいといえるけど
- CLICKWAIT \n 　なんかちがうような気がする・・・」
+CLICKWAIT
+NEWLINE
+　なんかちがうような気がする・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・ひっど～い」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「けど体のほうは高校時代よりも多少成長してるよ
- CLICKWAIT \n 　ホラ、こことかさ」
+CLICKWAIT
+NEWLINE
+　ホラ、こことかさ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 そういうと自分は制服の上からFEMALE NAMEの胸のあたりをまさぐった
- CLICKWAIT ???さらりとした制服の質感の下に隠れるように柔らかい弾力がかすかに伝わってくるFEMALE NAMEの体温といっしょに感じられる
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+さらりとした制服の質感の下に隠れるように柔らかい弾力がかすかに伝わってくるFEMALE NAMEの体温といっしょに感じられる
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+NO_NAMETAG:
 自分は調子に乗ってそのまま服の上から豊満な胸をもみしごいた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「やんっ・・・んっ・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「制服の上からでもこれだけ感じるのに、どこが初々しいのかな～？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「んもうっ・・いじわる・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「じゃあ、服を脱がずに胸をみせてもらおうかな？」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 するとFEMALE NAMEは、あきれながらも制服のすそをたくしあげた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (15_3
 \x00
-NARRATION_DIALOGUE:
-???制服の下からはまず白いお腹が見え、そして徐々にたわわに実った胸があらわになっていく
- CLICKWAIT ???FEMALE NAMEの胸はいつもと違う状況のせいか小刻みにふるえていた
+NO_NAMETAG:
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+制服の下からはまず白いお腹が見え、そして徐々にたわわに実った胸があらわになっていく
+CLICKWAIT
+CLEAR_TEXTBOX
+FEMALE NAMEの胸はいつもと違う状況のせいか小刻みにふるえていた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「なんか恥ずかしい・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 自分は座ったままのFEMALE NAMEの後ろに廻り、背後から優しくゆっくりと胸をもみあげる
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「んっ・・・ふっ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEの呼吸が少し荒くなってきた
- CLICKWAIT ???そのまま胸を揉みながら指を乳首へと移動すると、自分は器用に乳首をコリコリとこねまわす
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+そのまま胸を揉みながら指を乳首へと移動すると、自分は器用に乳首をコリコリとこねまわす
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「あんっ・・んっ・・はふぅ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEの背後から首筋に舌をはわしていく
- CLICKWAIT \n 熱っぽい体から、FEMALE NAMEの興奮してきている事がはっきりとわかる
- CLICKWAIT ???だいぶ乳首が硬くなってきたところで、少し強くきゅっとつまんでみる
+CLICKWAIT
+NEWLINE
+熱っぽい体から、FEMALE NAMEの興奮してきている事がはっきりとわかる
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+だいぶ乳首が硬くなってきたところで、少し強くきゅっとつまんでみる
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「ひゃっ！！あっ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「すごく硬くなってきてる・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「んっ・・やん・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEの体がポッとピンク色に染まっていく
-\n 首筋にはわしていた舌を徐々に上のほうへと移動していく
+NEWLINE
+首筋にはわしていた舌を徐々に上のほうへと移動していく
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「んっ、んっ、はぁ・・・こちょばいよ・・・んっ・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ペロペロとあごから頬へと舌をはわす
-\n FEMALE NAMEの甘い吐息が顔にかかる
-\n そのままFEMALE NAMEの唇に口を重ね合せていった
+NEWLINE
+FEMALE NAMEの甘い吐息が顔にかかる
+NEWLINE
+そのままFEMALE NAMEの唇に口を重ね合せていった
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ん・・・・・・ん・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 キスを交わしながら二人は手と手をにぎりあってそのままゆっくりと
-\n ベッドに倒れこんでいった
+NEWLINE
+ベッドに倒れこんでいった
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「お願い、さわって・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 自分はFEMALE NAMEの胸を左手で揉みながら、右側の胸を舌でチロチロと転がす
- CLICKWAIT \n 同時に右手は下腹部の方へと移動していく
+CLICKWAIT
+NEWLINE
+同時に右手は下腹部の方へと移動していく
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 そしてFEMALE NAMEのショーツの上から軽く秘部をさすりあげ、ほのかに湿ってきている割れ目部分に中指をはわし、さすりはじめる
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 　びくんっ
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「はあぁっ・・あっ・・あっ・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは割れ目を上下にこすりあげるたびに軽く体をのけぞらす
- CLICKWAIT ???それに合わすように胸も上下に揺れ動き、タプタプと移動する
-\n そして自分は舌を下腹部へと舌をすべらせていった
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+それに合わすように胸も上下に揺れ動き、タプタプと移動する
+NEWLINE
+そして自分は舌を下腹部へと舌をすべらせていった
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+NO_NAMETAG:
 めくれあがった制服のスカートの中から見える白い太股と白いショーツが、妙に艶かしい雰囲気をかもしだしていた
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 脱がせるのはちょっと惜しい気がしたが、汚すとまずいのでとりあえずスカートとショーツを脱がせる
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ううっ・・なんか凄い恥ずかしい・・・・・
- CLICKWAIT \n 　どうして上着だけ残す・・・あんっ」
+CLICKWAIT
+NEWLINE
+　どうして上着だけ残す・・・あんっ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 言い終わらぬうちにFEMALE NAME自身の声がそれをさえぎる
- CLICKWAIT ???自分はすでに湿りきっていた割れ目を二本の指で開き、FEMALE NAMEの敏感な突起を舌でクンニリングする
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+自分はすでに湿りきっていた割れ目を二本の指で開き、FEMALE NAMEの敏感な突起を舌でクンニリングする
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「ああっはああっああっ
-\n 　ダメッ、きたないよっああっあっあっ」
+NEWLINE
+　ダメッ、きたないよっああっあっあっ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「汚くなんかない・・・すごくきれいだよ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・やだ～っ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 口では否定しつつもFEMALE NAMEは、自ら腰を押し付けぎゅっと太股を挟みこんでくる
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「はああ、うんっ、んんっ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「なんかもうビショビショだよ・・・どうしたのかな～？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・いじわるしないで・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEの目が哀願するように自分を見つめる
-\n たまらなく可愛くて愛しい顔がそこにある
+NEWLINE
+たまらなく可愛くて愛しい顔がそこにある
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あなたが欲しい・・・
- CLICKWAIT お願い・・・欲しいの・・・」
+CLICKWAIT
+お願い・・・欲しいの・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 もう限界だ
-\n 早くこの愛らしいFEMALE NAMEとひとつになりたくてたまらなかった
+NEWLINE
+早くこの愛らしいFEMALE NAMEとひとつになりたくてたまらなかった
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 自分はFEMALE NAMEのまるいお尻を抱え上げ、思いきり自らのこわばりをFEMALE NAMEの熱い膣内へと挿入した
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「っ！ああっ！！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (15_2
 \x00
-NARRATION_DIALOGUE:
-???白いまるいおしりが前後に激しく動き、弓のようにFEMALE NAMEの体が反り返る
-\n 激しい動きにベッドがキシキシと揺れ動く
+NO_NAMETAG:
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+白いまるいおしりが前後に激しく動き、弓のようにFEMALE NAMEの体が反り返る
+NEWLINE
+激しい動きにベッドがキシキシと揺れ動く
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「ああっ、いいっ、すごくいいっ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、自ら腰を動かしはじめる腰の動きにあわせ、ヌチャヌチャと濡れた花弁を出入りするペニスが音をたてる
- CLICKWAIT ???その音がたまらなくいやらしく卑猥だ
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+その音がたまらなくいやらしく卑猥だ
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「ああっ、はあっ、ああっああっはあっ
-\n 　んっ、あっあっあんっ、んっ・・、あっあふぅ、んっ・・］
+NEWLINE
+　んっ、あっあっあんっ、んっ・・、あっあふぅ、んっ・・］
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ああぁっ、こわれちゃううぅ、ああっあっ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ひときわペニスを奥まで突っ込むと、FEMALE NAMEは激しくのけ反り、そして子宮を突き上げるように腰を動かすと悲鳴に近い声であえぐ
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ぁあああーっ、あっ、あっ、あっ、あっ、んっ
-\n 　はふっ、ん、ああっ、はあっ、あっ、んあっ、ああっ」
+NEWLINE
+　はふっ、ん、ああっ、はあっ、あっ、んあっ、ああっ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 もう駄目だ
-\n もう我慢の限界だ
+NEWLINE
+もう我慢の限界だ
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ああっ一緒にいこうっ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「うんっんっ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ああ、はあ、あっ、あっ、ああっ、あっ、はあっ、ああっ、あっ、
-\n 　んあっ、あっ、あっ、あっ、っつあっ、んっ、ふあ、あ、はああっ」
+NEWLINE
+　んあっ、あっ、あっ、あっ、っつあっ、んっ、ふあ、あ、はああっ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「はあっ、ああっ、あっ、はあっ、あっ、はあっ、ああっ、あっ、
-\n 　んあっ、あっ、あっ、あっ、ああ、はあ、あっ、あっあ、はああっ」
+NEWLINE
+　んあっ、あっ、あっ、あっ、ああ、はあ、あっ、あっあ、はああっ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ああっんっ、いくっ、いくっ、
-\n 　ああっ、はああっ、あああああっいっちゃうううううっ～～！！」
+NEWLINE
+　ああっ、はああっ、あああああっいっちゃうううううっ～～！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ふああああああぁぁぁぁっっ！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEの身体がビクンッとのけぞり、そのあと二・三度痙攣してそして一気に脱力していく
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 同時に自分は熱いペニスからほとばしるスペルマを、FEMALE NAMEの膣内へと注ぎこんでいた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB18
 \x00
  DS02
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 ・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ・・ふと目がさめると、ベッドの脇にFEMALE NAMEがすわりこんでいた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・どうしたの？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あっ、ゴメンなさい
- CLICKWAIT 　起こしちゃった？」
+CLICKWAIT
+　起こしちゃった？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あのね、このまま置いておくとシワになっちゃうなーっと思って
- CLICKWAIT \n 　たたんでたの・・・」
+CLICKWAIT
+NEWLINE
+　たたんでたの・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「やっぱり思い出の制服だから大事にしておきたいなぁと思って・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・そうだね・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 制服をたたみおえたFEMALE NAMEは、こわれものを扱うように大切そうにタンスの中へとそれをしまいこんだ
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04\x1e
 \x00
-\n \x00
+NEWLINE
+\x00
 \x04r
 \x00
-\n \x00
+NEWLINE
+\x00
 \x1a(_CGAC01
 \x00
  DS02
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「今日はねぇ、いい物があるんだよぉ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「いい物～？」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは、FEMALE NAMEの妙に嬉しそうな表情に、一抹の不安を感じた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「そ！・・・ねぇねぇ、知りたい？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「いや・・・いいや」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「そ～んなこと言わないの！
-\n  CLICKWAIT 　ちょっと待っててね、今持ってくるから」
+NEWLINE
+CLICKWAIT
+　ちょっと待っててね、今持ってくるから」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「い、いや、本当にいいってー！
-\n 　なあ！　お～い！　聞いてるか～！」
+NEWLINE
+　なあ！　お～い！　聞いてるか～！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGB00
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 あなたの言葉を完全に無視して、FEMALE NAMEは台所へと入っていった
- CLICKWAIT ???しばらくして、FEMALE NAMEがお盆の上にお銚子とお猪口をのせて持ってきた
+CLICKWAIT
 CLEAR_TEXTBOX
+しばらくして、FEMALE NAMEがお盆の上にお銚子とお猪口をのせて持ってきた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
 (_CGAC04
 \x00
-MALE_DIALOGUE:
+MALE_NAMETAG:
 「へっ？　酒？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「そうだよぉ
-\n 　たまにはいいでしょ、こうやって２人でお酒を飲むってのも」
+NEWLINE
+　たまにはいいでしょ、こうやって２人でお酒を飲むってのも」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「それは・・・いいけど・・・っておい！
-\n 　なんで俺がお猪口で、お前がコップなんだよ」
+NEWLINE
+　なんで俺がお猪口で、お前がコップなんだよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ま、ま、いいじゃない、そんな細かいことは」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「い、いや、細かいことってあーた」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、あなたの言葉には耳も貸さずに、嬉しそうに酒をつぎ始めた
- CLICKWAIT ???FEMALE NAMEは、お酒をつぎ終わるとコップを持ち上げ、あなたが持っているお銚子にこつんと当てた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+FEMALE NAMEは、お酒をつぎ終わるとコップを持ち上げ、あなたが持っているお銚子にこつんと当てた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「かんぱ～いぃ！！
-\n  CLICKWAIT 　では、いただきま～す」
+NEWLINE
+CLICKWAIT
+　では、いただきま～す」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ
-\n ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ
-\n ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ
-\n ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ
+NEWLINE
+ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ
+NEWLINE
+ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ
+NEWLINE
+ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ　ゴキュ
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、瞬く間にコップの中の酒を一気に飲み干した
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「かーーーーーーーーー！！！
-\n 　たまんないわーーーー！！！」
+NEWLINE
+　たまんないわーーーー！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「なっ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 唖然としているあなたの目の前で、FEMALE NAMEは、再びコップに酒をつぐとハイペースで飲み始めた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ちょ、ちょっと待てって・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGAC05
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「へぇ・・・なんらってのよぉぉぉ、きゃはははははっ！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「うそだろ・・・もう酔っぱらってる・・・
-\n  CLICKWAIT 　いくらなんでも、早すぎないか・・・」
+NEWLINE
+CLICKWAIT
+　いくらなんでも、早すぎないか・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは真っ赤な顔をして酒を飲みまくっているFEMALE NAMEを呆然と見ていた
- CLICKWAIT ???そのうち、FEMALE NAMEの目が据わってきたかと思うと、悩ましげな視線をあなたに送り始めた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+そのうち、FEMALE NAMEの目が据わってきたかと思うと、悩ましげな視線をあなたに送り始めた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+MALE_NAMETAG:
 「な、なんだよ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「うふふ・・・ひっく・・・今日はれぇ、気分がいいから、サービスし　てあげるわれぇ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (06_1
 \x00
  DS05
 \x00
-NARRATION_DIALOGUE:
-???FEMALE NAMEは、左手で服をまくしあげ、右手でスカートを少し上へとずらした
+NO_NAMETAG:
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+FEMALE NAMEは、左手で服をまくしあげ、右手でスカートを少し上へとずらした
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+NO_NAMETAG:
 その行為自体はそれほど卑わいでは無かったが、ほんのり赤く染まったFEMALE NAMEの肌からあふれてくる、何とも言えない甘い香りがあなたの下半身を刺激した
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、あなたの下半身の変化に気が付くと、ぞくりとするような視線を投げかけてきた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「う・・・な、なんか、妙に色っぽく見えるな・・・
-\n  CLICKWAIT 　・・・酒のせいかな」
+NEWLINE
+CLICKWAIT
+　・・・酒のせいかな」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、妖艶な笑みを浮かべると、服を脱ぎながらゆっくりとあなたに近づいてきた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・横になって・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたが言われるままに仰向けに寝転がると、FEMALE NAMEは、あなたの下半身をむき出しにした
- CLICKWAIT ???既に限界まで硬直しているあなたのペニスを、いとおしそうに２、３度なめるといきなりその上にまたがってきた
+CLICKWAIT
 CLEAR_TEXTBOX
+既に限界まで硬直しているあなたのペニスを、いとおしそうに２、３度なめるといきなりその上にまたがってきた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
 (06_2
 \x00
-NARRATION_DIALOGUE:
-???FEMALE NAMEは、人差し指と中指でペニスを挟むと、自分の割れ目へとあてがい、ゆっくりと腰を落としていった
+NO_NAMETAG:
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+FEMALE NAMEは、人差し指と中指でペニスを挟むと、自分の割れ目へとあてがい、ゆっくりと腰を落としていった
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「あ、あああ～ん」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「くっ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEの膣中はいつもにもまして熱く、あなたの体にはしびれにも似た快感が走り抜けた
- CLICKWAIT ???FEMALE NAMEは、再び妖艶な笑みを浮かべると、激しく腰を動かし始めた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+FEMALE NAMEは、再び妖艶な笑みを浮かべると、激しく腰を動かし始めた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+MALE_NAMETAG:
 「う、い、いい・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「は、はぁ・・いい・・いいろぉ・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 一心に乱れるFEMALE NAMEの秘処からあふれた愛液が、あなたの腰回りをぬらしていた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「れ、れぇ、もっと、突き上げてぇ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 今までなすがままになっていたあなたも、FEMALE NAMEの動きに合わせるようにして、秘処を突き上げた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ひ、ひぐぅ・・・す、すご・・あ・・・ああ・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、全身の力を使ってあなたの物を受け入れていた
- CLICKWAIT ???そのあなたの物は既に限界に達しようとしていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+そのあなたの物は既に限界に達しようとしていた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+MALE_NAMETAG:
 「い、いきそうだ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「わ、わたしもぉ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 ２人の腰の動きが一段と激しくなり、熱い固まりとなったあなたの物がFEMALE NAMEの秘処の中を暴れ回っていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「も、もう・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「い、いくぅーーーーーーーーーー！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 その瞬間、FEMALE NAMEの膣中に大量の精液がぶちまけられた
- CLICKWAIT ???FEMALE NAMEは一瞬体を硬直させると、力が抜けたようにあなたの上に倒れ込んできた
+CLICKWAIT
 CLEAR_TEXTBOX
+FEMALE NAMEは一瞬体を硬直させると、力が抜けたようにあなたの上に倒れ込んできた
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
 (_CGB00
 \x00
  DS02
 \x00
-MALE_DIALOGUE:
+MALE_NAMETAG:
 「はぁはぁはぁ・・・
-\n  CLICKWAIT 　・・・ったく、おまえなぁ・・・」
+NEWLINE
+CLICKWAIT
+　・・・ったく、おまえなぁ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたが文句を言おうと首を傾けると、そこには幸せそうな顔で眠るFEMALE NAMEの顔があった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「まったく、とんでもない酒乱だったなぁこいつは・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたがため息をついていると、FEMALE NAMEが少し苦しそうな顔をしながら寝言をしゃべっていた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・もう・・飲めないよぉ・・・ムニャムニャ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「誰が飲ますか！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたはそう言いながらも、眠っているFEMALE NAMEに優しい視線を送っていた
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04\x1f
 \x00
-\n \x00
+NEWLINE
+\x00
 \x1a(_CGAA01
 \x00
  DS02
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「今日はちょっと夏物を片づけようと思ってるんだけど・・・
- CLICKWAIT \n 　ねぇ、手伝ってくれる？」
+CLICKWAIT
+NEWLINE
+　ねぇ、手伝ってくれる？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「夏物～？ 今いつだよ～」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「い、いいじゃない！
- CLICKWAIT \n 　秋口ってほら結構いろいろあって忙しかったし・・・・・
- CLICKWAIT \n 　で、手伝ってくれるの？　くれないの？」
+CLICKWAIT
+NEWLINE
+　秋口ってほら結構いろいろあって忙しかったし・・・・・
+CLICKWAIT
+NEWLINE
+　で、手伝ってくれるの？　くれないの？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「はい、はい、手伝いますよ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ふふ・・・ありがと
- CLICKWAIT \n 　じゃあ、とりあえず収納ボックス出してきてくれる」
+CLICKWAIT
+NEWLINE
+　じゃあ、とりあえず収納ボックス出してきてくれる」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは押入の中にしまってあった収納ボックスを出してきた
- CLICKWAIT \n FEMALE NAMEはそのあいだに、少しずつ夏物の服をたたみ始めていた
- CLICKWAIT ???あなたも服をたたもうとFEMALE NAMEの前に座った時、FEMALE NAMEの持っている水着が目に入った
+CLICKWAIT
+NEWLINE
+FEMALE NAMEはそのあいだに、少しずつ夏物の服をたたみ始めていた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+あなたも服をたたもうとFEMALE NAMEの前に座った時、FEMALE NAMEの持っている水着が目に入った
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+MALE_NAMETAG:
 「あ、その水着って・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「そ、『あの時』のよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「やっぱり～！
- CLICKWAIT \n 　あん時はすっげー楽しかったよな～」
+CLICKWAIT
+NEWLINE
+　あん時はすっげー楽しかったよな～」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「楽しくなんか無かったわよ！！！
- CLICKWAIT \n 　だいたい、あの時は・・・・・・・」
+CLICKWAIT
+NEWLINE
+　だいたい、あの時は・・・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (13_1
 \x00
  DS05
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「ねっ、オイル塗ってよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、少し岩影になって他の人から見えないところにうつ伏せになるとビキニの上を外した
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「え、泳がねぇの？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「そ、今日は焼きにきたんだもん」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「え～マジで？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「マジだよ～・・・・・ねぇ、早く塗ってよぉ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・へいへい」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたはFEMALE NAMEの横に座ると、サンオイルを手にとりFEMALE NAMEの体に塗り始めた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 （あ～あ、今日ぐらいは泳ぎたかったな・・・）
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなた達２人は、この夏、小旅行で、とあるリゾート地に来ていた
- CLICKWAIT ???旅行の日程は２泊３日の予定だったが、あいにくと天候が悪く、最終日の今日になってやっと天気が回復したのだった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+旅行の日程は２泊３日の予定だったが、あいにくと天候が悪く、最終日の今日になってやっと天気が回復したのだった
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+MALE_NAMETAG:
 （それにしても・・・）
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは気持ちよさそうな顔で寝転がっているFEMALE NAMEの顔を見つめた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 （海に来たんだからちょっとぐらい泳げよな～！・・・・・あ～、なん　か腹立ってきたぞ・・・）
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは腹いせにちょっとしたいたずらをしてやる事にした
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「じゃあ、もうちょっと下の方を塗るからなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ん～、お願いね～」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、目をつむったまま返事を返した
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「じゃ、遠慮無く」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたはFEMALE NAMEのビキニの下を、ももの付け根までずりおろすと、大量にサンオイルのついた手でお尻をなで上げた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「きゃあ！！！
- CLICKWAIT \n 　ちょ、ちょっとぉ！」
+CLICKWAIT
+NEWLINE
+　ちょ、ちょっとぉ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 びっくりした表情であなたを見上げるFEMALE NAMEを無視して、あなたは形のよいヒップをぬるぬるとした手で揉みまくった
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「そ、そこはいいからぁ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「いやぁ、やっぱりこういうもんは、入念に塗っとかないとな！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたはお尻の割れ目にそって指を動かし、どんどんと奥へ指を進入させていった
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ん、・・・そ、そこ・・・ちが・・くっ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 指はいつのまにか秘処へと達し、滑りの良くなった指先が割れ目の中へと押し入った
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「んくっ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEの体が一瞬びくんとふるえたかと思うと、あなたの指に大量の愛液がからみついてきた
- CLICKWAIT ???あなたはその液を、肉壁にこすりつけるように指を動かした
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+あなたはその液を、肉壁にこすりつけるように指を動かした
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+FEMALE_NAMETAG:
 「くっ・・・くふぅ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは肘をつき、あなたの手から逃れようと前の方に体をずらそうとした
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「逃がさね～よん」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたはFEMALE NAMEの動きに合わせるように手をぐいっと前に突き出した
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あうぅ～ん」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 観念したように動きを止めるFEMALE NAMEの秘処に、あなたの指が何度も出入りを繰り返していた
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あ・・・ああっ・・・く・・・も、もう・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEがもの欲しそうな顔をあなたに向けた時、あなた達がいた所へやってる人影が見えた
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「やべっ、誰か来る！」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え・・・・・うそ！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ほ、ほら、早く水着を直して！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、いそいそとビキニの下をはき直し、上を付け直した
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あっ！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「どうした？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ど、どうしよう・・・あそこの部分だけが濡れちゃってるんだけど
-\n 　・・・・・絶対に変に思われるよぅ」
+NEWLINE
+　・・・・・絶対に変に思われるよぅ」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、股間を両手で押さえながら、恥ずかしそうにうつむいた
- CLICKWAIT ???あなたは少し考えていたが、やがて立ち上がるとFEMALE NAMEの手をとった
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+あなたは少し考えていたが、やがて立ち上がるとFEMALE NAMEの手をとった
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+MALE_NAMETAG:
 「そんなもんは、海に入っちまえばわかんねぇよ！」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたはFEMALE NAMEの腕を引っ張りながら、海へと歩き出した
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え、ちょ、ちょっと、今オイル塗ったばかりなんだよ
- CLICKWAIT \n 　・・・って、お～い、聞いてるの？　おーーーーーーーーい！！！」
+CLICKWAIT
+NEWLINE
+　・・・って、お～い、聞いてるの？　おーーーーーーーーい！！！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGAA04
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「結局あの後、日焼けで皮がむけちゃって大変だったんだから」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「まぁ、まぁ、そう言いながらも結構楽しんでたじゃないか」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・ま、まあね、私って基本的には体動かすの好きだからね」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 FEMALE NAMEは、にっこり笑うと、水着を丁寧にたたみ、収納ボックスにしまいこんだ
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04 
 \x00
-\n \x00
+NEWLINE
+\x00
 END_FILE

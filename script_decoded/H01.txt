@@ -1,6 +1,7 @@
 \x04\x04o
 \x00
-\n \x00
+NEWLINE
+\x00
 \x03\x1d
 \x00
 \x16\x0e
@@ -65,10 +66,12 @@
 \x00
 \x04m
 \x00
-\n \x00
+NEWLINE
+\x00
 \x04n
 \x00
-\n \x00
+NEWLINE
+\x00
  DS10
 \x00
 (_CGB18
@@ -76,7 +79,8 @@
 \x11\x16\x1b
 \x00
 \x15,
-\n \x03
+NEWLINE
+\x03
 \x00
 ﾄ
 \x00
@@ -89,13 +93,16 @@ CHOICE
 \x00
 \x00
 \x10y
-\n \x11\x16\x0f
+NEWLINE
+\x11\x16\x0f
 \x00
 \x15\xf4
-\n \x04
+NEWLINE
+\x04
 \x00
 &
-\n 
+NEWLINE
+
 CHOICE
  \x00
 そろそろ寝よっか・・・
@@ -106,18 +113,22 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
+ NEWLINE
+\x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 #
-\n \x00
-\n \x00
+NEWLINE
+\x00
+NEWLINE
+\x00
 \x03
 \x00
 \x10y
-\n 
+NEWLINE
+
 CHOICE
  \x00
 そろそろ寝よっか・・・
@@ -128,37 +139,49 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
+ NEWLINE
+\x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 y
-\n \x00
-\n \x00
+NEWLINE
+\x00
+NEWLINE
+\x00
 \x04
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 X\x02\x1e
-\n 「そろそろ寝よっか・・・」
- CLICKWAIT \x02 
+NEWLINE
+「そろそろ寝よっか・・・」
+CLICKWAIT
+\x02 
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「そうね・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CGBK
 \x00
-MALE_DIALOGUE:
+MALE_NAMETAG:
 「おやすみ～」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「おやすみなさい・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 !(_CG20
 \x00
 
@@ -170,10 +193,11 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 P\x02\x08\x0e
 \x00
@@ -198,40 +222,53 @@ G\x02
 \x00
 \x04s
 \x00
-\n \x00
+NEWLINE
+\x00
 \x1a\x10U\x02\x04o
 \x00
 \x00
 \x00
 \x10 \x08\x11\x16
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 @\x03\x1e
-\n 「おいで・・・FEMALE NAME・・・」
+NEWLINE
+「おいで・・・FEMALE NAME・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・・うん」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x16\x1b
 \x00
 \x15 \x03\x04
 \x00
 =\x03(_CGBK
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 その返事を確認するやいなや、あなたはすばやくFEMALE NAMEの衣服を総てはぎ取った。
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「きゃっ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CG02
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「そ、そんなにあわてないで・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04m
 \x00
 \x00
@@ -243,14 +280,18 @@ CLEAR_TEXTBOX
  DS05
 \x00
 \x10 \x08\x11\x16
-\n \x00
+NEWLINE
+\x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 E\x04\x1d
-\n 「ん・・・・・あん・・・ん・・・ん・・・」
+NEWLINE
+「ん・・・・・あん・・・ん・・・ん・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x16#
 \x00
 ﾈ
@@ -260,104 +301,163 @@ CLEAR_TEXTBOX
 \x88\x03\x10B\x04\x11\x16#
 \x00
 \x15\x90
-\n \x03
+NEWLINE
+\x03
 \x00
 ﾒ
-\n 「MALE NAME・・・もっと・・・いろんなことしてもいいのよ・・・」
+NEWLINE
+「MALE NAME・・・もっと・・・いろんなことしてもいいのよ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10B\x04\x11\x16#
 \x00
 \x15X\x02\x03
 \x00
 \t\x04\x1d
-\n 「・・・ねぇ・・・Ｈなこと、して☆」
+NEWLINE
+「・・・ねぇ・・・Ｈなこと、して☆」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10B\x04\x1d
-\n 「なんだか・・・今日は、すっごくＨな気分なの・・・」
+NEWLINE
+「なんだか・・・今日は、すっごくＨな気分なの・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10 \x08\x11\x16
-\n \x00
+NEWLINE
+\x00
 \x15\x04
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
  \x08\x1d
-\n 「っきゃぁ・・・・」
+NEWLINE
+「っきゃぁ・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 （ぼふっ）
+CLICKWAIT
 CLEAR_TEXTBOX
-NARRATION_DIALOGUE:
+\x00
+NO_NAMETAG:
 あなたは勢いよくFEMALE NAMEをベッドに押し倒した。
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x16#
 \x00
 \x15\x90
-\n \x03
+NEWLINE
+\x03
 \x00
 \x1a\x07\x1d
-\n 「え～ん、今日のMALE NAME、すっごくこわいよぉ」
+NEWLINE
+「え～ん、今日のMALE NAME、すっごくこわいよぉ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x16\x1b
 \x00
-ｼ???
+ｼCLEAR_TEXTBOX
+
 \x00
 J
- CLICKWAIT MALE_DIALOGUE:
+CLICKWAIT
+MALE_NAMETAG:
 「ご、ごめん。FEMALE NAMEがあんまりかわいいもんだから・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「うふっ、ほめてもなにも出ないよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x17\x07\x11\x16\x1b
 \x00
 \x15 \x03\x03
 \x00
 \xf9
- CLICKWAIT MALE_DIALOGUE:
+CLICKWAIT
+MALE_NAMETAG:
 「ご、ごめん。FEMALE NAMEがあんまりかわいいもんだから・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「うふっ、ほめてもなにも出ないよ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「大丈夫。出すのは俺だから・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・・・・・？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x17\x07\x1e
-\n 「ふふん、泣け！わめけ！呼んでも誰も来やしねぇぜ、ぬははははは」
+NEWLINE
+「ふふん、泣け！わめけ！呼んでも誰も来やしねぇぜ、ぬははははは」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「いやーーー、MALE NAMEが、MALE NAMEが壊れちゃったよ～～」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「こ、こわれたって・・・・ひどいな、おねいさん。ぼ、ぼぼ僕はいつもとちぃーーーっとも変わっちゃいないよぉ～んわははっははははは」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ひーーーん、オタスケーーーー」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10 \x08\x1d
-\n 「もぉ、そんなにあわてちゃダメ。女の子はとっても
-\n デリケートなのよ」
+NEWLINE
+「もぉ、そんなにあわてちゃダメ。女の子はとっても
+NEWLINE
+デリケートなのよ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x16\x1b
 \x00
 \x15 \x03\x04
 \x00
  \x08\x1e
-\n 「がるるる、俺、する、Ｈ、FEMALE NAME、する、俺、欲しい・・・」
+NEWLINE
+「がるるる、俺、する、Ｈ、FEMALE NAME、する、俺、欲しい・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「はっ、すでに理性と知性がどこかへ・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ぬぉりゃああああぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あれぇーーーーーーーーーーーーーーー」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 !\x11\x16\x0e
 \x00
 ﾈ
@@ -369,47 +469,73 @@ CLEAR_TEXTBOX
 \x03\n
 \x00
 \xe0\t\x1e
-\n 「・・・・あら？」
+NEWLINE
+「・・・・あら？」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x16#
 \x00
 \x15\xf4
-\n \x03
+NEWLINE
+\x03
 \x00
 \x14\t\x1d
-\n 「あ、MALE NAME？・・・」
+NEWLINE
+「あ、MALE NAME？・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 （・・・・・・・・・・・すやすや）
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「MALE NAME、MALE NAME？・・・・・・・・寝ちゃった・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「うふっ・・・かわいい寝顔・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「・・・おやすみなさい・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x0c\x1e
 \x00
 ,
 \x00
 MALE NAMEﾎ	
-\n 「あ、も～～～！　寝ちゃいやだ～～～！」
+NEWLINE
+「あ、も～～～！　寝ちゃいやだ～～～！」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・・あ・・・・ごめん・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 （ばたっ）
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ごめんじゃない～～～！」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・・・・・・・・・・・・・・・ぐぅ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x0c\x1e
 \x00
 B
@@ -419,7 +545,8 @@ B
 \x15
 \x00
 \x00
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 ﾞ	
 \x00
 \x1e
@@ -468,30 +595,34 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x84\r\x17
-\n \x00
+NEWLINE
+\x00
 くち
 \x00
 くびすじ
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 t\x0b\x03!
 \x00
 \x16"
 \x00
 \x15
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 \x0c\x15\x04
 \x00
 \r\x16!
@@ -511,7 +642,8 @@ t\x0b\x03!
 \x1b\x06
 \x00
 \x80\n\x1f
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 *
 \x00
 \x11\x16*
@@ -519,54 +651,72 @@ t\x0b\x03!
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ･
 
-\n 「んっ・・・・・」
+NEWLINE
+「んっ・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10l\x0b\x11\x16*
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ﾖ
 
-\n 「あ・・・んっんっ・・・・・」
+NEWLINE
+「あ・・・んっんっ・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10l\x0b\x11\x16*
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x04\x0b\x1d
-\n 「んむ・・・・もぉ・・・MALE NAME」
+NEWLINE
+「んむ・・・・もぉ・・・MALE NAME」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10l\x0b\x11\x16*
 \x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 5\x0b\x1d
-\n 「はふっ・・・もっとキスして」
+NEWLINE
+「はふっ・・・もっとキスして」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10l\x0b\x1d
-\n 「MALE NAME・・・もっと・・・いろんなことして・・・」
+NEWLINE
+「MALE NAME・・・もっと・・・いろんなことして・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04\x06
 \x00
-\n \x00
+NEWLINE
+\x00
 \x08*
 \x00
-\n \x00
+NEWLINE
+\x00
 \x10\x81\r\x11\x16
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x81\r\x03!
 \x00
@@ -585,7 +735,8 @@ CLEAR_TEXTBOX
 \x1b\x07
 \x00
 \xa0\x0b\x1f
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 +
 \x00
 \x11\x16+
@@ -593,25 +744,31 @@ CLEAR_TEXTBOX
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ﾕ
-\n 「きゃんっ・・・・・ああ・・・・」
+NEWLINE
+「きゃんっ・・・・・ああ・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10|\r\x11\x16+
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x06\x0c\x1d
-\n 「ひあっ・・・んっ・・・・・」
+NEWLINE
+「ひあっ・・・んっ・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10|\r\x11\x16+
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x81\x0c\x11\x16 
 \x00
@@ -620,16 +777,22 @@ CLEAR_TEXTBOX
 \x08\x15 \x03\x04
 \x00
 L\x0c\x1d
-\n 「ああっ・・・なんだかヘンな気持ち」
+NEWLINE
+「ああっ・・・なんだかヘンな気持ち」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10~\x0c\x1d
-\n 「あん・・・・もぉMALE NAME、くすぐったいよぉ・・・」
+NEWLINE
+「あん・・・・もぉMALE NAME、くすぐったいよぉ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10|\r\x11\x16+
 \x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xf3\x0c\x11\x16 
 \x00
@@ -638,16 +801,22 @@ CLEAR_TEXTBOX
 \x08\x15 \x03\x04
 \x00
 ﾇ
-\n 「ああっ・・・なんだかヘンな気持ち」
+NEWLINE
+「ああっ・・・なんだかヘンな気持ち」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xf0\x0c\x1d
-\n 「だ・・・だめだってば・・・・・・」
+NEWLINE
+「だ・・・だめだってば・・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10|\r\x11\x16+
 \x00
 \x15\x04
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 |\r\x11\x16 
 \x00
@@ -656,35 +825,46 @@ CLEAR_TEXTBOX
 \x08\x15 \x03\x04
 \x00
 Z\r\x1d
-\n 「わ、わたし・・・MALE NAMEに感じてるの・・・・・・とっても、とっても・・・」
+NEWLINE
+「わ、わたし・・・MALE NAMEに感じてるの・・・・・・とっても、とっても・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10w\r\x1d
-\n 「ん・・・いやっ・・・」
+NEWLINE
+「ん・・・いやっ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04\x07
 \x00
-\n \x00
+NEWLINE
+\x00
 \x08+
 \x00
-\n \x00
+NEWLINE
+\x00
 \x10\xa0\x10\x11\x16
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xa0\x10\x17
-\n \x00
+NEWLINE
+\x00
 胸をさわる
 \x00
 下の方に手をのばす
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 ﾟ	!
 \x00
@@ -697,7 +877,8 @@ NARRATION_DIALOGUE:
 \x1b\x08
 \x00
 ﾐ
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 ,
 \x00
 \x11\x16,
@@ -707,46 +888,61 @@ NARRATION_DIALOGUE:
 \x03
 \x00
 \x14\x0e\x1d
-\n 「やんっ・・・ああん・・・もぉ　MALE NAMEったらぁ・・・」
+NEWLINE
+「やんっ・・・ああん・・・もぉ　MALE NAMEったらぁ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEﾗFEMALE NAME,
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 a\x0e\x1d
-\n 「ん・・・んっ、んっ、んっ・・・こっ声がでちゃうぅ・・・」
+NEWLINE
+「ん・・・んっ、んっ、んっ・・・こっ声がでちゃうぅ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEﾗFEMALE NAME,
 \x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ｣
-\n 「はふ・・・・・・あっ・・・あああーーー」
+NEWLINE
+「はふ・・・・・・あっ・・・あああーーー」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04\x08
 \x00
-\n \x00
+NEWLINE
+\x00
 MALE NAMEﾗFEMALE NAME,
 \x00
 \x15\x04
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ﾗ
-\n 「やっ・・・もっと、やさしく・・・」
+NEWLINE
+「やっ・・・もっと、やさしく・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x08,
 \x00
-\n \x00
+NEWLINE
+\x00
 \x10\xa0\x10\x11\x16
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xa0\x10\t!
 \x00
@@ -763,32 +959,42 @@ CLEAR_TEXTBOX
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ;\x0f\x1d
-\n 「ああんっ・・・あ・・・もぉ　MALE NAMEったらぁ・・・」
+NEWLINE
+「ああんっ・・・あ・・・もぉ　MALE NAMEったらぁ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x9b\x10\x11\x16\x04
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 v\x0f\x1d
-\n 「あっああっ・・・いっ、いいっ・・・・」
+NEWLINE
+「あっああっ・・・いっ、いいっ・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x9b\x10\x11\x16\x04
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ﾆ
-\n 「あっあっあっあっ・・・はぁ　はぁ、いいっ、いいのーー」
+NEWLINE
+「あっあっあっあっ・・・はぁ　はぁ、いいっ、いいのーー」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x04\t
 \x00
-\n \x00
+NEWLINE
+\x00
 \x10\x9b\x10\x11\x16\x04
 \x00
 \x15\x04
@@ -796,8 +1002,11 @@ CLEAR_TEXTBOX
 \x03
 \x00
 \x13\x10\x1d
-\n 「ん・・・んっ、んっ、んっ・・・こっ声がでちゃうぅ・・・」
+NEWLINE
+「ん・・・んっ、んっ、んっ・・・こっ声がでちゃうぅ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x9b\x10\x11\x16\x04
 \x00
 \x15\x06
@@ -805,20 +1014,27 @@ CLEAR_TEXTBOX
 \x03
 \x00
 ^\x10\x1d
-\n 「やだぁ・・・へんな気持ちになってきちゃったよぉ・・・」
+NEWLINE
+「やだぁ・・・へんな気持ちになってきちゃったよぉ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x9b\x10\x11\x16\x04
 \x00
 \x15\x06
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x9b\x10\x1d
-\n 「んんっ、ああっMALE NAME、おねがい・・・来て・・・」
+NEWLINE
+「んんっ、ああっMALE NAME、おねがい・・・来て・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x08\x04
 \x00
-\n \x00
+NEWLINE
+\x00
 \x11\x16\x1d
 \x00
 \x15
@@ -867,7 +1083,8 @@ MALE NAMEﾍMALE NAME
 \x10a%3\x11\x16!
 \x00
 \x15\xf4
-\n \x03
+NEWLINE
+\x03
 \x00
 \xef\x10\x10\x14\n\x1f\x04
 \x00
@@ -878,32 +1095,44 @@ MALE NAMEﾍMALE NAME
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 (\x11\x1d
-\n 「MALE NAME・・・・・・して・・・・・・」
+NEWLINE
+「MALE NAME・・・・・・して・・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xf1\x11\x11\x16\x04
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 y\x11\x1d
-\n 「して・・・してほしいの・・・・・・Ｈなこと、いっぱい・・・」
+NEWLINE
+「して・・・してほしいの・・・・・・Ｈなこと、いっぱい・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xf1\x11\x11\x16\x04
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ｹFEMALE NAME
-\n 「んんっ、ああっMALE NAME、おねがい・・・来て・・・」
+NEWLINE
+「んんっ、ああっMALE NAME、おねがい・・・来て・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\xf1\x11\x1d
-\n 「からだが・・・熱い・・・MALE NAME、どうにかしてぇ・・・」
+NEWLINE
+「からだが・・・熱い・・・MALE NAME、どうにかしてぇ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 e\x11\x17m
 \x00
 \x17n
@@ -919,7 +1148,7 @@ e\x11\x17m
 \x08\x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
  \x12(_CG18
 \x00
@@ -932,10 +1161,12 @@ e\x11\x17m
 \x11\x16!
 \x00
 \x15\xf4
-\n \x03
+NEWLINE
+\x03
 \x00
 \x81\x12\x17
-\n \x00
+NEWLINE
+\x00
 そぉ～っとささやく
 \x00
 やさし～くキスする
@@ -946,10 +1177,12 @@ e\x11\x17m
 \x10Q\x14\x11\x16\x18
 \x00
 \x15\xf4
-\n \x03
+NEWLINE
+\x03
 \x00
 \xeb\x12\x17
-\n \x00
+NEWLINE
+\x00
 そぉ～っとささやく
 \x00
 やさし～くキスする
@@ -960,21 +1193,26 @@ e\x11\x17m
 \x00
 \x00
 END_CHOICE
- \n \x00
+ NEWLINE
+\x00
 \x15\x04
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xe8\x12\x08
-\n \x00
-\n \x00
+NEWLINE
+\x00
+NEWLINE
+\x00
 \x10Q\x14\x11\x16\x1b
 \x00
 \x15\xf4
-\n \x03
+NEWLINE
+\x03
 \x00
 E\x13\x17
-\n \x00
+NEWLINE
+\x00
 そぉ～っとささやく
 \x00
 やさ～しくキスをする
@@ -989,7 +1227,8 @@ E\x13\x17
 \x15\xee\x02\x03
 \x00
 ｧ
-\n \x00
+NEWLINE
+\x00
 そぉ～っとささやく
 \x00
 やさ～しくキスをする
@@ -1003,8 +1242,10 @@ E\x13\x17
 \x00
 \x15\x84\x03\x03
 \x00
- CLICKWAIT \x14\x17
-\n \x00
+CLICKWAIT
+\x14\x17
+NEWLINE
+\x00
 激しくキスをする
 \x00
 激しく愛撫する
@@ -1013,10 +1254,13 @@ E\x13\x17
 \x00
 \x00
 \x08
-\n \x00
-\n \x00
+NEWLINE
+\x00
+NEWLINE
+\x00
 \x10Q\x14\x17
-\n \x00
+NEWLINE
+\x00
 ささやく
 \x00
 激しいキスをする
@@ -1027,17 +1271,19 @@ E\x13\x17
 \x00
 \x00
 END_CHOICE
- \n \x00
+ NEWLINE
+\x00
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
-bMALE NAME6MALE NAMEﾓFEMALE NAME
-\n \x00
-NARRATION_DIALOGUE:
+bMALE NAME6\x12 MALE NAMEﾓFEMALE NAME
+NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x85\x15\x1f\t
 \x00
@@ -1045,16 +1291,21 @@ NARRATION_DIALOGUE:
 \x00
 \x11\x16\x04
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x03
 \x00
 ｭ
-\n 「おいで‥‥FEMALE NAME」
+NEWLINE
+「おいで‥‥FEMALE NAME」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「‥‥‥‥うん‥‥」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x7f\x15\x11\x16\x04
 \x00
 \x15\x03
@@ -1062,20 +1313,29 @@ CLEAR_TEXTBOX
 \x03
 \x00
 ﾍ
-\n \x81u\x10\x81d\x81d\x81d\x81d\x81v
+NEWLINE
+\x81u\x10\x81d\x81d\x81d\x81d\x81v
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x7f\x15\x11\x16\x04
 \x00
 \x15
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 \x03
 \x00
 \x08\x15\x1e
-\n 「好きだよ‥‥」
+NEWLINE
+「好きだよ‥‥」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「私もよ‥‥MALE NAME‥‥」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x7f\x15\x11\x16\x04
 \x00
 \x15\x07
@@ -1083,34 +1343,50 @@ CLEAR_TEXTBOX
 \x03
 \x00
 a\x15\x1e
-\n 「いっぱい感じてね‥‥」
+NEWLINE
+「いっぱい感じてね‥‥」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ねぇ‥‥MALE NAME‥‥いっぱいしよっ‥‥うふっ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x7f\x15\x1d
-\n 「MALE NAME‥‥お願い、きて‥‥」
+NEWLINE
+「MALE NAME‥‥お願い、きて‥‥」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE NAME6MALE NAMEﾓFEMALE NAME
-\n \x00
+\x00
+MALE NAME6\x12 MALE NAMEﾓFEMALE NAME
+NEWLINE
+\x00
 \x15\x04
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xe8\x15\x11\x16\x18
 \x00
 \x15\xf4
-\n \x03
+NEWLINE
+\x03
 \x00
 \xe2\x15\x1e
-\n 「・・・・・・・・・・・・・」
-\n （もう少し固くしないと・・・・）
+NEWLINE
+「・・・・・・・・・・・・・」
+NEWLINE
+（もう少し固くしないと・・・・）
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEMALE NAMEH MALE NAMEﾓFEMALE NAME
-\n \x00
+NEWLINE
+\x00
 \x15
- CLICKWAIT \x00
-\x02
+CLICKWAIT
+\x00
+CLEAR_TEXTBOX
 \x00
 \xe2\x19\x11\x16 
 \x00
@@ -1119,9 +1395,13 @@ MALE NAMEMALE NAMEH MALE NAMEﾓFEMALE NAME
 \x03
 \x00
 \x9e\x16\x1e
-\n 「・・・・・・・・・・・・・・」
-\n （只今準備中）
+NEWLINE
+「・・・・・・・・・・・・・・」
+NEWLINE
+（只今準備中）
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x16\x18
 \x00
 ﾈ
@@ -1129,8 +1409,11 @@ CLEAR_TEXTBOX
 \x03
 \x00
 r\x16\x1e
-\n （う～ん、こういう時はちょっとあせるなぁ・・・）
+NEWLINE
+（う～ん、こういう時はちょっとあせるなぁ・・・）
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x03\x18
 \x00
 \x16\x18
@@ -1143,7 +1426,7 @@ CLEAR_TEXTBOX
 \x00
 \x11\x16\x1d
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
 \x03
 \x00
@@ -1160,7 +1443,8 @@ NARRATION_DIALOGUE:
 MALE NAMEﾟFEMALE NAME 
 \x00
 \x15\xf4
-\n \x04\x17m
+NEWLINE
+\x04\x17m
 \x00
 \x15
 \x00
@@ -1174,9 +1458,11 @@ MALE NAMEﾟFEMALE NAME
 \x00
 \xfd\x16(_CG09
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「くすっ・・・MALE NAMEはここがいちばん感じるんだよね・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEﾃFEMALE NAME 
 \x00
 \x15\xee\x02\x04\x17m
@@ -1193,19 +1479,26 @@ MALE NAMEﾃFEMALE NAME
 \x00
 Z\x17(_CG13
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「MALE NAME・・・もっともっと気持ちよくしてあげるね・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEﾃ(_CG01
 \x00
-FEMALE_DIALOGUE:
+FEMALE_NAMETAG:
 「わたしがおクチでしてあげるね・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「あむっ、んぐっんっんっんっ・・・・・・んむあっ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1f
- CLICKWAIT \x00
+CLICKWAIT
+\x00
 \x04
 \x00
 \x11\x16\x04
@@ -1213,62 +1506,87 @@ CLEAR_TEXTBOX
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 .\x18\x1d
-\n 「ん・・・ここ・・・柔らかい・・・」
+NEWLINE
+「ん・・・ここ・・・柔らかい・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「くすっ・・・にくきゅうみたいでカワイイ」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE NAMEﾉFEMALE NAME
 \x00
-NARRATION_DIALOGUE:
+MALE NAMEﾉFEMALE NAME\x04 
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x87\x18\x1d
-\n 「あん、MALE NAME・・・こんなに脈うってる・・・」
+NEWLINE
+「あん、MALE NAME・・・こんなに脈うってる・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「こんなに・・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE NAMEﾉFEMALE NAME
+\x00
+MALE NAMEﾉFEMALE NAME\x04 
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \t\x19\x1d
-\n 「もう、こんなに熱くなって・・・」
+NEWLINE
+「もう、こんなに熱くなって・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「んんんっ・・・んはっ・・・わたし、とってもいやらしいことしてる・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE NAMEﾉFEMALE NAME
+\x00
+MALE NAMEﾉFEMALE NAME\x04 
 \x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 y\x19\x1d
-\n 「・・・・・・この辺りがいいの？」
+NEWLINE
+「・・・・・・この辺りがいいの？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「んっ、んっ・・・・・・こんなにしたら、痛くないの？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE NAMEﾉFEMALE NAME
+\x00
+MALE NAMEﾉFEMALE NAME\x04 
 \x00
 \x15\x04
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ﾉ
-\n 「ん、ゴメン、痛くなかった？」
+NEWLINE
+「ん、ゴメン、痛くなかった？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「ねっ、MALE NAME、いっぱい感じてね」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x03\x18
 \x00
 \x16\x18
@@ -1282,36 +1600,44 @@ CLEAR_TEXTBOX
 (_CG18
 \x00
 MALE NAMEﾓFEMALE NAME
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 A\x1a\x15
-\n 『キスする』場所をクリックして下さい。シーツをクリックするとメニューに戻れます
+NEWLINE
+『キスする』場所をクリックして下さい。シーツをクリックするとメニューに戻れます
 \x00
 \x10\x90\x1a\x15
-\n 『さわる』場所をクリックして下さい。シーツをクリックするとメニューに戻れます
+NEWLINE
+『さわる』場所をクリックして下さい。シーツをクリックするとメニューに戻れます
 \x00
 END_CHOICE
- \n \x00
+ NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
-ｮ0???
+ｮ0CLEAR_TEXTBOX
+
 \x00
 _CG15A
 \x00
 \x0c\r\x15
-\n \x02
+NEWLINE
+CLEAR_TEXTBOX
 \x00
-MALE NAMEｾ0???
+MALE NAMEｾ0CLEAR_TEXTBOX
+
 \x00
 _CG15A
 \x00
 \n\x0b\x15
-\n \x02
+NEWLINE
+CLEAR_TEXTBOX
 \x00
 \x1f\x02
 \x00
@@ -1322,9 +1648,9 @@ _CG15A
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
-ﾒ1MALE NAME6!
+ﾒ1MALE NAME6\x12 !
 \x00
 \x16!
 \x00
@@ -1336,39 +1662,42 @@ _CG15A
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x82\x1b\x11\x16\x04
 \x00
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x1b\x1b\x1d
-\n 「あむ・・・ん・・・ん・・・・・」
+NEWLINE
+「あむ・・・ん・・・ん・・・・・」
 \x00
 \x10\x7f\x1b\x11\x16\x04
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 N\x1b\x1d
-\n 「あむ・・・ん・・・ん・・・・・」
+NEWLINE
+「あむ・・・ん・・・ん・・・・・」
 \x00
 \x10\x7f\x1b\x1d
-\n 「あむ・・・ん・・・ん・・・・・もっと・・・」
+NEWLINE
+「あむ・・・ん・・・ん・・・・・もっと・・・」
 \x00
 \x10G\x1f\x11\x16\x02
 \x00
 \x15\x0e
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 N\x1c\x1bm
 \x00
-ｰm
+ｰ\x04 m
 \x00
 \x00
 \x00
@@ -1383,28 +1712,31 @@ MALE NAMEｭ(_CG18
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xe9\x1b\x1d
-\n 「あああっ、ああんん・・・ん・・・・・」
+NEWLINE
+「あああっ、ああんん・・・ん・・・・・」
 \x00
 \x10K\x1c\x11\x16\x04
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
  \x1c\x1d
-\n 「ひあ・・・・ん・・ん・・・・・・・」
+NEWLINE
+「ひあ・・・・ん・・ん・・・・・・・」
 \x00
 \x10K\x1c\x1d
-\n 「んんん・・・ん・・ん・・・・・・・・」
+NEWLINE
+「んんん・・・ん・・ん・・・・・・・・」
 \x00
 \x10G\x1f\x11\x16\x02
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 "\x1d\x1bn
 \x00
@@ -1423,28 +1755,31 @@ r\x1c(_CG17
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ｯ
-\n 「はあっ、んん・・・ん・・・・・」
+NEWLINE
+「はあっ、んん・・・ん・・・・・」
 \x00
 \x10\x1f\x1d\x11\x16\x04
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xe8\x1c\x1d
-\n 「あああっ、ああんん・・・ん・・・・・」
+NEWLINE
+「あああっ、ああんん・・・ん・・・・・」
 \x00
 \x10\x1f\x1d\x1d
-\n 「あああっ、ああんん・・・ん・・・・・もっと・・・」
+NEWLINE
+「あああっ、ああんん・・・ん・・・・・もっと・・・」
 \x00
 \x10G\x1f\x11\x16\x02
 \x00
 \x15\x0b
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xf4\x1d\x1bn
 \x00
@@ -1463,28 +1798,31 @@ F\x1d(_CG17
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x87\x1d\x1d
-\n 「あああっ、ああんん・・・ん・・・・」
+NEWLINE
+「あああっ、ああんん・・・ん・・・・」
 \x00
 \x10\xf1\x1d\x11\x16\x04
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ｺ
-\n 「ああああんん・・・ん・・・・・」
+NEWLINE
+「ああああんん・・・ん・・・・・」
 \x00
 \x10\xf1\x1d\x1d
-\n 「あああっ、ああんん・・・ん・・・・・もっと・・・」
+NEWLINE
+「あああっ、ああんん・・・ん・・・・・もっと・・・」
 \x00
 \x10G\x1f\x11\x16\x02
 \x00
 \x15\x0c
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ｪn
 \x00
@@ -1498,49 +1836,55 @@ NARRATION_DIALOGUE:
 \x00
 \x10\x1f\x1e(_CG18
 \x00
-MALE NAMEｧFEMALE NAME
+MALE NAMEｧFEMALE NAME\x04 
 \x00
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 M\x1e\x1d
-\n 「いやぁぁぁっ・・・・・」
+NEWLINE
+「いやぁぁぁっ・・・・・」
 \x00
-MALE NAMEｧFEMALE NAME
+MALE NAMEｧFEMALE NAME\x04 
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x86\x1e\x1d
-\n 「ひっああああっいやぁぁぁっ・・・・・」
+NEWLINE
+「ひっああああっいやぁぁぁっ・・・・・」
 \x00
 MALE NAMEｧ
-\n 「あっ、だ、だめぇ・・・・・」
+NEWLINE
+「あっ、だ、だめぇ・・・・・」
 \x00
 \x10G\x1f\x11\x16\x04
 \x00
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xe2\x1e\x1d
-\n 「あはっ・・・MALE NAMEくすぐったいよぉ・・・」
+NEWLINE
+「あはっ・・・MALE NAMEくすぐったいよぉ・・・」
 \x00
 \x10G\x1f\x11\x16\x04
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x1d\x1f\x1d
-\n 「あはっ・・・・そんなとこ、感じないよぉ」
+NEWLINE
+「あはっ・・・・そんなとこ、感じないよぉ」
 \x00
 \x10G\x1f\x1d
-\n 「あはっ・・・MALE NAMEくすぐったいよぉ・・・」
+NEWLINE
+「あはっ・・・MALE NAMEくすぐったいよぉ・・・」
 \x00
 1\x11\x16\x1d
 \x00
@@ -1613,18 +1957,23 @@ MALE NAMEｸFEMALE NAME
 \xe8\x03\x10`$3f\x11\x16!
 \x00
 \x15\xf4
-\n \x04
+NEWLINE
+\x04
 \x00
 ﾐ
-\n CLEAR_TEXTBOX
-MALE NAME6MALE NAMEﾓMALE NAMEFEMALE NAME
+NEWLINE
+CLICKWAIT
+CLEAR_TEXTBOX
+\x00
+MALE NAME6\x12 MALE NAMEﾓMALE NAMEFEMALE NAME
 \x00
 \x15
 \x00
 \x00
 \x04
 \x00
-\n  \x0c\x1d
+NEWLINE
+ \x0c\x1d
 \x00
 \n
 \x00
@@ -1692,8 +2041,11 @@ C
 \x04
 \x00
 { \x1d
-\n 「私‥‥もうがまんできない‥‥」
+NEWLINE
+「私‥‥もうがまんできない‥‥」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEﾕ FEMALE NAME!
 \x00
 \x15\x1b
@@ -1701,8 +2053,11 @@ MALE NAMEﾕ FEMALE NAME!
 \x04
 \x00
 ｮ 
-\n 「ね‥‥おねがい、来て‥‥‥‥」
+NEWLINE
+「ね‥‥おねがい、来て‥‥‥‥」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 MALE NAMEﾕ FEMALE NAME!
 \x00
 \x15\x19
@@ -1710,8 +2065,11 @@ MALE NAMEﾕ FEMALE NAME!
 \x04
 \x00
 ﾕ 
-\n 「いいよ‥‥MALE NAME‥‥‥‥」
+NEWLINE
+「いいよ‥‥MALE NAME‥‥‥‥」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 (_CG19
 \x00
 
@@ -1725,10 +2083,11 @@ CHOICE
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 +!\x03!
 \x00
@@ -1755,10 +2114,11 @@ NARRATION_DIALOGUE:
 \x08
 \x00
 MALE NAMEｻ!FEMALE NAME
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 D!\x03!
 \x00
@@ -1769,7 +2129,8 @@ D!\x03!
 \x08
 \x00
 MALE NAMEｻ!
-\n \x00
+NEWLINE
+\x00
 正常位
 \x00
 騎上位（前）
@@ -1780,26 +2141,29 @@ MALE NAMEｻ!
 \x00
 \x00
 END_CHOICE
- \n \x00
-NARRATION_DIALOGUE:
+ NEWLINE
 \x00
-\x02
+NO_NAMETAG:
+\x00
+CLEAR_TEXTBOX
 \x00
 \x85!(_CG03
 \x00
 MALE NAMEｶ!FEMALE NAME
-\n \x00
+NEWLINE
+\x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x9a!(_CG06
 \x00
 MALE NAMEｶ!FEMALE NAME
-\n \x00
+NEWLINE
+\x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ｯ!(_CG10
 \x00
@@ -1812,16 +2176,18 @@ P
 \x11\x16\x18
 \x00
 \x15\xf4
-\n \x03
+NEWLINE
+\x03
 \x00
 ﾋ!
 \x00
 \x18
 \x00
 \xf4
-\n \x11\x16!
+NEWLINE
+\x11\x16!
 \x00
-ﾐ
+ﾐ\x04 
 \x00
 ﾛ!
 \x00
@@ -1844,92 +2210,131 @@ P
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 @"\x1d
-\n 「ああっ、すごい・・・どんどんはいってくるぅ」
+NEWLINE
+「ああっ、すごい・・・どんどんはいってくるぅ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\\$\x11\x16\x04
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x94"\x1d
-\n 「あああ・・・MALE NAMEのモノが、わたしのアソコをかきまわしてるぅ・・・」
+NEWLINE
+「あああ・・・MALE NAMEのモノが、わたしのアソコをかきまわしてるぅ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\\$\x11\x16\x04
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xe7"\x1d
-\n 「んあっ、あっあん、奥にあたるっ・・・いいいっ、はあああああっ」
+NEWLINE
+「んあっ、あっあん、奥にあたるっ・・・いいいっ、はあああああっ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\\$\x11\x16\x04
 \x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 6#\x1d
-\n 「いやあ、いやあ・・・はあんっ、ああっ、っんはあぁっ・・・」
+NEWLINE
+「いやあ、いやあ・・・はあんっ、ああっ、っんはあぁっ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\\$\x11\x16\x04
 \x00
 \x15\x04
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 }#\x1d
-\n 「あ、いい、いいの、もっと・・・もっとはやく・・・」
+NEWLINE
+「あ、いい、いいの、もっと・・・もっとはやく・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\\$\x11\x16\x04
 \x00
 \x15
- CLICKWAIT \x00
-\x02
+CLICKWAIT
+\x00
+CLEAR_TEXTBOX
 \x00
 ｳ#
-\n 「あ、MALE NAME、もっと動いてぇぇぇ・・・」
+NEWLINE
+「あ、MALE NAME、もっと動いてぇぇぇ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\\$\x11\x16\x04
 \x00
 \x15\x06
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \r$\x1d
-\n 「んっくう・・・MALE NAME、気持ちいい・・・わたし、わたしおかしくなっちゃうぅ」
+NEWLINE
+「んっくう・・・MALE NAME、気持ちいい・・・わたし、わたしおかしくなっちゃうぅ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\\$\x1d
-\n 「んっ・・・はっはあっ、いいっ・・・きゃうっ、あっあっああっあんっんあ！」
+NEWLINE
+「んっ・・・はっはあっ、いいっ・・・きゃうっ、あっあっああっあんっんあ！」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 fMALE NAMEﾜ g(_CG12
 \x00
 h\x1e
-\n 「あ・・・・・ごめん」
+NEWLINE
+「あ・・・・・ごめん」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x16\x1e
 \x00
 \x15X\x02\x04
 \x00
 ﾐ$
-\n 「うふっ、いっぱい感じてくれたんだね。
-\n 私もうれしいよ。」
+NEWLINE
+「うふっ、いっぱい感じてくれたんだね。
+NEWLINE
+私もうれしいよ。」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x104%\x11\x16\x1e
 \x00
 \x15,
-\n \x04
+NEWLINE
+\x04
 \x00
 \x0f%\x1d
-\n 「だめだよぉ、自分ばっかり楽しんじゃ・・・」
+NEWLINE
+「だめだよぉ、自分ばっかり楽しんじゃ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x104%\x1d
-\n 「もぉ！つまんない・・・・ぷん」
+NEWLINE
+「もぉ！つまんない・・・・ぷん」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x0c\x1b
 \x00
 \xfa
@@ -1966,34 +2371,51 @@ I%
 \x00
 \x10T*(_CG18
 \x00
-MALE_DIALOGUE:
+MALE_NAMETAG:
 「・・・・・あれ？・・・なんか、今日はダメみたいだ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x11\x16\x1e
 \x00
 \x15X\x02\x04
 \x00
 &&\x1d
-\n 「・・・まぁ、そんなときもあるよね
-\n 　きっと疲れているのよ、MALE NAME」
+NEWLINE
+「・・・まぁ、そんなときもあるよね
+NEWLINE
+　きっと疲れているのよ、MALE NAME」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「・・・・・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「おやすみなさ～い」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10v&\x11\x16\x1e
 \x00
 \x15,
-\n \x04
+NEWLINE
+\x04
 \x00
 U&\x1d
-\n 「もぉ、しょうがないわね～」
+NEWLINE
+「もぉ、しょうがないわね～」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10v&\x1d
-\n 「もう、だらしないんだから」
+NEWLINE
+「もう、だらしないんだから」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x0c\x1e
 \x00
 2
@@ -2020,34 +2442,46 @@ CLEAR_TEXTBOX
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \xe1&\x1d
-\n 「はあん、いっちゃう、いっちゃうぅぅぅ・・・・・・・・・」
+NEWLINE
+「はあん、いっちゃう、いっちゃうぅぅぅ・・・・・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x80'\x11\x16\x04
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 B'\x1d
-\n 「あん、あん、あ・・・だめっ、わたし・・・お、おかしくなるぅぅぅ・・・・・・」
+NEWLINE
+「あん、あん、あ・・・だめっ、わたし・・・お、おかしくなるぅぅぅ・・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x80'\x11\x16\x04
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x80'\x1d
-\n 「あああああっ、いくっいくぅぅぅーーーーーー」
+NEWLINE
+「あああああっ、いくっいくぅぅぅーーーーーー」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 g(_CG12
 \x00
 h\x1d
-\n 「はぁ、はぁ、はぁ・・・・・・・・」
+NEWLINE
+「はぁ、はぁ、はぁ・・・・・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x1f\x04
 \x00
 \x04
@@ -2057,88 +2491,132 @@ CLEAR_TEXTBOX
 \x15
 \x00
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x18(\x1d
-\n 「・・・・・・・・・ねぇ、MALE NAME」
+NEWLINE
+「・・・・・・・・・ねぇ、MALE NAME」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「ん？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「私、MALE NAMEが好きで良かった・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x12*\x11\x16\x04
 \x00
-NARRATION_DIALOGUE:
+NO_NAMETAG:
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ~(\x1d
-\n 「ねぇMALE NAME、気持ちよかった？」
+NEWLINE
+「ねぇMALE NAME、気持ちよかった？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「うん、すっげーよかった」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「本当？　うれしい」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x12*\x11\x16\x04
 \x00
 \x15\x02
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 ﾑ(
-\n 「いつもより感じちゃった」
+NEWLINE
+「いつもより感じちゃった」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「オレもよかった」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「えへへ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x12*\x11\x16\x04
 \x00
 \x15\x03
 \x00
-\x02
+CLEAR_TEXTBOX
 \x00
 \x12*\x11\x16 
 \x00
 \x15\xf4
-\n \x04
+NEWLINE
+\x04
 \x00
 ｱ)
-\n 「今日は、なんだか早かったね」
+NEWLINE
+「今日は、なんだか早かったね」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「えっ！？　そ、そぉ？」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「はやいよ～」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「う、うぅむ、Ｈな娘になったものだ・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「え？なに？」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「い、いえ、なんでもないです。」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「む～」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x10\x12*\x1d
-\n 「はぁ・・・・・はぁ、はぁはぁ・・・・」
+NEWLINE
+「はぁ・・・・・はぁ、はぁはぁ・・・・」
+CLICKWAIT
 CLEAR_TEXTBOX
-MALE_DIALOGUE:
+\x00
+MALE_NAMETAG:
 「今日は激しかったかなぁ」
+CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE_DIALOGUE:
+\x00
+FEMALE_NAMETAG:
 「うふふふふふ」
+CLICKWAIT
 CLEAR_TEXTBOX
+\x00
 \x08\x1e
 \x00
 2
@@ -2158,7 +2636,8 @@ CLEAR_TEXTBOX
 \x0c#
 \x00
 \x90
-\n \x11\x16#
+NEWLINE
+\x11\x16#
 \x00
 \x15
 \x00
@@ -2174,7 +2653,8 @@ CLEAR_TEXTBOX
 \x0c\x1b
 \x00
 \xf4
-\n \x11\x16\x1b
+NEWLINE
+\x11\x16\x1b
 \x00
 \x15
 \x00
