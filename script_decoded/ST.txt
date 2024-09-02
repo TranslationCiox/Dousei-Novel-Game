@@ -1,4 +1,5 @@
-!!(KURO
+!!
+LOAD_FILE KURO
 \x00
 \x11\x17t
 \x00
@@ -11,28 +12,41 @@ CLEAR_TEXTBOX
 \x00
  DS04
 \x00
-(ED01
+LOAD_FILE ED01
 \x00
-kd(ED02
+kd
+LOAD_FILE ED02
 \x00
-kd(ED03
+kd
+LOAD_FILE ED03
 \x00
-kd(ED04
+kd
+LOAD_FILE ED04
 \x00
-kd(ED05
+kd
+LOAD_FILE ED05
 \x00
-kd(Ed06
+kd
+LOAD_FILE Ed06
 \x00
-kd(Ed07
+kd
+LOAD_FILE Ed07
 \x00
-kd(Ed08
+kd
+LOAD_FILE Ed08
 \x00
-kd(ED09
+kd
+LOAD_FILE ED09
 \x00
-kd(ED10
+kd
+LOAD_FILE ED10
 \x00
-kd(ED11
+kd
+LOAD_FILE ED11
 \x00
-kd!g(KURO
+kd!g
+LOAD_FILE KURO
 \x00
-h\x1a\xff
+h
+END_OF_SEGMENT
+\xff

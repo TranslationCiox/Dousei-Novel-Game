@@ -1,6 +1,8 @@
-jj(TAC01
+jj
+LOAD_FILE TAC01
 \x00
-g(TAC02
+g
+LOAD_FILE TAC02
 \x00
 hk\x1e4\x0e
 \x00

@@ -9,6 +9,7 @@ import re
 # \x01 seems to be a new line.
 # \x02 wipes the textbox
 # \x05 is a clickwait, but will continue on the same line.
+# \x1a Seems to indicate an end of a segment in the script.
 # \x1d female nametag
 # \x1e male nametag
 # \x17 gives a choice
@@ -43,7 +44,6 @@ patterns = [
         #
         "action": "MALE_NAMETAG:\n"
     },
-
     {
         "pattern": [b'\x05'],
         #
@@ -58,6 +58,11 @@ patterns = [
         "pattern": [b'\x01'],
         #
         "action": "NEWLINE\n"
+    },
+    {
+        "pattern": [b'\x1a'],
+        #
+        "action": "END_OF_SEGMENT\n"
     },
     {
         "pattern": [b'('],
@@ -81,7 +86,7 @@ def contains_japanese(text):
 def parse_bytecode(data):
     list_bytecodes = []
     byte_list = [data[i:i+1] for i in range(len(data))]
-    split_values = {b'\x00', b'\x01', b'\x05'}
+    split_values = {b'\x00', b'\x01', b'\x05', b'(', b'\x1a'}
     current_byte = byte_list[0]
     for byte in byte_list:
         if byte in split_values:
@@ -121,9 +126,9 @@ def save_text(lines, output_path):
                 line = line.decode("932", errors='ignore')
                 line = line.replace("", "MALE NAME")   # \x10
                 line = line.replace("", "FEMALE NAME") # \x11
-                line = line.replace("", "CLEAR_TEXTBOX\n")      # No clue what this does.
-                line = line.replace("", "\\x04 ")      # No clue what this does.
-                line = line.replace("", "\\x12 ")      # No clue what this does.
+                line = line.replace("", "CLEAR_TEXTBOX\n") # \x02 Clear textbox
+                line = line.replace("", "AUTO-")      # \x04 Probably used for auto-mode.
+                line = line.replace("", "MODE")       # \x12 Probably used for auto-mode.
 
                 f.write(line + "\n")
             else:

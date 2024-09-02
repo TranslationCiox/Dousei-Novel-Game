@@ -8,8 +8,8 @@ NEWLINE
 \x00
 \x16\x1b
 \x00
-\x08\x15(
-\x00
+\x08\x15
+LOAD_FILE \x00
 \r\x152
 \x00
 \x08
@@ -34,7 +34,8 @@ NEWLINE
 \x00
 \x08
 \x00
-\x03\x1a
+\x03
+END_OF_SEGMENT
 \x00
 \x15\xe8\x03\x16\x0f
 \x00
@@ -58,8 +59,8 @@ NEWLINE
 \x00
 \x16 
 \x00
-\x08\x15(
-\x00
+\x08\x15
+LOAD_FILE \x00
 \r\x15,
 \x00
 \x08
@@ -74,7 +75,7 @@ NEWLINE
 \x00
  DS10
 \x00
-(_CGB18
+LOAD_FILE _CGB18
 \x00
 \x11\x16\x1b
 \x00
@@ -170,7 +171,7 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-(_CGBK
+LOAD_FILE _CGBK
 \x00
 MALE_NAMETAG:
 「おやすみ～」
@@ -182,7 +183,8 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-!(_CG20
+!
+LOAD_FILE _CG20
 \x00
 
 CHOICE
@@ -224,7 +226,8 @@ G\x02
 \x00
 NEWLINE
 \x00
-\x1a\x10U\x02\x04o
+END_OF_SEGMENT
+\x10U\x02\x04o
 \x00
 \x00
 \x00
@@ -250,7 +253,8 @@ CLEAR_TEXTBOX
 \x00
 \x15 \x03\x04
 \x00
-=\x03(_CGBK
+=\x03
+LOAD_FILE _CGBK
 \x00
 NO_NAMETAG:
 その返事を確認するやいなや、あなたはすばやくFEMALE NAMEの衣服を総てはぎ取った。
@@ -262,7 +266,7 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-(_CG02
+LOAD_FILE _CG02
 \x00
 FEMALE_NAMETAG:
 「そ、そんなにあわてないで・・・」
@@ -355,7 +359,8 @@ CLEAR_TEXTBOX
 NEWLINE
 \x03
 \x00
-\x1a\x07\x1d
+END_OF_SEGMENT
+\x07\x1d
 NEWLINE
 「え～ん、今日のMALE NAME、すっごくこわいよぉ」
 CLICKWAIT
@@ -553,11 +558,14 @@ CLICKWAIT
 \x00
 \x00
 \x00
-3\x1a DS05
+3
+END_OF_SEGMENT
+ DS05
 \x00
 \x1bo
 \x00
-\xee\t\x10\xf1\x11e(_CG20
+\xee\t\x10\xf1\x11e
+LOAD_FILE _CG20
 \x00
 \x04\x06
 \x00
@@ -1065,7 +1073,7 @@ NEWLINE
 \x00
 MALE NAMEﾍMALE NAME
 \x00
-\x1a
+END_OF_SEGMENT
 \x00
 \x11\x16\x18
 \x00
@@ -1097,7 +1105,7 @@ NEWLINE
 \x00
 CLEAR_TEXTBOX
 \x00
-(\x11\x1d
+LOAD_FILE \x11\x1d
 NEWLINE
 「MALE NAME・・・・・・して・・・・・・」
 CLICKWAIT
@@ -1139,7 +1147,8 @@ e\x11\x17m
 \x00
 \x0f
 \x00
-\x07\x12(_CG15
+\x07\x12
+LOAD_FILE _CG15
 \x00
 \x106\x12\x11\x17m
 \x00
@@ -1150,13 +1159,16 @@ e\x11\x17m
 \x00
 CLEAR_TEXTBOX
 \x00
- \x12(_CG18
+ \x12
+LOAD_FILE _CG18
 \x00
 \x106\x12\x1cm
 \x00
-/\x12(_CG16
+/\x12
+LOAD_FILE _CG16
 \x00
-\x106\x12(_CG17
+\x106\x12
+LOAD_FILE _CG17
 \x00
 \x11\x16!
 \x00
@@ -1278,7 +1290,7 @@ END_CHOICE
 \x00
 CLEAR_TEXTBOX
 \x00
-bMALE NAME6\x12 MALE NAMEﾓFEMALE NAME
+bMALE NAME6MODEMALE NAMEﾓFEMALE NAME
 NEWLINE
 \x00
 NO_NAMETAG:
@@ -1359,7 +1371,7 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAME6\x12 MALE NAMEﾓFEMALE NAME
+MALE NAME6MODEMALE NAMEﾓFEMALE NAME
 NEWLINE
 \x00
 \x15\x04
@@ -1420,7 +1432,8 @@ CLEAR_TEXTBOX
 \x00
 \x15\xfa
 \x00
-\x08\x16\x1a
+\x08\x16
+END_OF_SEGMENT
 \x00
 \t
 \x00
@@ -1430,9 +1443,11 @@ NO_NAMETAG:
 \x00
 \x03
 \x00
-\x9b\x16\x03\x1a
+\x9b\x16\x03
+END_OF_SEGMENT
 \x00
-\x16\x1a
+\x16
+END_OF_SEGMENT
 \x00
 \x15\x0b
 \x00
@@ -1456,7 +1471,8 @@ NEWLINE
 \x00
 \x02\x0f
 \x00
-\xfd\x16(_CG09
+\xfd\x16
+LOAD_FILE _CG09
 \x00
 FEMALE_NAMETAG:
 「くすっ・・・MALE NAMEはここがいちばん感じるんだよね・・・」
@@ -1477,14 +1493,16 @@ MALE NAMEﾃFEMALE NAME
 \x00
 \x02\x0f
 \x00
-Z\x17(_CG13
+Z\x17
+LOAD_FILE _CG13
 \x00
 FEMALE_NAMETAG:
 「MALE NAME・・・もっともっと気持ちよくしてあげるね・・・」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAMEﾃ(_CG01
+MALE NAMEﾃ
+LOAD_FILE _CG01
 \x00
 FEMALE_NAMETAG:
 「わたしがおクチでしてあげるね・・・」
@@ -1519,7 +1537,7 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAMEﾉFEMALE NAME\x04 
+MALE NAMEﾉFEMALE NAMEAUTO-
 \x00
 NO_NAMETAG:
 \x00
@@ -1536,7 +1554,7 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAMEﾉFEMALE NAME\x04 
+MALE NAMEﾉFEMALE NAMEAUTO-
 \x00
 \x15\x02
 \x00
@@ -1553,7 +1571,7 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAMEﾉFEMALE NAME\x04 
+MALE NAMEﾉFEMALE NAMEAUTO-
 \x00
 \x15\x03
 \x00
@@ -1570,7 +1588,7 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAMEﾉFEMALE NAME\x04 
+MALE NAMEﾉFEMALE NAMEAUTO-
 \x00
 \x15\x04
 \x00
@@ -1593,11 +1611,12 @@ CLEAR_TEXTBOX
 \x00
 \x15\xe6
 \x00
-\x08\x16\x1a
+\x08\x16
+END_OF_SEGMENT
 \x00
 \t
 \x00
-(_CG18
+LOAD_FILE _CG18
 \x00
 MALE NAMEﾓFEMALE NAME
 NEWLINE
@@ -1606,12 +1625,14 @@ NEWLINE
 \x00
 CLEAR_TEXTBOX
 \x00
-A\x1a\x15
-NEWLINE
+A
+END_OF_SEGMENT
+NO_NAMETAG:
 『キスする』場所をクリックして下さい。シーツをクリックするとメニューに戻れます
 \x00
-\x10\x90\x1a\x15
-NEWLINE
+\x10\x90
+END_OF_SEGMENT
+NO_NAMETAG:
 『さわる』場所をクリックして下さい。シーツをクリックするとメニューに戻れます
 \x00
 END_CHOICE
@@ -1621,8 +1642,9 @@ END_CHOICE
 \x00
 CLEAR_TEXTBOX
 \x00
-ｮ0CLEAR_TEXTBOX
-
+ｮ
+END_OF_SEGMENT
+0\x02
 \x00
 _CG15A
 \x00
@@ -1630,8 +1652,9 @@ _CG15A
 NEWLINE
 CLEAR_TEXTBOX
 \x00
-MALE NAMEｾ0CLEAR_TEXTBOX
-
+MALE NAMEｾ
+END_OF_SEGMENT
+0\x02
 \x00
 _CG15A
 \x00
@@ -1650,7 +1673,9 @@ CLEAR_TEXTBOX
 \x00
 CLEAR_TEXTBOX
 \x00
-ﾒ1MALE NAME6\x12 !
+ﾒ
+END_OF_SEGMENT
+1\x106\x12\x03!
 \x00
 \x16!
 \x00
@@ -1697,15 +1722,17 @@ CLEAR_TEXTBOX
 \x00
 N\x1c\x1bm
 \x00
-ｰ\x04 m
+ｰAUTO-m
 \x00
 \x00
 \x00
 \x1bn
 \x00
-ｦ(_CG16
+ｦ
+LOAD_FILE _CG16
 \x00
-MALE NAMEｭ(_CG18
+MALE NAMEｭ
+LOAD_FILE _CG18
 \x00
 \x10K\x1c\x11\x16\x04
 \x00
@@ -1746,9 +1773,11 @@ CLEAR_TEXTBOX
 \x00
 \x1bm
 \x00
-r\x1c(_CG17
+r\x1c
+LOAD_FILE _CG17
 \x00
-\x10y\x1c(_CG18
+\x10y\x1c
+LOAD_FILE _CG18
 \x00
 \x10\x1f\x1d\x11\x16\x04
 \x00
@@ -1789,9 +1818,11 @@ P\x1d\x04n
 \x00
 \x1bm
 \x00
-F\x1d(_CG17
+F\x1d
+LOAD_FILE _CG17
 \x00
-\x10M\x1d(_CG18
+\x10M\x1d
+LOAD_FILE _CG18
 \x00
 \x10\xf1\x1d\x11\x16\x04
 \x00
@@ -1832,11 +1863,13 @@ CLEAR_TEXTBOX
 \x00
 \x1bm
 \x00
-\x18\x1e(_CG17
+\x18\x1e
+LOAD_FILE _CG17
 \x00
-\x10\x1f\x1e(_CG18
+\x10\x1f\x1e
+LOAD_FILE _CG18
 \x00
-MALE NAMEｧFEMALE NAME\x04 
+MALE NAMEｧFEMALE NAMEAUTO-
 \x00
 \x15
 \x00
@@ -1847,7 +1880,7 @@ M\x1e\x1d
 NEWLINE
 「いやぁぁぁっ・・・・・」
 \x00
-MALE NAMEｧFEMALE NAME\x04 
+MALE NAMEｧFEMALE NAMEAUTO-
 \x00
 NO_NAMETAG:
 \x00
@@ -1929,7 +1962,8 @@ h\x1f
 \x00
 \x16\x18
 \x00
-\x16\x1a
+\x16
+END_OF_SEGMENT
 \x00
 \t
 \x00
@@ -1965,7 +1999,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAME6\x12 MALE NAMEﾓMALE NAMEFEMALE NAME
+MALE NAME6MODEMALE NAMEﾓMALE NAME
+END_OF_SEGMENT
+\x11\x16\x1d
 \x00
 \x15
 \x00
@@ -2005,11 +2041,13 @@ NEWLINE
 \x00
 \x04
 \x00
-\x1a \x03\x18
+END_OF_SEGMENT
+ \x03\x18
 \x00
 \x16\x18
 \x00
-\x16\x1a
+\x16
+END_OF_SEGMENT
 \x00
 \t
 \x00
@@ -2070,7 +2108,7 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-(_CG19
+LOAD_FILE _CG19
 \x00
 
 CHOICE
@@ -2147,7 +2185,8 @@ NO_NAMETAG:
 \x00
 CLEAR_TEXTBOX
 \x00
-\x85!(_CG03
+\x85!
+LOAD_FILE _CG03
 \x00
 MALE NAMEｶ!FEMALE NAME
 NEWLINE
@@ -2156,7 +2195,8 @@ NEWLINE
 \x00
 CLEAR_TEXTBOX
 \x00
-\x9a!(_CG06
+\x9a!
+LOAD_FILE _CG06
 \x00
 MALE NAMEｶ!FEMALE NAME
 NEWLINE
@@ -2165,9 +2205,11 @@ NEWLINE
 \x00
 CLEAR_TEXTBOX
 \x00
-ｯ!(_CG10
+ｯ!
+LOAD_FILE _CG10
 \x00
-MALE NAMEｶ!(_CG07
+MALE NAMEｶ!
+LOAD_FILE _CG07
 \x00
 \x0c\x18
 \x00
@@ -2187,7 +2229,7 @@ NEWLINE
 NEWLINE
 \x11\x16!
 \x00
-ﾐ\x04 
+ﾐAUTO-
 \x00
 ﾛ!
 \x00
@@ -2297,7 +2339,8 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-fMALE NAMEﾜ g(_CG12
+fMALE NAMEﾜ g
+LOAD_FILE _CG12
 \x00
 h\x1e
 NEWLINE
@@ -2369,7 +2412,8 @@ I%
 \x00
 \x00
 \x00
-\x10T*(_CG18
+\x10T*
+LOAD_FILE _CG18
 \x00
 MALE_NAMETAG:
 「・・・・・あれ？・・・なんか、今日はダメみたいだ」
@@ -2474,7 +2518,8 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-g(_CG12
+g
+LOAD_FILE _CG12
 \x00
 h\x1d
 NEWLINE
@@ -2493,8 +2538,8 @@ CLEAR_TEXTBOX
 \x00
 CLEAR_TEXTBOX
 \x00
-\x18(\x1d
-NEWLINE
+\x18
+LOAD_FILE FEMALE_NAMETAG:
 「・・・・・・・・・ねぇ、MALE NAME」
 CLICKWAIT
 CLEAR_TEXTBOX
@@ -2515,8 +2560,8 @@ NO_NAMETAG:
 \x00
 CLEAR_TEXTBOX
 \x00
-~(\x1d
-NEWLINE
+~
+LOAD_FILE FEMALE_NAMETAG:
 「ねぇMALE NAME、気持ちよかった？」
 CLICKWAIT
 CLEAR_TEXTBOX
@@ -2537,8 +2582,8 @@ CLEAR_TEXTBOX
 \x00
 CLEAR_TEXTBOX
 \x00
-ﾑ(
-NEWLINE
+ﾑ
+LOAD_FILE FEMALE_NAMETAG:
 「いつもより感じちゃった」
 CLICKWAIT
 CLEAR_TEXTBOX
@@ -2684,4 +2729,6 @@ i*
 \x00
 \x00
 \x00
-d\x1a\xff
+d
+END_OF_SEGMENT
+\xff
