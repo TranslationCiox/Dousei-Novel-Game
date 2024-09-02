@@ -80,7 +80,8 @@ I
 Z
 \x00
 [10]MALE_NAME
-\xd9\t
+\xd9
+\t
 [10]MALE_NAME
 \x7f
 \x00
@@ -448,7 +449,9 @@ _CGAA04
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「でも、考えてみれば私達って、旅行先で悪さばっかりしてたよね～」
+「でも、
+l
+えてみれば私達って、旅行先で悪さばっかりしてたよね～」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -525,7 +528,9 @@ _CGAA04
 \x14
 \x00
 [10]MALE_NAME
-\xc2\t\x1d
+\xc2
+\t
+[1d]FEMALE_NAMETAG
 [01]NEWLINE
 「靴下ってさぁ、結構、面倒くさいんだよね」
 [05]CLICKWAIT
@@ -533,7 +538,9 @@ _CGAA04
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「そんでまた、人によってたたみ方も全然違うしね」
+「そんでまた、
+l
+によってたたみ方も全然違うしね」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -566,7 +573,8 @@ _CGAA04
 \x00
 \x03
 \x00
-\xd7\t
+\xd7
+\t
 \x00
 \x0e
 \x00
@@ -630,7 +638,9 @@ _CGAI04
 「本当？　じゃあ一緒にしよっか？
 [05]CLICKWAIT
 [01]NEWLINE
-　・・・フフ、昔、こうやって夫婦で一緒に洗い物してるようなＣＭが　あったよね」
+　・・・フフ、昔、こうやって夫婦で一緒に洗い物してるようなＣ
+l
+が　あったよね」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -866,7 +876,9 @@ F
 「何言ってんのよ、これでも少ないぐらいなんだからぁ
 [05]CLICKWAIT
 [01]NEWLINE
-　多い人なんて、何十通も出すんだからね」
+　多い
+l
+なんて、何十通も出すんだからね」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00

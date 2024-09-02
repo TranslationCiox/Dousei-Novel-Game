@@ -3,12 +3,14 @@
 \x16\r
 \x00
 [15]NO_NAMETAG
-\xc4\t
+\xc4
+\t
 [04]MOVE_TO_OTHER_SEGMENT
 \x16\x1e
 \x00
 [15]NO_NAMETAG
- \x03
+[20]LOAD_MUSIC
+\x03
 [04]MOVE_TO_OTHER_SEGMENT
 \x0f\x17J
 \x00
@@ -31,10 +33,12 @@
 g
 \x00
 [11]FEMALE_NAME
-\x16 
+[16]END_CHOICE
+[20]LOAD_MUSIC
 \x00
 [15]NO_NAMETAG
- \x03
+[20]LOAD_MUSIC
+\x03
 [04]MOVE_TO_OTHER_SEGMENT
 \x16\x1e
 \x00
@@ -66,7 +70,8 @@ S
 g
 \x00
 [11]FEMALE_NAME
-\x16 
+[16]END_CHOICE
+[20]LOAD_MUSIC
 \x00
 [15]NO_NAMETAG
 \xde\x03
@@ -86,7 +91,8 @@ R
 [28]LOAD_GRAPHICS
 KURO
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -179,7 +185,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _CGAA01
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -263,7 +270,8 @@ _CGAA01
 [28]LOAD_GRAPHICS
 V1
 \x00
- DS10
+[20]LOAD_MUSIC
+DS10
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -363,12 +371,15 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _ED02_3
 \x00
- DS12
+[20]LOAD_MUSIC
+DS12
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
 CLEAR_TEXTBOX
-数カ月後、２人は小さな教会にいた
+数カ月後、２
+l
+は小さな教会にいた
 [05]CLICKWAIT
 CLEAR_TEXTBOX
 純白のウエディングドレスに身を包み、神父の言葉に聞き入っている
@@ -392,7 +403,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _CGB00
 \x00
- DS10
+[20]LOAD_MUSIC
+DS10
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -420,7 +432,9 @@ CLEAR_TEXTBOX
 「しっかし、汚れたよなぁ
 [05]CLICKWAIT
 [01]NEWLINE
-　なんで１人でいると、こうも汚くなるかね・・・」
+　なんで１
+l
+でいると、こうも汚くなるかね・・・」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -463,7 +477,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _ED03_2
 \x00
- DS12
+[20]LOAD_MUSIC
+DS12
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
@@ -473,7 +488,9 @@ _ED03_2
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたはお世話になった産婦人科の先生たちに挨拶を済ませると、外で待っている
+あなたはお世話になった産婦
+l
+科の先生たちに挨拶を済ませると、外で待っている
 [11]FEMALE_NAME
 の元へと走っていった
 [05]CLICKWAIT
@@ -508,7 +525,9 @@ _ED03_2
 [01]NEWLINE
 あなたが大きな声で話していると、
 [11]FEMALE_NAME
-が口に人差し指をあててウインクした
+が口に
+l
+差し指をあててウインクした
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -535,7 +554,9 @@ _ED03_2
 安らかな寝息をたてて眠る赤ちゃんをのぞき込み、その柔らかなほっぺたを軽くつついた
 [05]CLICKWAIT
 CLEAR_TEXTBOX
-少しくすぐったそうに体を動かす赤ちゃんを、２人は微笑ましげに見つめた
+少しくすぐったそうに体を動かす赤ちゃんを、２
+l
+は微笑ましげに見つめた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -549,7 +570,9 @@ CLEAR_TEXTBOX
 [01]NEWLINE
 「え・・・ああ
 [05]CLICKWAIT
-　あの３人が明日、出産祝いを持って来るって連絡があ　ったよ」
+　あの３
+l
+が明日、出産祝いを持って来るって連絡があ　ったよ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -578,7 +601,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-２人は顔を見合わせて、おかしそうに笑いあった
+２
+l
+は顔を見合わせて、おかしそうに笑いあった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -590,7 +615,9 @@ CLEAR_TEXTBOX
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「・・・これからは３人になるんだよな」
+「・・・これからは３
+l
+になるんだよな」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -623,7 +650,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _ED05_1
 \x00
- DS12
+[20]LOAD_MUSIC
+DS12
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -652,7 +680,9 @@ _ED05_1
 　いつもと変わらない会話
 [05]CLICKWAIT
 CLEAR_TEXTBOX
-あれから数年が経ったが、２人の生活はなんら変化する事は無かった
+あれから数年が経ったが、２
+l
+の生活はなんら変化する事は無かった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -714,7 +744,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-結局２人がまた新しいストーリーを描き始めるのは、もう少し後になりそうだった
+結局２
+l
+がまた新しいストーリーを描き始めるのは、もう少し後になりそうだった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -722,7 +754,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _ED04_1
 \x00
- DS06
+[20]LOAD_MUSIC
+DS06
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -741,7 +774,9 @@ _ED04_1
 ソファーにもたれながら、目の前の有能な秘書の顔を見つめた
 [05]CLICKWAIT
 CLEAR_TEXTBOX
-あれから５年、バイトで貯めた資金を元手に２人でつくった会社が今や日本でも有数の大企業へと発展していた
+あれから５年、バイトで貯めた資金を元手に２
+l
+でつくった会社が今や日本でも有数の大企業へと発展していた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00

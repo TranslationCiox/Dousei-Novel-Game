@@ -13,7 +13,8 @@ T
 [28]LOAD_GRAPHICS
 _CGB07B
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
@@ -88,7 +89,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたは、音がしないように少しだけ扉を開け、中の様子を覗いてみた
+あなたは、音がしないように少しだけ扉を開け、中の
+l
+子を覗いてみた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -101,18 +104,23 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 L4
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
 CLEAR_TEXTBOX
-そこでは、まだ幼さの残るアイドルと、２人の男が絡み合っていた
+そこでは、まだ幼さの残るアイドルと、２
+l
+の男が絡み合っていた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-若いマネージャー風の男がアイドルを後ろから抱え、少し歳をくった男が前から腰を突き出していた
+若いマ
+l
+ージャー風の男がアイドルを後ろから抱え、少し歳をくった男が前から腰を突き出していた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -215,7 +223,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _CGB07B
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -257,11 +266,14 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _CGB08A
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「えっと、人員整理用のコーンとロープは、どこだったっけな～」
+「えっと、
+l
+員整理用のコーンとロープは、どこだったっけな～」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -307,7 +319,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 L5
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 :
 [01]NEWLINE
@@ -332,7 +345,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-着ぐるみ動物は、声を発することもなく、お姫さまの秘処に小道具の人参をつっこんでいた
+着ぐるみ動物は、声を発することもなく、お姫さまの秘処に小道具の
+l
+参をつっこんでいた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -350,7 +365,9 @@ CLEAR_TEXTBOX
 しかしその行為は、着ぐるみのざらざらとした表面に自分の体をすりつけるだけでしかなかった
 [05]CLICKWAIT
 CLEAR_TEXTBOX
-その行為により乳首はピンッっと立ち、秘処にくわえ込まされている人参は愛液で、てかてかと光っていた
+その行為により乳首はピンッっと立ち、秘処にくわえ込まされている
+l
+参は愛液で、てかてかと光っていた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -410,7 +427,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-着ぐるみ動物は、再び人参をお姫さまの割れ目にめり込ませた
+着ぐるみ動物は、再び
+l
+参をお姫さまの割れ目にめり込ませた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00

@@ -129,7 +129,8 @@ n\x14
 [28]LOAD_GRAPHICS
 _CGBA02
 \x00
- DS09
+[20]LOAD_MUSIC
+DS09
 \x00
 8
 [01]NEWLINE
@@ -145,7 +146,9 @@ _CGBA02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-カウンターに目を向けると１人の女の子が、にこにことこちらを見ていた
+カウンターに目を向けると１
+l
+の女の子が、にこにことこちらを見ていた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -181,7 +184,9 @@ _CGBA02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-女の子はしばらく考え込んでいたが、やがてこちらを向いて嬉しそうな笑顔を見せた
+女の子はしばらく
+l
+え込んでいたが、やがてこちらを向いて嬉しそうな笑顔を見せた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -217,7 +222,9 @@ _CGBA02
 \x00
 8
 [01]NEWLINE
-「あ、すいませ～ん・・・ケーキの事を考えてると、つい自分の世界に　入り込んじゃうんですぅ」
+「あ、すいませ～ん・・・ケーキの事を
+l
+えてると、つい自分の世界に　入り込んじゃうんですぅ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -263,7 +270,8 @@ L
 [28]LOAD_GRAPHICS
 _CGBA02
 \x00
- DS09
+[20]LOAD_MUSIC
+DS09
 \x00
 8
 [01]NEWLINE
@@ -346,7 +354,8 @@ _CGBA02
 [28]LOAD_GRAPHICS
 _CGBA02
 \x00
- DS09
+[20]LOAD_MUSIC
+DS09
 \x00
 8
 [01]NEWLINE
@@ -535,7 +544,9 @@ _CGBA02
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「人は見かけによらないって言うけど・・・・・
+\x81u\x90
+l
+は見かけによらないって言うけど・・・・・
 [05]CLICKWAIT
 [01]NEWLINE
 　ここまでかけ離れてる娘は初めて見たなぁ」
@@ -576,7 +587,8 @@ _CGBA02
 [28]LOAD_GRAPHICS
 _CGBA02
 \x00
- DS09
+[20]LOAD_MUSIC
+DS09
 \x00
 8
 [01]NEWLINE
@@ -586,7 +598,9 @@ _CGBA02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-女の子はいつもの様に元気に声をかけてきた
+女の子はいつもの
+l
+に元気に声をかけてきた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -659,7 +673,8 @@ Q
 [28]LOAD_GRAPHICS
 _CGBA02
 \x00
- DS09
+[20]LOAD_MUSIC
+DS09
 \x00
 8
 [01]NEWLINE
@@ -669,7 +684,9 @@ _CGBA02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-女の子はいつもの様に元気に声をかけてきた
+女の子はいつもの
+l
+に元気に声をかけてきた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -810,7 +827,9 @@ m\x14
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-女の子は、少し怒った様な表情であなたを見つめていた
+女の子は、少し怒った
+l
+な表情であなたを見つめていた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -858,7 +877,8 @@ S
 [28]LOAD_GRAPHICS
 _CGBA02
 \x00
- DS09
+[20]LOAD_MUSIC
+DS09
 \x00
 8
 [01]NEWLINE
@@ -868,7 +888,9 @@ _CGBA02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-女の子はいつもの様に元気に声をかけてきた
+女の子はいつもの
+l
+に元気に声をかけてきた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -892,7 +914,9 @@ _CGBA02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-女の子は少し困った様な顔を見せた
+女の子は少し困った
+l
+な顔を見せた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -941,7 +965,8 @@ R
 [28]LOAD_GRAPHICS
 _CGBA02
 \x00
- DS09
+[20]LOAD_MUSIC
+DS09
 \x00
 8
 [01]NEWLINE
@@ -951,7 +976,9 @@ _CGBA02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-女の子はいつもの様に元気に声をかけてきた
+女の子はいつもの
+l
+に元気に声をかけてきた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1068,7 +1095,8 @@ _CGBA02
 [28]LOAD_GRAPHICS
 _CGBA02
 \x00
- DS09
+[20]LOAD_MUSIC
+DS09
 \x00
 8
 [01]NEWLINE
@@ -1078,7 +1106,9 @@ _CGBA02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-女の子はいつもの様に元気に声をかけてきた
+女の子はいつもの
+l
+に元気に声をかけてきた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1102,7 +1132,8 @@ N
 [28]LOAD_GRAPHICS
 _CGBA01
 \x00
- DS09
+[20]LOAD_MUSIC
+DS09
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -1197,7 +1228,8 @@ _CGBA01
 [28]LOAD_GRAPHICS
 J1
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
@@ -1267,7 +1299,9 @@ J1
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-考えていたことをごまかすように思い切り首を左右に振ると、腰を前へとつきだした
+\x8d
+l
+えていたことをごまかすように思い切り首を左右に振ると、腰を前へとつきだした
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1303,7 +1337,9 @@ J1
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-そんな考えを振り払うように、腰を激しく女の子の開かれた足の間へと打ちつけた
+そんな
+l
+えを振り払うように、腰を激しく女の子の開かれた足の間へと打ちつけた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1351,7 +1387,9 @@ J1
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-２人は、だんだんと腰の動きを激しくしていった
+２
+l
+は、だんだんと腰の動きを激しくしていった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1417,7 +1455,8 @@ P
 [28]LOAD_GRAPHICS
 _CGS00
 \x00
- DS09
+[20]LOAD_MUSIC
+DS09
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -1523,7 +1562,9 @@ _CGS00
 \x00
 ['\x1e
 [01]NEWLINE
-「（意外と人混みにまぎれたらわかんないかもな）」
+「（意外と
+l
+混みにまぎれたらわかんないかもな）」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1552,7 +1593,9 @@ i
 [10]MALE_NAME
 \xe4'\x1e
 [01]NEWLINE
-「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
+「（もう
+l
+もかなり帰ったみたいだし、大丈夫だよな）」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1567,20 +1610,27 @@ _CGB13
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-ホテルについた２人は、まるで恋人同士のように、自然に肌を重ねた
+ホテルについた２
+l
+は、まるで恋
+l
+同士のように、自然に肌を重ねた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-２人は軽く１ラウンドをこなし、２ラウンド目へと突入した
+２
+l
+は軽く１ラウンドをこなし、２ラウンド目へと突入した
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [28]LOAD_GRAPHICS
 J3
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 8
 [01]NEWLINE
@@ -1590,7 +1640,9 @@ J3
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-四つん這いになっていた女の子が急に振り返ると、一心不乱に腰を動かしていたあなたに声をかけてきた
+\x8e
+l
+つん這いになっていた女の子が急に振り返ると、一心不乱に腰を動かしていたあなたに声をかけてきた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1712,7 +1764,9 @@ J3
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-ぐったりとした２人は互いに目を合わせると、思わず笑い出してしまった
+ぐったりとした２
+l
+は互いに目を合わせると、思わず笑い出してしまった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00

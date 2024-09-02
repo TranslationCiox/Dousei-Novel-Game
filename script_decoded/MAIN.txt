@@ -42,7 +42,8 @@ F
 \x00
 i
 [10]MALE_NAME
-h\x1bl
+h\x1b
+l
 \x00
 [05]CLICKWAIT
 \x00
@@ -379,7 +380,8 @@ _CGAI01
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
-\x1bl
+\x1b
+l
 \x00
 +
 [04]MOVE_TO_OTHER_SEGMENT
@@ -665,7 +667,9 @@ _CGAI01
 [01]NEWLINE
 あなたは、そんな
 [11]FEMALE_NAME
-の様子をぼんやりと眺めていた
+の
+l
+子をぼんやりと眺めていた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -680,7 +684,9 @@ _CGAI01
 \x00
 [02]CLEAR_TEXTBOX
 \x00
-\x9b\t\x1d
+\x9b
+\t
+[1d]FEMALE_NAMETAG
 [01]NEWLINE
 「それにしても、最近ろくなニュースがないわねぇ」
 [05]CLICKWAIT
@@ -806,7 +812,9 @@ _CGAI01
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「いやいや、二人の仲がよりいっそう良くなると言うことだと思うぞ・・・・多分・・・・きっと・・・・
+「いやいや、二
+l
+の仲がよりいっそう良くなると言うことだと思うぞ・・・・多分・・・・きっと・・・・
 [05]CLICKWAIT
 万が一・・・・」
 [05]CLICKWAIT
@@ -862,7 +870,9 @@ _CGAI01
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「それ自体、アンラッキーの様な気がする・・・」
+「それ自体、アンラッキーの
+l
+な気がする・・・」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -931,7 +941,8 @@ T\x0e\x1d
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
- 「うん、それじゃ、行ってらっしゃい」
+[20]LOAD_MUSIC
+「うん、それじゃ、行ってらっしゃい」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -969,7 +980,9 @@ SHOP
 \x00
 \x98\x0e
 [10]MALE_NAME
-\xaf\x0e DS02
+\xaf\x0e
+[20]LOAD_MUSIC
+DS02
 \x00
 [19]GOTO_FILE
 D01
@@ -987,7 +1000,9 @@ ST
 \x00
 \xb7\x0e
 [10]MALE_NAME
-\x02\x17 DS02
+\x02\x17
+[20]LOAD_MUSIC
+DS02
 \x00
 \x1b
 [04]MOVE_TO_OTHER_SEGMENT
@@ -999,7 +1014,9 @@ _CGB00
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-家に帰ってきた二人は、よろよろと部屋の中に入ると疲れ切ったようにその場に座り込んでしまった
+家に帰ってきた二
+l
+は、よろよろと部屋の中に入ると疲れ切ったようにその場に座り込んでしまった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1275,7 +1292,9 @@ _CGRY03
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-目の前に広げられたお寿司を、２人は黙々と食べていた
+目の前に広げられたお寿司を、２
+l
+は黙々と食べていた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1528,7 +1547,8 @@ E06
 [17]CHOICE
 [1a]END_OF_SEGMENT
 [11]FEMALE_NAME
-\x16 
+[16]END_CHOICE
+[20]LOAD_MUSIC
 \x00
 [15]NO_NAMETAG
 \xf4
@@ -1549,7 +1569,8 @@ E07
 [17]CHOICE
 [1a]END_OF_SEGMENT
 [11]FEMALE_NAME
-\x16 
+[16]END_CHOICE
+[20]LOAD_MUSIC
 \x00
 [15]NO_NAMETAG
 \x90
@@ -1570,13 +1591,15 @@ E07
 [17]CHOICE
 [1a]END_OF_SEGMENT
 [11]FEMALE_NAME
-\x16 
+[16]END_CHOICE
+[20]LOAD_MUSIC
 \x00
 [15]NO_NAMETAG
 ,
 [01]NEWLINE
 [04]MOVE_TO_OTHER_SEGMENT
-\x17 
+[17]CHOICE
+[20]LOAD_MUSIC
 \x00
 [15]NO_NAMETAG
 \x00
@@ -1675,7 +1698,8 @@ g
 話す
 \x00
 \x00
- DS06
+[20]LOAD_MUSIC
+DS06
 \x00
 [19]GOTO_FILE
 K01
@@ -1719,7 +1743,8 @@ K01
 テレビ／ゲーム
 \x00
 \x00
- DS06
+[20]LOAD_MUSIC
+DS06
 \x00
 [11]FEMALE_NAME
 [16]END_CHOICE
@@ -2106,7 +2131,8 @@ o
 \x16#
 \x00
 [15]NO_NAMETAG
- \x03
+[20]LOAD_MUSIC
+\x03
 [04]MOVE_TO_OTHER_SEGMENT
 \x00
 U\x1c\x03\x1e
@@ -2118,7 +2144,8 @@ U\x1c\x03\x1e
 [15]NO_NAMETAG
 [1e]MALE_NAMETAG
 \x00
-\r\t
+\r
+\t
 \x00
 [11]FEMALE_NAME
 \x16\x1e
@@ -2185,7 +2212,8 @@ d
 [10]MALE_NAME
 \xa5
 \x00
- DS15
+[20]LOAD_MUSIC
+DS15
 \x00
 "
 [28]LOAD_GRAPHICS

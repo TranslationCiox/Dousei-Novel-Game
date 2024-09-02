@@ -52,7 +52,8 @@
 [28]LOAD_GRAPHICS
 _CGDB01
 \x00
- DS07
+[20]LOAD_MUSIC
+DS07
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -135,7 +136,9 @@ _CGDB01
 \x00
 5\x02\x1e
 [01]NEWLINE
-「（意外と人混みにまぎれたらわかんないかもな）」
+「（意外と
+l
+混みにまぎれたらわかんないかもな）」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -164,7 +167,9 @@ i
 [10]MALE_NAME
 \xb9\x02\x1e
 [01]NEWLINE
-「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
+「（もう
+l
+もかなり帰ったみたいだし、大丈夫だよな）」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -189,7 +194,8 @@ i
 [28]LOAD_GRAPHICS
 _CGB13
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -232,7 +238,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-理恵はいたずらっぽく笑うと、人差し指でペニスの裏軽くなぞり、それを自分の秘処へと導いた
+理恵はいたずらっぽく笑うと、
+l
+差し指でペニスの裏軽くなぞり、それを自分の秘処へと導いた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -300,7 +308,9 @@ I1
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-ペニスを様々な角度から締め付けられる感触に、えもいわれぬ快感が全身を走った
+ペニスを
+l
+々な角度から締め付けられる感触に、えもいわれぬ快感が全身を走った
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -337,7 +347,8 @@ I
 [28]LOAD_GRAPHICS
 _CGDB03
 \x00
- DS07
+[20]LOAD_MUSIC
+DS07
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -471,7 +482,9 @@ _CGDB03
 \x00
 \xf4\x0b\x1e
 [01]NEWLINE
-「（意外と人混みにまぎれたらわかんないかもな）」
+「（意外と
+l
+混みにまぎれたらわかんないかもな）」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -508,7 +521,8 @@ i
 [28]LOAD_GRAPHICS
 I3
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
@@ -688,7 +702,9 @@ I3
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-二人の動きが一段と激しくなったとき、近くの茂みが、がさっと音をたてた
+二
+l
+の動きが一段と激しくなったとき、近くの茂みが、がさっと音をたてた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -724,7 +740,9 @@ I3
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-２人は疲れ果てたようにその場に座り込んでしまった
+２
+l
+は疲れ果てたようにその場に座り込んでしまった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00

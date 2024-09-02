@@ -26,10 +26,12 @@
 [10]MALE_NAME
 =
 \x00
- DS03
+[20]LOAD_MUSIC
+DS03
 \x00
 [10]MALE_NAME
-l\x12
+l
+[12]MALE_SURNAME
 [1a]END_OF_SEGMENT
 [04]MOVE_TO_OTHER_SEGMENT
 p
@@ -39,11 +41,14 @@ p
 [28]LOAD_GRAPHICS
 _CGAI01
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-二人で朝御飯を食べていると、
+二
+l
+で朝御飯を食べていると、
 [11]FEMALE_NAME
 が、あなたに声をかけてきた
 [05]CLICKWAIT
@@ -100,9 +105,13 @@ _CGAI01
 \x00
 アルバイトを探す
 \x00
-１人で行動する
+１
+l
+で行動する
 \x00
-２人で行動する
+２
+l
+で行動する
 \x00
 \x00
 [10]MALE_NAME
@@ -111,9 +120,13 @@ _CGAI01
 [17]CHOICE
 [01]NEWLINE
 \x00
-１人で行動する
+１
+l
+で行動する
 \x00
-２人で行動する
+２
+l
+で行動する
 \x00
 \x00
 \x08
@@ -215,7 +228,9 @@ G
 「え、ちょっとどっかに行ってくるの？
 [05]CLICKWAIT
 [01]NEWLINE
-　ま、たまには１人で羽を伸ばすのもいいかもね」
+　ま、たまには１
+l
+で羽を伸ばすのもいいかもね」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -251,7 +266,8 @@ _CGAG01
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
- DS03
+[20]LOAD_MUSIC
+DS03
 \x00
 [10]MALE_NAME
 \xae\x0e
@@ -281,10 +297,12 @@ _CGAG01
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
- DS03
+[20]LOAD_MUSIC
+DS03
 \x00
 [10]MALE_NAME
-l\x12
+l
+[12]MALE_SURNAME
 [10]MALE_NAME
 D
 [04]MOVE_TO_OTHER_SEGMENT
@@ -320,7 +338,9 @@ e
 「ふ～ん、今日は家でゆっくりするのね
 [05]CLICKWAIT
 [01]NEWLINE
-　じゃ、今日はずっと２人きりでいられるね☆」
+　じゃ、今日はずっと２
+l
+きりでいられるね☆」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -358,7 +378,9 @@ b
 [01]NEWLINE
 「え、お出かけ？
 [05]CLICKWAIT
-　２人で？
+　２
+l
+で？
 [05]CLICKWAIT
 　やったぁ！！
 [05]CLICKWAIT
@@ -390,7 +412,8 @@ e
 [10]MALE_NAME
 \x1f
 [01]NEWLINE
- ds02
+[20]LOAD_MUSIC
+ds02
 \x00
 [1a]END_OF_SEGMENT
 [15]NO_NAMETAG
@@ -415,9 +438,13 @@ _CGAB
 \x00
 パチンコ店　　　　時給　１,０００円　勤務時間８時間
 \x00
-本屋　　　　　　　時給　　 ８００円　勤務時間８時間
+本屋　　　　　　　時給　　
+[20]LOAD_MUSIC
+８００円　勤務時間８時間
 \x00
-コンビニ　　　　　時給　 　９５０円　勤務時間８時間
+コンビニ　　　　　時給　
+[20]LOAD_MUSIC
+　９５０円　勤務時間８時間
 \x00
 \x00
 [11]FEMALE_NAME
@@ -435,16 +462,22 @@ _CGAB
 [01]NEWLINE
 \x00
 [10]MALE_NAME
-\xaa\t\x17
+\xaa
+\t
+[17]CHOICE
 [01]NEWLINE
 \x00
 他を探す
 \x00
 建設業　　　　　　日給１２,０００円　勤務時間８時間
 \x00
-喫茶店　　　　　　時給　　 ７５０円　勤務時間８時間
+喫茶店　　　　　　時給　　
+[20]LOAD_MUSIC
+７５０円　勤務時間８時間
 \x00
-レンタルビデオ　　時給　　 ９００円　勤務時間８時間
+レンタルビデオ　　時給　　
+[20]LOAD_MUSIC
+９００円　勤務時間８時間
 \x00
 \x00
 [11]FEMALE_NAME
@@ -463,7 +496,8 @@ U\x07
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-\xaa\t
+\xaa
+\t
 [11]FEMALE_NAME
 [16]END_CHOICE
 \x08
@@ -480,7 +514,9 @@ M
 \x00
 他を探す
 \x00
-ケーキ屋　　　　　時給　 　６００円　勤務時間８時間
+ケーキ屋　　　　　時給　
+[20]LOAD_MUSIC
+　６００円　勤務時間８時間
 \x00
 遊園地　　　　　　日給１,２０００円　実働時間８時間
 \x00
@@ -506,7 +542,9 @@ M
 \x00
 他を探す
 \x00
-ケーキ屋　　　　　時給　 　６００円　勤務時間８時間
+ケーキ屋　　　　　時給　
+[20]LOAD_MUSIC
+　６００円　勤務時間８時間
 \x00
 遊園地　　　　　　日給１,２０００円　実働時間８時間
 \x00
@@ -530,7 +568,9 @@ M
 \x00
 他を探す
 \x00
-ケーキ屋　　　　　時給　 　６００円　勤務時間８時間
+ケーキ屋　　　　　時給　
+[20]LOAD_MUSIC
+　６００円　勤務時間８時間
 \x00
 \x00
 [11]FEMALE_NAME
@@ -550,7 +590,9 @@ M
 [05]CLICKWAIT
 \x00
 [10]MALE_NAME
-\xaa\t\x17
+\xaa
+\t
+[17]CHOICE
 [01]NEWLINE
 \x00
 アルバイト情報誌を最初から読みなおす
@@ -567,16 +609,19 @@ M
 \x00
 [02]CLEAR_TEXTBOX
 \x00
-A\t
+A
+\t
 [10]MALE_NAME
 \xdd
 [05]CLICKWAIT
 [10]MALE_NAME
-\xaa\t
+\xaa
+\t
 [28]LOAD_GRAPHICS
 _CGAA01
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -613,7 +658,8 @@ k
 \x00
 [02]CLEAR_TEXTBOX
 \x00
-\xd1\t
+\xd1
+\t
 \x00
 [10]MALE_NAME
 \x00
@@ -645,7 +691,8 @@ P
 \x00
 [02]CLEAR_TEXTBOX
 \x00
-\xf3\t
+\xf3
+\t
 \x00
 [10]MALE_NAME
 \x00
@@ -971,7 +1018,8 @@ _CGAG01
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
- DS01
+[20]LOAD_MUSIC
+DS01
 \x00
 [11]FEMALE_NAME
 [16]END_CHOICE
@@ -986,7 +1034,8 @@ _CGAG01
 [28]LOAD_GRAPHICS
 _CGB01A
 \x00
-.\x0b
+.
+\x0b
 [10]MALE_NAME
 F\x0e
 [11]FEMALE_NAME
@@ -1002,7 +1051,8 @@ F\x0e
 [28]LOAD_GRAPHICS
 _CGB02A
 \x00
-.\x0c
+.
+\x0c
 [10]MALE_NAME
 F\x0e
 [11]FEMALE_NAME
@@ -1018,7 +1068,8 @@ F\x0e
 [28]LOAD_GRAPHICS
 _CGB03A
 \x00
-.\r
+.
+\r
 [10]MALE_NAME
 F\x0e
 [11]FEMALE_NAME
@@ -1034,7 +1085,8 @@ F\x0e
 [28]LOAD_GRAPHICS
 _CGB04A
 \x00
-.\x0e
+.
+\x0e
 [10]MALE_NAME
 F\x0e
 [11]FEMALE_NAME
@@ -1050,7 +1102,8 @@ F\x0e
 [28]LOAD_GRAPHICS
 _CGB05A
 \x00
-.\x0f
+.
+\x0f
 [10]MALE_NAME
 F\x0e
 [11]FEMALE_NAME
@@ -1100,7 +1153,8 @@ F\x0e
 [28]LOAD_GRAPHICS
 _CGB08A
 \x00
-.\x12
+.
+[12]MALE_SURNAME
 [10]MALE_NAME
 F\x0e
 [11]FEMALE_NAME
@@ -1116,7 +1170,8 @@ F\x0e
 [28]LOAD_GRAPHICS
 _CGB09A
 \x00
-.\x13
+.
+[13]FEMALE_SURNAME
 [15]NO_NAMETAG
 [01]NEWLINE
 「これで、すべて終了しました
@@ -1313,7 +1368,8 @@ CLEAR_TEXTBOX
 よーし男なら『３　－　６』一点勝負！
 \x00
 \x00
-.\x17\x1f\x02
+.
+\x17\x1f\x02
 \x00
 [04]MOVE_TO_OTHER_SEGMENT
 \x00
@@ -1419,7 +1475,9 @@ CLEAR_TEXTBOX
 \x00
 [02]CLEAR_TEXTBOX
 \x00
-\xc9\x17 DS03
+\xc9\x17
+[20]LOAD_MUSIC
+DS03
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -1474,7 +1532,8 @@ r\x1b
 \x00
 \xa7
 [19]GOTO_FILE
- DS03
+[20]LOAD_MUSIC
+DS03
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -1494,7 +1553,8 @@ r\x1b
 [28]LOAD_GRAPHICS
 _CGB00
 \x00
-.\x1c
+.
+\x1c
 [15]NO_NAMETAG
 [01]NEWLINE
 [11]FEMALE_NAME
@@ -1513,7 +1573,9 @@ _CGB00
 「あ、こき使っちゃってゴメンね～
 [05]CLICKWAIT
 [01]NEWLINE
-　でも、やっぱり男の人ってこういう時は、すっごく頼りになるのよ」
+　でも、やっぱり男の
+l
+ってこういう時は、すっごく頼りになるのよ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1525,7 +1587,9 @@ _CGB00
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-r\x1b DS03
+r\x1b
+[20]LOAD_MUSIC
+DS03
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -1560,7 +1624,9 @@ _CGB00
 [15]NO_NAMETAG
 [15]NO_NAMETAG
 [01]NEWLINE
-やがて夕方になり、２人は疲れ切った表情でコントローラーを置いた
+やがて夕方になり、２
+l
+は疲れ切った表情でコントローラーを置いた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1630,7 +1696,8 @@ _CGAG01
 [15]NO_NAMETAG
 \x84\x03
 [04]MOVE_TO_OTHER_SEGMENT
-\x16 
+[16]END_CHOICE
+[20]LOAD_MUSIC
 \x00
 [15]NO_NAMETAG
 ,
@@ -1649,7 +1716,9 @@ _CGAG01
 [10]MALE_NAME
 \x13\x1e\x1d
 [01]NEWLINE
-「２人でウインドウショッピングかぁ～
+「２
+l
+でウインドウショッピングかぁ～
 [05]CLICKWAIT
 [01]NEWLINE
 　うん、それいいよね～
@@ -1665,7 +1734,8 @@ _CGAG01
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
- DS03
+[20]LOAD_MUSIC
+DS03
 \x00
 [28]LOAD_GRAPHICS
 _CGB16
@@ -1676,7 +1746,9 @@ CLEAR_TEXTBOX
 町外れにある巨大なショッピングセンター
 [05]CLICKWAIT
 [01]NEWLINE
-２人の買い物はいつもそこだった
+２
+l
+の買い物はいつもそこだった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1696,10 +1768,13 @@ CLEAR_TEXTBOX
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
-.\x18
+.
+\x18
 [15]NO_NAMETAG
 [01]NEWLINE
-やがて２人の手で持ちきれないほどの買い物をすますと、ショッピングセンターを後にした
+やがて２
+l
+の手で持ちきれないほどの買い物をすますと、ショッピングセンターを後にした
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1714,14 +1789,16 @@ CLEAR_TEXTBOX
 \x00
 [02]CLEAR_TEXTBOX
 \x00
-\t 
+\t
+[20]LOAD_MUSIC
 [11]FEMALE_NAME
 \x16\x1b
 \x00
 [15]NO_NAMETAG
 \x84\x03
 [04]MOVE_TO_OTHER_SEGMENT
-\x16 
+[16]END_CHOICE
+[20]LOAD_MUSIC
 \x00
 [15]NO_NAMETAG
 ^
@@ -1738,7 +1815,9 @@ B\x1e
 [10]MALE_NAME
 \x060
 [10]MALE_NAME
-\x06 \x1d
+\x06
+[20]LOAD_MUSIC
+[1d]FEMALE_NAMETAG
 [01]NEWLINE
 「映画に行くの？
 [05]CLICKWAIT
@@ -1756,7 +1835,8 @@ B\x1e
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
- DS03
+[20]LOAD_MUSIC
+DS03
 \x00
 [28]LOAD_GRAPHICS
 _CGB11
@@ -1794,7 +1874,8 @@ _CGB11
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
-.\x14
+.
+\x14
 [10]MALE_NAME
 \xe8!
 [11]FEMALE_NAME
@@ -1803,7 +1884,8 @@ _CGB11
 [15]NO_NAMETAG
 \x84\x03
 [04]MOVE_TO_OTHER_SEGMENT
-\x16 
+[16]END_CHOICE
+[20]LOAD_MUSIC
 \x00
 [15]NO_NAMETAG
 ^
@@ -1816,7 +1898,8 @@ _CGB11
 \x00
 \x02\x0f
 \x00
-* 
+*
+[20]LOAD_MUSIC
 [10]MALE_NAME
 \xfe;
 [10]MALE_NAME
@@ -1849,7 +1932,8 @@ _CGB11
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
- DS03
+[20]LOAD_MUSIC
+DS03
 \x00
 [28]LOAD_GRAPHICS
 _CGB08A
@@ -1876,11 +1960,14 @@ _CGB08A
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
-.\x1b
+.
+\x1b
 [15]NO_NAMETAG
 [01]NEWLINE
 [11]FEMALE_NAME
-の宣言したとおり、結局この日は、日が暮れるまで遊び倒した２人だった
+の宣言したとおり、結局この日は、日が暮れるまで遊び倒した２
+l
+だった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1906,7 +1993,9 @@ _CGB16
 町外れにある巨大なショッピングセンター
 [01]NEWLINE
 [05]CLICKWAIT
-２人の買い物はいつもそこだった
+２
+l
+の買い物はいつもそこだった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1949,19 +2038,29 @@ _CGB16
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-２人はエレベータまで歩いていくと、ボタンを押して待っていた
+２
+l
+はエレベータまで歩いていくと、ボタンを押して待っていた
 [05]CLICKWAIT
 [01]NEWLINE
-少ししてエレベータが降りてくると、中から５、６人の客が出てきた
+少ししてエレベータが降りてくると、中から５、６
+l
+の客が出てきた
 [05]CLICKWAIT
 [01]NEWLINE
-無人になったエレベータに２人が乗り込むと同時に扉が閉まった
+無
+l
+になったエレベータに２
+l
+が乗り込むと同時に扉が閉まった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「・・・ねぇ、この中で２人だけになるなんて、久しぶりだよね」
+「・・・ねぇ、この中で２
+l
+だけになるなんて、久しぶりだよね」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1992,7 +2091,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人はパニックに陥りながらあなたの腕にしがみついてきた
+恋
+l
+はパニックに陥りながらあなたの腕にしがみついてきた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2004,7 +2105,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたは恋人の背中を軽くさすりながら、冷静に状況を判断していた
+あなたは恋
+l
+の背中を軽くさすりながら、冷静に状況を判断していた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2017,7 +2120,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 10_1
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -2031,7 +2135,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-そのやりとりを、恋人は不安そうな表情を浮かべて聞いていた
+そのやりとりを、恋
+l
+は不安そうな表情を浮かべて聞いていた
 [05]CLICKWAIT
 [01]NEWLINE
 もちろんあなたの腕にしっかりとしがみついたままで・・・
@@ -2060,7 +2166,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたの軽い言葉にも恋人は堅い表情をくずさなかった
+あなたの軽い言葉にも恋
+l
+は堅い表情をくずさなかった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2081,10 +2189,16 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人は泣きそうな顔であなたを見上げてきた
+恋
+l
+は泣きそうな顔であなたを見上げてきた
 [05]CLICKWAIT
 [01]NEWLINE
-あなたはいつもと違う恋人の表情に、ついムラムラとよこしまな考えが浮かんできてしまった
+あなたはいつもと違う恋
+l
+の表情に、ついムラムラとよこしまな
+l
+えが浮かんできてしまった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2096,7 +2210,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたはそうささやくと、恋人の服のボタンを外し、その中に手を忍び込ませた
+あなたはそうささやくと、恋
+l
+の服のボタンを外し、その中に手を忍び込ませた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2108,10 +2224,16 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたは、なるべく明るい声で話しかけながら、恋人の胸をまさぐった
+あなたは、なるべく明るい声で話しかけながら、恋
+l
+の胸をまさぐった
 [05]CLICKWAIT
 [01]NEWLINE
-しかし、恋人は恐怖の為か、まったく感じていない様子だった
+しかし、恋
+l
+は恐怖の為か、まったく感じていない
+l
+子だった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2126,11 +2248,14 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたが素直に謝り手を抜こうとすると、その手を恋人が押さえた
+あなたが素直に謝り手を抜こうとすると、その手を恋
+l
+が押さえた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
- DS10
+[20]LOAD_MUSIC
+DS10
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -2146,7 +2271,11 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-意外な言葉にあなたが恋人の顔をのぞき込むと、恋人はうっすらと涙を浮かべた瞳であなたを見つめた
+意外な言葉にあなたが恋
+l
+の顔をのぞき込むと、恋
+l
+はうっすらと涙を浮かべた瞳であなたを見つめた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2164,7 +2293,9 @@ V3
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人は自分の胸に差し込まれているあなたの腕に、ぎゅっとしがみついた
+恋
+l
+は自分の胸に差し込まれているあなたの腕に、ぎゅっとしがみついた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2176,7 +2307,9 @@ V3
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたはもう一方の手で、恋人の頭をゆっくりなでた
+あなたはもう一方の手で、恋
+l
+の頭をゆっくりなでた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2194,7 +2327,11 @@ V3
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人の緊張も多少やわらいだ様だったが、あなたの手には冷たい汗がべっとりとついていた
+恋
+l
+の緊張も多少やわらいだ
+l
+だったが、あなたの手には冷たい汗がべっとりとついていた
 [05]CLICKWAIT
 CLEAR_TEXTBOX
 そして数十分後、無事にエレベータは動きだした
@@ -2218,7 +2355,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人は安心したのか、あなたの胸に顔を埋めると、泣き出してしまった
+恋
+l
+は安心したのか、あなたの胸に顔を埋めると、泣き出してしまった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2230,21 +2369,28 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたは恋人の胸から手を抜くと、シャツのボタンを留めてやり、優しく肩をたたいた
+あなたは恋
+l
+の胸から手を抜くと、シャツのボタンを留めてやり、優しく肩をたたいた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [28]LOAD_GRAPHICS
 _CGB16
 \x00
- DS03
+[20]LOAD_MUSIC
+DS03
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-エレベータは無事に５階へとたどりつき、２人は無事に外に出ることが出来た
+エレベータは無事に５階へとたどりつき、２
+l
+は無事に外に出ることが出来た
 [05]CLICKWAIT
 CLEAR_TEXTBOX
-やがて、買い物を済ませた２人は再びエレベータの前までやってきた
+やがて、買い物を済ませた２
+l
+は再びエレベータの前までやってきた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2268,7 +2414,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-２人はエレベータの横にある階段をゆっくりと降り始めた
+２
+l
+はエレベータの横にある階段をゆっくりと降り始めた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2290,7 +2438,9 @@ _CGB11
 電車に乗り３つめの駅で降りた所に、目の前に大きな映画館があった
 [05]CLICKWAIT
 CLEAR_TEXTBOX
-恋人はチケット売場で２枚のチケットを買うと１枚をあなたに渡した
+恋
+l
+はチケット売場で２枚のチケットを買うと１枚をあなたに渡した
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2302,7 +2452,9 @@ CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「ほら、今世間をにぎわしている噂の２人の初共演とかいって話題にな
+「ほら、今世間をにぎわしている噂の２
+l
+の初共演とかいって話題にな
 [01]NEWLINE
 　ってる映画よ
 [05]CLICKWAIT
@@ -2331,7 +2483,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人はまったく乗り気では無いあなたを引っ張って、映画館の中へと入っていった
+恋
+l
+はまったく乗り気では無いあなたを引っ張って、映画館の中へと入っていった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2364,7 +2518,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたとは対照的に、恋人は食い入るように映画に見入っていた
+あなたとは対照的に、恋
+l
+は食い入るように映画に見入っていた
 [05]CLICKWAIT
 CLEAR_TEXTBOX
 あなたは仕方なく、再びスクリーンに視線を向けたが、またすぐに飽きてきた
@@ -2379,7 +2535,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたはきょろきょろと辺りを見回していたが、ふと恋人のスカートがめくれているのに気が付いた
+あなたはきょろきょろと辺りを見回していたが、ふと恋
+l
+のスカートがめくれているのに気が付いた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2392,12 +2550,15 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 11_1
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
 CLEAR_TEXTBOX
-あなたはそっと恋人の股間に手を伸ばすと、ショーツを軽く触った
+あなたはそっと恋
+l
+の股間に手を伸ばすと、ショーツを軽く触った
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2409,7 +2570,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人はびっくりした表情であなたに視線を向けた
+恋
+l
+はびっくりした表情であなたに視線を向けた
 [05]CLICKWAIT
 CLEAR_TEXTBOX
 しかし、あなたはわざと視線を合わせず、にやにやした表情でスクリーンの方を見ていた
@@ -2424,7 +2587,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人は小声であなたに文句を言ってきた
+恋
+l
+は小声であなたに文句を言ってきた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2436,7 +2601,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたはそう答えながらも、恋人の股間をしつようになで回していた
+あなたはそう答えながらも、恋
+l
+の股間をしつようになで回していた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2448,13 +2615,17 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人は頬を赤らめながら、必死であなたの手をのけようとしていたが、力ではかなうはずがなかった
+恋
+l
+は頬を赤らめながら、必死であなたの手をのけようとしていたが、力ではかなうはずがなかった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-（あんまり、騒いでると、回りの人に気づかれるぞぉ）
+（あんまり、騒いでると、回りの
+l
+に気づかれるぞぉ）
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2466,7 +2637,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人はきょろきょろと辺りを見回した後、抵抗の手をゆるめて視線をスクリーンに戻した
+恋
+l
+はきょろきょろと辺りを見回した後、抵抗の手をゆるめて視線をスクリーンに戻した
 [05]CLICKWAIT
 CLEAR_TEXTBOX
 あなたは少し笑って、再びショーツの上から割れ目をなぞった
@@ -2481,7 +2654,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人は声が出そうになるのを我慢しながら、必死でスクリーンを見ていた
+恋
+l
+は声が出そうになるのを我慢しながら、必死でスクリーンを見ていた
 [05]CLICKWAIT
 CLEAR_TEXTBOX
 あなたは濡れてきたショーツを少し横にずらすと、直接、秘処に手を当てた
@@ -2496,7 +2671,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-思わず大きな声を出してしまった恋人は、あわてて周りを見回した後、真っ赤な顔でうつむいてしまった
+思わず大きな声を出してしまった恋
+l
+は、あわてて周りを見回した後、真っ赤な顔でうつむいてしまった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2520,10 +2697,16 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人は恥ずかしさのあまり、目に涙を浮かべていたが、周りの人に気づかれないためにじっとスクリーンを見つめていた
+恋
+l
+は恥ずかしさのあまり、目に涙を浮かべていたが、周りの
+l
+に気づかれないためにじっとスクリーンを見つめていた
 [05]CLICKWAIT
 CLEAR_TEXTBOX
-そんな恋人の態度をいいことに、その後もあなたの手は秘処をなぞりまくり、あふれたでた愛液がじっとりとシートを濡らした
+そんな恋
+l
+の態度をいいことに、その後もあなたの手は秘処をなぞりまくり、あふれたでた愛液がじっとりとシートを濡らした
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2535,17 +2718,24 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人は体をふるわせながらも、指をかんで必死に声を押し殺していた
+恋
+l
+は体をふるわせながらも、指をかんで必死に声を押し殺していた
 [05]CLICKWAIT
 CLEAR_TEXTBOX
-やがて、映画が終了し、館内に明かりが戻ると、あなたは何事も無かったように、手を恋人の股間から離し、恋人の方に向き直った
+やがて、映画が終了し、館内に明かりが戻ると、あなたは何事も無かったように、手を恋
+l
+の股間から離し、恋
+l
+の方に向き直った
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [28]LOAD_GRAPHICS
 _CGB11
 \x00
- DS03
+[20]LOAD_MUSIC
+DS03
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
@@ -2564,7 +2754,9 @@ _CGB11
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-涙目で怒っている恋人の頭を軽くなでて、あなたは椅子から立ち上がった
+涙目で怒っている恋
+l
+の頭を軽くなでて、あなたは椅子から立ち上がった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2595,7 +2787,9 @@ _CGB08A
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人の絶叫がひびく中、４台目の絶叫マシーンが終了した
+恋
+l
+の絶叫がひびく中、４台目の絶叫マシーンが終了した
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2616,7 +2810,9 @@ _CGB08A
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたは、早くも次の絶叫マシーンに向かおうとしていた恋人の腕を捕まえた
+あなたは、早くも次の絶叫マシーンに向かおうとしていた恋
+l
+の腕を捕まえた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2640,7 +2836,9 @@ _CGB08A
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人は、青い顔をしてうつむいているあなたの背中を軽くさすった
+恋
+l
+は、青い顔をしてうつむいているあなたの背中を軽くさすった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2673,7 +2871,9 @@ _CGB08A
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-２人はさっそく観覧車へと乗り込んだ
+２
+l
+はさっそく観覧車へと乗り込んだ
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2691,7 +2891,9 @@ _CGB08A
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人は弱っているあなたを見て、くすっと笑うと視線を外に移した
+恋
+l
+は弱っているあなたを見て、くすっと笑うと視線を外に移した
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2703,10 +2905,14 @@ _CGB08A
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人が楽しそうに窓の外を眺めている内に、あなたは体力を回復させていった
+恋
+l
+が楽しそうに窓の外を眺めている内に、あなたは体力を回復させていった
 [05]CLICKWAIT
 CLEAR_TEXTBOX
-かなり体力が回復してきたあなたの目に、無防備な恋人の姿が映った
+かなり体力が回復してきたあなたの目に、無防備な恋
+l
+の姿が映った
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2719,15 +2925,22 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 12_1
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
 CLEAR_TEXTBOX
-あなたは景色を見ている恋人に気が付かれないように床に座り込むと、恋人の膝の前までつめよった
+あなたは景色を見ている恋
+l
+に気が付かれないように床に座り込むと、恋
+l
+の膝の前までつめよった
 [05]CLICKWAIT
 CLEAR_TEXTBOX
-そしておもむろに恋人の足を開くと、股間に顔を埋めた
+そしておもむろに恋
+l
+の足を開くと、股間に顔を埋めた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2775,7 +2988,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人は身をかがめて、あなたの頭の上に上半身を預けてきた
+恋
+l
+は身をかがめて、あなたの頭の上に上半身を預けてきた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2787,7 +3002,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたの言葉に恋人は顔を上げると、きょろきょろと他の観覧車を見回した
+あなたの言葉に恋
+l
+は顔を上げると、きょろきょろと他の観覧車を見回した
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2799,7 +3016,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人は赤い顔をしながら姿勢を直し、平静を装いながら外に目をやった
+恋
+l
+は赤い顔をしながら姿勢を直し、平静を装いながら外に目をやった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2823,7 +3042,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人は指をかみながら、うちよせる快感に必死に耐えていた
+恋
+l
+は指をかみながら、うちよせる快感に必死に耐えていた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2853,7 +3074,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人はたまらないといったように、あなたの頭の上に倒れ込んできた
+恋
+l
+はたまらないといったように、あなたの頭の上に倒れ込んできた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2883,21 +3106,28 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたは観覧車が一周する間中、ずっと恋人のあそこをもてあそんでいた
+あなたは観覧車が一周する間中、ずっと恋
+l
+のあそこをもてあそんでいた
 [05]CLICKWAIT
 CLEAR_TEXTBOX
-やがて観覧車から地上に降りたときには、恋人はぐったりと疲れていた
+やがて観覧車から地上に降りたときには、恋
+l
+はぐったりと疲れていた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [28]LOAD_GRAPHICS
 _CGB08A
 \x00
- DS03
+[20]LOAD_MUSIC
+DS03
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたは恋人を近くのベンチに連れていくと、そこに座らせた
+あなたは恋
+l
+を近くのベンチに連れていくと、そこに座らせた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2915,7 +3145,9 @@ _CGB08A
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-にやにやと笑っているあなたを、恋人は膨れっ面で見上げていた
+にやにやと笑っているあなたを、恋
+l
+は膨れっ面で見上げていた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00

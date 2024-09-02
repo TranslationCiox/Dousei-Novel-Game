@@ -233,7 +233,8 @@ _CGB01A
 [28]LOAD_GRAPHICS
 _CGDA01
 \x00
- DS07
+[20]LOAD_MUSIC
+DS07
 \x00
 6
 [01]NEWLINE
@@ -246,7 +247,9 @@ _CGDA01
 通路の端に立ち、ぼうっと周りを見ていると不意に声をかけられた
 [05]CLICKWAIT
 CLEAR_TEXTBOX
-あわてて声のした方を見ると、ずいぶんとラフな格好をした女の人が手招きをしていた
+あわてて声のした方を見ると、ずいぶんとラフな格好をした女の
+l
+が手招きをしていた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -272,7 +275,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-素早くパチンコ台を開けると、詰まっている玉を取り出し、それをスタートチャッカーへと入れた
+素早くパチンコ台を開けると、
+l
+まっている玉を取り出し、それをスタートチャッカーへと入れた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -290,7 +295,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-女の人はにっこりと微笑むと再び打ち始めた
+女の
+l
+はにっこりと微笑むと再び打ち始めた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -308,7 +315,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-つい反射的に謝ってしまったあなたを、女の人は少しびっくりした表情で見つめた
+つい反射的に謝ってしまったあなたを、女の
+l
+は少しびっくりした表情で見つめた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -370,7 +379,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-女の人はさも感心したように、首を大きく左右に振った
+女の
+l
+はさも感心したように、首を大きく左右に振った
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -400,7 +411,9 @@ CLEAR_TEXTBOX
 \x00
 6
 [01]NEWLINE
-「あ、向こうで人が呼んでるわよ」
+「あ、向こうで
+l
+が呼んでるわよ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -412,7 +425,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-女の人の指さしている方向を見ると、台の上のランプが赤々と点灯していた
+女の
+l
+の指さしている方向を見ると、台の上のランプが赤々と点灯していた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -424,13 +439,17 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-女の人は妖艶な視線を投げかけてくると、なまめかしい足どりで出口へと歩いていった
+女の
+l
+は妖艶な視線を投げかけてくると、なまめかしい足どりで出口へと歩いていった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「う～ん、よくわかんない人だなぁ・・・・・
+「う～ん、よくわかんない
+l
+だなぁ・・・・・
 [05]CLICKWAIT
 [01]NEWLINE
 　・・・っと仕事仕事」
@@ -449,7 +468,8 @@ _CGB01A
 [28]LOAD_GRAPHICS
 _CGDA02
 \x00
- DS07
+[20]LOAD_MUSIC
+DS07
 \x00
 6
 [01]NEWLINE
@@ -459,7 +479,9 @@ _CGDA02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-女の人はあなたの姿を見つけると、近づいてきて軽く挨拶をした
+女の
+l
+はあなたの姿を見つけると、近づいてきて軽く挨拶をした
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -471,7 +493,9 @@ _CGDA02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-女の人は通路の一番端にいたあなたの真横の台に座った
+女の
+l
+は通路の一番端にいたあなたの真横の台に座った
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -495,7 +519,9 @@ _CGDA02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-女の人は軽く上唇をなめると、真剣な表情で打ち始めた
+女の
+l
+は軽く上唇をなめると、真剣な表情で打ち始めた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -519,7 +545,9 @@ _CGDA02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-何のことだかわからず呆然としていると、女の人があなたを見上げた
+何のことだかわからず呆然としていると、女の
+l
+があなたを見上げた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -605,7 +633,8 @@ _CGB01A
 [28]LOAD_GRAPHICS
 _CGDA01
 \x00
- DS07
+[20]LOAD_MUSIC
+DS07
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -755,7 +784,8 @@ _CGB01A
 [28]LOAD_GRAPHICS
 _CGDA01
 \x00
- DS07
+[20]LOAD_MUSIC
+DS07
 \x00
 6
 [01]NEWLINE
@@ -890,7 +920,11 @@ _CGDA01
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「い、いや、やっぱそういう系のお仕事の人って、男の人とかを手玉に　とってるって感じがするじゃないですか
+「い、いや、やっぱそういう系のお仕事の
+l
+って、男の
+l
+とかを手玉に　とってるって感じがするじゃないですか
 [05]CLICKWAIT
 [01]NEWLINE
 　それに会話も多彩だし、包容力もあるし・・・」
@@ -942,7 +976,8 @@ _CGB01A
 [28]LOAD_GRAPHICS
 _CGDA03
 \x00
- DS07
+[20]LOAD_MUSIC
+DS07
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -958,7 +993,9 @@ _CGDA03
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「まぁ、普通の人は、平日の昼間からこんなとこには、来ないんじゃな　いですか」
+「まぁ、普通の
+l
+は、平日の昼間からこんなとこには、来ないんじゃな　いですか」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -982,7 +1019,9 @@ _CGDA03
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-２人は顔を見合わせると、けらけらと笑い合った
+２
+l
+は顔を見合わせると、けらけらと笑い合った
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1070,7 +1109,9 @@ _CGDA03
 [01]NEWLINE
 「ダ～メ！
 [05]CLICKWAIT
-　私、相手のいる人間は喰っちゃわない事に決めてるの」
+　私、相手のいる
+l
+間は喰っちゃわない事に決めてるの」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1163,7 +1204,8 @@ _CGB01A
 [28]LOAD_GRAPHICS
 _CGDA01
 \x00
- DS07
+[20]LOAD_MUSIC
+DS07
 \x00
 [04]MOVE_TO_OTHER_SEGMENT
 A
@@ -1201,7 +1243,9 @@ A
 「いや、うらやましいというより・・・・・
 [05]CLICKWAIT
 [01]NEWLINE
-　休みの日に一人寂しくパチンコ屋にきてるってのが、寂しいっスね」
+　休みの日に一
+l
+寂しくパチンコ屋にきてるってのが、寂しいっスね」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1334,7 +1378,9 @@ E
 [01]NEWLINE
 \x00
 [10]MALE_NAME
-\xfd 6
+\xfd
+[20]LOAD_MUSIC
+6
 [01]NEWLINE
 「（え～、ダメなのぉ
 [05]CLICKWAIT
@@ -1422,7 +1468,8 @@ _CGB01A
 [28]LOAD_GRAPHICS
 _CGB01B
 \x00
- DS07
+[20]LOAD_MUSIC
+DS07
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
@@ -1444,7 +1491,9 @@ _CGB01B
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-一人で思い悩んでいると、入り口の方から脳天機な声が聞こえてきた
+一
+l
+で思い悩んでいると、入り口の方から脳天機な声が聞こえてきた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1562,7 +1611,9 @@ _CGDA02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-２人は大きな溜息をついた後、思いきり笑い出した
+２
+l
+は大きな溜息をついた後、思いきり笑い出した
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1578,7 +1629,8 @@ _CGB01A
 [28]LOAD_GRAPHICS
 _CGDA03
 \x00
- DS07
+[20]LOAD_MUSIC
+DS07
 \x00
 [04]MOVE_TO_OTHER_SEGMENT
 C
@@ -1741,7 +1793,9 @@ G
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「大人ですね・・・」
+「大
+l
+ですね・・・」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1769,11 +1823,16 @@ A
 [28]LOAD_GRAPHICS
 _CGDA01
 \x00
- DS07
+[20]LOAD_MUSIC
+DS07
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-いつもの様にあなたの横に座ってパチンコをしていた理恵だったが、今日はなんだか様子が違った
+いつもの
+l
+にあなたの横に座ってパチンコをしていた理恵だったが、今日はなんだか
+l
+子が違った
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1801,7 +1860,9 @@ _CGDA01
 [17]CHOICE
 [01]NEWLINE
 \x00
-わかりました、じゃあゆっくり考え事をして下さいね
+わかりました、じゃあゆっくり
+l
+え事をして下さいね
 \x00
 何かあったんですか
 \x00
@@ -1840,7 +1901,8 @@ _CGDA01
 [28]LOAD_GRAPHICS
 I2
 \x00
- DS11
+[20]LOAD_MUSIC
+DS11
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -1865,7 +1927,9 @@ CLEAR_TEXTBOX
 \x00
 6
 [01]NEWLINE
-「・・・昨日ね、お店に来てた人がね、しきりに言うの『あんた達の仕　事は楽でいいねぇ、俺達は日夜国民の為に働いてるから大変でねぇ』　ってね」
+「・・・昨日ね、お店に来てた
+l
+がね、しきりに言うの『あんた達の仕　事は楽でいいねぇ、俺達は日夜国民の為に働いてるから大変でねぇ』　ってね」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1955,7 +2019,9 @@ CLEAR_TEXTBOX
 \x00
 6
 [01]NEWLINE
-「相手のいる人間は喰っちゃわないって約束なんだけど・・・」
+「相手のいる
+l
+間は喰っちゃわないって約束なんだけど・・・」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2076,11 +2142,14 @@ _CGB01A
 [28]LOAD_GRAPHICS
 _CGDA01
 \x00
- DS07
+[20]LOAD_MUSIC
+DS07
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-いつもの様にあなたの横の席に座っていた理恵に、そっと声をかけた
+いつもの
+l
+にあなたの横の席に座っていた理恵に、そっと声をかけた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2125,7 +2194,9 @@ _CGDA01
 \x00
 6
 [01]NEWLINE
-「ん～、だって私が移ったら、本来あの台で稼ぐはずだった人が稼げな　いでしょ？」
+「ん～、だって私が移ったら、本来あの台で稼ぐはずだった
+l
+が稼げな　いでしょ？」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2154,11 +2225,14 @@ _CGB01A
 [28]LOAD_GRAPHICS
 _CGDA01
 \x00
- DS07
+[20]LOAD_MUSIC
+DS07
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-いつもの様にあなたの横の台を打っていた理恵が、今日は大当たりを連発していた
+いつもの
+l
+にあなたの横の台を打っていた理恵が、今日は大当たりを連発していた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2249,11 +2323,14 @@ _CGB01A
 [28]LOAD_GRAPHICS
 _CGDA03
 \x00
- DS07
+[20]LOAD_MUSIC
+DS07
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-いつもの様にあなたの横の席に座っていた理恵が、声をかけてきた
+いつもの
+l
+にあなたの横の席に座っていた理恵が、声をかけてきた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2291,7 +2368,9 @@ _CGDA03
 \x00
 6
 [01]NEWLINE
-「いかんねぇ、人のせいにするようじゃあ」
+「いかんねぇ、
+l
+のせいにするようじゃあ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2329,7 +2408,8 @@ _CGB01A
 [28]LOAD_GRAPHICS
 _CGDB01
 \x00
- DS07
+[20]LOAD_MUSIC
+DS07
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -2412,7 +2492,9 @@ _CGDB01
 \x00
 C<\x1e
 [01]NEWLINE
-「（意外と人混みにまぎれたらわかんないかもな）」
+「（意外と
+l
+混みにまぎれたらわかんないかもな）」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2441,7 +2523,9 @@ i
 [10]MALE_NAME
 \xc7<\x1e
 [01]NEWLINE
-「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
+「（もう
+l
+もかなり帰ったみたいだし、大丈夫だよな）」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2467,7 +2551,8 @@ i
 [28]LOAD_GRAPHICS
 _CGDB03
 \x00
- DS07
+[20]LOAD_MUSIC
+DS07
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -2601,7 +2686,9 @@ _CGDB03
 \x00
 \xef@\x1e
 [01]NEWLINE
-「（意外と人混みにまぎれたらわかんないかもな）」
+「（意外と
+l
+混みにまぎれたらわかんないかもな）」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00

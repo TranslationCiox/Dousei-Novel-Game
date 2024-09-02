@@ -16,7 +16,8 @@
 \x87
 \x00
 [11]FEMALE_NAME
-\x16\t
+[16]END_CHOICE
+\t
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -31,7 +32,8 @@ V\x02
 \x84
 \x00
 [11]FEMALE_NAME
-\x16\t
+[16]END_CHOICE
+\t
 \x00
 [15]NO_NAMETAG
 [02]CLEAR_TEXTBOX
@@ -46,7 +48,8 @@ V\x02
 \x84
 \x00
 [11]FEMALE_NAME
-\x16\t
+[16]END_CHOICE
+\t
 \x00
 [15]NO_NAMETAG
 \x03
@@ -61,7 +64,8 @@ C
 \x84
 \x00
 [11]FEMALE_NAME
-\x16\t
+[16]END_CHOICE
+\t
 \x00
 [15]NO_NAMETAG
 [04]MOVE_TO_OTHER_SEGMENT
@@ -76,7 +80,8 @@ T
 \x84
 \x00
 [11]FEMALE_NAME
-\x16\t
+[16]END_CHOICE
+\t
 \x00
 [15]NO_NAMETAG
 [05]CLICKWAIT
@@ -92,7 +97,8 @@ e
 \x84
 \x00
 [11]FEMALE_NAME
-\x16\t
+[16]END_CHOICE
+\t
 \x00
 [15]NO_NAMETAG
 \x06
@@ -107,7 +113,8 @@ v
 \x84
 \x00
 [11]FEMALE_NAME
-\x16\t
+[16]END_CHOICE
+\t
 \x00
 [15]NO_NAMETAG
 \x07
@@ -179,7 +186,8 @@ U\x02\x1fd
 [10]MALE_NAME
 ､X
 [11]FEMALE_NAME
-\x16\t
+[16]END_CHOICE
+\t
 \x00
 [15]NO_NAMETAG
 &
@@ -197,7 +205,8 @@ U\x02\x1fd
 [02]CLEAR_TEXTBOX
 \x00
 [11]FEMALE_NAME
-\x16\t
+[16]END_CHOICE
+\t
 \x00
 [15]NO_NAMETAG
 \x14
@@ -341,7 +350,8 @@ r
 [10]MALE_NAME
 U\x02
 [11]FEMALE_NAME
-\x16\t
+[16]END_CHOICE
+\t
 \x00
 [15]NO_NAMETAG
 !
@@ -391,7 +401,8 @@ U\x02
 \xb3
 [01]NEWLINE
 [10]MALE_NAME
-l.
+l
+.
 [10]MALE_NAME
 \x0b\x02
 [11]FEMALE_NAME
@@ -538,7 +549,9 @@ _CGAA04
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「とうとう二人で生活するのね～、なんだかドキドキするな～」
+「とうとう二
+l
+で生活するのね～、なんだかドキドキするな～」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -691,9 +704,13 @@ N\x07\x1d
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-n\t\x1d
+n
+\t
+[1d]FEMALE_NAMETAG
 [01]NEWLINE
-「ね、ね、と言うことはよ、私って若奥様ってことになるのかな・・・
+「ね、ね、と言うことはよ、私って若奥
+l
+ってことになるのかな・・・
 [01]NEWLINE
 　じゃあさ、『あなた☆』って呼んでもいい？」
 [05]CLICKWAIT
@@ -730,12 +747,16 @@ n\t\x1d
 [05]CLICKWAIT
 ・・・って、何あきれ顔で見　てるのよ！
 [05]CLICKWAIT
-　そこは、あなたも真っ赤な顔して『おまえ☆』って言っ　てくれないと、私、一人が馬鹿みたいじゃない」
+　そこは、あなたも真っ赤な顔して『おまえ☆』って言っ　てくれないと、私、一
+l
+が馬鹿みたいじゃない」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-n\t\x1d
+n
+\t
+[1d]FEMALE_NAMETAG
 [01]NEWLINE
 「今から恥ずかしがってどうするのよ。結婚したら結局そう呼ぶんだか　らね」
 [05]CLICKWAIT
@@ -774,7 +795,11 @@ _CGAA01
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「あ、そうそう、今日ね、近所の人達に挨拶して回ったんだけど、みん　ないい人ばかりだったわよ」
+「あ、そうそう、今日ね、近所の
+l
+達に挨拶して回ったんだけど、みん　ないい
+l
+ばかりだったわよ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -803,30 +828,40 @@ _CGAA01
 \x00
 \xb2\x0b\x1d
 [01]NEWLINE
-「へへへ・・・でも、ちょっと、こそばゆい感じで、い、いや、別にネ　コ被ってたわけじゃ無いんだけどね」
+「へへへ・・・でも、ちょっと、こそばゆい感じで、い、いや、別に
+l
+　コ被ってたわけじゃ無いんだけどね」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
 \x0b\x0c\x1d
 [01]NEWLINE
-「まあ、その人達の勘違いなんだけどね、なんか面倒くさかったから否　定もしなかったの」
+「まあ、その
+l
+達の勘違いなんだけどね、なんか面倒くさかったから否　定もしなかったの」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「それにしても、最近の人って、あんまり近所つきあいってしないのね
+「それにしても、最近の
+l
+って、あんまり近所つきあいってしないのね
 [01]NEWLINE
 [05]CLICKWAIT
-　私が挨拶しても、会釈だけって人も結構いたしね」
+　私が挨拶しても、会釈だけって
+l
+も結構いたしね」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [17]CHOICE
 [01]NEWLINE
 \x00
-それが今の人達だよ
+それが今の
+l
+達だよ
 \x00
 ずいぶん、そっけないなー
 \x00
@@ -845,29 +880,41 @@ _CGAA01
 「うん、解ってはいるのよ
 [05]CLICKWAIT
 [01]NEWLINE
-　でも、私は人と人とのつきあいって、一番大切だと思ってるから」
+　でも、私は
+l
+と
+l
+とのつきあいって、一番大切だと思ってるから」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「な、なによ、人の顔じっと見て、も、もう、照れるじゃない」
+「な、なによ、
+l
+の顔じっと見て、も、もう、照れるじゃない」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
 *\x0e\x1d
 [01]NEWLINE
-「でも、みんな、悪い人じゃないのよ
+「でも、みんな、悪い
+l
+じゃないのよ
 [05]CLICKWAIT
 [01]NEWLINE
-　ただ、ちょっと知らない人と話すのが、恥ずかしいのよ」
+　ただ、ちょっと知らない
+l
+と話すのが、恥ずかしいのよ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「え？　私？　私は人と話すの好きだもの、恥ずかしくなんかないよ
+「え？　私？　私は
+l
+と話すの好きだもの、恥ずかしくなんかないよ
 [05]CLICKWAIT
 [01]NEWLINE
 　それは、あなたが一番良く知ってるでしょ」
@@ -880,7 +927,9 @@ _CGAA01
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「今日ね、お義母様から電話があったんだけど・・・
+「今日ね、お義母
+l
+から電話があったんだけど・・・
 [05]CLICKWAIT
 [01]NEWLINE
 　なんか、ずいぶんと心配してたみたいだったよ
@@ -933,7 +982,9 @@ _CGAA01
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「でも、もうちょっとお義母様が安心するまでは、こまめに連絡は入れ　てあげてね」
+「でも、もうちょっとお義母
+l
+が安心するまでは、こまめに連絡は入れ　てあげてね」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1075,7 +1126,11 @@ r\x14\x1d
 「い～じゃない、ちょっとぐらい恥ずかしかったって
 [01]NEWLINE
 [05]CLICKWAIT
-　そういう所に、二人で、嬉しそうな顔して、入っていけるようになっ　てこそ、『本当の恋人』ってものよ」
+　そういう所に、二
+l
+で、嬉しそうな顔して、入っていけるようになっ　てこそ、『本当の恋
+l
+』ってものよ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1171,7 +1226,9 @@ _CGAA01
 「『もちろん！』って
 [05]CLICKWAIT
 [01]NEWLINE
-　自分の恋人を『変！』って事は無いでしょうが！！！」
+　自分の恋
+l
+を『変！』って事は無いでしょうが！！！」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1215,7 +1272,9 @@ _CGAA01
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「何十年も連れ添った夫婦が、突然別れちゃうなんて、私には考えられ　ないんだけど・・・・・」
+「何十年も連れ添った夫婦が、突然別れちゃうなんて、私には
+l
+えられ　ないんだけど・・・・・」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1322,7 +1381,9 @@ T
 [01]NEWLINE
 「私はねえ・・・・・
 [05]CLICKWAIT
-これからもずっと、こうやって、今、目の前にい　る人を見ていたいだけ・・・・・」
+これからもずっと、こうやって、今、目の前にい　る
+l
+を見ていたいだけ・・・・・」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1332,7 +1393,9 @@ _CGAA02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「今日ね・・・・・お医者様の所に行ってきたの・・・・・」
+「今日ね・・・・・お医者
+l
+の所に行ってきたの・・・・・」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1450,7 +1513,9 @@ _CGAA02
 \x00
 素直に聴いたらよかったのに
 \x00
-人を試すなんてダメ
+\x90
+l
+を試すなんてダメ
 \x00
 \x00
 [1d]FEMALE_NAMETAG
@@ -1528,14 +1593,18 @@ _CGAA01
 \x00
 [02]CLEAR_TEXTBOX
 \x00
-` \x1d
+`
+[20]LOAD_MUSIC
+[1d]FEMALE_NAMETAG
 [01]NEWLINE
 「でしょ～こんなに早くに結婚なんかしたら、多分苦労するわよねぇ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-\x97 \x1d
+\x97
+[20]LOAD_MUSIC
+[1d]FEMALE_NAMETAG
 [01]NEWLINE
 「まーたそうやって、興味のない振りをするんだから」
 [05]CLICKWAIT
@@ -1643,7 +1712,9 @@ X#\x1d
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「ねえ、ねえ、ネコってカワイイと思わない？」
+「ねえ、ねえ、
+l
+コってカワイイと思わない？」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1672,7 +1743,9 @@ X#\x1d
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「でも、私はネコの方がいいなあ
+「でも、私は
+l
+コの方がいいなあ
 [05]CLICKWAIT
 [01]NEWLINE
 　普段はぜーんぜん甘えてもこないのに、餌とか貰うときになると急に　甘え出すようなとこなんかが、もう・・・・・」
@@ -1690,7 +1763,9 @@ X#\x1d
 [10]MALE_NAME
 3%\x1d
 [01]NEWLINE
-「でっしょー！　ネコの目って、じーっと見てると、ほんとに綺麗だし　肉球もぷにぷにしてて気持ちいいのお」
+「でっしょー！　
+l
+コの目って、じーっと見てると、ほんとに綺麗だし　肉球もぷにぷにしてて気持ちいいのお」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1702,7 +1777,9 @@ X#\x1d
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「よーし、じゃあもし、将来、ペットが飼えるようになったら、その時　は、絶対ネコ飼うからね」
+「よーし、じゃあもし、将来、ペットが飼えるようになったら、その時　は、絶対
+l
+コ飼うからね」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1990,7 +2067,9 @@ k+\x1d
 [17]CHOICE
 [01]NEWLINE
 \x00
-いやいや、いつも言ってたら言葉の値打ちが下がるじゃないか
+いやいや、いつも言ってたら言葉の
+l
+打ちが下がるじゃないか
 \x00
 目で合図してたんだけどな・・・
 \x00
@@ -2068,7 +2147,9 @@ _CGAA01
 \x00
 [02]CLEAR_TEXTBOX
 \x00
-\x1b.\x1d
+\x1b
+.
+[1d]FEMALE_NAMETAG
 [01]NEWLINE
 「・・・私、雪って好きだな～」
 [05]CLICKWAIT
@@ -2081,7 +2162,9 @@ _CGAA01
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-k.\x1d
+k
+.
+[1d]FEMALE_NAMETAG
 [01]NEWLINE
 「だらしないなあ！
 [05]CLICKWAIT
@@ -2104,7 +2187,9 @@ _CGAA01
 「え？　『古い』？　悪かったわねー！
 [05]CLICKWAIT
 [01]NEWLINE
-　本人は結構楽しんでいるんだからね！
+　本
+l
+は結構楽しんでいるんだからね！
 [05]CLICKWAIT
 　だから、協力してよね！」
 [05]CLICKWAIT
@@ -2156,7 +2241,9 @@ _CGAA01
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-『第二次大戦中、イギリス、ロシア、アメリカの３カ国の首相が集まっ　てヤルタ会談が行われましたが、その時のロシア代表の人物は誰でし　ょう』
+『第二次大戦中、イギリス、ロシア、アメリカの３カ国の首相が集まっ　てヤルタ会談が行われましたが、その時のロシア代表の
+l
+物は誰でし　ょう』
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2337,7 +2424,11 @@ _CGAA02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「ねえ！ねえ！ねえ！　地球人の半分は異星人が化けてるって本当？」
+「ねえ！ねえ！ねえ！　地球
+l
+の半分は異星
+l
+が化けてるって本当？」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2360,7 +2451,9 @@ _CGAA02
 \x00
 t5\x1d
 [01]NEWLINE
-「それでね、テレビに出てる有名人とか、政治家も、みーんなエイリア　ンなんだって！！
+「それでね、テレビに出てる有名
+l
+とか、政治家も、みーんなエイリア　ンなんだって！！
 [05]CLICKWAIT
 　え？・・・おかしくなんかなってないわよ！！！　全部、この本に出てたんだから！」
 [05]CLICKWAIT
@@ -2375,7 +2468,9 @@ t5\x1d
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「後ね、今、アメリカとかで秘密のＵＦＯが作られてて、あと２．３年　の内に攻めてくる宇宙人と戦争するんだって」
+「後ね、今、アメリカとかで秘密のＵＦＯが作られてて、あと２．３年　の内に攻めてくる宇宙
+l
+と戦争するんだって」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2410,7 +2505,9 @@ t5\x1d
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「でもでも、そういうこと考えるのって楽しいじゃない！」
+「でもでも、そういうこと
+l
+えるのって楽しいじゃない！」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2420,7 +2517,9 @@ H7\x1d
 「いや、あのね、別に私だって信じてる訳じゃないのよ
 [05]CLICKWAIT
 [01]NEWLINE
-　でも、こういう考え方って、なんか夢があるじゃない、それが、楽し　いのよ」
+　でも、こういう
+l
+え方って、なんか夢があるじゃない、それが、楽し　いのよ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2472,7 +2571,9 @@ _CGAA01
 [01]NEWLINE
 「え、マジで？
 [05]CLICKWAIT
-　２人しかいないのに？」
+　２
+l
+しかいないのに？」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2492,7 +2593,9 @@ _CGAA01
 [01]NEWLINE
 「パッ、パツ、パッっと、やったあ終了！
 [05]CLICKWAIT
-　・・・って、あれ、なんで　２人とも終わってるの？
+　・・・って、あれ、なんで　２
+l
+とも終わってるの？
 [05]CLICKWAIT
 ・・・もしかして・・・やっぱりー！！！　　このトランプ、ババが無いわ・・・」
 [05]CLICKWAIT
@@ -2736,7 +2839,8 @@ k?\x1d
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-\tA\x1d
+\t
+A\x1d
 [01]NEWLINE
 「じゃあ、どれにしよっか～・・・
 [05]CLICKWAIT
@@ -2861,7 +2965,9 @@ _CGAA01
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「でもさぁ、やっぱり日本人なら、お茶を飲まなきゃね・・・
+「でもさぁ、やっぱり日本
+l
+なら、お茶を飲まなきゃね・・・
 [05]CLICKWAIT
 [01]NEWLINE
 　う～ん・・・でもちょっと、年寄りくさいかなぁ」
@@ -2893,7 +2999,11 @@ _CGAA01
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「今日ね、ちょっと近くの公園に行ったらね、小さい子を連れた若　奥様って感じの人達がいてね、なんか楽しそうに話してたから、仲間　に入れてもらっちゃった」
+「今日ね、ちょっと近くの公園に行ったらね、小さい子を連れた若　奥
+l
+って感じの
+l
+達がいてね、なんか楽しそうに話してたから、仲間　に入れてもらっちゃった」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2930,7 +3040,9 @@ F\x1d
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「うーん、他の所の事は良くわかんなかったけど、みんないい人ばかり　だったよ」
+「うーん、他の所の事は良くわかんなかったけど、みんないい
+l
+ばかり　だったよ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -3051,10 +3163,14 @@ _CGAA02
 \x00
 ゜
 [01]NEWLINE
-「本当にねぇ、ただね、すぐに家の人が帰ってきたらしくて、実質的な　被害は無かったみたいなんだけど・・・
+「本当にねぇ、ただね、すぐに家の
+l
+が帰ってきたらしくて、実質的な　被害は無かったみたいなんだけど・・・
 [05]CLICKWAIT
 [01]NEWLINE
-　まだ、犯人つかまって無いんだって～」
+　まだ、犯
+l
+つかまって無いんだって～」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -3132,7 +3248,9 @@ UM\x1d
 [10]MALE_NAME
 UM\x1d
 [01]NEWLINE
-「なんか、すぐに家の人が帰ってきたらしくて実質的な被害って無かっ　たんだって
+「なんか、すぐに家の
+l
+が帰ってきたらしくて実質的な被害って無かっ　たんだって
 [05]CLICKWAIT
 　これって、不幸中の幸いだよね」
 [05]CLICKWAIT
@@ -3173,7 +3291,9 @@ _CGAA03
 「でしょー、でね、そのガキの横には、母親もいたのよ！
 [05]CLICKWAIT
 [01]NEWLINE
-　私、頭にきてたから、その２人に止めて下さい！って言ったのよ」
+　私、頭にきてたから、その２
+l
+に止めて下さい！って言ったのよ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -3188,7 +3308,9 @@ _CGAA03
 「『いいじゃない、野良猫でしょ』よー！！！
 [05]CLICKWAIT
 [01]NEWLINE
-　私、すっごい頭にきたから、速攻で子猫を抱え上げて、２人をにらん　でやったの」
+　私、すっごい頭にきたから、速攻で子猫を抱え上げて、２
+l
+をにらん　でやったの」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -3236,13 +3358,17 @@ _CGAA03
 [01]NEWLINE
 「当然！
 [05]CLICKWAIT
-　私ってほら、ネコの事になると、押さえきかないから」
+　私ってほら、
+l
+コの事になると、押さえきかないから」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「でもね、たぶん、あれが犬であろうと、人間であろうと、助けたんじ　ゃないかな
+「でもね、たぶん、あれが犬であろうと、
+l
+間であろうと、助けたんじ　ゃないかな
 [05]CLICKWAIT
 [01]NEWLINE
 　私、ああいうのが、１番嫌いだもん！」
@@ -3296,12 +3422,15 @@ _CGAA04
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-lS\x1d
+l
+S\x1d
 [01]NEWLINE
 「え～・・・そうかな？
 [05]CLICKWAIT
 [01]NEWLINE
-　本人は、メチャメチャ若いつもりなんだけどな～」
+　本
+l
+は、メチャメチャ若いつもりなんだけどな～」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -3373,7 +3502,9 @@ _CGAA01
 \x00
 なんでまた？
 \x00
-歳を考えろって
+歳を
+l
+えろって
 \x00
 \x00
 [11]FEMALE_NAME
@@ -3461,7 +3592,8 @@ oW\x1d
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-lW\x1d
+l
+W\x1d
 [01]NEWLINE
 「べつに～・・・ただ、ちょっと、しゃべりたくないだけ」
 [05]CLICKWAIT
@@ -3569,7 +3701,9 @@ _CGAA02
 [01]NEWLINE
 「そう
 [05]CLICKWAIT
-　じゃ、たまには２人でぼぉーーーーーーーっとしてよっか」
+　じゃ、たまには２
+l
+でぼぉーーーーーーーっとしてよっか」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00

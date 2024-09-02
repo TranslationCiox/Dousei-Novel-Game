@@ -12,7 +12,8 @@ z\x02
 [28]LOAD_GRAPHICS
 _CGB19
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -134,7 +135,8 @@ Z
 [28]LOAD_GRAPHICS
 _CGB19
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -194,7 +196,8 @@ r
 [28]LOAD_GRAPHICS
 _CGB19
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -228,14 +231,17 @@ _CGB19
 [28]LOAD_GRAPHICS
 _CGB00
 \x00
- DS13
+[20]LOAD_MUSIC
+DS13
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
 結局あなたは一睡も出来なかった
 [05]CLICKWAIT
 CLEAR_TEXTBOX
-一晩中つけっぱなしにしておいたテレビからは、トンネル事故の続報が次々と流れていたが、その中に
+一晩中つけっぱなしにしておいたテレビからは、トン
+l
+ル事故の続報が次々と流れていたが、その中に
 [11]FEMALE_NAME
 の名前が出てくることもなかった
 [05]CLICKWAIT
@@ -278,7 +284,9 @@ g
 [28]LOAD_GRAPHICS
 _CGAG04
 \x00
-h DS06
+h
+[20]LOAD_MUSIC
+DS06
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -367,11 +375,13 @@ h DS06
 \x00
 [02]CLEAR_TEXTBOX
 \x00
-\xb7\t
+\xb7
+\t
 [28]LOAD_GRAPHICS
 w02
 \x00
- ds10
+[20]LOAD_MUSIC
+ds10
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -414,7 +424,9 @@ CLEAR_TEXTBOX
 [01]NEWLINE
 あなたの言葉に
 [11]FEMALE_NAME
-は困ったような表情を浮かべたが、いやがっている様子はなかった
+は困ったような表情を浮かべたが、いやがっている
+l
+子はなかった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -474,7 +486,9 @@ CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「で、ラジオでトンネル事故の事とか聞いて、心配してるだろうなぁと　は思ってたんだけど・・・」
+「で、ラジオでトン
+l
+ル事故の事とか聞いて、心配してるだろうなぁと　は思ってたんだけど・・・」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -511,7 +525,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _CGB00
 \x00
- DS13
+[20]LOAD_MUSIC
+DS13
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -525,7 +540,9 @@ CLEAR_TEXTBOX
 CLEAR_TEXTBOX
 あなたは、昨日の夜に
 [11]FEMALE_NAME
-に寝てろと言ったのだが、一人だと不安で眠れないと言って、一晩中あなたにしがみついていた
+に寝てろと言ったのだが、一
+l
+だと不安で眠れないと言って、一晩中あなたにしがみついていた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -558,7 +575,8 @@ CLEAR_TEXTBOX
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
- DS10
+[20]LOAD_MUSIC
+DS10
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -617,7 +635,9 @@ _CGAA03
 「・・・ゴメンじゃないわよー！
 [05]CLICKWAIT
 [01]NEWLINE
-　私はあのトンネル事故に巻き込まれたんじゃないかって・・・・・
+　私はあのトン
+l
+ル事故に巻き込まれたんじゃないかって・・・・・
 [05]CLICKWAIT
 [01]NEWLINE
 　不安で・・・・・」
@@ -627,7 +647,9 @@ _CGAA03
 [15]NO_NAMETAG
 [01]NEWLINE
 [11]FEMALE_NAME
-は言葉に詰まってしまい、何も言えなくなってしまった
+は言葉に
+l
+まってしまい、何も言えなくなってしまった
 [05]CLICKWAIT
 CLEAR_TEXTBOX
 あなたは、
@@ -685,7 +707,8 @@ V3
 [28]LOAD_GRAPHICS
 _CGAA01
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -731,7 +754,8 @@ _CGAA01
 [28]LOAD_GRAPHICS
 _CGAA02
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -814,7 +838,8 @@ E1
 [28]LOAD_GRAPHICS
 _CGB18
 \x00
- DS10
+[20]LOAD_MUSIC
+DS10
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
@@ -939,7 +964,9 @@ E2
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「・・・死んじゃあやだよぉ・・・私を・・・一人に・・・」
+「・・・死んじゃあやだよぉ・・・私を・・・一
+l
+に・・・」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1023,7 +1050,8 @@ _CGB00
 [28]LOAD_GRAPHICS
 _CGAk01
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -1133,7 +1161,8 @@ _CGAk01
 [28]LOAD_GRAPHICS
 W1B
 \x00
- DS10
+[20]LOAD_MUSIC
+DS10
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE

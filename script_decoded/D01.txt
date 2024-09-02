@@ -106,10 +106,12 @@ w
 }
 [05]CLICKWAIT
 [11]FEMALE_NAME
-\x16 
+[16]END_CHOICE
+[20]LOAD_MUSIC
 \x00
 [15]NO_NAMETAG
- \x03
+[20]LOAD_MUSIC
+\x03
 [04]MOVE_TO_OTHER_SEGMENT
 \x17\x1b
 \x00
@@ -126,7 +128,8 @@ w
 }
 [05]CLICKWAIT
 [11]FEMALE_NAME
-\x16 
+[16]END_CHOICE
+[20]LOAD_MUSIC
 \x00
 [15]NO_NAMETAG
 \xbc\x02
@@ -147,7 +150,8 @@ w
 }
 [05]CLICKWAIT
 [11]FEMALE_NAME
-\x16 
+[16]END_CHOICE
+[20]LOAD_MUSIC
 \x00
 [15]NO_NAMETAG
 X\x02
@@ -167,7 +171,8 @@ X\x02
 }
 [05]CLICKWAIT
 [11]FEMALE_NAME
-\x16 
+[16]END_CHOICE
+[20]LOAD_MUSIC
 \x00
 [15]NO_NAMETAG
 \xc8
@@ -338,7 +343,9 @@ _CGAG04
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「・・・これ、ネックレスじゃない！
+「・・・これ、
+l
+ックレスじゃない！
 [05]CLICKWAIT
 [01]NEWLINE
 　ほんとにもらっていいのぉ・・・・・」
@@ -360,7 +367,9 @@ _CGAG04
 [15]NO_NAMETAG
 [01]NEWLINE
 [11]FEMALE_NAME
-は、大事そうにネックレスを胸に抱いて、軽い足取りで部屋の中に入っていった
+は、大事そうに
+l
+ックレスを胸に抱いて、軽い足取りで部屋の中に入っていった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -415,7 +424,9 @@ _CGAG04
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「へぇ～、じゃあ、食事の後に２人で食べよ☆」
+「へぇ～、じゃあ、食事の後に２
+l
+で食べよ☆」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -452,7 +463,8 @@ _CGAG01
 [28]LOAD_GRAPHICS
 _CGAG04
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
@@ -482,7 +494,8 @@ _CGAG04
 [28]LOAD_GRAPHICS
 D1
 \x00
- DS06
+[20]LOAD_MUSIC
+DS06
 \x00
 ?
 [01]NEWLINE
@@ -492,7 +505,9 @@ D1
 \x00
 >
 [01]NEWLINE
-「ば～か、こいつら、２人で暮らし初めて、まだ数日なんだぜ～
+「ば～か、こいつら、２
+l
+で暮らし初めて、まだ数日なんだぜ～
 [05]CLICKWAIT
 [01]NEWLINE
 　元気バリバリで、朝から晩まで・・・ぐふふふふぅ」
@@ -510,7 +525,11 @@ D1
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-３人の友人は、いつもと変わらない挨拶をしながらいつもと変わらない笑顔を見せた
+３
+l
+の友
+l
+は、いつもと変わらない挨拶をしながらいつもと変わらない笑顔を見せた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -525,7 +544,9 @@ D1
 「そうだなぁ・・・・・・・
 [05]CLICKWAIT
 [01]NEWLINE
-　それにしてもよ、本当に２人だけでやっていけてるのか？」
+　それにしてもよ、本当に２
+l
+だけでやっていけてるのか？」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -546,9 +567,13 @@ D1
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-（この下ネタ連発男は『佐伯智也』
+（この下
+l
+タ連発男は『佐伯智也』
 [01]NEWLINE
-　いつも、いつも下品な事ばかり言っているが、不思議と人から好かれ　ている）
+　いつも、いつも下品な事ばかり言っているが、不思議と
+l
+から好かれ　ている）
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -560,7 +585,9 @@ D1
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-（そして、もう一人、いつも智也の言うことにツッコミを入れて、場を　なごませているのは『鈴木優子』
+（そして、もう一
+l
+、いつも智也の言うことにツッコミを入れて、場を　なごませているのは『鈴木優子』
 [05]CLICKWAIT
 [01]NEWLINE
 　同い年だが、みんなからは「お姉」と呼ばれている）
@@ -589,7 +616,9 @@ D1
 「なんか、とげがあんな～
 [05]CLICKWAIT
 [01]NEWLINE
-　２人きりの時間を邪魔したからって、そんなに怒るなよぅ～」
+　２
+l
+きりの時間を邪魔したからって、そんなに怒るなよぅ～」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -658,7 +687,9 @@ N\x0c>
 [10]MALE_NAME
 \x90\r@
 [01]NEWLINE
-「ごめんね～、こいつ、２人に妬いてんのよ
+「ごめんね～、こいつ、２
+l
+に妬いてんのよ
 [05]CLICKWAIT
 [01]NEWLINE
 　だからつい、こんなこと言っちゃのよ」
@@ -741,7 +772,9 @@ N\x0c>
 \x00
 @
 [01]NEWLINE
-「ごめんね～、この２人がどーしてもやるって言って聞かなくてね～」
+「ごめんね～、この２
+l
+がどーしてもやるって言って聞かなくてね～」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -779,7 +812,9 @@ N\x0c>
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-やがて宴会も終盤にさしかかり、一人窓際の壁にもたれて、少しずつビールを飲んでいると、いつのまにか
+やがて宴会も終盤にさしかかり、一
+l
+窓際の壁にもたれて、少しずつビールを飲んでいると、いつのまにか
 [11]FEMALE_NAME
 が隣に座っていた・・・
 [05]CLICKWAIT
@@ -810,7 +845,9 @@ N\x0c>
 \x00
 \xc7\x12\x1d
 [01]NEWLINE
-「私、なんとなく、このメンバーってこれからも全然変わらない様な気　がするの」
+「私、なんとなく、このメンバーってこれからも全然変わらない
+l
+な気　がするの」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -832,7 +869,9 @@ N\x0c>
 [15]NO_NAMETAG
 [01]NEWLINE
 [11]FEMALE_NAME
-は、優しい目で友人達を見ながら、両手で持っていたコップを、軽く揺らした
+は、優しい目で友
+l
+達を見ながら、両手で持っていたコップを、軽く揺らした
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -901,7 +940,8 @@ w\x13\x1d
 [28]LOAD_GRAPHICS
 _CGAA05
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -1119,7 +1159,8 @@ b\x17\x1e
 [28]LOAD_GRAPHICS
 E3
 \x00
- DS10
+[20]LOAD_MUSIC
+DS10
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -1383,7 +1424,8 @@ r
 [28]LOAD_GRAPHICS
 _CGAE04
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -1627,7 +1669,9 @@ _CGAE04
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-いきなりのあなたの変わり様に、
+いきなりのあなたの変わり
+l
+に、
 [11]FEMALE_NAME
 はびっくりした表情を浮かべた
 [05]CLICKWAIT
@@ -1642,7 +1686,8 @@ _CGAE04
 [28]LOAD_GRAPHICS
 08_1
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -1691,7 +1736,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-形の良い胸の形が、食い込んでくる指によって様々な形へと変化する度、
+形の良い胸の形が、食い込んでくる指によって
+l
+々な形へと変化する度、
 [11]FEMALE_NAME
 は切なそうな声を上げた
 [05]CLICKWAIT
@@ -1990,7 +2037,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-２人の腰の動きが一段と激しくなり、最大限に膨張したペニスを
+２
+l
+の腰の動きが一段と激しくなり、最大限に膨張したペニスを
 [11]FEMALE_NAME
 の膣内がきつく締め付けた
 [05]CLICKWAIT
@@ -2010,14 +2059,17 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-大量の精液が彼女の膣中へとそそぎ込まれ、２人は疲れ果てたようにその場に倒れ込んだ
+大量の精液が彼女の膣中へとそそぎ込まれ、２
+l
+は疲れ果てたようにその場に倒れ込んだ
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [28]LOAD_GRAPHICS
 _CGAD01
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
@@ -2060,7 +2112,8 @@ _CGAD01
 [28]LOAD_GRAPHICS
 _CGAF04
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -2116,7 +2169,9 @@ CLEAR_TEXTBOX
 「ま、まあ、確かに嫌いじゃ無いけど・・・
 [05]CLICKWAIT
 [01]NEWLINE
-　もしここにいるのが俺じゃなくて、誰か違う人が訪ねてきてたらすごい事になってたぞ」
+　もしここにいるのが俺じゃなくて、誰か違う
+l
+が訪ねてきてたらすごい事になってたぞ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2176,7 +2231,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 07_1
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -2309,7 +2365,9 @@ CLEAR_TEXTBOX
 CLEAR_TEXTBOX
 あなたも、
 [11]FEMALE_NAME
-の体が崩れ落ち無い様にしっかりと腰を抱えると、もうすでに濡れ濡れになっている秘処を思う存分突きまくっていた
+の体が崩れ落ち無い
+l
+にしっかりと腰を抱えると、もうすでに濡れ濡れになっている秘処を思う存分突きまくっていた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2383,7 +2441,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _CGAF01
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
@@ -2415,7 +2474,8 @@ _CGAF01
 [28]LOAD_GRAPHICS
 _CGB12A
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -2547,14 +2607,17 @@ CLEAR_TEXTBOX
 「こ、こいつは～！　ちょっとはじっとしてろよ！　こら！
 [05]CLICKWAIT
 [01]NEWLINE
-　・・・よーし、そっちがその気なら、こっちだって考えがあるぞ！」
+　・・・よーし、そっちがその気なら、こっちだって
+l
+えがあるぞ！」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [28]LOAD_GRAPHICS
 04_1
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -2834,7 +2897,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 04_4
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -2909,7 +2973,8 @@ r
 [28]LOAD_GRAPHICS
 _CGAG01
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -2965,7 +3030,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 03_1
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -3270,7 +3336,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _CGAI02
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -3335,7 +3402,8 @@ _CGAI02
 [28]LOAD_GRAPHICS
 _CGB12B
 \x00
- DS13
+[20]LOAD_MUSIC
+DS13
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -3369,7 +3437,9 @@ CLEAR_TEXTBOX
 「この部屋で暮らし初めて、こんなに静かな日は初めてだな・・・
 [05]CLICKWAIT
 [01]NEWLINE
-　もし１人になったらずっとこんな日が続くのか・・・」
+　もし１
+l
+になったらずっとこんな日が続くのか・・・」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -3381,7 +3451,9 @@ CLEAR_TEXTBOX
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「馬鹿な事考えてないで早いとこ寝るか」
+「馬鹿な事
+l
+えてないで早いとこ寝るか」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -3395,7 +3467,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _CGB12A
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -3474,7 +3547,13 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-「今日未明、なんとかスキー場近くの○○トンネルで落盤事故があり、　少なくとも車数十台、５０人以上の人が行方不明になっています
+「今日未明、なんとかスキー場近くの○○トン
+l
+ルで落盤事故があり、　少なくとも車数十台、５０
+l
+以上の
+l
+が行方不明になっています
 [05]CLICKWAIT
 [01]NEWLINE
 　落盤の詳しい原因については・・・・・」
@@ -3501,7 +3580,8 @@ CLEAR_TEXTBOX
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
- DS13
+[20]LOAD_MUSIC
+DS13
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -3520,7 +3600,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたは必死でいい方に考えようとしたが、不安は増すばかりだった
+あなたは必死でいい方に
+l
+えようとしたが、不安は増すばかりだった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -3553,7 +3635,9 @@ A
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「・・・考えることは、みんな同じか」
+「・・・
+l
+えることは、みんな同じか」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -3622,7 +3706,9 @@ A
 \x00
 A
 [01]NEWLINE
-「・・・・・どうも、あのトンネル事故の少し前に
+「・・・・・どうも、あのトン
+l
+ル事故の少し前に
 [05]CLICKWAIT
 [01]NEWLINE
 　・・・・・ここを出発された・・ようです」
@@ -3671,7 +3757,8 @@ i
 [28]LOAD_GRAPHICS
 _CGAG03
 \x00
- DS13
+[20]LOAD_MUSIC
+DS13
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
@@ -3778,7 +3865,9 @@ _CGAG03
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなたの頭の中は、今までで一番速い速度で回っているんじゃないかと思うくらい、いろいろな考えが駆けめぐっていた
+あなたの頭の中は、今までで一番速い速度で回っているんじゃないかと思うくらい、いろいろな
+l
+えが駆けめぐっていた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -3915,7 +4004,8 @@ x
 [28]LOAD_GRAPHICS
 V3
 \x00
- DS10
+[20]LOAD_MUSIC
+DS10
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -3941,7 +4031,9 @@ V3
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「あの人のこと好きなの？」
+「あの
+l
+のこと好きなの？」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -3959,13 +4051,17 @@ V3
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「じゃあ、あの人と・・・」
+「じゃあ、あの
+l
+と・・・」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-思い詰めて何かを言おうとする
+思い
+l
+めて何かを言おうとする
 [11]FEMALE_NAME
 の腕をつかんで、あなたは真剣な表情で話しかけた
 [05]CLICKWAIT
@@ -3982,7 +4078,9 @@ V3
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「だから別に俺とあの人がつきあうとか、そういうことは全然ないし」
+「だから別に俺とあの
+l
+がつきあうとか、そういうことは全然ないし」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -4088,7 +4186,9 @@ _CGB00
 「ふ～ん、そうなんだぁ
 [05]CLICKWAIT
 [01]NEWLINE
-　じゃあ今日、街で見かけた人って、
+　じゃあ今日、街で見かけた
+l
+って、
 [10]MALE_NAME
 じゃなかったんだぁ」
 [05]CLICKWAIT
@@ -4132,7 +4232,9 @@ _CGB00
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「また、ずいぶんと楽しそうに歩いてたわねぇ、知らない女の人と！」
+「また、ずいぶんと楽しそうに歩いてたわねぇ、知らない女の
+l
+と！」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -4269,7 +4371,8 @@ V2
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-.\x81
+.
+\x81
 [15]NO_NAMETAG
 [01]NEWLINE
 [11]FEMALE_NAME
@@ -4286,7 +4389,8 @@ V2
 [28]LOAD_GRAPHICS
 V3
 \x00
- DS10
+[20]LOAD_MUSIC
+DS10
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -4299,7 +4403,9 @@ CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「あの人のこと好きなの？」
+「あの
+l
+のこと好きなの？」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -4317,13 +4423,17 @@ CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「じゃあ、あの人と・・・」
+「じゃあ、あの
+l
+と・・・」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-思い詰めて何かを言おうとする
+思い
+l
+めて何かを言おうとする
 [11]FEMALE_NAME
 の腕をつかんで、あなたは真剣な表情で話しかけた
 [05]CLICKWAIT
@@ -4340,7 +4450,9 @@ CLEAR_TEXTBOX
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「だから別に俺とあの人がつきあうとか、そういうことは全然ないし」
+「だから別に俺とあの
+l
+がつきあうとか、そういうことは全然ないし」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -4481,7 +4593,9 @@ N\x82
 \x98\x82
 [15]NO_NAMETAG
 [01]NEWLINE
-そして、２人の新たなるストーリーは、二度と描かれることはなかった
+そして、２
+l
+の新たなるストーリーは、二度と描かれることはなかった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -4500,7 +4614,8 @@ t
 [28]LOAD_GRAPHICS
 _ED08_1
 \x00
- DS07
+[20]LOAD_MUSIC
+DS07
 \x00
 6
 [01]NEWLINE
@@ -4593,7 +4708,8 @@ _ED08_1
 [28]LOAD_GRAPHICS
 _ED10_1
 \x00
- DS08
+[20]LOAD_MUSIC
+DS08
 \x00
 7
 [01]NEWLINE
@@ -4694,7 +4810,8 @@ _ED10_1
 [28]LOAD_GRAPHICS
 _ED09_1
 \x00
- DS09
+[20]LOAD_MUSIC
+DS09
 \x00
 8
 [01]NEWLINE

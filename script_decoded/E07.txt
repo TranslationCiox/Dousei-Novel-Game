@@ -1,6 +1,7 @@
 [11]FEMALE_NAME
 [11]FEMALE_NAME
-\x16 
+[16]END_CHOICE
+[20]LOAD_MUSIC
 \x00
 [15]NO_NAMETAG
 \xf4
@@ -32,7 +33,8 @@
 \\
 \x00
 [11]FEMALE_NAME
-\x16 
+[16]END_CHOICE
+[20]LOAD_MUSIC
 \x00
 [15]NO_NAMETAG
 \x90
@@ -53,13 +55,15 @@ F
 \\
 \x00
 [11]FEMALE_NAME
-\x16 
+[16]END_CHOICE
+[20]LOAD_MUSIC
 \x00
 [15]NO_NAMETAG
 ,
 [01]NEWLINE
 [04]MOVE_TO_OTHER_SEGMENT
-\x17 
+[17]CHOICE
+[20]LOAD_MUSIC
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -137,7 +141,9 @@ _CGB18
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「そう、私も驚いてるんだけど、なんかいろんな服を鞄に詰め込んだ時　に、紛れこんじゃったみたいね」
+「そう、私も驚いてるんだけど、なんかいろんな服を鞄に
+l
+め込んだ時　に、紛れこんじゃったみたいね」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -158,7 +164,8 @@ _CGB18
 [28]LOAD_GRAPHICS
 15_1
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -201,7 +208,9 @@ _CGB18
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あの頃といってもそんなに昔のことではないのだけれど、二人の始まりである高校時代はいろんな事がありすぎて、思い出も多い
+あの頃といってもそんなに昔のことではないのだけれど、二
+l
+の始まりである高校時代はいろんな事がありすぎて、思い出も多い
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -219,7 +228,9 @@ _CGB18
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「ねえ、今日は二人ともあの頃に戻ろ・・・」
+「ねえ、今日は二
+l
+ともあの頃に戻ろ・・・」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -258,7 +269,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-二人は少しの間抱きしめあったたあと、自然にくちびるを重ね合わした
+二
+l
+は少しの間抱きしめあったたあと、自然にくちびるを重ね合わした
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -278,13 +291,17 @@ CLEAR_TEXTBOX
 初めてのキスからこれは何回目なのだろうか
 [05]CLICKWAIT
 CLEAR_TEXTBOX
-しばらくして二人は寄り添うようにベッドに座り込んだ
+しばらくして二
+l
+は寄り添うようにベッドに座り込んだ
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「・・・あの頃は二人とも初々しかったよね・・・・・
+「・・・あの頃は二
+l
+とも初々しかったよね・・・・・
 [05]CLICKWAIT
 [01]NEWLINE
 　って今でも私は十分初々しいけど」
@@ -485,7 +502,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-キスを交わしながら二人は手と手をにぎりあってそのままゆっくりと
+キスを交わしながら二
+l
+は手と手をにぎりあってそのままゆっくりと
 [01]NEWLINE
 ベッドに倒れこんでいった
 [05]CLICKWAIT
@@ -791,7 +810,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _CGB18
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -864,7 +884,8 @@ r
 [28]LOAD_GRAPHICS
 _CGAC01
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -944,7 +965,9 @@ _CGAC04
 [01]NEWLINE
 「そうだよぉ
 [01]NEWLINE
-　たまにはいいでしょ、こうやって２人でお酒を飲むってのも」
+　たまにはいいでしょ、こうやって２
+l
+でお酒を飲むってのも」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1081,7 +1104,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 06_1
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -1146,7 +1170,9 @@ CLEAR_TEXTBOX
 [01]NEWLINE
 [02]CLEAR_TEXTBOX
 [11]FEMALE_NAME
-は、人差し指と中指でペニスを挟むと、自分の割れ目へとあてがい、ゆっくりと腰を落としていった
+は、
+l
+差し指と中指でペニスを挟むと、自分の割れ目へとあてがい、ゆっくりと腰を落としていった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1237,7 +1263,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-２人の腰の動きが一段と激しくなり、熱い固まりとなったあなたの物が
+２
+l
+の腰の動きが一段と激しくなり、熱い固まりとなったあなたの物が
 [11]FEMALE_NAME
 の秘処の中を暴れ回っていた
 [05]CLICKWAIT
@@ -1270,7 +1298,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _CGB00
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
@@ -1332,7 +1361,8 @@ _CGB00
 [28]LOAD_GRAPHICS
 _CGAA01
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -1345,7 +1375,9 @@ _CGAA01
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「夏物～？ 今いつだよ～」
+「夏物～？
+[20]LOAD_MUSIC
+今いつだよ～」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1426,7 +1458,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 13_1
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -1437,7 +1470,9 @@ CLEAR_TEXTBOX
 [15]NO_NAMETAG
 [01]NEWLINE
 [11]FEMALE_NAME
-は、少し岩影になって他の人から見えないところにうつ伏せになるとビキニの上を外した
+は、少し岩影になって他の
+l
+から見えないところにうつ伏せになるとビキニの上を外した
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1489,7 +1524,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-あなた達２人は、この夏、小旅行で、とあるリゾート地に来ていた
+あなた達２
+l
+は、この夏、小旅行で、とあるリゾート地に来ていた
 [05]CLICKWAIT
 CLEAR_TEXTBOX
 旅行の日程は２泊３日の予定だったが、あいにくと天候が悪く、最終日の今日になってやっと天気が回復したのだった
@@ -1668,7 +1705,9 @@ CLEAR_TEXTBOX
 [15]NO_NAMETAG
 [01]NEWLINE
 [11]FEMALE_NAME
-がもの欲しそうな顔をあなたに向けた時、あなた達がいた所へやってる人影が見えた
+がもの欲しそうな顔をあなたに向けた時、あなた達がいた所へやってる
+l
+影が見えた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1723,7 +1762,9 @@ CLEAR_TEXTBOX
 は、股間を両手で押さえながら、恥ずかしそうにうつむいた
 [05]CLICKWAIT
 CLEAR_TEXTBOX
-あなたは少し考えていたが、やがて立ち上がると
+あなたは少し
+l
+えていたが、やがて立ち上がると
 [11]FEMALE_NAME
 の手をとった
 [05]CLICKWAIT

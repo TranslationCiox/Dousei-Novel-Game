@@ -88,7 +88,8 @@ O
 \xc4
 \x00
 [10]MALE_NAME
-+\t
++
+\t
 [11]FEMALE_NAME
 \x16\x07
 \x00
@@ -474,7 +475,8 @@ P
 \x00
 \x00
 [1a]END_OF_SEGMENT
- DS03
+[20]LOAD_MUSIC
+DS03
 \x00
 [28]LOAD_GRAPHICS
 _CGS02
@@ -534,7 +536,8 @@ D
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-\x1f\t
+\x1f
+\t
 [11]FEMALE_NAME
 [16]END_CHOICE
 [01]NEWLINE
@@ -618,7 +621,8 @@ D
 i
 [05]CLICKWAIT
 [10]MALE_NAME
-\x1f\t
+\x1f
+\t
 [11]FEMALE_NAME
 [16]END_CHOICE
 [01]NEWLINE
@@ -708,7 +712,8 @@ D
 i
 [05]CLICKWAIT
 [10]MALE_NAME
-\x1f\t
+\x1f
+\t
 [11]FEMALE_NAME
 \x16\r
 \x00
@@ -729,7 +734,9 @@ D
 i
 [05]CLICKWAIT
 [10]MALE_NAME
-\x1f\tD
+\x1f
+\t
+D
 [01]NEWLINE
 「これで、よろしいですか？」
 [05]CLICKWAIT
@@ -752,7 +759,9 @@ i
 \x00
 [02]CLEAR_TEXTBOX
 \x00
-\x1c\tD
+\x1c
+\t
+D
 [01]NEWLINE
 「マロンケーキ２つで、４００円になります」
 [05]CLICKWAIT
@@ -779,7 +788,8 @@ D
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-\x1f\t
+\x1f
+\t
 [10]MALE_NAME
 i
 [05]CLICKWAIT
@@ -809,7 +819,9 @@ D
 \x00
 \x0f
 \x00
-\xb8\t\x1e
+\xb8
+\t
+[1e]MALE_NAMETAG
 [01]NEWLINE
 「あんまり良さそうなのがないなぁ
 [05]CLICKWAIT
@@ -832,7 +844,9 @@ d
 \x00
 指輪　　　　　　　　　　　　定価　６００００円
 \x00
-ネックレス　　　　　　　　　定価　４００００円
+\x83
+l
+ックレス　　　　　　　　　定価　４００００円
 \x00
 \x00
 [11]FEMALE_NAME
@@ -881,7 +895,8 @@ b\x0b
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-\xb8\t
+\xb8
+\t
 [11]FEMALE_NAME
 \x16\r
 \x00
@@ -895,7 +910,8 @@ X\x02\x03
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-\xb8\t
+\xb8
+\t
 [10]MALE_NAME
 _\x0bD
 [01]NEWLINE
@@ -937,7 +953,8 @@ D
 [10]MALE_NAME
 _\x0b
 [10]MALE_NAME
-\xb8\t
+\xb8
+\t
 [10]MALE_NAME
 `\x0c
 [11]FEMALE_NAME
@@ -958,7 +975,8 @@ _\x0b
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-\xb8\t
+\xb8
+\t
 [11]FEMALE_NAME
 \x16\r
 \x00
@@ -974,7 +992,8 @@ _\x0b
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-\xb8\t
+\xb8
+\t
 [10]MALE_NAME
 `\x0cD
 [01]NEWLINE
@@ -1017,7 +1036,8 @@ D
 [10]MALE_NAME
 `\x0c
 [10]MALE_NAME
-\xb8\t
+\xb8
+\t
 [28]LOAD_GRAPHICS
 _CGS00
 \x00

@@ -12,7 +12,7 @@ import re
 # \x11 female name.
 # \x12 male surname.
 # \x13 female surname.
-# \x15 ???
+# \x15 empty nametag for the dialogue box
 # \x16 end a choice.
 # \x17 gives a choice.
 # \x18 go to a different file (used in INIT to go to MAIN).
@@ -22,7 +22,9 @@ import re
 # \x1a Seems to indicate an end of a segment in the script.
 # \x1d female nametag.
 # \x1e male nametag.
-# \x2e (also written as a period ".") seems to be used before GIF sequences.
+# \x2e (also written as a period ".") seems to be used before GIF sequences. After this you can use
+# 01 for pachinko, 02 for the cafe, 03 for the store, 04 for manual labor, 05 is the book store,
+# 06 is the video store, 07 is the idol show, 08 for the amusement park, 09 bakery.
 # \xff end a file.
 patterns = [
     {
@@ -133,7 +135,9 @@ def contains_japanese(text):
 def parse_bytecode(data):
     list_bytecodes = []
     byte_list = [data[i:i+1] for i in range(len(data))]
-    split_values = {b'\x00', b'\x01', b'\x05', b'\x08', b'\x10', b'(', b'\x1a', b'\x04', b'\x11', b'\x15', b'\x19'}
+    split_values = {b'\x00', b'\x01', b'\x05', b'\x08', b'\x10',
+                    b'(',    b'\x1a', b'\x04', b'\x11', b'\x15',
+                    b'\x19', b'\x20', b'\x2e', b'\x09', b'\x6c'}
     current_byte = byte_list[0]
     for byte in byte_list:
         if byte in split_values:

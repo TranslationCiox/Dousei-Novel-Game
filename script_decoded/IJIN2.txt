@@ -70,7 +70,8 @@ D
 U
 \x00
 [10]MALE_NAME
-\xcf\t
+\xcf
+\t
 [10]MALE_NAME
 \xec
 \x00
@@ -223,12 +224,14 @@ _CGB02A
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
-.\x02
+.
+[02]CLEAR_TEXTBOX
 [1a]END_OF_SEGMENT
 [28]LOAD_GRAPHICS
 _CGB02B
 \x00
- DS08
+[20]LOAD_MUSIC
+DS08
 \x00
 B
 [01]NEWLINE
@@ -317,19 +320,25 @@ B
 [01]NEWLINE
 「よろしく頼むよ
 [01]NEWLINE
-　じゃあ、２人とも仲良くね」
+　じゃあ、２
+l
+とも仲良くね」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-店長は、にこやかな表情で２人の肩を叩くと、あわただしそうに店の方へと走り去っていった
+店長は、にこやかな表情で２
+l
+の肩を叩くと、あわただしそうに店の方へと走り去っていった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「まったく、忙しい人だなぁ」
+「まったく、忙しい
+l
+だなぁ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -395,7 +404,8 @@ _CGB02A
 [28]LOAD_GRAPHICS
 _CGCC02
 \x00
- DS08
+[20]LOAD_MUSIC
+DS08
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -517,7 +527,8 @@ _CGB02A
 [28]LOAD_GRAPHICS
 _CGCC01
 \x00
- DS08
+[20]LOAD_MUSIC
+DS08
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -657,7 +668,8 @@ _CGB02A
 [28]LOAD_GRAPHICS
 _CGCC03
 \x00
- DS08
+[20]LOAD_MUSIC
+DS08
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -697,7 +709,9 @@ _CGCC03
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恵は少し視線を上に向け考えをめぐらせた
+恵は少し視線を上に向け
+l
+えをめぐらせた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -705,7 +719,9 @@ _CGCC03
 [01]NEWLINE
 「少し・・・・・
 [05]CLICKWAIT
-自信がついた様に思います」
+自信がついた
+l
+に思います」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -734,7 +750,8 @@ _CGB02A
 [28]LOAD_GRAPHICS
 _CGCC02
 \x00
- DS08
+[20]LOAD_MUSIC
+DS08
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -800,7 +817,9 @@ _CGCC02
 \x00
 7
 [01]NEWLINE
-「あ、あの、私の・・・始めての人に・・・なって・・・もらえません　か・・・」
+「あ、あの、私の・・・始めての
+l
+に・・・なって・・・もらえません　か・・・」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -819,13 +838,16 @@ _CGCC02
 [28]LOAD_GRAPHICS
 K1
 \x00
- DS11
+[20]LOAD_MUSIC
+DS11
 \x00
 7
 [01]NEWLINE
 「私の・・・・・
 [05]CLICKWAIT
-始めての人に・・・なってください」
+始めての
+l
+に・・・なってください」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1045,7 +1067,8 @@ Z
 [28]LOAD_GRAPHICS
 _CGCC02
 \x00
- DS08
+[20]LOAD_MUSIC
+DS08
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -1115,7 +1138,8 @@ _CGB02A
 [28]LOAD_GRAPHICS
 _CGCC01
 \x00
- DS08
+[20]LOAD_MUSIC
+DS08
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -1303,7 +1327,8 @@ _CGB02A
 [28]LOAD_GRAPHICS
 _CGCC01
 \x00
- DS08
+[20]LOAD_MUSIC
+DS08
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -1333,7 +1358,9 @@ _CGCC01
 [01]NEWLINE
 「そう？
 [05]CLICKWAIT
-　まあ確かに、結構人生楽しんでるかなぁ」
+　まあ確かに、結構
+l
+生楽しんでるかなぁ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1345,7 +1372,9 @@ _CGCC01
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「恵ちゃんは人生楽しくないかい？」
+「恵ちゃんは
+l
+生楽しくないかい？」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1382,7 +1411,8 @@ _CGB02A
 [28]LOAD_GRAPHICS
 _CGCC01
 \x00
- DS08
+[20]LOAD_MUSIC
+DS08
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -1463,7 +1493,9 @@ _CGCC01
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「じゃあ、恵ちゃんの好きなタイプってどんな人？」
+「じゃあ、恵ちゃんの好きなタイプってどんな
+l
+？」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1486,7 +1518,8 @@ _CGB02A
 [28]LOAD_GRAPHICS
 _CGCC03
 \x00
- DS08
+[20]LOAD_MUSIC
+DS08
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -1585,7 +1618,8 @@ _CGB02A
 [28]LOAD_GRAPHICS
 _CGCC03
 \x00
- DS08
+[20]LOAD_MUSIC
+DS08
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -1650,7 +1684,8 @@ _CGB02A
 [28]LOAD_GRAPHICS
 _CGCB03
 \x00
- DS08
+[20]LOAD_MUSIC
+DS08
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -1729,7 +1764,9 @@ _CGCB03
 \x00
 5)\x1e
 [01]NEWLINE
-「（意外と人混みにまぎれたらわかんないかもな）」
+「（意外と
+l
+混みにまぎれたらわかんないかもな）」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1753,7 +1790,9 @@ _CGCB03
 [10]MALE_NAME
 \xbe)\x1e
 [01]NEWLINE
-「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
+「（もう
+l
+もかなり帰ったみたいだし、大丈夫だよな）」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1772,7 +1811,8 @@ i
 [28]LOAD_GRAPHICS
 _CGCB05
 \x00
- DS08
+[20]LOAD_MUSIC
+DS08
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -1857,7 +1897,9 @@ _CGCB05
 \x00
 #,\x1e
 [01]NEWLINE
-「（意外と人混みにまぎれたらわかんないかもな）」
+「（意外と
+l
+混みにまぎれたらわかんないかもな）」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1886,7 +1928,9 @@ n,\x1e
 [10]MALE_NAME
 \xa7,\x1e
 [01]NEWLINE
-「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
+「（もう
+l
+もかなり帰ったみたいだし、大丈夫だよな）」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00

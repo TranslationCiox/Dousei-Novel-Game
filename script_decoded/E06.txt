@@ -98,7 +98,8 @@ c
 [28]LOAD_GRAPHICS
 _CGAA01
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -341,7 +342,9 @@ $
 「でも、結局ダメになっちゃったね～
 [05]CLICKWAIT
 [01]NEWLINE
-　ごめ～ん・・・しょうがないから２人で行ってきて・・・
+　ごめ～ん・・・しょうがないから２
+l
+で行ってきて・・・
 [05]CLICKWAIT
 [01]NEWLINE
 　うん・・・わかった、楽しみにしてるから・・・うん、じゃあね」
@@ -356,7 +359,9 @@ $
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「はぁ・・・私も一人暮らししてた方が良かったのかなぁ・・・」
+「はぁ・・・私も一
+l
+暮らししてた方が良かったのかなぁ・・・」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -364,7 +369,8 @@ $
 [28]LOAD_GRAPHICS
 _CGAA04
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -417,7 +423,9 @@ _CGAA04
 「何言ってんのよー！最近は若い娘だってよく行くんだよー！
 [05]CLICKWAIT
 [01]NEWLINE
-　ほら、テレビでもよく『美人ＯＬゆけむりの～』みたいなのがあるで　しょ」
+　ほら、テレビでもよく『美
+l
+ＯＬゆけむりの～』みたいなのがあるで　しょ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -450,7 +458,8 @@ _CGAA04
 [28]LOAD_GRAPHICS
 _CGAA01
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -529,7 +538,8 @@ _CGAA01
 [28]LOAD_GRAPHICS
 _CGAA01
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -617,10 +627,16 @@ A
 そう・・だね
 [05]CLICKWAIT
 [01]NEWLINE
-　確かに１人身の２人を呼ぶのは、ちょっと可哀想かも・・・
+　確かに１
+l
+身の２
+l
+を呼ぶのは、ちょっと可哀想かも・・・
 [05]CLICKWAIT
 [01]NEWLINE
-　じゃあ、やっぱり、２人きりで行こうね」
+　じゃあ、やっぱり、２
+l
+きりで行こうね」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -631,7 +647,9 @@ C
 [01]NEWLINE
 「・・・・そうだね
 [05]CLICKWAIT
-　じゃあ、今度２人きりで温泉行こうよ！
+　じゃあ、今度２
+l
+きりで温泉行こうよ！
 [05]CLICKWAIT
 [01]NEWLINE
 　ね、ね、決まりね！
@@ -644,7 +662,8 @@ C
 [28]LOAD_GRAPHICS
 _CGAA01
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -656,7 +675,9 @@ _CGAA01
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「へ～、トンネル内で落盤事故か～」
+「へ～、トン
+l
+ル内で落盤事故か～」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -726,16 +747,24 @@ CLEAR_TEXTBOX
 は、不安そうな顔でテレビに目を向けた
 [05]CLICKWAIT
 CLEAR_TEXTBOX
-しばらくしてバラエティー番組が終わりニュースが始まったが、トップニュースは先ほどのトンネル事故の事だった
+しばらくしてバラエティー番組が終わりニュースが始まったが、トップニュースは先ほどのトン
+l
+ル事故の事だった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-「今日未明、なんとかスキー場近くの○○トンネルで落盤事故があり
+「今日未明、なんとかスキー場近くの○○トン
+l
+ルで落盤事故があり
 [05]CLICKWAIT
 [01]NEWLINE
-　少なくとも車数十台、５０人以上の人が行方不明になっています
+　少なくとも車数十台、５０
+l
+以上の
+l
+が行方不明になっています
 [05]CLICKWAIT
 [01]NEWLINE
 　落盤の詳しい原因については・・・・・」
@@ -759,7 +788,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _CGAA02
 \x00
- DS13
+[20]LOAD_MUSIC
+DS13
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -951,7 +981,8 @@ _CGAA02
 [28]LOAD_GRAPHICS
 _CGAA01
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -1061,7 +1092,8 @@ _CGAA01
 [28]LOAD_GRAPHICS
 w1b
 \x00
- DS10
+[20]LOAD_MUSIC
+DS10
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -1075,11 +1107,14 @@ w1b
 [28]LOAD_GRAPHICS
 _CGAA01
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人が食事の後片づけをしていると、不意に電話が鳴った
+恋
+l
+が食事の後片づけをしていると、不意に電話が鳴った
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1090,7 +1125,9 @@ _CGAA01
 ああ、真弓！・・・今どこ？
 [05]CLICKWAIT
 [01]NEWLINE
-  ・・・ああ、旅館から～・・・えっ？
+[20]LOAD_MUSIC
+[20]LOAD_MUSIC
+・・・ああ、旅館から～・・・えっ？
 [05]CLICKWAIT
 [01]NEWLINE
 　はいはい、楽しそうでようございましたねぇ！」
@@ -1099,16 +1136,22 @@ _CGAA01
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「 ・ん・・うんうん・・・わかったぁ、じゃあ期待してるね
+\x81u
+[20]LOAD_MUSIC
+・ん・・うんうん・・・わかったぁ、じゃあ期待してるね
 [05]CLICKWAIT
 [01]NEWLINE
-  ・・・じゃあね、バイバイ」
+[20]LOAD_MUSIC
+[20]LOAD_MUSIC
+・・・じゃあね、バイバイ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人は受話器を置くとハァ～と大きな溜息をついた
+恋
+l
+は受話器を置くとハァ～と大きな溜息をついた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1141,7 +1184,9 @@ _CGAA01
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人は冗談ぽく、怒りの声をあげた
+恋
+l
+は冗談ぽく、怒りの声をあげた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1203,7 +1248,9 @@ _CGAA01
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋人は笑って答えると、食事の後片づけを再開した
+恋
+l
+は笑って答えると、食事の後片づけを再開した
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00

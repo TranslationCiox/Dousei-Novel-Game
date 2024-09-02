@@ -71,7 +71,8 @@ u
 \x89
 \x00
 [10]MALE_NAME
-\xdc\t
+\xdc
+\t
 [10]MALE_NAME
 \xbc
 \x00
@@ -194,7 +195,8 @@ u
 2
 [01]NEWLINE
 [10]MALE_NAME
-\xdc\t
+\xdc
+\t
 [10]MALE_NAME
 \x9c
 [01]NEWLINE
@@ -364,7 +366,11 @@ _CGAA01
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-いくつかのチャンネルを変えながら、２人はぼうっとテレビを見ていた
+いくつかのチャン
+l
+ルを変えながら、２
+l
+はぼうっとテレビを見ていた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -515,7 +521,9 @@ _CGAA02
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「 なあ、ゲームしよっか　」
+\x81u
+[20]LOAD_MUSIC
+なあ、ゲームしよっか　」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -640,7 +648,8 @@ _CGAA01
 \x00
 [02]CLEAR_TEXTBOX
 \x00
-\x0e\t
+\x0e
+\t
 \x08
 [1e]MALE_NAMETAG
 \x00
@@ -669,7 +678,8 @@ _CGAA01
 [1e]MALE_NAMETAG
 \x00
 [10]MALE_NAME
-\xd5\t
+\xd5
+\t
 \x08
 [1e]MALE_NAMETAG
 \x00
@@ -947,7 +957,9 @@ _CGAA02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「でも、やっぱり男の人って、こういう感じの娘がいいのかなぁ」
+「でも、やっぱり男の
+l
+って、こういう感じの娘がいいのかなぁ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1028,7 +1040,9 @@ _CGAA01
 「私もね、ちょっとやってみたの、そしたら、結構はまっちゃって
 [05]CLICKWAIT
 [01]NEWLINE
-　なーんか男の人の気持ちが、ちょっとわかったような気がしたわ
+　なーんか男の
+l
+の気持ちが、ちょっとわかったような気がしたわ
 [05]CLICKWAIT
 [01]NEWLINE
 　やっぱり、この娘達ってかわいいもんね」
@@ -1089,7 +1103,8 @@ _CGAA04
 [01]NEWLINE
 「あ、その娘は、それ選ぶとヤバイわよ
 [05]CLICKWAIT
- え、なんで知ってるかって？
+[20]LOAD_MUSIC
+え、なんで知ってるかって？
 [05]CLICKWAIT
 [01]NEWLINE
 　だって私、ほとんどのキャラをクリアしたもん」
@@ -1152,7 +1167,9 @@ _CGAA01
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「どうにかなんないかなぁ、この人達って」
+「どうにかなんないかなぁ、この
+l
+達って」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1317,7 +1334,9 @@ a\x18\x1d
 は違うの？
 [05]CLICKWAIT
 [01]NEWLINE
-　・・・だめねえ、感受性の無い人ってのは」
+　・・・だめねえ、感受性の無い
+l
+ってのは」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1359,7 +1378,9 @@ a\x18\x1d
 [01]NEWLINE
 　じゃあ、今度、本物を見に行こうよ
 [05]CLICKWAIT
-　二人きりで☆」
+　二
+l
+きりで☆」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1370,13 +1391,17 @@ _CGAA01
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-テレビをつけると、ＣＭが流れていた
+テレビをつけると、Ｃ
+l
+が流れていた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「そういえば、最近のＣＭって凝ったのが多くなったよね
+「そういえば、最近のＣ
+l
+って凝ったのが多くなったよね
 [05]CLICKWAIT
 [01]NEWLINE
 　下手したらメインの放送より面白い場合とかあるもんね」
@@ -1387,7 +1412,9 @@ _CGAA01
 [01]NEWLINE
 「ねぇねぇ、
 [10]MALE_NAME
-はどんなＣＭが好き？」
+はどんなＣ
+l
+が好き？」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1436,13 +1463,17 @@ _CGAA01
 「・・・・・すけべ
 [05]CLICKWAIT
 [01]NEWLINE
-　って言いたい所だけど、別に今の下着のＣＭってＨじゃないかぁ」
+　って言いたい所だけど、別に今の下着のＣ
+l
+ってＨじゃないかぁ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 3\x1d
 [01]NEWLINE
-「え？、私の好きなＣＭ？
+「え？、私の好きなＣ
+l
+？
 [05]CLICKWAIT
 [01]NEWLINE
 　ふふふ、私の好きなのはねぇ・・・・・」
@@ -1621,7 +1652,9 @@ _CGAA01
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「今度は、何にも考えずに映画を見てみようっと」
+「今度は、何にも
+l
+えずに映画を見てみようっと」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1640,13 +1673,17 @@ F\x1f
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「私思うんだけど、映画に限らず、娯楽作品って商業的価値が出ちゃっ　たら、面白くなくなるような気がするの」
+「私思うんだけど、映画に限らず、娯楽作品って商業的価
+l
+が出ちゃっ　たら、面白くなくなるような気がするの」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「やっぱり、本当に好きな人が作らないとね」
+「やっぱり、本当に好きな
+l
+が作らないとね」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1684,7 +1721,8 @@ _CGAA01
 \x00
 [02]CLEAR_TEXTBOX
 \x00
-C 
+C
+[20]LOAD_MUSIC
 \x08
 [1e]MALE_NAMETAG
 \x00
@@ -1695,12 +1733,16 @@ C
 「きゃははははははははは～
 [05]CLICKWAIT
 [01]NEWLINE
-　って、なんだかやばい２人だね私達・・・・・」
+　って、なんだかやばい２
+l
+だね私達・・・・・」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-\xe2 \x0c\x1e
+\xe2
+[20]LOAD_MUSIC
+\x0c\x1e
 \x00
 \n
 \x00

@@ -6,7 +6,8 @@ g
 [28]LOAD_GRAPHICS
 OP01
 \x00
- DS14
+[20]LOAD_MUSIC
+DS14
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -26,13 +27,17 @@ kd
 [15]NO_NAMETAG
 [01]NEWLINE
 CLEAR_TEXTBOX
-　　　　しかし、運命は俺達２人を引き合わせてくれた
+　　　　しかし、運命は俺達２
+l
+を引き合わせてくれた
 \x00
 kP
 [15]NO_NAMETAG
 [01]NEWLINE
 CLEAR_TEXTBOX
-　　　そして、まるでずっと前から決まっていたかの様に
+　　　そして、まるでずっと前から決まっていたかの
+l
+に
 [01]NEWLINE
 　　　　　　　　　つきあいが始まった
 \x00
@@ -57,7 +62,9 @@ kP
 [15]NO_NAMETAG
 [01]NEWLINE
 CLEAR_TEXTBOX
-　　しかし、ここでも運命は俺達２人を引き離しはしなかった
+　　しかし、ここでも運命は俺達２
+l
+を引き離しはしなかった
 \x00
 kP
 [28]LOAD_GRAPHICS
@@ -76,7 +83,9 @@ kn
 [15]NO_NAMETAG
 [01]NEWLINE
 CLEAR_TEXTBOX
-　　　だけど２人が本当に幸せになるのはこれからだと思う
+　　　だけど２
+l
+が本当に幸せになるのはこれからだと思う
 [01]NEWLINE
 \x00
 kP
@@ -107,13 +116,16 @@ KURO
 [15]NO_NAMETAG
 [01]NEWLINE
 CLEAR_TEXTBOX
-　　　　　　　そして２人一緒の新しい生活が始まる
+　　　　　　　そして２
+l
+一緒の新しい生活が始まる
 \x00
 kP!h
 [28]LOAD_GRAPHICS
 TT00
 \x00
- DS01
+[20]LOAD_MUSIC
+DS01
 \x00
 k\x96
 [28]LOAD_GRAPHICS
@@ -238,9 +250,13 @@ _CGB00
 　あらかじめ送っておいた荷物の整理
 [05]CLICKWAIT
 [01]NEWLINE
-管理人さんへの挨拶
+管理
+l
+さんへの挨拶
 [05]CLICKWAIT
-　区役所への様々な登録
+　区役所への
+l
+々な登録
 [05]CLICKWAIT
 [01]NEWLINE
 生活必需品の買い物
@@ -289,7 +305,9 @@ _CGAK01
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
-g DS10
+g
+[20]LOAD_MUSIC
+DS10
 \x00
 [28]LOAD_GRAPHICS
 V1
@@ -336,7 +354,8 @@ W1A
 [15]NO_NAMETAG
 [01]NEWLINE
 CLEAR_TEXTBOX
-ゆっくりと顔を近づける２人
+ゆっくりと顔を近づける２
+l
 [05]CLICKWAIT
 [01]NEWLINE
 互いの唇を触れ合わすだけの軽めのキス
@@ -374,7 +393,9 @@ CLEAR_TEXTBOX
 今度は互いの舌を絡ませあう濃厚なキス
 [05]CLICKWAIT
 [01]NEWLINE
-しばらく互いの舌の感触を味わった後、顔をはなした二人の唇を唾液の糸がつないだ
+しばらく互いの舌の感触を味わった後、顔をはなした二
+l
+の唇を唾液の糸がつないだ
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -404,18 +425,23 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-２人は肩を寄せ合いながら寝室へと向かった
+２
+l
+は肩を寄せ合いながら寝室へと向かった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [28]LOAD_GRAPHICS
 _CG18B
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-寝室へと入った２人は服を脱いでベッドに横になった
+寝室へと入った２
+l
+は服を脱いでベッドに横になった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -560,7 +586,9 @@ _CG18B
 [15]NO_NAMETAG
 [01]NEWLINE
 [11]FEMALE_NAME
-は、あなたの言葉も耳に入らない様子で、打ち寄せる快感に身を委ねていた
+は、あなたの言葉も耳に入らない
+l
+子で、打ち寄せる快感に身を委ねていた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -628,7 +656,9 @@ _CG19B
 グチュ　ヌポッ　ジュルッ　グシュッ　ズポッ　チュバッ
 [05]CLICKWAIT
 [01]NEWLINE
-淫猥な音が部屋中に響き、２人の気持ちは、ますます高まっていった
+淫猥な音が部屋中に響き、２
+l
+の気持ちは、ますます高まっていった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -691,7 +721,8 @@ h
 [28]LOAD_GRAPHICS
 _CGB18
 \x00
- DS10
+[20]LOAD_MUSIC
+DS10
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE

@@ -10,7 +10,8 @@
 [28]LOAD_GRAPHICS
 _CGAA04
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -199,7 +200,9 @@ d
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-\xca\t\x1c<
+\xca
+\t
+\x1c<
 \x00
 [19]GOTO_FILE
 \x07
@@ -309,7 +312,8 @@ _CGAA02
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-\xca\t
+\xca
+\t
 [28]LOAD_GRAPHICS
 _CGAA01
 \x00
@@ -390,7 +394,8 @@ _CGAA01
 \x00
 \x07\x0f
 \x00
-\x8c\t
+\x8c
+\t
 [15]NO_NAMETAG
 [01]NEWLINE
 数分後、
@@ -400,7 +405,8 @@ _CGAA01
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-\xca\t
+\xca
+\t
 [15]NO_NAMETAG
 [01]NEWLINE
 数分後、あなたが寝室へ入ると、
@@ -422,7 +428,8 @@ _CGAA01
 \x00
 \x07\x0f
 \x00
-\xe8\t
+\xe8
+\t
 [04]MOVE_TO_OTHER_SEGMENT
 9
 \x00
@@ -473,7 +480,8 @@ q\n
 \x00
 \x07\x0f
 \x00
-.\n
+.
+\n
 [04]MOVE_TO_OTHER_SEGMENT
 8
 \x00
@@ -546,7 +554,8 @@ r
 [28]LOAD_GRAPHICS
 Z1
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -627,7 +636,11 @@ CLEAR_TEXTBOX
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「それは、その・・・えーっと・・・多分、御主人様に対する絶対服従　とかいう意味でついてるんじゃないのかな？」
+「それは、その・・・えーっと・・・多分、御主
+l
+\x97
+l
+に対する絶対服従　とかいう意味でついてるんじゃないのかな？」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -645,7 +658,11 @@ CLEAR_TEXTBOX
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「んでもってオレが旦那様～、今日は旦那様って呼びましょう」
+「んでもってオレが旦那
+l
+～、今日は旦那
+l
+って呼びましょう」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -669,7 +686,9 @@ CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「・・・えーと、旦那様、何か私に御用でございましょうか？」
+「・・・えーと、旦那
+l
+、何か私に御用でございましょうか？」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -681,15 +700,21 @@ CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「・・・それじゃあ、どっかの殿様よ」
+「・・・それじゃあ、どっかの殿
+l
+よ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-いまいち旦那様というイメージがわからない
+いまいち旦那
+l
+というイメージがわからない
 [01]NEWLINE
-なにやらボロが出そうなので（もう出ているが・・・）無理やりごまかしてやろうと考えた
+なにやらボロが出そうなので（もう出ているが・・・）無理やりごまかしてやろうと
+l
+えた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -703,7 +728,9 @@ CLEAR_TEXTBOX
 [01]NEWLINE
 「？
 [05]CLICKWAIT
-　旦那様？」
+　旦那
+l
+？」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -718,7 +745,9 @@ CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「はい、旦那様」
+「はい、旦那
+l
+\x81v
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -758,7 +787,9 @@ Z2
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「・・・はい、旦那様」
+「・・・はい、旦那
+l
+\x81v
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -797,7 +828,9 @@ Z2
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「気持ちいいですか？　旦那様」
+「気持ちいいですか？　旦那
+l
+\x81v
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -809,7 +842,11 @@ Z2
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-すっかりなりきっている二人だが、まんざらでもない様子であった
+すっかりなりきっている二
+l
+だが、まんざらでもない
+l
+子であった
 [05]CLICKWAIT
 [01]NEWLINE
 [11]FEMALE_NAME
@@ -977,7 +1014,9 @@ CLEAR_TEXTBOX
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「いけないメイドだねえ、旦那様に挑戦するには早かったな
+「いけないメイドだねえ、旦那
+l
+に挑戦するには早かったな
 [05]CLICKWAIT
 [01]NEWLINE
 　悪い子にはおしおきしなければね～」
@@ -1058,7 +1097,9 @@ CLEAR_TEXTBOX
 [01]NEWLINE
 「んもうー、いじめないで～っ！！
 [01]NEWLINE
-　私のオ◯ンコにあなたのオ◯ン◯ンを入れて下さい、旦那様っ！！」
+　私のオ◯ンコにあなたのオ◯ン◯ンを入れて下さい、旦那
+l
+っ！！」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1189,7 +1230,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-最後の瞬間に向かって二人はきつく抱きしめあう
+最後の瞬間に向かって二
+l
+はきつく抱きしめあう
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1233,14 +1276,17 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-二人はしばらく結合したまま抱きしめあった・・・
+二
+l
+はしばらく結合したまま抱きしめあった・・・
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [28]LOAD_GRAPHICS
 _CGB18
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -1259,7 +1305,9 @@ CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「あのねあのね、最後いく時ね、旦那様～～！！って叫ぼうとしたんだ　けどね、やっぱり必死になっちゃって出来なかったの」
+「あのねあのね、最後いく時ね、旦那
+l
+～～！！って叫ぼうとしたんだ　けどね、やっぱり必死になっちゃって出来なかったの」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1274,7 +1322,9 @@ CLEAR_TEXTBOX
 「そんでね、そんでね、
 [05]CLICKWAIT
 [01]NEWLINE
-　今度ね、お嬢様と執事プレイっていうのはどうかなぁ？」
+　今度ね、お嬢
+l
+と執事プレイっていうのはどうかなぁ？」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1294,7 +1344,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 14_1
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -1351,7 +1402,9 @@ CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「・・・人の話聞いてる？」
+「・・・
+l
+の話聞いてる？」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1458,7 +1511,9 @@ CLEAR_TEXTBOX
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「やーん、一人で冷静に見ないでよー
+「やーん、一
+l
+で冷静に見ないでよー
 [05]CLICKWAIT
 [01]NEWLINE
 　なんか私が馬鹿みたいじゃない」
@@ -1538,7 +1593,9 @@ CLEAR_TEXTBOX
 CLEAR_TEXTBOX
 この妙なシチュエーションに興奮したらしい
 [11]FEMALE_NAME
-は秘部をビショビショにしていて、開かれた割れ目からはネチャッと音をたてながら愛液が糸を引いている
+は秘部をビショビショにしていて、開かれた割れ目からは
+l
+チャッと音をたてながら愛液が糸を引いている
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1759,7 +1816,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _CGB18
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -1805,7 +1863,8 @@ _CGB18
 [28]LOAD_GRAPHICS
 16_1
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -1828,7 +1887,9 @@ CLEAR_TEXTBOX
 [01]NEWLINE
 「変な服・・・っても普通のテニスウェアだよ、
 [01]NEWLINE
-　テニスする人なら皆、着るものじゃないか」
+　テニスする
+l
+なら皆、着るものじゃないか」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2063,7 +2124,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-そのまま二人ともベッドで抱きあったままゴロゴロと転がり回る
+そのまま二
+l
+ともベッドで抱きあったままゴロゴロと転がり回る
 [01]NEWLINE
 ニャ～ニャ～と言いながらじゃれてくる
 [11]FEMALE_NAME
@@ -2325,7 +2388,9 @@ CLEAR_TEXTBOX
 [01]NEWLINE
 自分は
 [11]FEMALE_NAME
-のスカートを脱がすと四つん這いにひざまつかしたまま、そのままバックから挿入を試みる
+のスカートを脱がすと
+l
+つん這いにひざまつかしたまま、そのままバックから挿入を試みる
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2508,7 +2573,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _CGB18
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
@@ -2534,7 +2600,9 @@ _CGB18
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-くだらぬ事を考えつつ、自分は眠りについた
+くだらぬ事を
+l
+えつつ、自分は眠りについた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2542,7 +2610,8 @@ _CGB18
 [28]LOAD_GRAPHICS
 17_1
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -2581,7 +2650,9 @@ _CGB18
 [15]NO_NAMETAG
 [01]NEWLINE
 [11]FEMALE_NAME
-は、少し困ったような表情を見せながらも、久しぶりの体操服の感触にまんざらでもない様子だった
+は、少し困ったような表情を見せながらも、久しぶりの体操服の感触にまんざらでもない
+l
+子だった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2806,7 +2877,9 @@ _CGB18
 [01]NEWLINE
 思い切り体をのけぞらす
 [11]FEMALE_NAME
-の様子を見て調子づいたあなたは、悪巧みを思いついた
+の
+l
+子を見て調子づいたあなたは、悪巧みを思いついた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -2836,7 +2909,9 @@ _CGB18
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「いいから、ちょっと四つん這いになって」
+「いいから、ちょっと
+l
+つん這いになって」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -3033,7 +3108,8 @@ CLEAR_TEXTBOX
 [28]LOAD_GRAPHICS
 _CGB00
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -3078,7 +3154,8 @@ _CGB00
 [28]LOAD_GRAPHICS
 18_1
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -3197,7 +3274,9 @@ _CGB00
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-２人はテーブルの上に手つくと、お互いの手をがっちりと握った
+２
+l
+はテーブルの上に手つくと、お互いの手をがっちりと握った
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -3243,7 +3322,9 @@ _CGB00
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「さ～て、負けた人には、ちょっとした罰を受けてもらおうかなぁ」
+「さ～て、負けた
+l
+には、ちょっとした罰を受けてもらおうかなぁ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -3543,7 +3624,8 @@ _CGB00
 [28]LOAD_GRAPHICS
 _CGB18
 \x00
- DS02
+[20]LOAD_MUSIC
+DS02
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE

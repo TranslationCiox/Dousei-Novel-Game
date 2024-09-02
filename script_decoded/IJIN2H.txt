@@ -50,7 +50,8 @@
 [28]LOAD_GRAPHICS
 _CGCB03
 \x00
- DS08
+[20]LOAD_MUSIC
+DS08
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -129,7 +130,9 @@ _CGCB03
 \x00
 !\x02\x1e
 [01]NEWLINE
-「（意外と人混みにまぎれたらわかんないかもな）」
+「（意外と
+l
+混みにまぎれたらわかんないかもな）」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -144,7 +147,8 @@ _CGCB03
 \x00
 [02]CLEAR_TEXTBOX
 \x00
-l\x02\x1e
+l
+\x02\x1e
 [01]NEWLINE
 「（まさか、ここで知り合いに会うってことはないだろう）」
 [05]CLICKWAIT
@@ -153,7 +157,9 @@ l\x02\x1e
 [10]MALE_NAME
 \xaa\x02\x1e
 [01]NEWLINE
-「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
+「（もう
+l
+もかなり帰ったみたいだし、大丈夫だよな）」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -171,7 +177,8 @@ i
 [28]LOAD_GRAPHICS
 _CGB13
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -182,7 +189,9 @@ CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-そんな様子に一度は、やっぱりやめようかと勧めたが、恵の決意は固かった
+そんな
+l
+子に一度は、やっぱりやめようかと勧めたが、恵の決意は固かった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -407,7 +416,8 @@ K2
 [28]LOAD_GRAPHICS
 _CGCB05
 \x00
- DS08
+[20]LOAD_MUSIC
+DS08
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -492,7 +502,9 @@ _CGCB05
 \x00
 \xd8\r\x1e
 [01]NEWLINE
-「（意外と人混みにまぎれたらわかんないかもな）」
+「（意外と
+l
+混みにまぎれたらわかんないかもな）」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -521,7 +533,9 @@ i
 [10]MALE_NAME
 \\\x0e\x1e
 [01]NEWLINE
-「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
+「（もう
+l
+もかなり帰ったみたいだし、大丈夫だよな）」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -534,11 +548,14 @@ i
 [28]LOAD_GRAPHICS
 _CGB13
 \x00
- DS05
+[20]LOAD_MUSIC
+DS05
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「しかし、人ってのは一度の経験で変わってしまうもんなんだなぁ」
+「しかし、
+l
+ってのは一度の経験で変わってしまうもんなんだなぁ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
