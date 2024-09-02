@@ -10,35 +10,50 @@ z\x02(_CGB19
 \x00
 NARRATION_DIALOGUE:
 朝、目を覚ますとFEMALE NAMEが、嬉しそうな顔で、あなたの顔をのぞき込んでいた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「おっはよ、MALE NAME」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「あ、おはよ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 ぼんやりとした表情で体を起こすあなたを見て、FEMALE NAMEは、くすくすと笑い出した
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「な、なんだよぉ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「MALE NAMEって、あんな寝顔なんだね」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「も、もしかして、ずっと見てたのか？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「うん！」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・はぁ、どーせ間抜けな顔してたとか、言うんだろ？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ううん、かわいいなって思ってたの」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ば、馬鹿言うなって・・・」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ふふっ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたがどういう表情をしていいか困っていると、FEMALE NAMEが立ち上がって声をかけてきた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「じゃ、朝御飯出来てるから、早く起きてきてね☆」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「わかったよ」
-NAME_TAG MALE NAME｡FEMALE NAME
+CLEAR_TEXTBOX
+MALE NAME｡FEMALE NAME
 \x00
 \x15Z
 \x00
@@ -54,7 +69,8 @@ NARRATION_DIALOGUE:
 \x00
 NARRATION_DIALOGUE:
 久しぶりに目覚ましの音で目を覚ましたあなたは、ゆっくりと起きあがり台所に歩いていった
-NAME_TAG MALE NAME｡FEMALE NAME
+CLEAR_TEXTBOX
+MALE NAME｡FEMALE NAME
 \x00
 \x15[
 \x00
@@ -74,40 +90,46 @@ NARRATION_DIALOGUE:
 \x00
 /\x03\x10m\x12\x04r
 \x00
-\x01
-\x00
+\n \x00
 MALE NAME｡(_CGB19
 \x00
  DS02
 \x00
 FEMALE_DIALOGUE:
 「MALE NAME、おはよう」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「おはよう、FEMALE NAME」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「朝御飯出来てるから、早く起きてきてね」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「う～い」
-NAME_TAG \x1a(_CGB00
+CLEAR_TEXTBOX
+\x1a(_CGB00
 \x00
  DS13
 \x00
 NARRATION_DIALOGUE:
 結局あなたは一睡も出来なかった
- \n CENTERED一晩中つけっぱなしにしておいたテレビからは、トンネル事故の続報が次々と流れていたが、その中にFEMALE NAMEの名前が出てくることもなかった
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT ???一晩中つけっぱなしにしておいたテレビからは、トンネル事故の続報が次々と流れていたが、その中にFEMALE NAMEの名前が出てくることもなかった
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・なんで連絡してこねーんだよ・・・
- \n \x01
-　もしかして本当に・・・い、いや、そんなことは・・・」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　もしかして本当に・・・い、いや、そんなことは・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 もう何度目になるかわからない自問自答を、あなたは繰り返していた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「も、もうじっとしてられねーな・・・
- \n \x01
-　ダメもとで、事故現場にでも行ってみるか・・・」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　ダメもとで、事故現場にでも行ってみるか・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは急いで外出の準備をし、玄関を開けて外に出た
-NAME_TAG (KURO
+CLEAR_TEXTBOX
+(KURO
 \x00
 g(_CGAG04
 \x00
@@ -115,26 +137,36 @@ h DS06
 \x00
 FEMALE_DIALOGUE:
 「ただいまー！」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「え？」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 突然目の前に現れたFEMALE NAMEの姿を見たあなたは、あたまの中がこんがらがり、その場に立ち尽くしてしまった
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「いや～、まいったわ～　温泉からの帰りにね、真弓が近道通って帰ろ　って言うからそっちに行ったら、なんかすごい山道でね」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「一晩中訳のわかんない山の中を走り回ってたのよ～」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 呆然としているあなたは目の前で、FEMALE NAMEは怒られる隙を作らないように早口でまくしたてた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「いや～、参った、参った・・・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 そう言って笑うFEMALE NAMEを見ている内に、あなたはだんだんと正気に戻ってきた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「まったく、ひどい目にあったわ・・・・・
- \n キャッ！」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT キャッ！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは無意識のうちに右手をあげていた
-NAME_TAG 
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 （FEMALE NAMEを抱きしめる）
@@ -143,8 +175,7 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
@@ -154,133 +185,156 @@ NARRATION_DIALOGUE:
  ds10
 \x00
 NARRATION_DIALOGUE:
-CENTERED反射的に顔を覆ったFEMALE NAMEを、あなたはしっかりと抱きしめた
-NAME_TAG FEMALE_DIALOGUE:
+???反射的に顔を覆ったFEMALE NAMEを、あなたはしっかりと抱きしめた
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「え？」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 戸惑いの表情を浮かべるFEMALE NAMEを、あなたは強く強く抱きしめた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・いたいよぉ・・・」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「うるさい・・・・・
- \n しばらくじっとしてろ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT しばらくじっとしてろ・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたの言葉にFEMALE NAMEは困ったような表情を浮かべたが、いやがっている様子はなかった
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「は～い」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたはFEMALE NAMEの肌の温もりを確かめるように、しっかりと抱きしめていた
-NAME_TAG \x10\n\x0c\x15
-\x01
-あなたは反射的に目をつむったFEMALE NAMEの頭を、軽くたたいた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+\x10\n\x0c\x15
+\n あなたは反射的に目をつむったFEMALE NAMEの頭を、軽くたたいた
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「あのなぁ・・・・・
- \n どれだけ心配したのかわかってんのか！」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT どれだけ心配したのかわかってんのか！」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ごめんなさ～い！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは深く頭を下げた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「れ、連絡は入れようと思ってたんだけど・・・・・
- \n \x01
-　近くに電話とかが無くて・・・・・」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT \n 　近くに電話とかが無くて・・・・・」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「で、ラジオでトンネル事故の事とか聞いて、心配してるだろうなぁと　は思ってたんだけど・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEの言い訳を聞いてる内に、あなたも冷静になっていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「とにかく・・・今後、こういう事態になったときは、ぜったいに連絡　するんだぞ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「は～い！　わっかりましたー！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは元気な声で返事をすると、あなたに向かって敬礼のポーズをとった
-NAME_TAG \x10\x97\x1a\x1a(_CGB00
+CLEAR_TEXTBOX
+\x10\x97\x1a\x1a(_CGB00
 \x00
  DS13
 \x00
 NARRATION_DIALOGUE:
 結局、朝まで連絡は入らなかった
- \n CENTEREDあなたが、ぼんやりとテレビを見ている隣で、FEMALE NAMEがあなたに寄りかかって眠っていた
- \n CENTEREDあなたは、昨日の夜にFEMALE NAMEに寝てろと言ったのだが、一人だと不安で眠れないと言って、一晩中あなたにしがみついていた
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT ???あなたが、ぼんやりとテレビを見ている隣で、FEMALE NAMEがあなたに寄りかかって眠っていた
+ CLICKWAIT ???あなたは、昨日の夜にFEMALE NAMEに寝てろと言ったのだが、一人だと不安で眠れないと言って、一晩中あなたにしがみついていた
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「さすがに・・・眠くなってきたな・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 昨日から一睡もしていないあなたが、大きなあくびをしたとき、不意に電話が鳴った
- \n CENTEREDその音に反応して起きたFEMALE NAMEが目をこすっている間に、あなたは受話器をとった
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT ???その音に反応して起きたFEMALE NAMEが目をこすっている間に、あなたは受話器をとった
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「はい、です・・・ああ、おはようございます
- \n \x01
-　・・・無事だったんですね・・・ええ・・・ああそうだったんですか
- \n \x01
-　・・・はい、いますよ」
-NAME_TAG  DS10
+ CLICKWAIT \n 　・・・無事だったんですね・・・ええ・・・ああそうだったんですか
+ CLICKWAIT \n 　・・・はい、いますよ」
+CLEAR_TEXTBOX
+ DS10
 \x00
 NARRATION_DIALOGUE:
 あなたは、まだぼんやりしているFEMALE NAMEに、受話器を差し出した
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ん・・・誰？」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「真弓さんだよ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「真弓・・・・・
- \n え、本当！？」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT え、本当！？」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは急いで起きあがると、あなたから受話器を奪い取った
-NAME_TAG (_CGAA03
+CLEAR_TEXTBOX
+(_CGAA03
 \x00
 FEMALE_DIALOGUE:
 「もしもし！
- \n 　ばかぁーーー！！！
- \n \x01
-　なんで連絡くれないのよー！！！
- \n \x01
-　すっごい心配してたんだからねー！」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT 　ばかぁーーー！！！
+ CLICKWAIT \n 　なんで連絡くれないのよー！！！
+ CLICKWAIT \n 　すっごい心配してたんだからねー！」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・ゴメンじゃないわよー！
- \n \x01
-　私はあのトンネル事故に巻き込まれたんじゃないかって・・・・・
- \n \x01
-　不安で・・・・・」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　私はあのトンネル事故に巻き込まれたんじゃないかって・・・・・
+ CLICKWAIT \n 　不安で・・・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは言葉に詰まってしまい、何も言えなくなってしまった
- \n CENTEREDあなたは、FEMALE NAMEから受話器を受け取った
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT ???あなたは、FEMALE NAMEから受話器を受け取った
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「あ、すいません、また後でかけなおします
- \n \x01
-　え・・・ああ、ちょっと安心して泣いちゃっただけですから・・・
- \n \x01
-　はい、そう伝えておきます・・・では失礼します」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　え・・・ああ、ちょっと安心して泣いちゃっただけですから・・・
+ CLICKWAIT \n 　はい、そう伝えておきます・・・では失礼します」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは受話器を置くと、FEMALE NAMEの頭をそっと抱きしめた
-NAME_TAG (V3
+CLEAR_TEXTBOX
+(V3
 \x00
 MALE_DIALOGUE:
 「よかったな」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・うん」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、あなたの腕に顔を埋めて泣き続けた
-NAME_TAG \x10\x97\x1a\x1a(_CGAA01
+CLEAR_TEXTBOX
+\x10\x97\x1a\x1a(_CGAA01
 \x00
  DS02
 \x00
 FEMALE_DIALOGUE:
 「あ～、遅れちゃう
- \n 　あ、今日の夜は適当に外ででも食べてきてね
- \n \x01
-　それから、寝る前にガスの元栓をしめるのを忘れないようにね
- \n \x01
-　多分、明日の夕方・・・遅くても夜には帰ってくるからね」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT 　あ、今日の夜は適当に外ででも食べてきてね
+ CLICKWAIT \n 　それから、寝る前にガスの元栓をしめるのを忘れないようにね
+ CLICKWAIT \n 　多分、明日の夕方・・・遅くても夜には帰ってくるからね」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「じゃ、行ってきま～す！」
-NAME_TAG \x1a
-\x01
-\x02
+CLEAR_TEXTBOX
+\x1a
+\n \x02
 \x00
 \x0e
 \x00
-\x01
-\x03
+\n \x03
 \x00
 \x0f
 \x00
@@ -300,67 +354,81 @@ NAME_TAG \x1a
 \x00
 FEMALE_DIALOGUE:
 「どうしたの？　なんだかしんどそうだよ
- \n 　大丈夫？」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT 　大丈夫？」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 今日は、起きた時から少し熱っぽいようだ
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ああ・・・大丈夫・・・だよ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・全然、大丈夫そうには見えないよ」
-NAME_TAG (E1
+CLEAR_TEXTBOX
+(E1
 \x00
 NARRATION_DIALOGUE:
-CENTEREDFEMALE NAMEが心配そうな顔で、あなたのもとにやってくると、手のひらをあなたの額に当てた
-NAME_TAG FEMALE_DIALOGUE:
+???FEMALE NAMEが心配そうな顔で、あなたのもとにやってくると、手のひらをあなたの額に当てた
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ちょ、ちょっとぉ！
- \n \x01
-　すごい熱じゃない！これで大丈夫な訳無いでしょ！！」
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT \n 　すごい熱じゃない！これで大丈夫な訳無いでしょ！！」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ちょっと熱いだけだよ・・・
- \n \x01
-　こんなのは・・・熱の・・内には・・・」
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT \n 　こんなのは・・・熱の・・内には・・・」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「あ、あれ・・・
- \n 景色が・・・ゆが・・む」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT 景色が・・・ゆが・・む」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 （ばたっ）
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ねぇ！大丈夫？！
- \n \x01
-　ねぇ！！しっかりしてよぉ！！ねぇってばぁ！！！」
-NAME_TAG (_CGB18
+ CLICKWAIT \n 　ねぇ！！しっかりしてよぉ！！ねぇってばぁ！！！」
+CLEAR_TEXTBOX
+(_CGB18
 \x00
  DS10
 \x00
 MALE_DIALOGUE:
 「あれ・・・・・俺、何を・・・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたが、ぼんやりとした記憶をたどっていくと、朝の記憶が蘇ってきた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ああ、たしか俺、倒れちまったんだよな・・・
- \n \x01
-　ったく、みっともねえなぁ・・・」
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT \n 　ったく、みっともねえなぁ・・・」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「４時・・・・・か・・・・・
- \n \x01
-　しかもこんだけ外が暗いってことは、朝の４時ってことか
- \n \x01
-　・・・しっかしよく寝たよなぁ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　しかもこんだけ外が暗いってことは、朝の４時ってことか
+ CLICKWAIT \n 　・・・しっかしよく寝たよなぁ・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたが、少し首を浮かせて辺りを見回すと、FEMALE NAMEがベッドに身を預けるようにして眠っていた
-NAME_TAG (E2
+CLEAR_TEXTBOX
+(E2
 \x00
 MALE_DIALOGUE:
 「ずっと看病してくれてたのか・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたが起きあがろうとして、上半身を起こしたとき、額にのせていたタオルが膝の上に落ちた
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 そのタオルは、さっきのせたかのように、まだ冷たかった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ったく、いつまで起きてたんだよ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEの頭に軽く手をのせると、しょうがないなという表情で微笑んだ
-NAME_TAG 
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 （・・・眠い、もう少し寝よう・・・）
@@ -369,120 +437,140 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 \x15\x02
 \x00
 \x02
 \x00
 ﾝ
-\x01
-しばらくFEMALE NAMEを眺めていたが、すやすやと眠るFEMALE NAMEを見ているといたずらをしたくなる・・・
-NAME_TAG MALE_DIALOGUE:
+\n しばらくFEMALE NAMEを眺めていたが、すやすやと眠るFEMALE NAMEを見ているといたずらをしたくなる・・・
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「うーん、熱も引いたようだし
- \n \x01
-　ちょいと、からかってみよっかな」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　ちょいと、からかってみよっかな」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 そう言って、そっと首筋に手を伸ばした時、FEMALE NAMEが小さな声でつぶやいた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・死んじゃあやだよぉ・・・私を・・・一人に・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 首筋にのばした手を止め、眠っているFEMALE NAMEの顔を眺めた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（・・・涙の跡・・・・？）」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・ば～か、この程度で死んだりするかよ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEを起こさないように静かに立ち上がり、押入から毛布を出してかけた
-NAME_TAG \x10\x82\x1a\x1e
-\x01
-「さぁて、俺ももう一眠りするかな
- \n \x01
-　ちゃんと眠って直しとかないと、また迷惑かけちまうからな」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+\x10\x82\x1a\x1e
+\n 「さぁて、俺ももう一眠りするかな
+ CLICKWAIT \n 　ちゃんと眠って直しとかないと、また迷惑かけちまうからな」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 眠っているFEMALE NAMEに謝りのポーズを見せてから、もう一度寝る体勢に入った
-NAME_TAG \x01
-\x0e
+CLEAR_TEXTBOX
+\n \x0e
 \x00
 \x02
 \x00
-\x01
-\x0f
+\n \x0f
 \x00
 \x03
 \x00
 \x04\x0b
 \x00
-\x01
-\x00
+\n \x00
 \x04r
 \x00
-\x01
-\x00
+\n \x00
 \x1a(_CGB00
 \x00
 NARRATION_DIALOGUE:
 なんだか疲れてしまって、結局この日は、一日中家にいることになった
-NAME_TAG (_CGAk01
+CLEAR_TEXTBOX
+(_CGAk01
 \x00
  DS02
 \x00
 FEMALE_DIALOGUE:
 「それにしてもさあ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、いつものように食事の後片づけをしながら、あなたに声をかけてきた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「この生活も、もう３ヶ月になるんだよね」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ああ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「なんか、あっと言う間だったよね」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・そうだな」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは、この３ヶ月間のことをぼんやりと思い出していた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ずいぶんいろんな事があったな」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ほんとにねぇ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 いつのまにか後片づけを終えたFEMALE NAMEが、あなたの隣に座り込んだ
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ねぇ？」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、あなたの顔をのぞき込むようにして声をかけてきた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ん？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「これから私達どうなるのかな？」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「さあ・・・・・
- \n わかんねーな、先の事なんて」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT わかんねーな、先の事なんて」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「そうね・・・でも、出来ることなら
- \n \x01
-　・・・・・ずっと、こうして・・・」
-NAME_TAG (W1B
+ CLICKWAIT \n 　・・・・・ずっと、こうして・・・」
+CLEAR_TEXTBOX
+(W1B
 \x00
  DS10
 \x00
 NARRATION_DIALOGUE:
-CENTEREDFEMALE NAMEは、ゆっくりとあなたに顔を近づけると、唇を重ねてきた
-NAME_TAG NARRATION_DIALOGUE:
+???FEMALE NAMEは、ゆっくりとあなたに顔を近づけると、唇を重ねてきた
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは、唇にしっかりと、FEMALE NAMEの体温を感じていた
-NAME_TAG (KURO
+CLEAR_TEXTBOX
+(KURO
 \x00
 !\x15
-\x01
-CENTERED風のようにすぎていった日々の中で、たった一つだけ変わらない物があった
-NAME_TAG NARRATION_DIALOGUE:
+\n ???風のようにすぎていった日々の中で、たった一つだけ変わらない物があった
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 そして、それはこれからも変わることはないだろう
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 そう、これからもずっと・・・・・
-NAME_TAG \x04q
+CLEAR_TEXTBOX
+\x04q
 \x00
-\x01
-\x00
+\n \x00
 \x19END
 \x00
-\x1a\xff
+END_FILE

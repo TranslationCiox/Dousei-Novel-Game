@@ -1,8 +1,7 @@
 \x04\x04
 \x00
 \x00
-\x01
-\x00
+\n \x00
 \x11\x17W
 \x00
 NARRATION_DIALOGUE:
@@ -41,25 +40,33 @@ MALE NAMEｳ(_CGCB03
 \x00
 NARRATION_DIALOGUE:
 バイトを終えて喫茶店の外に出ると、そこに恵が待っていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「待った？」
-NAME_TAG 7
-\x01
-「い、いえ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+7
+\n 「い、いえ・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恵は、恥ずかしそうに目を背けた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「えーっと・・・・・
- \n ホテルで・・・いいよね？」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT ホテルで・・・いいよね？」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恵は、目を合わせずにこくんと頷いた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「じゃあ、行こうか」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 そう言って肩を抱くと、恵はびくっと体を硬くした
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（さて・・・あまり知り合いに会わない道を行かないとな・・・）」
-NAME_TAG 
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 繁華街
@@ -70,158 +77,186 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 !\x02\x1e
-\x01
-「（意外と人混みにまぎれたらわかんないかもな）」
-NAME_TAG MALE NAMEｪCENTEREDFEMALE NAME
-\x01
-\x00
+\n 「（意外と人混みにまぎれたらわかんないかもな）」
+CLEAR_TEXTBOX
+MALE NAMEｪ???FEMALE NAME
+\n \x00
 \x15\x02
 \x00
 \x02
 \x00
 l\x02\x1e
-\x01
-「（まさか、ここで知り合いに会うってことはないだろう）」
-NAME_TAG MALE NAMEｪCENTERED
-\x01
-「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
-NAME_TAG \x04i
+\n 「（まさか、ここで知り合いに会うってことはないだろう）」
+CLEAR_TEXTBOX
+MALE NAMEｪ???
+\n 「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
+CLEAR_TEXTBOX
+\x04i
 \x00
-\x01
-\x00
+\n \x00
 NARRATION_DIALOGUE:
 あなたは、さも自然にそこを通るように、そっと進路を変更した
-NAME_TAG (_CGB13
+CLEAR_TEXTBOX
+(_CGB13
 \x00
  DS05
 \x00
 NARRATION_DIALOGUE:
-CENTEREDホテルに入ってからも、恵は緊張しっぱなしだった
-NAME_TAG NARRATION_DIALOGUE:
+???ホテルに入ってからも、恵は緊張しっぱなしだった
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 そんな様子に一度は、やっぱりやめようかと勧めたが、恵の決意は固かった
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 仕方なく、なんとか緊張をほぐしつつ愛撫を続けたが、恵の秘処からはあまり愛液があふれてはこなかった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「えっと・・・恵ちゃん
- \n \x01
-　もうちょっとリラックスした方がいいと思うよ」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　もうちょっとリラックスした方がいいと思うよ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恵はこくりと頷いたが、相変わらず体を堅くしたままだった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（・・・まいったなぁ、これじゃあかなり痛いかも・・・）」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恵の体の上に覆い被さったままどうしようか迷っていると、恵が腕を背中に回して抱きついてきた
-NAME_TAG 7
-\x01
-「・・・痛いのは覚悟しています・・・・・
- \n \x01
-　でも、さんだったら我慢出来そうな気が・・・します」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+7
+\n 「・・・痛いのは覚悟しています・・・・・
+ CLICKWAIT \n 　でも、さんだったら我慢出来そうな気が・・・します」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 少し涙目でそう訴える恵を、優しく抱きしめた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「わかった・・・
- \n じゃあ、なるべく痛くないようにするから・・・」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT じゃあ、なるべく痛くないようにするから・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 小さく頷く恵の秘処にペニスをあてがうと、まだあまり濡れていない割れ目の中へゆっくりと差し込んだ
-NAME_TAG (K2
+CLEAR_TEXTBOX
+(K2
 \x00
 7
-\x01
-「ひぐぅっ」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「ひぐぅっ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 全身を硬直させた恵の口から、苦しそうなうめき声が漏れた
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 強烈な抵抗を受けるペニスを少しずつ中へと入れる度に、恵の口から苦しげな声が響いた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「だ、大丈夫かい？」
-NAME_TAG 7
-\x01
-「・・・はぁ、はぁ・・・な、なんとか大丈夫です・・・」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+7
+\n 「・・・はぁ、はぁ・・・な、なんとか大丈夫です・・・」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「苦しかったらやめてもいいんだよ」
-NAME_TAG 7
-\x01
-「・・・いえ、今は苦しいよりも・・・うれしい方が大きいんです
- \n \x01
-　・・・体全体で・・・さんを感じることが出来るから・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+7
+\n 「・・・いえ、今は苦しいよりも・・・うれしい方が大きいんです
+ CLICKWAIT \n 　・・・体全体で・・・さんを感じることが出来るから・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 そう言って微笑む恵の表情を見ていると、だんだんと下半身があつくなってきた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・じゃあ、そろそろ動くよ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恵が頷くのを確認すると、ゆっくりと腰を前後に動かし出した
-NAME_TAG 7
-\x01
-「ん・・・く、くぅ・・・・あ、あはぁ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+7
+\n 「ん・・・く、くぅ・・・・あ、あはぁ・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恵は相変わらず苦しそうな声を出していたが、その中に少しずつ艶のある声が混じってきた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・恵ちゃんの中って・・・すごく気持ちいい・・よ」
-NAME_TAG 7
-\x01
-「・・・は、はぁん・・・そんなこと・・・くっ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+7
+\n 「・・・は、はぁん・・・そんなこと・・・くっ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 そういった言葉に反応できるほど、恵の苦しさは和らいでいた
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恵の変化に気づいたあなたは、腰を動かすスピードを徐々に上げていった
-NAME_TAG 7
-\x01
-「あ、あ、あん・・・ん、っんく・・・はぁ、あ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+7
+\n 「あ、あ、あん・・・ん、っんく・・・はぁ、あ・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 いつの間にか恵の秘処からは大量の愛液があふれ、ペニスをぬるぬるにしていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「そ、そろそろ・・・いきそうだ・・・」
-NAME_TAG 7
-\x01
-「あ、ああ・・・私も・・・い、いく、いっちゃうぅ！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+7
+\n 「あ、ああ・・・私も・・・い、いく、いっちゃうぅ！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 体を硬直させる恵から素早くペニスを引き抜くと、恵の体の上に白い液体をぶちまけた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「はぁ・・はぁ・・・」
-NAME_TAG 7
-\x01
-「・・・・さん・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+7
+\n 「・・・・さん・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 小さくあなたの名前をつぶやく恵の顔は、幸福感に満ちていた
-NAME_TAG \x04\\
+CLEAR_TEXTBOX
+\x04\\
 \x00
-\x01
-\x00
+\n \x00
 \x1a(_CGCB05
 \x00
  DS08
 \x00
 NARRATION_DIALOGUE:
 バイトを終えて喫茶店の外に出ると、そこに恵が待っていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「待った？」
-NAME_TAG 7
-\x01
-「いえ、私も今来たところです」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+7
+\n 「いえ、私も今来たところです」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恵は少し息を切らしながら、そう答えた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「じゃあ、行こうか・・・
- \n 場所はホテルでいいよね」
-NAME_TAG 7
-\x01
-「はい」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT 場所はホテルでいいよね」
+CLEAR_TEXTBOX
+7
+\n 「はい」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恵はそう答えると、あなたの腕に抱きついてきた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（ずいぶん大胆になったなぁ）」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 腕に恵の体温を感じながら、少し感慨に耽ってしまった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（さて・・・あまり知り合いに会わない道を行かないとな・・・）」
-NAME_TAG 
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 繁華街
@@ -232,91 +267,103 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 ﾘ
-\x01
-「（意外と人混みにまぎれたらわかんないかもな）」
-NAME_TAG \x04i
+\n 「（意外と人混みにまぎれたらわかんないかもな）」
+CLEAR_TEXTBOX
+\x04i
 \x00
-\x01
-\x00
+\n \x00
 \x10\\\x0e\x11\x16
-\x01
-\x00
+\n \x00
 \x15\x02
 \x00
 \x02
 \x00
 #\x0e\x1e
-\x01
-「（まさか、ここで知り合いに会うってことはないだろう）」
-NAME_TAG \x10\\\x0e\x1e
-\x01
-「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「（まさか、ここで知り合いに会うってことはないだろう）」
+CLEAR_TEXTBOX
+\x10\\\x0e\x1e
+\n 「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは、さも自然にそこを通るように、そっと進路を変更した
-NAME_TAG (_CGB13
+CLEAR_TEXTBOX
+(_CGB13
 \x00
  DS05
 \x00
 MALE_DIALOGUE:
 「しかし、人ってのは一度の経験で変わってしまうもんなんだなぁ」
-NAME_TAG (K3
+CLEAR_TEXTBOX
+(K3
 \x00
 NARRATION_DIALOGUE:
-CENTEREDあなたの体の上にまたがり、自ら腰を振っている恵を見て、つくづくそう思ってしまった
-NAME_TAG MALE_DIALOGUE:
+???あなたの体の上にまたがり、自ら腰を振っている恵を見て、つくづくそう思ってしまった
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・あの、恵ちゃん？」
-NAME_TAG 7
-\x01
-「・・・あ、ああん、・・・い、いいです・・・んっ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+7
+\n 「・・・あ、ああん、・・・い、いいです・・・んっ・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恵は自分の行為に夢中で、あなたの声が聞こえていないようだった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（・・・ま、いいか、こうやって見る光景も悪くないしなぁ）」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恵は自らの大きな胸を両手で鷲掴みにし、形が変わってしまうほど強くもんでいた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（・・・結構胸大きいんだよなぁ・・・今度あれで・・・おおぅ）」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恵の腰の動きが、今までの単調なものから少し複雑なものへと変化していった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「い、いつのまに、こんな技を・・・く、くぅ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 まだきつい恵の膣内の肉壁があなたのペニスを、上下左右から圧迫してきた
-NAME_TAG 7
-\x01
-「ん・・・ふっ・・・は、はぁ・・・んくっ・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+7
+\n 「ん・・・ふっ・・・は、はぁ・・・んくっ・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 完全に主導権を握られたあなたは、恵のなすがままになっていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「そ、そろそろ・・・いきそうだ・・・」
-NAME_TAG 7
-\x01
-「・・・きょ、今日は大丈夫なんです・・・
- \n \x01
-　だ、だから・・・中に・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+7
+\n 「・・・きょ、今日は大丈夫なんです・・・
+ CLICKWAIT \n 　だ、だから・・・中に・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恵はそう言うと、限界がきたあなたのペニスを自分の膣内深く沈めた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「い、いく！」
-NAME_TAG 7
-\x01
-「あ、ああん！！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+7
+\n 「あ、ああん！！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 膣内の一番奥へと達したペニスの先から、大量の精液が放出された
-NAME_TAG 7
-\x01
-「熱い・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+7
+\n 「熱い・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恵は放心したようにあなたの体の上へと倒れ込んできた
-NAME_TAG \x04]
+CLEAR_TEXTBOX
+\x04]
 \x00
-\x01
-\x00
-\x1a\xff
+\n \x00
+END_FILE

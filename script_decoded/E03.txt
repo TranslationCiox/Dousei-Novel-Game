@@ -54,51 +54,70 @@ MALE NAMEﾑC(_CGAA04
 \x00
 FEMALE_DIALOGUE:
 「ねぇねぇ、今日はテレビ見ようよ！」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「テレビ？
- \n 　今日ってなんか面白いのやってたっけ？」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT 　今日ってなんか面白いのやってたっけ？」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「今日は面白いの！」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「なんだよそれ！」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「見ればわかるの！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、いたずらっぽく笑うと、テレビのスイッチを入れた
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 そのテレビに映し出された番組は、今、流行の街頭インタビュー形式のクイズ番組だった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「え？　この番組のこと？　ま、確かに面白ことは面白いけど・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたが首をひねりながら画面を見ていると、いきなり画面にFEMALE NAMEが映し出された
-NAME_TAG (G1
+CLEAR_TEXTBOX
+(G1
 \x00
  DS06
 \x00
 MALE_DIALOGUE:
 「なっ！・・・
- \n 　なんで・・・でてんの？」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT 　なんで・・・でてんの？」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ちょっとこの前、買い物の帰りにインタビューされちゃってね～」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「へぇ～」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは、テレビの中にいる、いつもと違うFEMALE NAMEを珍しそうに眺めた
- \n CENTEREDテレビの中のFEMALE NAMEは自己紹介をした後、いきなり画面に向かって手を振っている
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT ???テレビの中のFEMALE NAMEは自己紹介をした後、いきなり画面に向かって手を振っている
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 『MALE NAME～、見てる～
- \n 　私テレビに出てるんだよ～』
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT 　私テレビに出てるんだよ～』
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「あ、あのなぁ・・・」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「な～に照れてんのよ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「恥ずかしがってんだよ！！！」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ふ～ん、変なの」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「それにしても・・・」
-NAME_TAG 
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 派手な服着てるなぁ
@@ -107,62 +126,72 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 z
- \n FEMALE_DIALOGUE:
+ CLICKWAIT FEMALE_DIALOGUE:
 「だってぇ、お出かけ用だもん」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「だいたいこんな服持ってたっけ～？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「な、なに言ってんのよー！
- \n \x01
-　一緒に買いに行ったじゃない！！」
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT \n 　一緒に買いに行ったじゃない！！」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「え？　そうだっけ？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「そうよ！！！
- \n \x01
-　MALE NAMEが『よく似合う』っていってくれたから買ったのにぃ
- \n \x01
-　やっぱり適当に相槌打ってただけなのね！！！」
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT \n 　MALE NAMEが『よく似合う』っていってくれたから買ったのにぃ
+ CLICKWAIT \n 　やっぱり適当に相槌打ってただけなのね！！！」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「い、いや、それは、その・・・」
-NAME_TAG \x10\x84\x06\x1d
-\x01
-「え、そう？
- \n 　や、やだぁ・・・照れるじゃない」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+\x10\x84\x06\x1d
+\n 「え、そう？
+ CLICKWAIT 　や、やだぁ・・・照れるじゃない」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「いや、マジで・・・・・
- \n \x01
-　あ、いつもより化粧が濃いせいか！」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT \n 　あ、いつもより化粧が濃いせいか！」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「もう、なんでそんな言い方しか出来ないのよ！」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「い、いや、ま、まあ俺は、すっぴんの顔も好きだけどな」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・うまく逃げるんだからぁ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「あ、そろそろ問題が始まるぞ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「え？
- \n ・・・・・ね、ねぇ、もう見るのやめない？」
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT ・・・・・ね、ねぇ、もう見るのやめない？」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「どうして？
- \n 　今始まったばっかりだぜ」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT 　今始まったばっかりだぜ」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「い、いや、私の答えなんか聞いても面白くないと思うし・・・」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「でもなぁ・・・あっ１問目が始まったぜ
- \n \x01
-　何々『現アメリカ大統領、クリントンの所属している政党は？』」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT \n 　何々『現アメリカ大統領、クリントンの所属している政党は？』」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・・・わかる？」
-NAME_TAG 
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 ちょっとわかんないなぁ
@@ -171,52 +200,62 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 \x96\n\x1d
-\x01
-「そ、そうよねぇ、難しいもんねぇ」
-NAME_TAG MALE_DIALOGUE:
+\n 「そ、そうよねぇ、難しいもんねぇ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「まぁね
- \n 　で、何て答えたんだ？」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT 　で、何て答えたんだ？」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「わ、私は・・・・その・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEが口ごもってると、テレビの中のFEMALE NAMEが、代わりに答えてくれた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「『アメリカ党！』」
- \n \x02\x81x
+ CLICKWAIT \x02\x81x
 \x00
 MALE_DIALOGUE:
 「・・・・・それは違うだろ・・・」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「あ、あのね、これはね、ギャグを狙おうとして・・・あの・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 必死でいいわけをしているFEMALE NAMEを、あなたは笑顔で見ていた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「あうぅ～・・・どろぬま・・・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは真っ赤な顔をして、テーブルの上に倒れ込んでしまった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ま、いいんじゃない
- \n 　ギャグを狙ってたんだろ？
-\x01
-　・・・あっ２問目・・・」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT 　ギャグを狙ってたんだろ？
+\n 　・・・あっ２問目・・・」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「だめぇ！！！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは素早くリモコンを拾うと、テレビを消してしまった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「そこまで嫌がんなくても・・・・・」
-NAME_TAG \x10\x93\x10\x1d
-\x01
-「え～本当？
- \n 　じゃあ答えは何？」
-NAME_TAG 
+CLEAR_TEXTBOX
+\x10\x93\x10\x1d
+\n 「え～本当？
+ CLICKWAIT 　じゃあ答えは何？」
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 共和党だろ
@@ -225,218 +264,279 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 )\x0e\x1d
-\x01
-「うっ・・・あってる」
-NAME_TAG MALE_DIALOGUE:
+\n 「うっ・・・あってる」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ま、これぐらいは知ってて当然だろ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「そ、そうだよね・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは目をそらしながら返事を返し、床に置いてあったリモコンをそっと握った
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「で、結局なんて答え・・・あ～！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 テレビの中のFEMALE NAMEが答えを言おうとした瞬間、テレビがプッっときれてしまった
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「あ、ゴメン、ゴメン
- \n \x01
-　ちょ、ちょっとリモコンふんじゃったみたい・・・
- \n すぐつけるね」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　ちょ、ちょっとリモコンふんじゃったみたい・・・
+ CLICKWAIT すぐつけるね」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEはゆっくりとリモコンを持ち上げると、目をつむってスイッチを押した
- \n CENTERED画面には既にFEMALE NAMEの姿はなく、他の回答者が映し出されていた
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT ???画面には既にFEMALE NAMEの姿はなく、他の回答者が映し出されていた
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ざ、ざんねんだったねぇ
- \n \x01
-　せっかく正解を言ってたのにぃ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　せっかく正解を言ってたのにぃ・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは、必死にごまかそうとしているFEMALE NAMEを優しく見つめた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「そうだな」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「アハ、アハ、アハハハハハ・・・・・
- \n ハァ」
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT ハァ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「あっ２問目が始まるぞ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「私が悪かったですぅ、もう許してくださ～い」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは甘えた声であなたにしがみつくと、テレビの電源を切ってしまった
-NAME_TAG \x10\x93\x10\x1d
-\x01
-「ブッブ～！　違うわよ！」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+\x10\x93\x10\x1d
+\n 「ブッブ～！　違うわよ！」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「え、マジ？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「おおマジ！！！」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「あ～・・・もう一つの方だったかぁ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「だめねぇ、常識の無い人は」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEが目の前で人差し指を振っていると、テレビの中のFEMALE NAMEがしゃべり始めた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「『アメリカ党！』」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・・・・・・・・・・」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・・・・・・・・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 ２人の間に変な間が出来てしまった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・ま、まあ、結構難しい問題だったし・・・」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「いやぁ！
- \n 　そんな変なフォローはやめてぇ！」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT 　そんな変なフォローはやめてぇ！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは真っ赤な顔でうつむいた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ま、間違いは誰にでもあるって・・・
- \n おっ２問目だな」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT おっ２問目だな」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「もう見ちゃダメー！！！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは素早くリモコンを拾うとテレビを消してしまった
-NAME_TAG (_CGB00
+CLEAR_TEXTBOX
+(_CGB00
 \x00
 NARRATION_DIALOGUE:
 その時、不意に電話がなった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「はい、です」
-NAME_TAG >
-\x01
-「よう、テレビ見てるぜー！」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+>
+\n 「よう、テレビ見てるぜー！」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「えーっとぉ・・・・・ああ智也かぁ
- \n \x01
-　一瞬わかんなかったぜ」
-NAME_TAG >
-\x01
-「えー、そうかぁ？
- \n \x01
-　ま、そんなことより今テレビによー・・・」
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT \n 　一瞬わかんなかったぜ」
+CLEAR_TEXTBOX
+>
+\n 「えー、そうかぁ？
+ CLICKWAIT \n 　ま、そんなことより今テレビによー・・・」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「知ってるよ、FEMALE NAMEが出てるんだろ
- \n \x01
-　けど、ちょっとうちではテレビ切られてて・・・」
-NAME_TAG >
-\x01
-「ああ、わかる！わかる！
- \n 　あれじゃあなぁ」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　けど、ちょっとうちではテレビ切られてて・・・」
+CLEAR_TEXTBOX
+>
+\n 「ああ、わかる！わかる！
+ CLICKWAIT 　あれじゃあなぁ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 電話口から、智也の大きな笑い声がひびいた
-NAME_TAG >
-\x01
-「あ、そうだ！
- \n \x01
-　俺今ビデオに撮ってるから、ダビングしてやるよ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+>
+\n 「あ、そうだ！
+ CLICKWAIT \n 　俺今ビデオに撮ってるから、ダビングしてやるよ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「え、いいのか？」
-NAME_TAG >
-\x01
-「ああ、どーせお姉の分もしとかないといけねーし」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+>
+\n 「ああ、どーせお姉の分もしとかないといけねーし」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「じゃあ、頼もうかな」
-NAME_TAG >
-\x01
-「ＯＫ！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+>
+\n 「ＯＫ！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 それまでそばで聞き耳を立てていたFEMALE NAMEが、急に受話器を奪っい取った
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「余計なことすんなぁ　バカァ！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEはそう叫ぶと、笑い声の聞こえる受話器を置いた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「みんなで馬鹿にしてぇ・・・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは、笑いをこらえながらテレビをつけ、違う番組を見始めた
-NAME_TAG \x04\r
+CLEAR_TEXTBOX
+\x04\r
 \x00
-\x01
-\x00
+\n \x00
 \x1a(_CGAA01
 \x00
  DS02
 \x00
 FEMALE_DIALOGUE:
 「今日ちょっとお風呂の調子が悪いの・・・
- \n \x01
-　だから、銭湯行かない？」
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT \n 　だから、銭湯行かない？」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「銭湯？
- \n 　そう言えばずいぶん行ってないなぁ」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT 　そう言えばずいぶん行ってないなぁ」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「でしょ、だからちょうどいい機会だし行ってみようよ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「そうだな、久しぶりに行ってみるか」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「決まりね！
- \n 　じゃあ、ちょっと待ってて、用意してくるから」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT 　じゃあ、ちょっと待ってて、用意してくるから」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは風呂場から風呂道具を持ってくると、あなたの手をとり銭湯へと向かった
-NAME_TAG (y1
+CLEAR_TEXTBOX
+(y1
 \x00
  DS06
 \x00
 NARRATION_DIALOGUE:
-CENTERED１時間後、２人は銭湯を出て自宅へと向かっていた
-NAME_TAG FEMALE_DIALOGUE:
+???１時間後、２人は銭湯を出て自宅へと向かっていた
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「あーいいお湯だった」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは濡れた髪をかき上げながら、あなたの方を振り返った
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「やっぱり広いお風呂はいいよね～」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「そうだな、手足をゆったりと伸ばせるもんなぁ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「うん、うん
-\x01
-　それに家のお風呂より、すっごく暖まるような気がするしね」
-NAME_TAG NARRATION_DIALOGUE:
+\n 　それに家のお風呂より、すっごく暖まるような気がするしね」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEはあなたの少し前方で立ち止まり、緩やかな風を受けていた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ぽかぽかした体に、冷たい風が気持ちい～い」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 緩やかに揺れるFEMALE NAMEの髪の毛をぼんやりと見ながら、あなたはFEMALE NAMEの隣まで歩いていった
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたが隣に並んだとき、FEMALE NAMEが夜空を見上げて話し始めた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「私ね、昔はよくお父さんと一緒にお風呂屋さんに行ってたの」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「へぇ～」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「私って昔からお風呂屋さんに行くのが好きだったから、いっつもはし　ゃいでたの」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「それは今も変わらない・・・かな」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「かもね・・・
- \n 　でね、よくお風呂屋さんの帰りにまだ小さかった私を　お父さんが肩車してくれたんだけど」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT 　でね、よくお風呂屋さんの帰りにまだ小さかった私を　お父さんが肩車してくれたんだけど」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「その時に見てた星空が、すっごく綺麗だったのを覚えてるの」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEはそう言いながら、ぼんやりと夜空を見上げていた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「こんなにゆっくりと夜空を見たのって、あの時以来かなぁ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・いつのまにかゆっくりと夜空を見るなんてことを、しなくなっ　たもんな・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 ２人は、しばらくぼんやりと夜空を眺めていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「そろそろ帰ろうぜ、湯冷めしそうだし」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「そうね」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 ２人はゆっくりと歩き出した
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ねぇ、また一緒にお風呂屋さんに行こうよ！」
-NAME_TAG 
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 うーん、どうせなら・・・
@@ -445,190 +545,244 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 z\x1b\x1e
-\x01
-「今度は『３人』で来たいな・・・・・
- \n なんてな」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「今度は『３人』で来たいな・・・・・
+ CLICKWAIT なんてな」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 ちょっとびっくりした顔であなたを見上げたFEMALE NAMEだったが、すぐに目を細め優しい表情になった
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・そうだね」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは軽く頷くと、あなたの腕に体を寄せた
-NAME_TAG \x10\x1d\x1c\x1d
-\x01
-「約束だよ～！」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+\x10\x1d\x1c\x1d
+\n 「約束だよ～！」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ああ、俺も銭湯好きだし、こうやって夜の街を２人で歩くのもいいも　んだしな」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「うん！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは嬉しそうに、あなたの腕に抱きついてきた
-NAME_TAG \x04\x0e
+CLEAR_TEXTBOX
+\x04\x0e
 \x00
-\x01
-\x00
+\n \x00
 (_CGB00
 \x00
 MALE_DIALOGUE:
 「さってと、今日は湯冷めしてしまわないうちに寝てしまおう」
-NAME_TAG \x1a(_CGAA01
+CLEAR_TEXTBOX
+\x1a(_CGAA01
 \x00
  DS02
 \x00
 NARRATION_DIALOGUE:
 ２人は食事を終えて、リビングでぼぅっとテレビを見ていた
- \n CENTEREDテレビの中では、リポーターが街行く中年夫婦にプロポーズの言葉を聞いていた
- \n CENTERED肘をついて、お菓子をパクつきながらテレビに見入っていたFEMALE NAMEが、ふと声をかけた
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT ???テレビの中では、リポーターが街行く中年夫婦にプロポーズの言葉を聞いていた
+ CLICKWAIT ???肘をついて、お菓子をパクつきながらテレビに見入っていたFEMALE NAMEが、ふと声をかけた
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ねぇ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ん？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「私達が一緒に暮らし始める時に言ってくれた言葉って、覚えてる？」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ん・・・なんだっけかな」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ほらぁ、夏祭りの時に言ってくれたじゃない～」
-NAME_TAG (A1
+CLEAR_TEXTBOX
+(A1
 \x00
  DS06
 \x00
 FEMALE_DIALOGUE:
 「ねぇねぇ、今度はお面を買おうよ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「お面？
- \n 　そんなもの買ってどうすんだよ」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT 　そんなもの買ってどうすんだよ」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「いいじゃない！
- \n \x01
-　お祭りっていうのは意味の無い物を買うのが楽しいんだからぁ」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　お祭りっていうのは意味の無い物を買うのが楽しいんだからぁ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは近くのお面屋さんへ駆け寄ると、おっちゃんと話し始めた
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 つきあい始めてからは毎年恒例の様にやって来ていた祭りだったが、今年はあなたにとって特別な意味を持っていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（さて、いつ言おうかなぁ）」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 少し考え事をしていると、お面を抱えたFEMALE NAMEが、帰ってきた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「はい、かぶってね」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「え？
- \n 　俺が？」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT 　俺が？」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「そうよ～
- \n 　そのためにかわいいの選んできたんだからぁ」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT 　そのためにかわいいの選んできたんだからぁ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEから渡されたお面は、小さい子に大人気のアニメキャラクターでアンパンの形をした頭にアニメ調の顔がついていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「こ、これをかぶんの？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「そうだよ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・・・はぁ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは、ため息をつきながら、その顔の部分が右前頭部にくるようにお面をかぶった
- \n CENTEREDFEMALE NAMEは満足そうな笑みを浮かべると、あなたの腕をとって先へと歩き出した
- \n CENTERED少し歩いて人混みがばらけてきた時、あなたはずっと言おうとしていたことを口にした
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT ???FEMALE NAMEは満足そうな笑みを浮かべると、あなたの腕をとって先へと歩き出した
+ CLICKWAIT ???少し歩いて人混みがばらけてきた時、あなたはずっと言おうとしていたことを口にした
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「なぁ・・・・・
- \n 一緒に住まないか？」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT 一緒に住まないか？」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「え？」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEが驚いた顔であなたを見上げたが、恥ずかしくて目を合わせることが出来なかった
- \n CENTEREDFEMALE NAMEはそんなあなたの様子を見て目を細めると、あなたから視線を外し前方を見つめた
-NAME_TAG (A2
+ CLICKWAIT ???FEMALE NAMEはそんなあなたの様子を見て目を細めると、あなたから視線を外し前方を見つめた
+CLEAR_TEXTBOX
+(A2
 \x00
  DS10
 \x00
 FEMALE_DIALOGUE:
 「いいよ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEのあまりにもあっさりとした答えに、今度はあなたの方が驚きの表情でFEMALE NAMEを見つめた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「い、いや、でも俺、定職にもついてないし・・・
- \n \x01
-　貯蓄もないし、それに・・・・・」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　貯蓄もないし、それに・・・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 自分で言い出したにもかかわらず、必死で言い訳している俺の顔を、ゆっくりとFEMALE NAMEが見上げた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ねぇ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「な、なに？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「私の事・・・・・
- \n 好き？」
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT 好き？」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「え・・・・・
- \n あ、ああ・・・」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT あ、ああ・・・」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「だったら、いいよ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEの言葉には、なんの迷いもなかった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・・・ったく、立場ね～な～」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたがすこし照れたように頭をかいていると、急にFEMALE NAMEが笑い出した
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「な、なんだよぉ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「だって、そんなお面かぶったまま、真面目な話しをしてるんだもん」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・あのなぁ、誰が、かぶせたんだよ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたはお面を外すと、FEMALE NAMEの頭にのせた
- \n CENTEREDFEMALE NAMEはそのお面をかぶると、あなたを見つめた
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT ???FEMALE NAMEはそのお面をかぶると、あなたを見つめた
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「じゃあこれからよろしく頼むよ、ジャ○おじさん」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・それはまずいって・・・」
-NAME_TAG (_CGAA01
+CLEAR_TEXTBOX
+(_CGAA01
 \x00
  DS02
 \x00
 MALE_DIALOGUE:
 「そう言えばそんな事もあったなぁ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「んもぉ～こんな大切なこと、忘れないでよね！」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「あ、ああ・・・
- \n \x01
-　しっかし、俺もひねりがね～な～、もうちょっと気の利いた台詞を言　えないもんかね」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT \n 　しっかし、俺もひねりがね～な～、もうちょっと気の利いた台詞を言　えないもんかね」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「本当にねぇ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、溜息をつきながらあなたを見た
-NAME_TAG (V1
+CLEAR_TEXTBOX
+(V1
 \x00
 FEMALE_DIALOGUE:
 「・・・でも、今度はなんて言ってくれるか楽しみだなぁ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・・・・・・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは視線を合わせずとぼけているあなたを、いたずらっぽく見つめた
-NAME_TAG \x04\x0f
+CLEAR_TEXTBOX
+\x04\x0f
 \x00
-\x01
-\x00
+\n \x00
 \x1a(_CGAA02
 \x00
  DS02
 \x00
 FEMALE_DIALOGUE:
 「ねぇ、私って最近太ったと思わない？」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「な、なんだよ、いきなり・・・」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「いいから！　ねぇ、正直に答えてね」
-NAME_TAG 
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 ああ、ちょっと太ったかもな
@@ -637,62 +791,67 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 \x16)\x1d
-\x01
-「やっぱりぃ・・・・・
-\x01
-　あのね、ちょっと前からね、ヤバイかな～とは思ってたの
-NAME_TAG FEMALE_DIALOGUE:
+\n 「やっぱりぃ・・・・・
+\n 　あのね、ちょっと前からね、ヤバイかな～とは思ってたの
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 　でね、昨日久しぶりに勇気を出して体重計に乗ってみたらね
-\x01
-　２キロも増えてたのー！！」
-NAME_TAG MALE NAME｡)
-\x01
-「違うのぉ！！！気のせいじゃないの！！！
- \n \x01
-　昨日ね、ちょっと体重計に乗ってみたの・・・・・
- \n \x01
-　そしたらね、２キロも増えてたのよー！！」
-NAME_TAG NARRATION_DIALOGUE:
+\n 　２キロも増えてたのー！！」
+CLEAR_TEXTBOX
+MALE NAME｡)
+\n 「違うのぉ！！！気のせいじゃないの！！！
+ CLICKWAIT \n 　昨日ね、ちょっと体重計に乗ってみたの・・・・・
+ CLICKWAIT \n 　そしたらね、２キロも増えてたのよー！！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恋人は半分泣きそうになりながらあなたを見つめた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「でも、見た目はあんまり変わらないし、ちょっとぐらい肉付きがいい　方が、俺は好きだけどな」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ありがと・・・・・でも、ダメなの！これじゃあダメなのよ！
- \n \x01
-　・・・こうしちゃあいられないわ、さっそく始めなきゃあ！」
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT \n 　・・・こうしちゃあいられないわ、さっそく始めなきゃあ！」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「始めるって・・・なにを？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「決まってるじゃない！
- \n 　ダイエットよ！！」
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT 　ダイエットよ！！」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ダイエットって・・・別に必要なないだろ、今の体型なら」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ちっちっちっ、分かってないわねぇ
-\x01
- \n 　女の子にとっては何百グラム増えただけでも一大事なの！
-\x01
- \n 　それが何キロとかいうレベルなのよぉ」
-NAME_TAG NARRATION_DIALOGUE:
+\n  CLICKWAIT 　女の子にとっては何百グラム増えただけでも一大事なの！
+\n  CLICKWAIT 　それが何キロとかいうレベルなのよぉ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恋人の顔には本当に悲しそうな表情が浮かんでいた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「そ、そういうもんなのか？・・・」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「そういうもんなの！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 多少圧倒されているあなたをしり目に、恋人は寝室に入っていった
-NAME_TAG (_CGB00
+CLEAR_TEXTBOX
+(_CGB00
 \x00
 NARRATION_DIALOGUE:
 少しあきれた様子で頭をかいていたあなたは、寝室にいる恋人に声をかけた
-NAME_TAG 
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 頑張れ～！応援してるぞ～！
@@ -701,265 +860,359 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 o4\x1d
-\x01
-「う～ん、頑張るからねぇ」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「う～ん、頑張るからねぇ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 そう言葉を返してきた恋人は、ラフな格好に着替え、両手に持ちきれないほどの荷物を抱えて戻ってきた
-NAME_TAG (B1
+CLEAR_TEXTBOX
+(B1
 \x00
 MALE_DIALOGUE:
 「な、なんだよ、それは？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ん、ああ、これ？　見ての通りのものだよぉ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恋人が部屋の中へと持ってきた物は大量のダイエット本だった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・んなもん、いつ買ったんだよ・・・」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「だいたいの本は・・・・・今日かな」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたが目の前に積み上げられた本の中から１冊を手に取り、ぱらぱらとページをめくっている間に、恋人は台所へと入っていった
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 再び部屋へと戻ってきた恋人の手にはサランラップとリンゴが握られていた
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは本のページをめくっていた手を止めると、少しあきれたように恋人に問いかけた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・それはなんですか？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「え？　これ？　えっとねぇ、確かこの本に書いてあったのよ
-\x01
- \n 　確か・・・・・あ、あった、ほらここに」
-NAME_TAG NARRATION_DIALOGUE:
+\n  CLICKWAIT 　確か・・・・・あ、あった、ほらここに」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恋人の指さしているページには、『ただ、まくだけであなたもやせられる、驚異のサランラップダイエット』と書かれてあった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・なるほどねぇ・・・で、リンゴはなんで持ってきたんだ？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「え、だって、リンゴってダイエット食品でしょ？」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あっけらかんと答える恋人の顔を見て、あなたは再びあきれてしまった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ま、確かにリンゴってのはダイエット食品の一面もあるけど・・・」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「じゃあ、いいんだよね！」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「あのなぁ、それは、食事の代わりにしたときの話だろ！
-\x01
- \n 　夕食を山ほど食った後だったら、ただのデザートにしかなんないでし　ょうが！」
-NAME_TAG NARRATION_DIALOGUE:
+\n  CLICKWAIT 　夕食を山ほど食った後だったら、ただのデザートにしかなんないでし　ょうが！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたの言葉をきょとんとした表情で聞いていた恋人は、納得した表情でうなずくとリンゴにかぶりついた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「そういわれて見れば・・・もぐっ・・・そうだよね
-\x01
- \n 　しゃりっ・・・やっぱ、こういうのは・・・んぐっ・・・食事の代わ　りにしないとね」
-NAME_TAG MALE_DIALOGUE:
+\n  CLICKWAIT 　しゃりっ・・・やっぱ、こういうのは・・・んぐっ・・・食事の代わ　りにしないとね」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・だから食べるなって・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 おいしそうにリンゴをほうばっている恋人の見て、あなたは大きくため息をついた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（こりゃやせるのは無理だろうなぁ・・・・・
-\x01
- \n 　でも、こういう方がらしいっちゃあ、らしいけどな）」
-NAME_TAG NARRATION_DIALOGUE:
+\n  CLICKWAIT 　でも、こういう方がらしいっちゃあ、らしいけどな）」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは、いつの間にかリンゴを食べ終わった恋人が、サランラップと悪戦苦闘しているのを、ほほえましそうに眺めた
-NAME_TAG MALE NAMEﾐC
-\x01
-「え、手伝ってくれるの？」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+MALE NAMEﾐC
+\n 「え、手伝ってくれるの？」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 うれしそうな表情で寝室から現れた恋人はレオタード姿になっていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・なんでレオタードなんか着てるんだ？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「やっぱ、ダイエットとかするんだったらそれなりの格好をしておかな　いとね」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・テレビの見過ぎだって・・・」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「いいの！
- \n \x01
-　じゃあねぇ、まず柔軟体操するから、それを手伝って」
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT \n 　じゃあねぇ、まず柔軟体操するから、それを手伝って」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「柔軟体操～？
- \n 　なんでまた？」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT 　なんでまた？」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「私ってほら、体硬いからもし何かしてるときに筋とか痛めたらダメで　しょ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・どんな運動するつもりだよ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「えっと・・・ああ、もう！　手伝ってくれるの！くれないの！」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「へぇへぇ、手伝いますって」
-NAME_TAG (05_1
+CLEAR_TEXTBOX
+(05_1
 \x00
  DS05
 \x00
 NARRATION_DIALOGUE:
-CENTEREDあなたは恋人の前に回ると足を開かせ、その足の裏が合わさる様にして対面に座り込んだ
- \n CENTEREDそして恋人の手を取ると、思いきり自分の方へと引っ張った
-NAME_TAG FEMALE_DIALOGUE:
+???あなたは恋人の前に回ると足を開かせ、その足の裏が合わさる様にして対面に座り込んだ
+ CLICKWAIT ???そして恋人の手を取ると、思いきり自分の方へと引っ張った
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「いたい！　いたい！　いたい！　いたい！　いたあーーーい！！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恋人は苦しい表情を見せながら、大きな声で叫んでいた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「しっかし、本当に硬いよなぁ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「そ、そんな、のんきな事言ってないで・・・・・ちょ、ちょっと１回　離して！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたが手を離すと、恋人は腰に手をあてて体をそらした
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「あああーーー！！！
- \n 　本当に痛たかったんだからぁ」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT 　本当に痛たかったんだからぁ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恋人は涙目になりながら文句を言っていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「まぁ、まぁ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは恋人をなだめながら、恋人の股間に食い込んでいるレオタードに目をやった
- \n CENTEREDそこはうっすらと汗ばみ、あなたには自分の物を待ち望んでいるように見えた
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT ???そこはうっすらと汗ばみ、あなたには自分の物を待ち望んでいるように見えた
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ねぇ、どうしたの？」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「い、いや、別に・・・それより、今度は俺が背中から押してやるよ
-\x01
-　その方が力の加減がつけやすいしな」
-NAME_TAG FEMALE_DIALOGUE:
+\n 　その方が力の加減がつけやすいしな」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「え、そうなの？
- \n 　じゃ、お願いしようかな」
-NAME_TAG (05_3
+ CLICKWAIT 　じゃ、お願いしようかな」
+CLEAR_TEXTBOX
+(05_3
 \x00
 NARRATION_DIALOGUE:
-CENTEREDあなたは恋人の後ろ側に回ると、前屈運動をしている恋人の背中を押し始めた
-NAME_TAG FEMALE_DIALOGUE:
+???あなたは恋人の後ろ側に回ると、前屈運動をしている恋人の背中を押し始めた
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「そう、そう、それぐらいの強さでお願い・・・」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「えーっと、もうっちょっと横の方を持ってと・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは背中を押していた手を徐々に横へと滑らせていき、その手を前の方へと回していった
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「お～い、手がＨなとこにいってるぞぉ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「あ、ゴメンな、ちょっと手が滑って・・・あ、また」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 もう既に前に回っていた手が、恋人の胸を鷲掴みにした
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「あっ・・・も、もう、なにしてるのよぉ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「い、いやぁ、ここらへんの肉を減らしてあげようかなぁと思って」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは思ってもない事を言いながら、薄いレオタードの上から胸の弾力を楽しんでいた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「あ、あん・・・うそばっかり言ってぇ・・・はぁ、はぁん・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 もうレオタードの上からでも、すっかりわかるようになってしまった乳首を指先でもてあそびながら、あなたは恋人の耳元で囁いた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「とりあえず、室内で出来る、最高の運動でもしよっか？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・・・う、うん」
-NAME_TAG (05_2
+CLEAR_TEXTBOX
+(05_2
 \x00
 NARRATION_DIALOGUE:
-CENTERED恋人が上気した顔でそう答えると、あなたは恋人を床に横たわらせ、股の間が良く見えるように片足をかつぎ上げた
- \n CENTEREDそして、割れ目に食い込んでいるレオタードをぐいっと横に引っ張るともうすっかり濡れている秘処にペニスを埋め込んだ
-NAME_TAG FEMALE_DIALOGUE:
+???恋人が上気した顔でそう答えると、あなたは恋人を床に横たわらせ、股の間が良く見えるように片足をかつぎ上げた
+ CLICKWAIT ???そして、割れ目に食い込んでいるレオタードをぐいっと横に引っ張るともうすっかり濡れている秘処にペニスを埋め込んだ
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「あ、あ、ああん～」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恋人の中はとても熱く、あなたの物をねっとりと包んでいた
- \n CENTEREDあなたはその膣中をかき回すように激しく腰を動かした
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT ???あなたはその膣中をかき回すように激しく腰を動かした
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「い、いいのぉ・・・もっと、もっとぉ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恋人は不自由な体勢ながらも、あなたの腰の動きに合わせて腰を動かしてきた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ん、たまらんねぇ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたの物は恋人の肉壁とレオタードにこすられ限界まで硬さを増していた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「あ・・・ああん・・・す、すご・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恋人の甘い声が大きくなるにつれ、２人の腰の動きも激しさを増してきた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「来て、来て、奥まで来てー！！！」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「い、いくぞ・・・んっ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたの物がもっとも深くまで差し込まれたとき、なま暖かい精液が恋人の膣中に流し込まれた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ああん、おなかの中にいっぱい入ってくるよーーーーーー！！！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたが秘処からペニスを抜くと、膣中に入っていた精液が花弁を白く染めた
-NAME_TAG (_CGB00
+CLEAR_TEXTBOX
+(_CGB00
 \x00
  DS02
 \x00
 FEMALE_DIALOGUE:
 「はぁ、はぁ・・・こ、これで少しはダイエット出来たかなぁ？」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「さあな・・・少なくとも、汗かいた分ぐらいは軽くなってるんじゃな　いかな」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「そ、そうね・・・・・でも、ちょっと喉乾いちゃった
- \n \x01
-　確か冷蔵庫にジュースがあったと思ったんだけど・・・」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　確か冷蔵庫にジュースがあったと思ったんだけど・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恋人はレオタードのズレを直すと、台所に歩いていった
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「あ、あったあった、ちょうどコーラを買ってきてたとこだったんだ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恋人は嬉しそうにペットボトルを取り上げると、コップにもつがず、ラッパのみで飲み始めた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・そりゃ、太るわ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたはあきれた顔で恋人を眺めた
-NAME_TAG \x1a(_CGb00
+CLEAR_TEXTBOX
+\x1a(_CGb00
 \x00
  DS06
 \x00
 NARRATION_DIALOGUE:
 食事を終えたあなたが、リビングでくつろいでいると、すでに寝間着に着替えていたFEMALE NAMEが声をかけてきた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ねぇねぇ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「なに？」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたが顔を横に向けると、FEMALE NAMEが、にこにこしながら手招きをしていた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ちょっと、ここに頭をのせて☆」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、正座している自分のももの部分を指さしていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「なんでまた？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「いいから、早くぅ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、半ば強引にあなたの頭を抱えると、自分の方に倒しこんだ
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「うわっ！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEの膝の上に頭をのせたあなたは、頬に柔らかな感触を感じた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・・・で、何をすんの？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「へっへ～、耳掃除をしてあげようと思ってね～」
-NAME_TAG (Q01
+CLEAR_TEXTBOX
+(Q01
 \x00
 NARRATION_DIALOGUE:
-CENTEREDFEMALE NAMEは、テーブルの上に置いてあった耳掻きを取りながらそう答えた
-NAME_TAG MALE_DIALOGUE:
+???FEMALE NAMEは、テーブルの上に置いてあった耳掻きを取りながらそう答えた
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ふ～ん・・・・・
- \n ま、いいけど」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT ま、いいけど」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「じゃあ、今からするから、動かないでね」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、慣れた手つきであなたの耳を掃除し始めた
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 カキ　カキ　カキ　カキ　カキ　カキ　カキ　カキ　カキ
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ねぇ、どんな感じ？」
-NAME_TAG 
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 気持ちいいよ
@@ -968,61 +1221,78 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 廩
-\x01
-「本当？」
-NAME_TAG MALE_DIALOGUE:
+\n 「本当？」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ああ、やり方がうまいせいだと思うけど、すっごく気持ちいいよ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「そう言ってもらえると、やりがいが出てくるのよね」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、耳掻きを逆にすると、毛のついている方で、耳の中を掃除した
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「こ、この、こちょこちょとした感覚が、また・・・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 気持ちよさそうに目を細めるあなたを、FEMALE NAMEは笑いながら見ていた
-NAME_TAG \x10\rJ\x1d
-\x01
-「え、そう？」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+\x10\rJ\x1d
+\n 「え、そう？」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「俺、ちょっと耳元とか弱くて・・・・・」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ふぅん・・・・・
- \n そうなんだぁ」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT そうなんだぁ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、少しいたずらっぽい笑みを浮かべた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「じゃあ、今度はねぇ・・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、耳掻きを逆にすると、毛のついている方で、耳の中をかき回した
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「お、おい・・・・・
- \n や、やめろ・・って・・・」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT や、やめろ・・って・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 くすぐったがって、身悶えしているあなたを、FEMALE NAMEは、笑いながら見ていた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・これで、片っぽは終了！っと・・・・・
- \n \x01
-　じゃあ、今度は反対の方向に向いて」
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT \n 　じゃあ、今度は反対の方向に向いて」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「はいはい」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは言われるまま、FEMALE NAMEのおなかが目の前に来るように、体制を入れ替えた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「そうそう・・・・・じゃあ、動かないでね」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、再び耳掃除を始めた
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたが、頬に当たるFEMALE NAMEのももや手のひらの心地よい感触を楽しんでいると、耳掃除が終わった
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「はい、終了だよ！」
-NAME_TAG 
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 ああ、ありがとな
@@ -1031,25 +1301,28 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 .L\x1d
-\x01
-「いえいえ、どういたしまして」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「いえいえ、どういたしまして」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、耳掻きの先をティッシュで拭きながら、笑顔を返してきた
-NAME_TAG \x10\x0bM\x1d
-\x01
-「あのねぇ・・・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+\x10\x0bM\x1d
+\n 「あのねぇ・・・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、膝の上から離れようとしないあなたを、困った顔で見つめた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「しょうがないなぁ・・・・・
- \n ちょっとだけだからね」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT ちょっとだけだからね」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 そういう言葉を返したFEMALE NAMEだったが、その顔には幸せそうな表情が浮かんでいた
-NAME_TAG \x1a\xff
+CLEAR_TEXTBOX
+END_FILE

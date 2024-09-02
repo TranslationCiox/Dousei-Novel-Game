@@ -64,13 +64,12 @@ MALE NAMEｮ(_CGAA01
 \x00
 FEMALE_DIALOGUE:
 「あの・・・ね
- \n 　今日高校ん時の友達から電話がかかってきてね
- \n \x01
-　『ちょっと１泊ぐらいの小旅行に行かない』って誘われたんだけど
- \n \x01
-　行ってもいい？
- \n 　あ、もちろん女の子だけなんだけど・・・」
-NAME_TAG 
+ CLICKWAIT 　今日高校ん時の友達から電話がかかってきてね
+ CLICKWAIT \n 　『ちょっと１泊ぐらいの小旅行に行かない』って誘われたんだけど
+ CLICKWAIT \n 　行ってもいい？
+ CLICKWAIT 　あ、もちろん女の子だけなんだけど・・・」
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 ああ、いいよ
@@ -79,34 +78,30 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 L\x04\x04$
 \x00
-\x01
-\x00
+\n \x00
 FEMALE_DIALOGUE:
 「ほんとに～？
- \n 　やったぁ！　やっぱ話しがわかるぅ！
- \n \x01
-　じゃあ、さっそく連絡しとかなくちゃ」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT 　やったぁ！　やっぱ話しがわかるぅ！
+ CLICKWAIT \n 　じゃあ、さっそく連絡しとかなくちゃ」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「えっと真弓んちは・・・７・・２・５っと！
- \n \x01
-　・・・あ、もしもし真弓？・・・
- \n \x01
-　うん、ＯＫでたよ～！・・・うん、ほんと良かったぁ」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT \n 　・・・あ、もしもし真弓？・・・
+ CLICKWAIT \n 　うん、ＯＫでたよ～！・・・うん、ほんと良かったぁ」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・え？ああ、それは大丈夫、なんとかなるから
- \n \x01
-　・・・うん、うん・・・じゃあ紀子にも伝えといてね
- \n \x01
-　・・・はい・・じゃあね～」
-NAME_TAG 
+ CLICKWAIT \n 　・・・うん、うん・・・じゃあ紀子にも伝えといてね
+ CLICKWAIT \n 　・・・はい・・じゃあね～」
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 なあ、金あんのか？
@@ -115,53 +110,47 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 ﾒ
-\x01
-「えっとぉ・・・ま、まあ、あの・・・・・
- \n \x01
-　実は・・・ちょっとだけ内緒のお金が・・・」
-NAME_TAG FEMALE_DIALOGUE:
+\n 「えっとぉ・・・ま、まあ、あの・・・・・
+ CLICKWAIT \n 　実は・・・ちょっとだけ内緒のお金が・・・」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ゴメンね・・・で、でもまだ何も決まってないし
- \n \x01
-　もしかしたらほとんどお金がかかんないかも・・・」
-NAME_TAG \x10I\x04\x1d
-\x01
-「まだ、そのへんの事は決めてないの
- \n \x01
-　なんたってどこに行くかも決めてないんだから・・・
- \n \x01
-　ま、決まったら教えるね」
-NAME_TAG MALE NAMEｭ
-\x01
-「え～どうして～？
- \n 　ちょっとだけなんだよ
- \n \x01
-　お金だってそんなにかからないと思うし・・・
- \n \x01
-　それでもダメ・・・・・なのぉ」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT \n 　もしかしたらほとんどお金がかかんないかも・・・」
+CLEAR_TEXTBOX
+\x10I\x04\x1d
+\n 「まだ、そのへんの事は決めてないの
+ CLICKWAIT \n 　なんたってどこに行くかも決めてないんだから・・・
+ CLICKWAIT \n 　ま、決まったら教えるね」
+CLEAR_TEXTBOX
+MALE NAMEｭ
+\n 「え～どうして～？
+ CLICKWAIT 　ちょっとだけなんだよ
+ CLICKWAIT \n 　お金だってそんなにかからないと思うし・・・
+ CLICKWAIT \n 　それでもダメ・・・・・なのぉ」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・いいわよ！　わかったわよ！　行かないわよ！！
- \n \x01
-　あ～あ、真弓に断りの電話を入れとかなきゃ・・・」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT \n 　あ～あ、真弓に断りの電話を入れとかなきゃ・・・」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「え～っと・・・７・・２・５っと
- \n \x01
-　・・・あっ真弓？・・・わたしぃ
- \n \x01
-　・・あのねぇ、私旅行いけなくなっちゃった」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT \n 　・・・あっ真弓？・・・わたしぃ
+ CLICKWAIT \n 　・・あのねぇ、私旅行いけなくなっちゃった」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・えっ？・・・ちょっとね、うちの悪魔さんに『ダメだ！』って　言われちゃって・・・・・」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・ん？・・・それは言ったわよぉ、でも頑固だから・・・
- \n \x01
-　あ～あ、行きたかったなぁ」
-NAME_TAG 
+ CLICKWAIT \n 　あ～あ、行きたかったなぁ」
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 わかったよ行ってもいいから・・・
@@ -170,53 +159,53 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 ｼ$
 \x00
-\x01
-\x00
+\n \x00
 FEMALE_DIALOGUE:
 「え、本当？
- \n 　いや～、たまには、すねてみるもんね
- \n \x01
-　・・・ねぇ、聞いた？・・・そう、いいんだって」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT 　いや～、たまには、すねてみるもんね
+ CLICKWAIT \n 　・・・ねぇ、聞いた？・・・そう、いいんだって」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・うん、よかったぁ・・・うん、うん・・・
- \n \x01
-　じゃあ、紀子にも伝えといてね・・・じゃあね」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　じゃあ、紀子にも伝えといてね・・・じゃあね」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 （ガチャン）
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・・・ゴメンねわがまま言って」
-NAME_TAG MALE NAMEｭ
-\x01
-「でも、結局ダメになっちゃったね～
- \n \x01
-　ごめ～ん・・・しょうがないから２人で行ってきて・・・
- \n \x01
-　うん・・・わかった、楽しみにしてるから・・・うん、じゃあね」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+MALE NAMEｭ
+\n 「でも、結局ダメになっちゃったね～
+ CLICKWAIT \n 　ごめ～ん・・・しょうがないから２人で行ってきて・・・
+ CLICKWAIT \n 　うん・・・わかった、楽しみにしてるから・・・うん、じゃあね」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 （ガチャン）
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「はぁ・・・私も一人暮らししてた方が良かったのかなぁ・・・」
-NAME_TAG \x1a(_CGAA04
+CLEAR_TEXTBOX
+\x1a(_CGAA04
 \x00
  DS02
 \x00
 FEMALE_DIALOGUE:
 「前に言ってた旅行の話しがあったでしょ
- \n \x01
-　あれのね、日時と場所が決まったの」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT \n 　あれのね、日時と場所が決まったの」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「えっとね～・・・日時は・・・来月の１２．１３日で
- \n \x01
-　場所はね～・・・なんとかっていうスキー場の・・・」
-NAME_TAG 
+ CLICKWAIT \n 　場所はね～・・・なんとかっていうスキー場の・・・」
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 え、女の子だけでスキー？
@@ -225,40 +214,39 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 \x9c\n\x1d
-\x01
-「ううん、違うよ
- \n 　私達はそのスキー場の近くの温泉に行くの
- \n \x01
-　え、年寄りくさい？」
-NAME_TAG FEMALE_DIALOGUE:
+\n 「ううん、違うよ
+ CLICKWAIT 　私達はそのスキー場の近くの温泉に行くの
+ CLICKWAIT \n 　え、年寄りくさい？」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「何言ってんのよー！最近は若い娘だってよく行くんだよー！
- \n \x01
-　ほら、テレビでもよく『美人ＯＬゆけむりの～』みたいなのがあるで　しょ」
-NAME_TAG \x10\x9d\x0b\x1d
-\x01
-「違うわよ！　話しはちゃんと最後まで聞きなさい！
- \n \x01
-　あのね、スキー場の近くの温泉に行くの！」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT \n 　ほら、テレビでもよく『美人ＯＬゆけむりの～』みたいなのがあるで　しょ」
+CLEAR_TEXTBOX
+\x10\x9d\x0b\x1d
+\n 「違うわよ！　話しはちゃんと最後まで聞きなさい！
+ CLICKWAIT \n 　あのね、スキー場の近くの温泉に行くの！」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「あ、言っとくけど、別にすべれない訳じゃないんだからね
- \n \x01
-　ただ今回はゆっくりと体を休めに行きたかったの！」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT \n 　ただ今回はゆっくりと体を休めに行きたかったの！」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「そういうことに決まったから、覚えといてね」
-NAME_TAG \x1a(_CGAA01
+CLEAR_TEXTBOX
+\x1a(_CGAA01
 \x00
  DS02
 \x00
 FEMALE_DIALOGUE:
 「さってとぉ、今日は明日に備えて準備しとかなくちゃね」
-NAME_TAG 
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 準備？　なんの？
@@ -267,49 +255,44 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 \x93\x0c\x1d
-\x01
-「あ～、もう忘れてる～！
- \n \x01
-　ほらぁ、前に言ってたでしょ、２９．３０と旅行に行くって！
- \n \x01
-　すぐに忘れるんだからぁ」
-NAME_TAG \x10
+\n 「あ～、もう忘れてる～！
+ CLICKWAIT \n 　ほらぁ、前に言ってたでしょ、２９．３０と旅行に行くって！
+ CLICKWAIT \n 　すぐに忘れるんだからぁ」
+CLEAR_TEXTBOX
+\x10
 \x00
 \r\x1d
-\x01
-「そ、例の温泉旅行の準備なの
- \n \x01
-　たった１泊するだけなんだけど、結構荷物が多くて・・・
- \n \x01
-　もう大変なのよ」
-NAME_TAG FEMALE_DIALOGUE:
+\n 「そ、例の温泉旅行の準備なの
+ CLICKWAIT \n 　たった１泊するだけなんだけど、結構荷物が多くて・・・
+ CLICKWAIT \n 　もう大変なのよ」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「あ、そうそう、とりあえず泊まる宿の住所と電話番号を書いとくから　なんかあったら電話してね」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「じゃ、明日は早起きしなきゃいけないから今日はもう寝るね
- \n \x01
-　え、始発ででも行くのかって？」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT \n 　え、始発ででも行くのかって？」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「違う違う、言い忘れてたけど、私達、紀子の車で行くことになったの　よ、で、明日の朝に迎えに来てくれる事になってるの
- \n \x01
-　じゃ、そういうことで、おやすみなさい」
-NAME_TAG \x1a(_CGAA01
+ CLICKWAIT \n 　じゃ、そういうことで、おやすみなさい」
+CLEAR_TEXTBOX
+\x1a(_CGAA01
 \x00
  DS02
 \x00
 FEMALE_DIALOGUE:
 「今日ね真弓から電話があったんだけど
- \n \x01
-　明日から温泉に行くんだってぇ・・・
- \n \x01
-　いいなぁ、行きたかったなぁ、温泉・・・」
-NAME_TAG 
+ CLICKWAIT \n 　明日から温泉に行くんだってぇ・・・
+ CLICKWAIT \n 　いいなぁ、行きたかったなぁ、温泉・・・」
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 今度連れていってやるよ
@@ -318,16 +301,15 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 ﾌMALE NAME
-\x01
-「・・・友達も一緒でいい？」
-NAME_TAG 
+\n 「・・・友達も一緒でいい？」
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 ああ、いいよ
@@ -336,240 +318,298 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 A\x10\x1d
-\x01
-「ほんとに～！
- \n 　絶対だよ～！　約束したからね～！
- \n \x01
-　よ～し真弓達が帰ってきたら早速連絡しよ～っと」
-NAME_TAG FEMALE_DIALOGUE:
+\n 「ほんとに～！
+ CLICKWAIT 　絶対だよ～！　約束したからね～！
+ CLICKWAIT \n 　よ～し真弓達が帰ってきたら早速連絡しよ～っと」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「あ～でも、さすがに２連チャンはきついかな・・・
- \n \x01
-　ま、少したってからにしよ～っと」
-NAME_TAG MALE NAMEﾉMALE NAME
-\x01
-「う～ん・・・・・
- \n そう・・だね
- \n \x01
-　確かに１人身の２人を呼ぶのは、ちょっと可哀想かも・・・
- \n \x01
-　じゃあ、やっぱり、２人きりで行こうね」
-NAME_TAG \x10C\x11\x1d
-\x01
-「・・・・そうだね
- \n 　じゃあ、今度２人きりで温泉行こうよ！
- \n \x01
-　ね、ね、決まりね！
- \n 　じゃあ、情報とか集めとくからね」
-NAME_TAG \x1a(_CGAA01
+ CLICKWAIT \n 　ま、少したってからにしよ～っと」
+CLEAR_TEXTBOX
+MALE NAMEﾉMALE NAME
+\n 「う～ん・・・・・
+ CLICKWAIT そう・・だね
+ CLICKWAIT \n 　確かに１人身の２人を呼ぶのは、ちょっと可哀想かも・・・
+ CLICKWAIT \n 　じゃあ、やっぱり、２人きりで行こうね」
+CLEAR_TEXTBOX
+\x10C\x11\x1d
+\n 「・・・・そうだね
+ CLICKWAIT 　じゃあ、今度２人きりで温泉行こうよ！
+ CLICKWAIT \n 　ね、ね、決まりね！
+ CLICKWAIT 　じゃあ、情報とか集めとくからね」
+CLEAR_TEXTBOX
+\x1a(_CGAA01
 \x00
  DS02
 \x00
 NARRATION_DIALOGUE:
 あなたとFEMALE NAMEがバラエティー番組を見ていると、画面の上に事故のテロップが入った
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「へ～、トンネル内で落盤事故か～」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・やだ、この県って真弓達が行ってるとこじゃない」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「え、マジで？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・なんかやだなぁ
- \n \x01
-　たぶんもう家に帰ってる頃だと思うんだけど・・・
- \n \x01
-　ちょっと電話してみよ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　たぶんもう家に帰ってる頃だと思うんだけど・・・
+ CLICKWAIT \n 　ちょっと電話してみよ・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、不安げな表情で電話をかけた
- \n CENTEREDしばらくしてFEMALE NAMEは、ため息をつきながら、受話器を置いた
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT ???しばらくしてFEMALE NAMEは、ため息をつきながら、受話器を置いた
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「どうだった？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ダメ・・・いないみたい」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「帰りにどっかで飯でも食べてんだよ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「だといいんだけど・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、不安そうな顔でテレビに目を向けた
- \n CENTEREDしばらくしてバラエティー番組が終わりニュースが始まったが、トップニュースは先ほどのトンネル事故の事だった
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT ???しばらくしてバラエティー番組が終わりニュースが始まったが、トップニュースは先ほどのトンネル事故の事だった
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 「今日未明、なんとかスキー場近くの○○トンネルで落盤事故があり
- \n \x01
-　少なくとも車数十台、５０人以上の人が行方不明になっています
- \n \x01
-　落盤の詳しい原因については・・・・・」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　少なくとも車数十台、５０人以上の人が行方不明になっています
+ CLICKWAIT \n 　落盤の詳しい原因については・・・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 テレビのニュースを見ていたFEMALE NAMEの顔が、徐々にこわばってきた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「どうしたんだよ」
-NAME_TAG (_CGAA02
+CLEAR_TEXTBOX
+(_CGAA02
 \x00
  DS13
 \x00
 FEMALE_DIALOGUE:
 「ここって・・・あの・・・真弓達が行ってた所なの・・・
- \n \x01
-　も、もしかしてコレに・・・巻き込まれた・・・の？」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　も、もしかしてコレに・・・巻き込まれた・・・の？」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEの顔からはどんどんと血の気が引いてきた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「おい！」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「行かなきゃ・・・」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「え？」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEはいきなり立ち上がると、玄関へと向かった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「お、おい！　待てって！！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたはあわてて後を追うと、FEMALE NAMEの手をつかんだ
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「離して！　早く・・・早く行かなきゃ！！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 必死にあなたの手を振りほどこうとするFEMALE NAMEの頬を、あなたは軽くたたいた
- \n CENTEREDFEMALE NAMEはびっくりした表情を浮かべて、あなたを見上げた
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT ???FEMALE NAMEはびっくりした表情を浮かべて、あなたを見上げた
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「おちつけ！　まだ事故に遭ったと決まった訳じゃないだろ！」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「でも！・・・」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「とにかく！　今から現場に行ってもどうしようも無いって！
- \n \x01
-　だったらこの家でやれることをやった方がいい」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT \n 　だったらこの家でやれることをやった方がいい」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・・・
- \n そうだね」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT そうだね」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは少し落ちつきを取り戻し、部屋の中へと入っていった
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「とりあえず旅館の方に連絡してみるね・・・」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ああ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEはふるえる手で受話器を上げると、旅館へと電話をかけた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「・・・あ、もしもし・・・・・
- \n \x01
-　そちらに麻生真弓さんは泊まっていらっしゃいませんか？
- \n \x01
-　・・・あ、そうですか・・・いえ・・・では失礼します」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　そちらに麻生真弓さんは泊まっていらっしゃいませんか？
+ CLICKWAIT \n 　・・・あ、そうですか・・・いえ・・・では失礼します」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは力無く受話器を置いた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「どうだった？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「もう、かなり前にチェックアウトしたんだって・・・」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「そうか・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは、うつむいてじっと唇を噛んでいるFEMALE NAMEの手をそっと握った
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「大丈夫だって、多分どっかに寄り道してるだけだって」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEはあなたの言葉に頷きながら、両手であなたの手を握りしめた
-NAME_TAG \x1a(_CGAA01
+CLEAR_TEXTBOX
+\x1a(_CGAA01
 \x00
  DS02
 \x00
 FEMALE_DIALOGUE:
 「それにしてもさあ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、いつものように食事の後片づけをしながら、あなたに声をかけてきた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「この生活も、もう３ヶ月になるんだよね」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ああ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「なんか、あっと言う間だったよね」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・そうだな」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは、この３ヶ月間のことをぼんやりと思い出していた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ずいぶんいろんな事があったな」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ほんとにねぇ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 いつのまにか後片づけを終えたFEMALE NAMEが、あなたの隣に座り込んだ
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「ねぇ？」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、あなたの顔をのぞき込むようにして声をかけてきた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ん？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「これから私達どうなるのかな？」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「さあ・・・・・
- \n わかんねーな、先の事なんて」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT わかんねーな、先の事なんて」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「そうね・・・でも、出来ることなら
- \n \x01
-　・・・・・ずっと、こうして・・・」
-NAME_TAG (w1b
+ CLICKWAIT \n 　・・・・・ずっと、こうして・・・」
+CLEAR_TEXTBOX
+(w1b
 \x00
  DS10
 \x00
 NARRATION_DIALOGUE:
-CENTEREDFEMALE NAMEは、ゆっくりとあなたに顔を近づけると、唇を重ねてきた
-NAME_TAG \x1a(_CGAA01
+???FEMALE NAMEは、ゆっくりとあなたに顔を近づけると、唇を重ねてきた
+CLEAR_TEXTBOX
+\x1a(_CGAA01
 \x00
  DS02
 \x00
 NARRATION_DIALOGUE:
 恋人が食事の後片づけをしていると、不意に電話が鳴った
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「はい○○ですけど・・・
- \n ああ、真弓！・・・今どこ？
- \n \x01
-  ・・・ああ、旅館から～・・・えっ？
- \n \x01
-　はいはい、楽しそうでようございましたねぇ！」
-NAME_TAG FEMALE_DIALOGUE:
+ CLICKWAIT ああ、真弓！・・・今どこ？
+ CLICKWAIT \n   ・・・ああ、旅館から～・・・えっ？
+ CLICKWAIT \n 　はいはい、楽しそうでようございましたねぇ！」
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「 ・ん・・うんうん・・・わかったぁ、じゃあ期待してるね
- \n \x01
-  ・・・じゃあね、バイバイ」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n   ・・・じゃあね、バイバイ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恋人は受話器を置くとハァ～と大きな溜息をついた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「真弓さんから？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「うん、今、温泉から出たところなんだって」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ふ～ん」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「『やっぱ温泉はいいわ～』だって
- \n \x01
-　そんなもん言われんでも分かってるわー！」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　そんなもん言われんでも分かってるわー！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恋人は冗談ぽく、怒りの声をあげた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「なぁ」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「なに？」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「やっぱり、一緒に行きたかったか？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「当然でしょ～・・・・・
- \n なんてウソ！」
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT なんてウソ！」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「え？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「始めはね、すっごい行きたかったし、反対されて腹も立ってたんだけ　ど・・・」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「もし私が逆の立場だったとしたら、やっぱり嫌だって思ったの」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・・・無理してないか？」
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「べっつに～！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 恋人は笑って答えると、食事の後片づけを再開した
-NAME_TAG \x1a\xff
+CLEAR_TEXTBOX
+END_FILE

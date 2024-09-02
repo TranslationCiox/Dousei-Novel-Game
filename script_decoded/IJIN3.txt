@@ -1,7 +1,6 @@
 \x08\x08)
 \x00
-\x01
-\x00
+\n \x00
 \x1cL
 \x00
 \x10
@@ -19,7 +18,7 @@
 !
 \x00
 \x101
- \n \x10\x91
+ CLICKWAIT \x10\x91
 \x00
 \x11\x16)
 \x00
@@ -91,139 +90,158 @@ u
  DS09
 \x00
 8
-\x01
-「いらっしゃいませ！」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「いらっしゃいませ！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 店の中に入った瞬間、元気の良い声が店中に響きわたった
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 カウンターに目を向けると１人の女の子が、にこにことこちらを見ていた
-NAME_TAG 8
-\x01
-「何になさいますか？」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「何になさいますか？」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「えーっと、ショートケーキを２つもらいたいんだけど」
-NAME_TAG 8
-\x01
-「ショートケーキですね、どれになさいますか？」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「ショートケーキですね、どれになさいますか？」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・・・おすすめの品ってある？」
-NAME_TAG 8
-\x01
-「おすすめですかぁ？」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「おすすめですかぁ？」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子はしばらく考え込んでいたが、やがてこちらを向いて嬉しそうな笑顔を見せた
-NAME_TAG 8
-\x01
-「いっぱいありすぎて、困っちゃうんですけどぉ」
-NAME_TAG 8
-\x01
-「やっぱ１番はチーズケーキかなぁ、結構あっさりとした味なんですけ　ど、後に残らない味だからいくらでも食べれちゃうんですぅ・・・」
-NAME_TAG 8
-\x01
-「あ、でもチョコレートケーキのとろけるような舌触りも捨てがたいし　・・・あ、マロンも・・・」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「いっぱいありすぎて、困っちゃうんですけどぉ」
+CLEAR_TEXTBOX
+8
+\n 「やっぱ１番はチーズケーキかなぁ、結構あっさりとした味なんですけ　ど、後に残らない味だからいくらでも食べれちゃうんですぅ・・・」
+CLEAR_TEXTBOX
+8
+\n 「あ、でもチョコレートケーキのとろけるような舌触りも捨てがたいし　・・・あ、マロンも・・・」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「あ、あの・・・もしもし？」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 すっかり自分の世界に浸りきっていた女の子は、ふと我に返った
-NAME_TAG 8
-\x01
-「あ、すいませ～ん・・・ケーキの事を考えてると、つい自分の世界に　入り込んじゃうんですぅ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「あ、すいませ～ん・・・ケーキの事を考えてると、つい自分の世界に　入り込んじゃうんですぅ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ま、まあ、結構そういうことってあるよね」
-NAME_TAG 8
-\x01
-「でしょ！でしょ！　結構ありますよねぇ
- \n \x01
-　なのにみんな、私の事変だって言うんですよぉ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「でしょ！でしょ！　結構ありますよねぇ
+ CLICKWAIT \n 　なのにみんな、私の事変だって言うんですよぉ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（ま、確かにちょっと極端ではあると思うけどね）」
-NAME_TAG 8
-\x01
-「で、結局どれにしますぅ？」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「で、結局どれにしますぅ？」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「あ、ああ、じゃあ」
-NAME_TAG \x04L
+CLEAR_TEXTBOX
+\x04L
 \x00
-\x01
-\x00
+\n \x00
 \x1a(_CGBA02
 \x00
  DS09
 \x00
 8
-\x01
-「いらっしゃいませ！
-\x01
-　あ、また来てくれたんですねぇ」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「いらっしゃいませ！
+\n 　あ、また来てくれたんですねぇ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は嬉しそうな顔で迎えてくれた
-NAME_TAG 8
-\x01
-「今日は何にします？」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「今日は何にします？」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「えーっと・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 悩みながら陳列ケースを見ていると、女の子が顔をのぞき込んできた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「な、なに？」
-NAME_TAG 8
-\x01
-「すっごく楽しそうに見てますねぇ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「すっごく楽しそうに見てますねぇ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「そ、そう」
-NAME_TAG 8
-\x01
-「でもその気持ち、良く分かりますぅ
- \n \x01
-　私もケーキを見てると楽しくなっちゃうんですぅ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「でもその気持ち、良く分かりますぅ
+ CLICKWAIT \n 　私もケーキを見てると楽しくなっちゃうんですぅ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ほんとにケーキが好きなんだねぇ」
-NAME_TAG 8
-\x01
-「はい！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「はい！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は、本当に嬉しそうな顔でほほえんだ
-NAME_TAG \x1a(_CGBA02
+CLEAR_TEXTBOX
+\x1a(_CGBA02
 \x00
  DS09
 \x00
 8
-\x01
-「いらっしゃいませ！」
-NAME_TAG MALE_DIALOGUE:
+\n 「いらっしゃいませ！」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「いつも元気だねぇ」
-NAME_TAG 8
-\x01
-「それだけが、取り柄なんですぅ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「それだけが、取り柄なんですぅ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 そう言って笑う女の子の顔には、まだあどけない表情が残っていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・あのさ、君って歳いくつなの？」
-NAME_TAG 8
-\x01
-「え、歳ですかぁ？」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「え、歳ですかぁ？」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 いきなりの質問に女の子は少しめんくらっていた
-NAME_TAG 8
-\x01
-「どうしてそんなこと聞くんですぅ？」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「どうしてそんなこと聞くんですぅ？」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「い、いや・・・・・
- \n \x01
-　どうして君みたいな幼い子が働いてるのかなぁって思って・・・」
-NAME_TAG 8
-\x01
-「幼い？」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　どうして君みたいな幼い子が働いてるのかなぁって思って・・・」
+CLEAR_TEXTBOX
+8
+\n 「幼い？」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子はきょとんとした表情をしていたが、やがて少し怒ったような表情になった
-NAME_TAG (_CGBB03
+CLEAR_TEXTBOX
+(_CGBB03
 \x00
 8
-\x01
-「・・・私って何歳ぐらいに見えますぅ？」
-NAME_TAG MALE_DIALOGUE:
+\n 「・・・私って何歳ぐらいに見えますぅ？」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「え～と・・・」
-NAME_TAG 
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 中学生ぐらいかな・・・
@@ -232,134 +250,156 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 |\n8
-\x01
-「それはあんまりですぅ！」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「それはあんまりですぅ！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は、泣きそうな顔になってしまった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「え？・・・もしかして高校生・・・なの？」
-NAME_TAG 8
-\x01
-「違いますぅ！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「違いますぅ！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は怒ったように、ポケットから免許証を取り出すと、それを開けた
-NAME_TAG \x10B\x0b8
-\x01
-「もしかしてって、どういうことですかぁ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+\x10B\x0b8
+\n 「もしかしてって、どういうことですかぁ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「あ、ゴメン、ゴメン・・・でも高校生には見えないなぁ」
-NAME_TAG 8
-\x01
-「・・・それも違うんですけどぉ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「・・・それも違うんですけどぉ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子はポケットから免許証を取り出すと、それを開けた
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 その免許証には、自分と同じ生年月日が書かれていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「うそぉ！
- \n 　俺と同い年！？」
-NAME_TAG (_CGBA02
+ CLICKWAIT 　俺と同い年！？」
+CLEAR_TEXTBOX
+(_CGBA02
 \x00
 8
-\x01
-「あ、そうなんですかぁ」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「あ、そうなんですかぁ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 無邪気に喜んでいる女の子を、呆然と見ていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「人は見かけによらないって言うけど・・・・・
- \n \x01
-　ここまでかけ離れてる娘は初めて見たなぁ」
-NAME_TAG 8
-\x01
-「そうですかぁ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　ここまでかけ離れてる娘は初めて見たなぁ」
+CLEAR_TEXTBOX
+8
+\n 「そうですかぁ・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は自分の顔を鏡に写して色々な表情をしていたが、いきなりこちらに顔を向けにっこりとほほえんだ
-NAME_TAG 8
-\x01
-「そうかもしれませんねぇ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「そうかもしれませんねぇ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 そのころころと変わる表情を見ていると、とても同い年には見えなかった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（顔だけじゃなく精神も幼いかも・・・）」
-NAME_TAG \x1a(_CGBA02
+CLEAR_TEXTBOX
+\x1a(_CGBA02
 \x00
  DS09
 \x00
 8
-\x01
-「いらっしゃいませ！」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「いらっしゃいませ！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子はいつもの様に元気に声をかけてきた
-NAME_TAG 8
-\x01
-「最近よくいらっしゃいますねぇ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「最近よくいらっしゃいますねぇ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ここのケーキが気にいちゃってね」
-NAME_TAG 8
-\x01
-「やっぱりそうですよねぇ！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「やっぱりそうですよねぇ！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子はカウンターから飛び出さんばかりに身を乗り出した
-NAME_TAG 8
-\x01
-「私もこのお店は、この辺りのケーキ屋さんの中で一番美味しいと思っ　てるんですぅ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「私もこのお店は、この辺りのケーキ屋さんの中で一番美味しいと思っ　てるんですぅ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「へぇ、だからここで働いてるとか？」
-NAME_TAG 8
-\x01
-「そうなんですぅ！」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「そうなんですぅ！」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「いい職場を見つけたねぇ」
-NAME_TAG 8
-\x01
-「はい！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「はい！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 本当に嬉しそうに話す女の子を見ていると、少しうらやましい感じがした
-NAME_TAG \x1a\x04Q
+CLEAR_TEXTBOX
+\x1a\x04Q
 \x00
-\x01
-\x00
+\n \x00
 (_CGBA02
 \x00
  DS09
 \x00
 8
-\x01
-「いらっしゃいませ！」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「いらっしゃいませ！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子はいつもの様に元気に声をかけてきた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「よ！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 軽く手を挙げてから陳列ケースをのぞき込んでいると、女の子がカウンターから身を乗り出してきた
-NAME_TAG 8
-\x01
-「（お客さん）」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「（お客さん）」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は耳元に口を近づけると、小さな声で話しかけてきた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（なに？）」
-NAME_TAG 8
-\x01
-「（お客さんはよく買いに来てくれるからサービスしてあげますぅ）」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「（お客さんはよく買いに来てくれるからサービスしてあげますぅ）」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（サービスって？）」
-NAME_TAG 8
-\x01
-「（お客さんが欲しい物を１つプレゼントして上げますぅ）」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「（お客さんが欲しい物を１つプレゼントして上げますぅ）」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（それってなんでもいいの？）」
-NAME_TAG 8
-\x01
-「（はいですぅ）」
-NAME_TAG 
+CLEAR_TEXTBOX
+8
+\n 「（はいですぅ）」
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 じゃあチーズケーキを１つ
@@ -368,118 +408,136 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 $\x128
-\x01
-「（チーズケーキですね
- \n 　わかりましたですぅ）」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「（チーズケーキですね
+ CLICKWAIT 　わかりましたですぅ）」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は勢いをつけてカウンターの中に戻ると、ウインクをしてきた
-NAME_TAG \x10m\x14\x15
-\x01
-女の子は驚いたような表情で、こちらの顔をまじまじと見つめた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+\x10m\x14\x15
+\n 女の子は驚いたような表情で、こちらの顔をまじまじと見つめた
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「な、な～んてね・・・」
-NAME_TAG 8
-\x01
-「いいですよぉ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「いいですよぉ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「は？」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 今度は逆にあなたが女の子の顔を、まじまじと見つめた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「えーっと・・・・・意味わかってる？」
-NAME_TAG 8
-\x01
-「それぐらいわかっていますですぅ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「それぐらいわかっていますですぅ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は、少し怒った様な表情であなたを見つめていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「じゃあいいんだね」
-NAME_TAG 8
-\x01
-「（はいですぅ
- \n 　じゃあ私そろそろバイト終了ですから、裏で待ってい　てもらえますぅ）」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「（はいですぅ
+ CLICKWAIT 　じゃあ私そろそろバイト終了ですから、裏で待ってい　てもらえますぅ）」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ＯＫ！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は勢いをつけてカウンターの中に戻ると、ウインクをしてきた
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは、しばらく店内を見回った後、店から出て店の裏へと回った
-NAME_TAG \x10\x90\x1a\x1a\x04S
+CLEAR_TEXTBOX
+\x10\x90\x1a\x1a\x04S
 \x00
-\x01
-\x00
+\n \x00
 (_CGBA02
 \x00
  DS09
 \x00
 8
-\x01
-「いらっしゃいませ！」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「いらっしゃいませ！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子はいつもの様に元気に声をかけてきた
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 カウンターに近づくと、女の子に小声で話しかけた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（ねぇ、今日も・・・しない？）」
-NAME_TAG 8
-\x01
-「（あれは特別なんですぅ）」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「（あれは特別なんですぅ）」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は少し困った様な顔を見せた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（あ、そうなんだ・・・ごめんな、変なこと言って）」
-NAME_TAG 8
-\x01
-「（いえ、いいんですぅ）」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「（いえ、いいんですぅ）」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は口元から顔を話すと、にっこりと笑った
-NAME_TAG 8
-\x01
-「あの・・・もうちょっとしたら・・・また・・・その・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「あの・・・もうちょっとしたら・・・また・・・その・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は少し恥じらいの表情を見せながら、ぼそぼそとしゃべっていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「分かったよ、じゃあ、また今度な」
-NAME_TAG \x1a\x04R
+CLEAR_TEXTBOX
+\x1a\x04R
 \x00
-\x01
-\x00
+\n \x00
 (_CGBA02
 \x00
  DS09
 \x00
 8
-\x01
-「いらっしゃいませ！」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「いらっしゃいませ！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子はいつもの様に元気に声をかけてきた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「よ、元気！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 軽く手を挙げてから陳列ケースをのぞき込んでいると、女の子がカウンターから身を乗り出してきた
-NAME_TAG 8
-\x01
-「（チャーンスタイム！）」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「（チャーンスタイム！）」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（は？）」
-NAME_TAG 8
-\x01
-「（ジャジャンジャジャンジャンジャン！
- \n \x01
-　さあ、再びやってきましたサービスコーナーですぅ
- \n \x01
-　あなたの欲しい物を１つだけプレゼントしますですぅ）」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「（ジャジャンジャジャンジャンジャン！
+ CLICKWAIT \n 　さあ、再びやってきましたサービスコーナーですぅ
+ CLICKWAIT \n 　あなたの欲しい物を１つだけプレゼントしますですぅ）」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（ほう、再びコレがやってきたかぁ
- \n 　じゃあ今度は・・・）」
-NAME_TAG 
+ CLICKWAIT 　じゃあ今度は・・・）」
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 じゃあチョコレートケーキを１つ
@@ -488,215 +546,257 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 1\x198
-\x01
-「（チョコレートケーキですね
- \n 　わかりましたですぅ）」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「（チョコレートケーキですね
+ CLICKWAIT 　わかりましたですぅ）」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は勢いをつけてカウンターの中に戻ると、ウインクをしてきた
-NAME_TAG \x10\x16\x1a8
-\x01
-「（わっかりましたですぅ
- \n \x01
-　じゃあ、裏で待っててもらえますかぁ？）」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+\x10\x16\x1a8
+\n 「（わっかりましたですぅ
+ CLICKWAIT \n 　じゃあ、裏で待っててもらえますかぁ？）」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（ＯＫ！）」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は勢いをつけてカウンターの中に戻ると、ウインクをしてきた
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは、しばらく店内を見回った後、店から出て店の裏へと回った
-NAME_TAG \x10\x8f$\x1a(_CGBA02
+CLEAR_TEXTBOX
+\x10\x8f$\x1a(_CGBA02
 \x00
  DS09
 \x00
 8
-\x01
-「いらっしゃいませ！」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「いらっしゃいませ！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子はいつもの様に元気に声をかけてきた
-NAME_TAG 8
-\x01
-「今日は何になさいますか？」
-NAME_TAG \x1a\x04M
+CLEAR_TEXTBOX
+8
+\n 「今日は何になさいますか？」
+CLEAR_TEXTBOX
+\x1a\x04M
 \x00
-\x01
-\x00
+\n \x00
 \x04N
 \x00
-\x01
-\x00
+\n \x00
 (_CGBA01
 \x00
  DS09
 \x00
 NARRATION_DIALOGUE:
 しばらくケーキ屋の裏で待っていると、女の子が走ってきた
-NAME_TAG 8
-\x01
-「ちゃんと待っていてくれたんですねぇ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「ちゃんと待っていてくれたんですねぇ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「そりゃ、君みたいな娘と約束したんだから、破るわけないって」
-NAME_TAG 8
-\x01
-「そう言ってもらえると嬉しいですぅ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「そう言ってもらえると嬉しいですぅ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は嬉しそうに、あなたの周りを飛び跳ねていた
-NAME_TAG 8
-\x01
-「じゃあ、そろそろ行きましょうか」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「じゃあ、そろそろ行きましょうか」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「え、どこに？」
-NAME_TAG 8
-\x01
-「こっちですぅ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「こっちですぅ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は腕をつかむと、ケーキ屋の裏にあった小さな小屋へと案内した
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「ここは？」
-NAME_TAG 8
-\x01
-「ケーキの材料とかを置いている倉庫なんですぅ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「ケーキの材料とかを置いている倉庫なんですぅ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「勝手に使っていいのかい？」
-NAME_TAG 8
-\x01
-「・・・わかんないですけど・・・ばれなければいいと思いますぅ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「・・・わかんないですけど・・・ばれなければいいと思いますぅ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「そりゃ、そうだけど・・・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 一抹の不安を抱えながら、倉庫へと入っていった
-NAME_TAG (J1
+CLEAR_TEXTBOX
+(J1
 \x00
  DS05
 \x00
 MALE_DIALOGUE:
 「（しかし・・・なんか犯罪でもしてるような気分だなぁ・・・）」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは動かしていた腰を止め、少し苦しそうな表情を見せている女の子をまじまじと見つめた
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 倉庫へと誘った女の子は、いきなり服を脱ぐと積極的にあなたを誘った
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（・・・まだ信じられないなぁ・・・同い年だなんて）」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは、軽く女の子の胸や体を触ってみた
-NAME_TAG 8
-\x01
-「あ、ああん・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「あ、ああん・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子の体は柔らかく、漏れてくるあえぎ声は色っぽいと言うより子供っぽかった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・・な、なんだかなぁ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 少し困った表情をしているあなたに、女の子はきょとんとした表情で声をかけた
-NAME_TAG 8
-\x01
-「・・・どうかしたんですかぁ・・・」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「・・・どうかしたんですかぁ・・・」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「い、いや、なんでもないよ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 考えていたことをごまかすように思い切り首を左右に振ると、腰を前へとつきだした
-NAME_TAG 8
-\x01
-「ん・・・くふぅ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「ん・・・くふぅ・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は、また少し苦しそうな表情を見せた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（こういう表情が余計に犯罪ぽいよなぁ・・・）」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 少しの罪悪感と、それを上回る興奮があなたの体を駆けめぐっていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（俺って、ロリコンなのかなぁ・・・いやいや！）」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 そんな考えを振り払うように、腰を激しく女の子の開かれた足の間へと打ちつけた
-NAME_TAG 8
-\x01
-「くっ・・・は、はぁ・・・んっ・・・」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「くっ・・・は、はぁ・・・んっ・・・」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（しかし・・・これでこの子が処女だったりしたら・・・えらいこと　だったなぁ）」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 そんな心配をよそに、女の子の秘処はペニスにじっとりとまとわりついていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（・・・この感触は・・・結構テクニックを持ってる・・・よな）」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたの下半身は気持ちよい感触に包まれていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「き、気持ちいいよ・・・」
-NAME_TAG 8
-\x01
-「あ・・・ああん・・・は、はぁ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「あ・・・ああん・・・は、はぁ・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 ２人は、だんだんと腰の動きを激しくしていった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「だ、だめだ・・・もう、いくっ」
-NAME_TAG 8
-\x01
-「わ、私もですぅ！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「わ、私もですぅ！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは限界に達したペニスを、抜き取ると女の子の体に精液をぶちまけた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「はぁ、はぁ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 疲れたように倉庫の床に座り込んだあなたは、膝をさすっていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「いてぇ・・・やっぱこういうところでやるのは・・・きついなぁ」
-NAME_TAG 8
-\x01
-「私も・・・・・背中がいたいですぅ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「私も・・・・・背中がいたいですぅ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子も少し痛そうな表情で背中をさすっていた
-NAME_TAG \x1a\x04O
+CLEAR_TEXTBOX
+\x1a\x04O
 \x00
-\x01
-\x00
+\n \x00
 \x04P
 \x00
-\x01
-\x00
+\n \x00
 (_CGS00
 \x00
  DS09
 \x00
 NARRATION_DIALOGUE:
 しばらくケーキ屋の裏で待っていると、女の子が走ってきた
-NAME_TAG 8
-\x01
-「すいませ～ん、待ちましたかぁ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「すいませ～ん、待ちましたかぁ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「い～や、全然」
-NAME_TAG 8
-\x01
-「良かったぁ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「良かったぁ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「で、どうする？
- \n 　今日も倉庫でやるの？」
-NAME_TAG 8
-\x01
-「えーっと・・・倉庫はちょっと・・・まずいですぅ」
-NAME_TAG MALE_DIALOGUE:
+ CLICKWAIT 　今日も倉庫でやるの？」
+CLEAR_TEXTBOX
+8
+\n 「えーっと・・・倉庫はちょっと・・・まずいですぅ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「え、もしかして前のがばれたとか？」
-NAME_TAG 8
-\x01
-「いえ、違いますぅ
- \n \x01
-　あの場所は私の休憩所だったんですけど、ケーキとかを食べまくって　たのがばれちゃって・・・」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「いえ、違いますぅ
+ CLICKWAIT \n 　あの場所は私の休憩所だったんですけど、ケーキとかを食べまくって　たのがばれちゃって・・・」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「な、なるほどね」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は、少し悲しそうに倉庫を見つめた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「じゃあ、今日はホテルにでも行こうか」
-NAME_TAG 8
-\x01
-「はいですぅ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「はいですぅ」
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「（さて・・・あまり知り合いに会わない道を行かないとな・・・）」
-NAME_TAG 
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 繁華街
@@ -707,95 +807,108 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
 ['\x1e
-\x01
-「（意外と人混みにまぎれたらわかんないかもな）」
-NAME_TAG \x10\xe4'\x11\x16
-\x01
-\x00
+\n 「（意外と人混みにまぎれたらわかんないかもな）」
+CLEAR_TEXTBOX
+\x10\xe4'\x11\x16
+\n \x00
 \x15\x02
 \x00
 \x02
 \x00
 ｫ'
-\x01
-「（まさか、ここで知り合いに会うってことはないだろう）」
-NAME_TAG \x04i
+\n 「（まさか、ここで知り合いに会うってことはないだろう）」
+CLEAR_TEXTBOX
+\x04i
 \x00
-\x01
-\x00
+\n \x00
 \x10\xe4'\x1e
-\x01
-「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「（もう人もかなり帰ったみたいだし、大丈夫だよな）」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 あなたは、さも自然にそこを通るように、そっと進路を変更した
-NAME_TAG (_CGB13
+CLEAR_TEXTBOX
+(_CGB13
 \x00
 NARRATION_DIALOGUE:
 ホテルについた２人は、まるで恋人同士のように、自然に肌を重ねた
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 ２人は軽く１ラウンドをこなし、２ラウンド目へと突入した
-NAME_TAG (J3
+CLEAR_TEXTBOX
+(J3
 \x00
  DS05
 \x00
 8
-\x01
-「どうですかぁ、気持ちいいですかぁ」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「どうですかぁ、気持ちいいですかぁ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 四つん這いになっていた女の子が急に振り返ると、一心不乱に腰を動かしていたあなたに声をかけてきた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「へっ？
- \n ・・・あ、ああ、気持ちいいよ」
-NAME_TAG 8
-\x01
-「良かったですぅ」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT ・・・あ、ああ、気持ちいいよ」
+CLEAR_TEXTBOX
+8
+\n 「良かったですぅ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子は笑顔を見せながら、腰を軽く揺らした
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子の体は幼い外見からは想像も出来ないほど、男を喜ばせる体をしていた
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 胸こそそれほどないが、体の柔らかさや、暖かさなどが絶妙に男心をくすぐっていた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「な、なんとも言えない、心地よさだよなぁ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 今までに味わったことのない心地よさを感じながら、ゆっくりと腰を前後に動かしていた
-NAME_TAG 8
-\x01
-「ん、んん、・・・いいですぅ」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「ん、んん、・・・いいですぅ」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子もゆっくりと、この気持ちよさに身をゆだねているようだった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「・・・しかし・・・なんか・・変な気分だなぁ
- \n \x01
-　・・・こんなにゆったりとしてるなんてなぁ・・・くっ」
-NAME_TAG 8
-\x01
-「そう・・・ですねぇ・・・あんっ・・・
- \n \x01
-　でも・・・ん、こういうのも・・・悪くないですぅ・・・ああん」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT \n 　・・・こんなにゆったりとしてるなんてなぁ・・・くっ」
+CLEAR_TEXTBOX
+8
+\n 「そう・・・ですねぇ・・・あんっ・・・
+ CLICKWAIT \n 　でも・・・ん、こういうのも・・・悪くないですぅ・・・ああん」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 そのゆったりとした動きの中で、じわじわと高まってきた興奮が下半身へと集まった
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「そ、そろそろ・・・いくよ」
-NAME_TAG 8
-\x01
-「あ、ああん・・は、はいですぅ・・・」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「あ、ああん・・は、はいですぅ・・・」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 今までの動きとは対照的に、腰のスピードを速めると、女の子の膣内をつきまくりやがて限界を迎えた
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「く、っくぅ・・・」
-NAME_TAG 8
-\x01
-「あ、あ、あああああああん！！！」
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+8
+\n 「あ、あ、あああああああん！！！」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 女の子の背中に、白い液を放出するとあなたはぐったりと座り込んだ
-NAME_TAG NARRATION_DIALOGUE:
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 ぐったりとした２人は互いに目を合わせると、思わず笑い出してしまった
-NAME_TAG \x1a\xff
+CLEAR_TEXTBOX
+END_FILE

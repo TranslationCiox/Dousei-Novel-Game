@@ -2,7 +2,18 @@ import codecs
 import os
 import re
 
+
+##### Notes:
+# \x01 seems to be a new line.
+# \x05 is a clickwait, but will continue on the same line.
+# (_ loads a cg, sprite, etc.
+# DS0X is music.
 patterns = [
+    {
+        "pattern": [b'\x1a\xff'],
+        #
+        "action": "END_FILE"
+    },
     {
         "pattern": [b'\x17', b'\x01'],
         #
@@ -16,7 +27,7 @@ patterns = [
     {
         "pattern": [b'\x05', b'\x02', b'\x00'],
         #
-        "action": "NAME_TAG "
+        "action": "CLEAR_TEXTBOX\n"
     },
     {
         "pattern": [b'\x15', b'\x01'],
@@ -37,7 +48,12 @@ patterns = [
     {
         "pattern": [b'\x05'],
         #
-        "action": " \\n "
+        "action": " CLICKWAIT "
+    },
+    {
+        "pattern": [b'\x01'],
+        #
+        "action": "\\n "
     },
 ]
 

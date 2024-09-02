@@ -1,9 +1,8 @@
 \x1d\x1d
-\x01
-「ケーキを食べるのね
- \n \x01
-　えっと、飲み物は何がいい？」
-NAME_TAG 
+\n 「ケーキを食べるのね
+ CLICKWAIT \n 　えっと、飲み物は何がいい？」
+CLEAR_TEXTBOX
+
 CHOICE:
  \x00
 コーヒーがいいな
@@ -12,8 +11,7 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
@@ -22,44 +20,46 @@ NARRATION_DIALOGUE:
 \x00
 FEMALE_DIALOGUE:
 「ん、分かった
- \n 　やっぱり、ケーキにはコーヒーじゃないとね」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT 　やっぱり、ケーキにはコーヒーじゃないとね」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、台所から、ケーキとコーヒーをお盆にのせ、リビングへと持ってきた
-NAME_TAG \x10i
-\x01
-FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+\x10i
+\n FEMALE_DIALOGUE:
 「ん、分かった
- \n 　結構ケーキに紅茶が合うのよね」
-NAME_TAG NARRATION_DIALOGUE:
+ CLICKWAIT 　結構ケーキに紅茶が合うのよね」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、台所から、ケーキと紅茶をお盆にのせ、リビングへと持ってきた
-NAME_TAG (_CGAA04
+CLEAR_TEXTBOX
+(_CGAA04
 \x00
 FEMALE_DIALOGUE:
 「ほんと、美味しそうだよね
- \n \x01
-　じゃあ、いただきま～す」
-NAME_TAG \x1bb
+ CLICKWAIT \n 　じゃあ、いただきま～す」
+CLEAR_TEXTBOX
+\x1bb
 \x00
 *\x02\x1d
-\x01
-「う～ん、美味しい
- \n \x01
-　このチョコレートが、ちょうどいい甘さを保ってて、口の中でとろけ　るような感じで・・・・・」
-NAME_TAG \x10\xfe\x02\x1bc
+\n 「う～ん、美味しい
+ CLICKWAIT \n 　このチョコレートが、ちょうどいい甘さを保ってて、口の中でとろけ　るような感じで・・・・・」
+CLEAR_TEXTBOX
+\x10\xfe\x02\x1bc
 \x00
 \x89\x02\x1d
-\x01
-「やっぱ、美味しいよねぇ
- \n \x01
-　私、ケーキの中だったら、一番チーズケーキが好きだなぁ」
-NAME_TAG \x10\xfe\x02\x1d
-\x01
-「結構いけるね、このマロンケーキ
- \n \x01
-　他の店のだと、ちょっと甘さがしつこいんだけど、ここのはそんなこ　とないよね」
-NAME_TAG NARRATION_DIALOGUE:
+\n 「やっぱ、美味しいよねぇ
+ CLICKWAIT \n 　私、ケーキの中だったら、一番チーズケーキが好きだなぁ」
+CLEAR_TEXTBOX
+\x10\xfe\x02\x1d
+\n 「結構いけるね、このマロンケーキ
+ CLICKWAIT \n 　他の店のだと、ちょっと甘さがしつこいんだけど、ここのはそんなこ　とないよね」
+CLEAR_TEXTBOX
+NARRATION_DIALOGUE:
 FEMALE NAMEは、全部食べ終わると、満足そうな表情を浮かべた
-NAME_TAG FEMALE_DIALOGUE:
+CLEAR_TEXTBOX
+FEMALE_DIALOGUE:
 「あ～、美味しかった
- \n 　また、買ってきてね」
-NAME_TAG \x1a\xff
+ CLICKWAIT 　また、買ってきてね」
+CLEAR_TEXTBOX
+END_FILE

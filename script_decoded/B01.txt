@@ -1,7 +1,6 @@
 \x08\x08\x12
 \x00
-\x01
-\x00
+\n \x00
  DS01
 \x00
 \x11\x16\x10
@@ -16,9 +15,9 @@ O
 \x00
 MALE_DIALOGUE:
 「さってと、今日もがんばってやるぞぉ」
-NAME_TAG .
-\x01
-\x10l\x02\x11\x16\x10
+CLEAR_TEXTBOX
+.
+\n \x10l\x02\x11\x16\x10
 \x00
 \x15\x02
 \x00
@@ -30,7 +29,8 @@ NAME_TAG .
 \x00
 MALE_DIALOGUE:
 「さってと、今日もがんばってやるぞぉ」
-NAME_TAG .\x02\x10l\x02\x11\x16\x10
+CLEAR_TEXTBOX
+.\x02\x10l\x02\x11\x16\x10
 \x00
 \x15\x03
 \x00
@@ -42,56 +42,57 @@ NAME_TAG .\x02\x10l\x02\x11\x16\x10
 \x00
 MALE_DIALOGUE:
 「さってと、今日もがんばってやるぞぉ」
-NAME_TAG .\x03\x10l\x02\x11\x16\x10
+CLEAR_TEXTBOX
+.\x03\x10l\x02\x11\x16\x10
 \x00
 \x15\x04
 \x00
 \x02
 \x00
 \x1b
-\x01
-(_CGB04A
+\n (_CGB04A
 \x00
 MALE_DIALOGUE:
 「さってと、今日もがんばってやるぞぉ」
-NAME_TAG .\x04\x10l\x02\x11\x16\x10
+CLEAR_TEXTBOX
+.\x04\x10l\x02\x11\x16\x10
 \x00
 \x15
- \n \x00
+ CLICKWAIT \x00
 \x02
 \x00
 _
-\x01
-(_CGB05A
+\n (_CGB05A
 \x00
 MALE_DIALOGUE:
 「さってと、今日もがんばってやるぞぉ」
-NAME_TAG .
- \n \x10l\x02\x11\x16\x10
+CLEAR_TEXTBOX
+.
+ CLICKWAIT \x10l\x02\x11\x16\x10
 \x00
 \x15\x06
 \x00
 \x02
 \x00
 ｣
-\x01
-(_CGB06A
+\n (_CGB06A
 \x00
 MALE_DIALOGUE:
 「さってと、今日もがんばってやるぞぉ」
-NAME_TAG .\x06\x10l\x02\x11\x16\x10
+CLEAR_TEXTBOX
+.\x06\x10l\x02\x11\x16\x10
 \x00
 \x15\x07
 \x00
 \x02
 \x00
 \xe7
-\x01
-(_CGB07A
+\n (_CGB07A
 \x00
 MALE_DIALOGUE:
 「さってと、今日もがんばってやるぞぉ」
-NAME_TAG .\x07\x10l\x02\x11\x16\x10
+CLEAR_TEXTBOX
+.\x07\x10l\x02\x11\x16\x10
 \x00
 \x15\x08
 \x00
@@ -101,7 +102,8 @@ NAME_TAG .\x07\x10l\x02\x11\x16\x10
 \x00
 MALE_DIALOGUE:
 「さってと、今日もがんばってやるぞぉ」
-NAME_TAG .\x08\x10l\x02\x11\x16\x10
+CLEAR_TEXTBOX
+.\x08\x10l\x02\x11\x16\x10
 \x00
 \x15\t
 \x00
@@ -111,18 +113,18 @@ l\x02(_CGB09A
 \x00
 MALE_DIALOGUE:
 「さってと、今日もがんばってやるぞぉ」
-NAME_TAG .\t\x1e
-\x01
-「やっと昼休みだ・・・
- \n \x01
-　飯食ってもう一がんばりするかぁ！」
-NAME_TAG \x11\x16\x10
+CLEAR_TEXTBOX
+.\t\x1e
+\n 「やっと昼休みだ・・・
+ CLICKWAIT \n 　飯食ってもう一がんばりするかぁ！」
+CLEAR_TEXTBOX
+\x11\x16\x10
 \x00
 NARRATION_DIALOGUE:
 \x00
 \x02
 \x00
-ﾂCENTEREDIJIN1
+ﾂ???IJIN1
 \x00
 MALE NAMEﾊFEMALE NAMEMALE NAME
 \x00
@@ -130,7 +132,7 @@ MALE NAMEﾊFEMALE NAMEMALE NAME
 \x00
 \x02
 \x00
-ﾗCENTEREDIJIN2
+ﾗ???IJIN2
 \x00
 MALE NAMEﾊFEMALE NAMEMALE NAME
 \x00
@@ -151,13 +153,13 @@ MALE NAMEﾊFEMALE NAMEMALE NAME
 .MALE NAMEﾊFEMALE NAMEMALE NAME
 \x00
 \x15
- \n \x00
+ CLICKWAIT \x00
 \x02
 \x00
 "\x03(_CGB05A
 \x00
 .
- \n MALE NAMEﾊFEMALE NAMEMALE NAME
+ CLICKWAIT MALE NAMEﾊFEMALE NAMEMALE NAME
 \x00
 \x15\x06
 \x00
@@ -186,8 +188,7 @@ u\x03\x1f\x07
 \x00
 g\x03\x04\x1c
 \x00
-\x01
-\x00
+\n \x00
 \x19H0X
 \x00
 \x10r\x03(_CGB07A
@@ -213,12 +214,10 @@ g\x03\x04\x1c
 \x00
 ｦ
 \x00
-\x01
-\x00
+\n \x00
 \x04u
 \x00
-\x01
-\x00
+\n \x00
 \x19H0X
 \x00
 MALE NAMEｱ(_CGB08A
@@ -235,7 +234,8 @@ MALE NAMEｱ(_CGB08A
 \x00
 MALE_DIALOGUE:
 「やっと終わったぁ！」
-NAME_TAG \r\x0e
+CLEAR_TEXTBOX
+\r\x0e
 \x00
 \x15
 \x00
@@ -250,7 +250,7 @@ NAME_TAG \r\x0e
 \x00
 \x03
 \x00
- \n \x04
+ CLICKWAIT \x04
 \x00
 \x0e
 \x00
@@ -280,11 +280,13 @@ NARRATION_DIALOGUE:
 \x02\x0f
 \x00
 b
- \n NARRATION_DIALOGUE:
+ CLICKWAIT NARRATION_DIALOGUE:
 「いつもご苦労様。はい、今週の給料。ムダ使いしちゃダメだよ」
-NAME_TAG MALE_DIALOGUE:
+CLEAR_TEXTBOX
+MALE_DIALOGUE:
 「あっ、ありがとうございます～」
-NAME_TAG \x03\r
+CLEAR_TEXTBOX
+\x03\r
 \x00
 \x16\r
 \x00
@@ -300,10 +302,8 @@ NAME_TAG \x03\r
 \x00
 \x00
 3\x15
-\x01
-CENTEREDこのままアルバイトを続けますか？
- \n \x01
-\x00
+\n ???このままアルバイトを続けますか？
+ CLICKWAIT \n \x00
 
 CHOICE:
  \x00
@@ -313,14 +313,13 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 \x15\x02
 \x00
 \x02
 \x00
 b
- \n 
+ CLICKWAIT 
 CHOICE:
  \x00
 本当に辞める
@@ -329,18 +328,17 @@ CHOICE:
 \x00
 \x00
 END_CHOICE:
- \x01
-\x00
+ \n \x00
 \x15\x02
 \x00
 \x02
 \x00
 \x11
- \n MALE NAME､
-\x01
-「今までありがとうね
- \n 　良かったらまた来てください」
-NAME_TAG \x03\r
+ CLICKWAIT MALE NAME､
+\n 「今までありがとうね
+ CLICKWAIT 　良かったらまた来てください」
+CLEAR_TEXTBOX
+\x03\r
 \x00
 \x16\r
 \x00
@@ -372,12 +370,12 @@ NAME_TAG \x03\r
 \x02\x0f
 \x00
 \x86
- \n  DS11
+ CLICKWAIT  DS11
 \x00
 \x19IJIN1H
 \x00
 \x10\xeb
- \n \x11\x17G
+ CLICKWAIT \x11\x17G
 \x00
 \x17J
 \x00
@@ -387,12 +385,12 @@ NAME_TAG \x03\r
 \x02\x0f
 \x00
 ｦ
- \n  DS11
+ CLICKWAIT  DS11
 \x00
 \x19IJIN1H
 \x00
 \x10\xeb
- \n \x11\x17X
+ CLICKWAIT \x11\x17X
 \x00
 \x17W
 \x00
@@ -404,12 +402,12 @@ NAME_TAG \x03\r
 \x02\x0f
 \x00
 ﾊ
- \n  DS11
+ CLICKWAIT  DS11
 \x00
 \x19IJIN2H
 \x00
 \x10\xeb
- \n \x11\x17Y
+ CLICKWAIT \x11\x17Y
 \x00
 NARRATION_DIALOGUE:
 \x00
@@ -421,8 +419,8 @@ NARRATION_DIALOGUE:
 \x02\x0f
 \x00
 \xeb
- \n  DS11
+ CLICKWAIT  DS11
 \x00
 \x19IJIN2H
 \x00
-\x1a\xff
+END_FILE
