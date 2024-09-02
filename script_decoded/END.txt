@@ -1,8 +1,12 @@
 \x11\x11\x16\r
 \x00
-ﾄ	AUTO-
+ﾄ	
+MOVE_TO_OTHER_SEGMENT
+\x16\x1e
 \x00
-\x15 \x03\x04\x0f\x17J
+\x15 \x03
+MOVE_TO_OTHER_SEGMENT
+\x0f\x17J
 \x00
 \x17]
 \x00
@@ -18,9 +22,13 @@
 \x00
 \x11\x16 
 \x00
-\x15 \x03\x04\x16\x1e
+\x15 \x03
+MOVE_TO_OTHER_SEGMENT
+\x16\x1e
 \x00
-\x15\x84\x03\x04\x0f
+\x15\x84\x03
+MOVE_TO_OTHER_SEGMENT
+\x0f
 \x00
 B
 \x00
@@ -28,7 +36,8 @@ MALE NAMEｵMALE NAMEg
 \x00
 \x11\x16\r
 \x00
-\x15\x88\x13\x04
+\x15\x88\x13
+MOVE_TO_OTHER_SEGMENT
 \x00
 S
 \x00
@@ -36,7 +45,8 @@ S
 \x00
 \x11\x16 
 \x00
-ﾞAUTO-
+ﾞ
+MOVE_TO_OTHER_SEGMENT
 \x00
 d
 \x00
@@ -655,4 +665,4 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 END_OF_SEGMENT
-\xff
+END_FILE

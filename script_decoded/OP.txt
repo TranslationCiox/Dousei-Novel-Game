@@ -7,7 +7,8 @@ LOAD_FILE OP01
 \x00
 NO_NAMETAG:
 CLEAR_TEXTBOX
-AUTO-MODE　　　　　きっかけは、ほんのささいな出来事だった
+MOVE_TO_OTHER_SEGMENT
+MODE　　　　　きっかけは、ほんのささいな出来事だった
 \x00
 kP\x15
 NEWLINE
@@ -78,7 +79,9 @@ NEWLINE
 kP\x15
 NEWLINE
 CLEAR_TEXTBOX
-　　　　　俺達はきっと幸せになれるから・・・AUTO-MALE NAME
+　　　　　俺達はきっと幸せになれるから・・・
+MOVE_TO_OTHER_SEGMENT
+\x10
 \x00
 kP
 LOAD_FILE KURO
@@ -611,4 +614,4 @@ NEWLINE
 NEWLINE
 \x00
 END_OF_SEGMENT
-\xff
+END_FILE

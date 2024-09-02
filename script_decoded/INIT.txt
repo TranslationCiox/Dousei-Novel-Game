@@ -28,4 +28,4 @@ CLICKWAIT
 \x00
 \x18MAIN
 \x00
-\xff
+END_FILE

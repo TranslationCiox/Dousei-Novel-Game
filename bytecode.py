@@ -8,6 +8,7 @@ import re
 # Music is loaded by just using the music name surrounded by \x00
 # \x01 seems to be a new line.
 # \x02 wipes the textbox
+# \x04 Seems to be related to flags and moving to other segments.
 # \x05 is a clickwait, but will continue on the same line.
 # \x1a Seems to indicate an end of a segment in the script.
 # \x1d female nametag
@@ -15,7 +16,7 @@ import re
 # \x17 gives a choice
 patterns = [
     {
-        "pattern": [b'\x1a\xff'],
+        "pattern": [b'\xff'],
         #
         "action": "END_FILE"
     },
@@ -45,9 +46,9 @@ patterns = [
         "action": "MALE_NAMETAG:\n"
     },
     {
-        "pattern": [b'\x05'],
+        "pattern": [b'\x01'],
         #
-        "action": "CLICKWAIT\n"
+        "action": "NEWLINE\n"
     },
     {
         "pattern": [b'\x02'],
@@ -55,9 +56,14 @@ patterns = [
         "action": "CLEAR_TEXTBOX\n"
     },
     {
-        "pattern": [b'\x01'],
+        "pattern": [b'\x04'],
         #
-        "action": "NEWLINE\n"
+        "action": "MOVE_TO_OTHER_SEGMENT\n"
+    },
+    {
+        "pattern": [b'\x05'],
+        #
+        "action": "CLICKWAIT\n"
     },
     {
         "pattern": [b'\x1a'],
@@ -86,7 +92,7 @@ def contains_japanese(text):
 def parse_bytecode(data):
     list_bytecodes = []
     byte_list = [data[i:i+1] for i in range(len(data))]
-    split_values = {b'\x00', b'\x01', b'\x05', b'(', b'\x1a'}
+    split_values = {b'\x00', b'\x01', b'\x05', b'(', b'\x1a', b'\x04'}
     current_byte = byte_list[0]
     for byte in byte_list:
         if byte in split_values:
