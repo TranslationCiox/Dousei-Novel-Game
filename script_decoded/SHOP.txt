@@ -5,7 +5,7 @@
 買い物をして帰る
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 \x15\x02
 \x00
@@ -31,7 +31,7 @@ CLEAR_TEXTBOX
 宝石店
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 \x15\x02
 \x00
@@ -42,7 +42,7 @@ END_CHOICE:
 \x10O
 \n MALE NAMEﾄ
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 \x15\x03
 \x00
@@ -52,7 +52,7 @@ END_CHOICE:
 \x00
 MALE NAMEMALE NAMEﾄ
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 \x15\x04
 \x00
@@ -68,7 +68,7 @@ END_CHOICE:
 \x00
  
 \n 
-CHOICE:
+CHOICE
  \x00
 ほかのところへ行く
 \x00
@@ -77,7 +77,7 @@ CHOICE:
 家に帰る
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -87,7 +87,7 @@ NARRATION_DIALOGUE:
 \n \x10d
 \x00
 \x10\x1d
-\n END_CHOICE:
+\n END_CHOICE
  \n \x00
 \x15\x02
 \x00
@@ -96,14 +96,14 @@ NARRATION_DIALOGUE:
 FEMALE_DIALOGUE:
 \x10m\x0c\x10N
 \n 
-CHOICE:
+CHOICE
  \x00
 ほかのところへ行く
 \x00
 家に帰る
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -146,7 +146,7 @@ CLEAR_TEXTBOX
 恋愛シミュレーション　　　　定価　６８００円
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -182,14 +182,14 @@ CLEAR_TEXTBOX
 \n 「これで、よろしいですか？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 はい
 \x00
 やっぱやめます
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -227,14 +227,14 @@ CLEAR_TEXTBOX
 \n 「これで、よろしいですか？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 はい
 \x00
 やっぱやめます
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -317,7 +317,7 @@ MALE_DIALOGUE:
 「買うんだったら、２つ買っとかないとな」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 やっぱりやめとこ
 \x00
@@ -328,7 +328,7 @@ CHOICE:
 マロンケーキ　　　　　　　　　定価　２００円
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -357,14 +357,14 @@ CLEAR_TEXTBOX
 \n 「これで、よろしいですか？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 はい
 \x00
 やっぱやめます
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -407,14 +407,14 @@ CLEAR_TEXTBOX
 \n 「これで、よろしいですか？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 はい
 \x00
 やっぱやめます
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -451,14 +451,14 @@ CLEAR_TEXTBOX
 \n 「これで、よろしいですか？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 はい
 \x00
 やっぱやめます
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -514,7 +514,7 @@ CLEAR_TEXTBOX
 ネックレス　　　　　　　　　定価　４００００円
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -551,14 +551,14 @@ MALE NAMEｸ	MALE NAME_D
 \n 「これで、よろしいですか？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 はい
 \x00
 やっぱやめます
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -594,14 +594,14 @@ MALE NAMEｸ	MALE NAME`D
 \n 「これで、よろしいですか？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 はい
 \x00
 やっぱやめます
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -659,7 +659,7 @@ CLEAR_TEXTBOX
 テニスウェア　　　　　　　　定価　１５０００円
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -676,7 +676,7 @@ NARRATION_DIALOGUE:
 やっぱりやめた　　　　　　　　　　　
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -710,14 +710,14 @@ MALE NAME!MALE NAMEｵMALE NAMED
 \n 「これで、よろしいんですかぁ？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 はい
 \x00
 やっぱやめます
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -782,14 +782,14 @@ MALE NAME!MALE NAMEｫFEMALE NAMED
 \n 「これで、よろしいですかぁ？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 はい
 \x00
 やっぱやめます
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -831,14 +831,14 @@ MALE NAME!MALE NAMEｦD
 \n 「これで、よろしいんですかぁ？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 はい
 \x00
 やっぱやめます
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -880,14 +880,14 @@ CLEAR_TEXTBOX
 \n 「これで、よろしいですかぁ？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 はい
 \x00
 やっぱやめます
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -924,14 +924,14 @@ CLEAR_TEXTBOX
 \n 「これで、よろしいですかぁ？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 はい
 \x00
 やっぱやめます
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00

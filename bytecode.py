@@ -6,7 +6,7 @@ import re
 ##### Notes:
 # \x01 seems to be a new line.
 # \x05 is a clickwait, but will continue on the same line.
-# (_ loads a cg, sprite, etc.
+# ( loads a cg, sprite, etc.
 # DS0X is music.
 patterns = [
     {
@@ -17,12 +17,12 @@ patterns = [
     {
         "pattern": [b'\x17', b'\x01'],
         #
-        "action": "\nCHOICE:\n "
+        "action": "\nCHOICE\n "
     },
     {
         "pattern": [b'\x11\x16'],
         #
-        "action": "END_CHOICE:\n "
+        "action": "END_CHOICE\n "
     },
     {
         "pattern": [b'\x05', b'\x02', b'\x00'],
@@ -54,6 +54,11 @@ patterns = [
         "pattern": [b'\x01'],
         #
         "action": "\\n "
+    },
+    {
+        "pattern": [b'('],
+        #
+        "action": "LOAD_FILE "
     },
 ]
 

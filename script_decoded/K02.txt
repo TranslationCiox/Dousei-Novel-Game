@@ -3,14 +3,14 @@
  CLICKWAIT \n 　えっと、飲み物は何がいい？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 コーヒーがいいな
 \x00
 紅茶がいいな
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00

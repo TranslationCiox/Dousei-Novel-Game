@@ -242,14 +242,14 @@ MALE_DIALOGUE:
 「え～と・・・」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 中学生ぐらいかな・・・
 \x00
 もしかして高校生とか？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -400,14 +400,14 @@ CLEAR_TEXTBOX
 \n 「（はいですぅ）」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 じゃあチーズケーキを１つ
 \x00
 じゃあ君を・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -538,14 +538,14 @@ MALE_DIALOGUE:
  CLICKWAIT 　じゃあ今度は・・・）」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 じゃあチョコレートケーキを１つ
 \x00
 じゃあ君を・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -797,7 +797,7 @@ MALE_DIALOGUE:
 「（さて・・・あまり知り合いに会わない道を行かないとな・・・）」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 繁華街
 \x00
@@ -806,7 +806,7 @@ CHOICE:
 公園の中を通る
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00

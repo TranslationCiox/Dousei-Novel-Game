@@ -536,14 +536,14 @@ CLEAR_TEXTBOX
 \n 「いいじゃない、教えてよぉ」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ええ、いますよ
 \x00
 いや～、いないんですよ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -661,14 +661,14 @@ CLEAR_TEXTBOX
  CLICKWAIT 　で、どうする？）」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 いいっスよ
 \x00
 いや、ちょっと・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -868,14 +868,14 @@ CLEAR_TEXTBOX
  CLICKWAIT 　で、ほんとどうする？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 つきあいますよ
 \x00
 今日はちょっと・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -937,14 +937,14 @@ CLEAR_TEXTBOX
  CLICKWAIT \n 　今日はあんまりはしゃぐ気になんないの・・・ゴメンね」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 わかりました、じゃあゆっくり考え事をして下さいね
 \x00
 何かあったんですか
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1035,14 +1035,14 @@ NARRATION_DIALOGUE:
 理恵の表情は真剣そのものだった
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ・・・いいっスよ
 \x00
 すんません、やっぱ俺は・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1244,7 +1244,7 @@ MALE_DIALOGUE:
 「（さて・・・あまり知り合いに会わない道を行かないとな・・・）」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 繁華街
 \x00
@@ -1253,7 +1253,7 @@ CHOICE:
 公園の中を通る
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1346,14 +1346,14 @@ MALE_DIALOGUE:
 「（さて・・・あまり知り合いに会わない道を行かないとな・・・）」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 繁華街
 \x00
 裏通り
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00

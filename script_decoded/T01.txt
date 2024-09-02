@@ -97,14 +97,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT \n 　じゃあねえ、このシャツたたんでくれる？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 わかったよ
 \x00
 えっと、どうやってたたむんだ？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -172,14 +172,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT 　じゃあねえ、この下着たたんでくれる？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ああ
 \x00
 な、なんかすごい下着があるぞ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -243,14 +243,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT 　じゃあねえ、そのタオルたたんでくれる」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 わかった
 \x00
 このタオルって・・・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -307,14 +307,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT 　じゃあねぇ、靴下をたたんでくれる？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ＯＫ
 \x00
 靴下かぁ、わかったよ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -370,14 +370,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT 　じゃあねぇ、食事の後片づけ手伝って」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 じゃあ、テーブルを拭くよ
 \x00
 じゃあ、洗い物を手伝うよ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -430,14 +430,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT あ、じゃあねぇ、肩もんで☆」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 肩ぁ～？そんなにこってるのか？
 \x00
 ああ、いいよ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -505,14 +505,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT 　５枚ずつお願いね☆」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ああ、わかった
 \x00
 え、そんなに出すの？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00

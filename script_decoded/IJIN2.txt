@@ -455,14 +455,14 @@ NARRATION_DIALOGUE:
 恵の顔は耳まで真っ赤になっていた
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 俺でいいのかい
 \x00
 ・・・俺、彼女がいるんだ・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -500,14 +500,14 @@ NARRATION_DIALOGUE:
 恵の目は真剣そのものだった
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 わかった
 \x00
 悪い・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -636,14 +636,14 @@ NARRATION_DIALOGUE:
 恵はうつむいて両手をもてあそびながら、誘いをかけてきた
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 いいよ
 \x00
 えっと今日はちょっと・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -917,7 +917,7 @@ MALE_DIALOGUE:
 「（さて・・・あまり知り合いに会わない道を行かないとな・・・）」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 繁華街
 \x00
@@ -926,7 +926,7 @@ CHOICE:
 公園の中を通る
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -989,7 +989,7 @@ MALE_DIALOGUE:
 「（さて・・・あまり知り合いに会わない道を行かないとな・・・）」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 繁華街
 \x00
@@ -998,7 +998,7 @@ CHOICE:
 公園の中を通る
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00

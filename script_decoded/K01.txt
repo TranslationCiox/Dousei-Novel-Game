@@ -300,14 +300,14 @@ FEMALE_DIALOGUE:
 「ねえねえ、やっぱりさ、一緒に生活するっていうのは、今までとは全　然違うのかな？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 そうだね
 \x00
 あんまり違わないと思うよ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -323,14 +323,14 @@ FEMALE_DIALOGUE:
 「でもでも、楽しみだな～、あ、そうそう、まだ、ちゃんとした挨拶っ　てしてなかったよね？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 そ、そうだね
 \x00
 別にいいよ、挨拶なんて
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -365,14 +365,14 @@ FEMALE_DIALOGUE:
 「え？なんでって、私達、一緒に住んでるのよ、もう半分、夫婦みたい　なものじゃない」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 いや、違うって
 \x00
 そうだよね
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -389,14 +389,14 @@ CLEAR_TEXTBOX
 \n 　じゃあさ、『あなた☆』って呼んでもいい？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 いいよ
 \x00
 恥ずかしいよ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -435,14 +435,14 @@ FEMALE_DIALOGUE:
 「それでね、みんなにね『若いのに良く出来たお嫁さんだ』って言われ　たのぉ☆」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 良かったね
 \x00
 お嫁さんって・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -459,14 +459,14 @@ FEMALE_DIALOGUE:
 \n  CLICKWAIT 　私が挨拶しても、会釈だけって人も結構いたしね」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 それが今の人達だよ
 \x00
 ずいぶん、そっけないなー
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -495,14 +495,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT \n 　ねぇ、ちょっとは、連絡とかしてるの？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 いや、ちょっと忙しくて・・・
 \x00
 してるはずなんだけど・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -531,14 +531,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT \n 　ま、結局すぐにはとらなかったんだけど・・・・・どうする？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 そうだね、とろうか
 \x00
 別に要らないだろ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -566,14 +566,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT \n 　そろそろ、いろんな小物とか買いに行こうよ」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 何で？
 \x00
 そうだね
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -587,14 +587,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT \n 　今度、一緒に行ってみようよ」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 え～、恥ずかしいよ
 \x00
 いいよ、行こうよ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -615,14 +615,14 @@ FEMALE_DIALOGUE:
 「ねぇ、私の性格って・・・・・どう思う？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 な、なんだよ、いきなり？
 \x00
 性格か～
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -639,14 +639,14 @@ FEMALE_DIALOGUE:
 「・・・・・で、正直どう思ってる？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 多少変だけど、正直だよな
 \x00
 たまにキツイけど、やさしいよな
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -681,14 +681,14 @@ FEMALE_DIALOGUE:
 「何十年も連れ添った夫婦が、突然別れちゃうなんて、私には考えられ　ないんだけど・・・・・」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 やっぱ若い女の子の方がいいんじゃない？
 \x00
 俺にも、理解できないや
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -709,14 +709,14 @@ FEMALE_DIALOGUE:
 「ねえ、もし将来が決めれるものだとしたら、どんな将来がいい？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 このままがいいな
 \x00
 大富豪になりたいなあ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -729,7 +729,7 @@ CLEAR_TEXTBOX
 \n 「・・・・・言ってて、むなしくない？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 じゃぁFEMALE NAMEはどうなんだよ
 \x00
@@ -747,14 +747,14 @@ FEMALE_DIALOGUE:
 「今日ね・・・・・お医者様の所に行ってきたの・・・・・」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 風邪でもひいたの？
 \x00
 ・・・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -768,14 +768,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT \n 　・・・・・『おめでた』だって、・・・・・」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 うっそ～・・・・・マジ？
 \x00
 良かったな
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -796,14 +796,14 @@ FEMALE_DIALOGUE:
 「え？　今回？　あ～、うそよ、うそ！」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 おまえなー！！
 \x00
 良かった～！！！
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -816,7 +816,7 @@ FEMALE_DIALOGUE:
 「あ、あのね、こういう時に、なんて言ってくれるか確かめたくて」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 素直に聴いたらよかったのに
 \x00
@@ -832,7 +832,7 @@ CLEAR_TEXTBOX
  CLICKWAIT \n 　ま、今回は、私の方が悪かったから、これであいこにしてあげるね」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 （まぁ本当だったらいろいろ大変だし・・・）
 \x00
@@ -843,7 +843,7 @@ FEMALE_DIALOGUE:
 「え？　なに？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 い、いえ、なんでもないです
 \x00
@@ -858,14 +858,14 @@ FEMALE_DIALOGUE:
 \n  CLICKWAIT 　来年の３月にぐらいに結婚するんだって」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 早いな～
 \x00
 あっそう
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -881,14 +881,14 @@ FEMALE_DIALOGUE:
 「・・・でも、私達だって、いつかはそんな日がくる・・・のかな」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 そうなるといいな
 \x00
 あ、明日ははれるかなあ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -909,14 +909,14 @@ FEMALE_DIALOGUE:
 「ねーねー、『ねこ』飼いたくない？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 なんだよ、いきなり
 \x00
 ここじゃあ、飼えないよ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -935,7 +935,7 @@ FEMALE_DIALOGUE:
 「でもね、でもね、近所のペットショップにね、すーーーーーーっごく　カワイイ子猫がいたのよ～」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ・・そうですか・・・
 \x00
@@ -944,14 +944,14 @@ FEMALE_DIALOGUE:
 「ねえ、ねえ、ネコってカワイイと思わない？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 犬の方がいいなあ
 \x00
 ああ、カワイイな
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -986,14 +986,14 @@ FEMALE_DIALOGUE:
 「ねえ、私のこと好き？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 え、好きだけど・・・
 \x00
 え、なんだよ、突然
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1013,14 +1013,14 @@ FEMALE_DIALOGUE:
 「ねえ、私のこと好き？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 あ、ああ好きだよ
 \x00
 ・・・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1045,14 +1045,14 @@ FEMALE_DIALOGUE:
 「ねえ、私のこと好き？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 え、好きだよ
 \x00
 なんだよ、突然
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1069,14 +1069,14 @@ FEMALE_DIALOGUE:
 「ねえ、私のこと好き？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 あ、ああ好きだよ
 \x00
 ・・・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1099,14 +1099,14 @@ FEMALE_DIALOGUE:
 「ねえ、私のこと好き？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 え、好きだよ
 \x00
 なんだよ、突然
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1125,14 +1125,14 @@ FEMALE_DIALOGUE:
 「ねえ、私のこと好き？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 あ、ああ好きだよ
 \x00
 ・・・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1146,14 +1146,14 @@ CLEAR_TEXTBOX
 \n 「もう、それくらい言ってくれたって良いじゃない！ケチーーー！！」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 いやいや、いつも言ってたら言葉の値打ちが下がるじゃないか
 \x00
 目で合図してたんだけどな・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1166,7 +1166,7 @@ CLEAR_TEXTBOX
 \n 「・・・・・ぜんぜん気が付かなかったわよ」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ふん、修行が足りんわっ
 \x00
@@ -1187,14 +1187,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT 　雪が、降ってる」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ほんとだ、綺麗だな
 \x00
 さっむー
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1221,14 +1221,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT 　だから、協力してよね！」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 やだよ
 \x00
 ＯＫ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1250,14 +1250,14 @@ FEMALE_DIALOGUE:
 『第二次大戦中、イギリス、ロシア、アメリカの３カ国の首相が集まっ　てヤルタ会談が行われましたが、その時のロシア代表の人物は誰でし　ょう』
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 チャーチル
 \x00
 スターリン
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1297,7 +1297,7 @@ CLEAR_TEXTBOX
 FEMALE_DIALOGUE:
 「さ～てこれで、全部埋まったから、チェックの枠をつなげて・・・」
 CLEAR_TEXTBOX
-END_CHOICE:
+END_CHOICE
  \n \x00
 \x15\x02
 \x00
@@ -1359,14 +1359,14 @@ FEMALE_DIALOGUE:
 「ねえ！ねえ！ねえ！　地球人の半分は異星人が化けてるって本当？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 はあ？　なに言ってんの？
 \x00
 そんなバカな！
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1383,14 +1383,14 @@ FEMALE_DIALOGUE:
 「後ね、今、アメリカとかで秘密のＵＦＯが作られてて、あと２．３年　の内に攻めてくる宇宙人と戦争するんだって」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 なあ、それって信じてるのか？
 \x00
 ・・・あほらし
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1400,7 +1400,7 @@ NARRATION_DIALOGUE:
 \n 「ううん、信じてないよ」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 あ、あのなぁ
 \x00
@@ -1426,14 +1426,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT 　で、何しようか？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ババ抜きしようか
 \x00
 ポーカーでもするか
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1483,14 +1483,14 @@ FEMALE_DIALOGUE:
 \n 　なんか私には、合わなかったな」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 俺も苦手だな、あの手のは
 \x00
 そうか～？俺は好きだけどな
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1515,14 +1515,14 @@ FEMALE_DIALOGUE:
 「ねえ、ねえ、いいもの見せてあげようか？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 別にいいよ
 \x00
 何？何？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1544,14 +1544,14 @@ FEMALE_DIALOGUE:
 「どう、どう、１本３０００円なんて安いわよ、１本買ってみる？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 買わないよ、そんなもの
 \x00
 そうだな、買ってみるか
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1561,14 +1561,14 @@ NARRATION_DIALOGUE:
 \n 「まーた、また、無理しちゃってぇ本当は好きなくせに」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 今は、他の女の裸なんか興味ないね
 \x00
 評価が低い物しか、載ってないからな
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1607,14 +1607,14 @@ FEMALE_DIALOGUE:
 「今日ね、実家からミカンを送ってきてくれたんだけど・・食べる？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 お、いいねえ
 \x00
 あんまりミカンは好きじゃないんだ」
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1640,14 +1640,14 @@ FEMALE_DIALOGUE:
 「ねえ、お茶でも飲む？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 じゃあ、１杯もらおうかな
 \x00
 俺、コーヒーの方がいいなぁ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1677,14 +1677,14 @@ FEMALE_DIALOGUE:
 「今日ね、ちょっと近くの公園に行ったらね、小さい子を連れた若　奥様って感じの人達がいてね、なんか楽しそうに話してたから、仲間　に入れてもらっちゃった」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 へえ、そう
 \x00
 大丈夫だったか？今ってほら・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1707,14 +1707,14 @@ FEMALE_DIALOGUE:
 \n  CLICKWAIT 　でも、私もそうなっちゃうのかなぁ？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ああ、なる、なる
 \x00
 それは、無いんじゃない？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1731,14 +1731,14 @@ MALE NAMEｫI
 \n 「わっかんないわよー『うちの子が１番ザマス、オーホッホッホー」』　とか言ってるかもよー」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 なんで、口調まで変わるんだよ！
 \x00
 ・・・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1758,14 +1758,14 @@ FEMALE_DIALOGUE:
 「今日ねー、近所に泥棒が入ったんだってー」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 物騒だなぁ
 \x00
 へえ、めずらしい
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1776,14 +1776,14 @@ NARRATION_DIALOGUE:
  CLICKWAIT \n 　まだ、犯人つかまって無いんだって～」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 そっかー、じゃあ、気いつけないとな
 \x00
 大丈夫、すぐ捕まるって！
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1800,14 +1800,14 @@ CLEAR_TEXTBOX
  CLICKWAIT 私、そういうの間近で見るのって初めてで、なんか興奮　しちゃってね～」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 それはいいけど・・・うちは大丈夫なんだろうなぁ
 \x00
 で、被害は？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1831,14 +1831,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT \n 　がきんちょが子猫をいじめてたのよ！！！」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ひどいなぁ
 \x00
 で、助けたんだろ？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1859,14 +1859,14 @@ FEMALE_DIALOGUE:
 「そしたら、すごすごと逃げてったわ」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 馬鹿な親子も、いたもんだな
 \x00
 よっぽど恐かったんだな
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1897,14 +1897,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT 　そしたらね、特売やっててね、お肉とか卵とかが、すっご　く安かったのー！　なーんか幸せな気分だわ～」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ま、また、えらく簡単に幸せになれるね
 \x00
 おいおい、会話がおばさんになってるぞ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1929,14 +1929,14 @@ FEMALE_DIALOGUE:
 「あー、今日は疲れたわぁ」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 どうしたんだよ
 \x00
 もう歳か？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1955,14 +1955,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT 　ふふふ　若いからよ！！！」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 なんでまた？
 \x00
 歳を考えろって
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1982,14 +1982,14 @@ FEMALE_DIALOGUE:
 「・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ・・・・・
 \x00
 あの日か？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1999,14 +1999,14 @@ oW\x1d
 \n 「・・・・・・・・・・・・・・・・・・・・・・・・・・・・・」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 な、なんかしゃべってくれよ
 \x00
 どうか、したのか？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -2027,14 +2027,14 @@ FEMALE_DIALOGUE:
 「はぁ・・・なーんか体が重いなぁ」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 どうしたんだよ
 \x00
 大丈夫か？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -2057,14 +2057,14 @@ FEMALE_DIALOGUE:
 「だぁ～、な～んにもする気がしないんだけど～」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 めずらしいなあ
 \x00
 俺も同じだ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00

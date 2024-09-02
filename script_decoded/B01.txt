@@ -305,14 +305,14 @@ CLEAR_TEXTBOX
 \n ???このままアルバイトを続けますか？
  CLICKWAIT \n \x00
 
-CHOICE:
+CHOICE
  \x00
 続ける
 \x00
 辞める
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 \x15\x02
 \x00
@@ -320,14 +320,14 @@ END_CHOICE:
 \x00
 b
  CLICKWAIT 
-CHOICE:
+CHOICE
  \x00
 本当に辞める
 \x00
 キャンセル
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 \x15\x02
 \x00

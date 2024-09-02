@@ -313,14 +313,14 @@ MALE_DIALOGUE:
  CLICKWAIT \n 　同い年だが、みんなからは「お姉」と呼ばれている）
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 で、なにしに来たんだよ！
 \x00
 今日は、なに？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -331,14 +331,14 @@ NARRATION_DIALOGUE:
  CLICKWAIT \n 　２人きりの時間を邪魔したからって、そんなに怒るなよぅ～」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 別に怒ってなんかねえよ！
 \x00
 おまえねぇ・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -431,14 +431,14 @@ FEMALE_DIALOGUE:
 「みんな、変わんないね」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ああ
 \x00
 基本的に単純な奴等だもんな
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -509,14 +509,14 @@ MALE_DIALOGUE:
  CLICKWAIT 　足がふらついているぞ」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 FEMALE NAMEの額に手を当てる
 \x00
 休ませる
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -623,14 +623,14 @@ NARRATION_DIALOGUE:
 FEMALE NAMEは小さくうなずくと、口が隠れるぐらいまで布団をまくり上げた
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 おかゆでも作ろうか？
 \x00
 なんか欲しい物とかないか？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1825,14 +1825,14 @@ MALE_DIALOGUE:
 「（しょ、しょうがない、ここは・・・）」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 素直に謝る
 \x00
 ごまかす
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00

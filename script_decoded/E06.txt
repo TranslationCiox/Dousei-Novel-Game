@@ -70,14 +70,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT 　あ、もちろん女の子だけなんだけど・・・」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ああ、いいよ
 \x00
 ちょっと賛成できね～な
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -102,14 +102,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT \n 　・・・はい・・じゃあね～」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 なあ、金あんのか？
 \x00
 で、いつ頃いくんだ？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -151,14 +151,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT \n 　あ～あ、行きたかったなぁ」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 わかったよ行ってもいいから・・・
 \x00
 ・・・・・・・・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -206,14 +206,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT \n 　場所はね～・・・なんとかっていうスキー場の・・・」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 え、女の子だけでスキー？
 \x00
 おいおい、すべれるのか？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -247,14 +247,14 @@ FEMALE_DIALOGUE:
 「さってとぉ、今日は明日に備えて準備しとかなくちゃね」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 準備？　なんの？
 \x00
 ああ、例のアレの？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -293,14 +293,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT \n 　いいなぁ、行きたかったなぁ、温泉・・・」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 今度連れていってやるよ
 \x00
 俺も行きてーよ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -310,14 +310,14 @@ NARRATION_DIALOGUE:
 \n 「・・・友達も一緒でいい？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ああ、いいよ
 \x00
 それは、ちょっとまずくないか？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00

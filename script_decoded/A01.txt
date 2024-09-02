@@ -167,14 +167,14 @@ NARRATION_DIALOGUE:
 あなたは無意識のうちに右手をあげていた
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 （FEMALE NAMEを抱きしめる）
 \x00
 （軽く頭をたたく）
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -429,14 +429,14 @@ NARRATION_DIALOGUE:
 FEMALE NAMEの頭に軽く手をのせると、しょうがないなという表情で微笑んだ
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 （・・・眠い、もう少し寝よう・・・）
 \x00
 （ちょっとだけイタズラをして起こしてみよう）
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 \x15\x02
 \x00

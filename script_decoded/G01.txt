@@ -7,7 +7,7 @@
 ｿ
 \x00
 
-CHOICE:
+CHOICE
  \x00
 対戦パズルゲームをやる
 \x00
@@ -16,7 +16,7 @@ CHOICE:
 テレビを見る
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -89,14 +89,14 @@ MALE NAMEﾒFEMALE NAMEMALE NAME
 \x00
 5
 \n 
-CHOICE:
+CHOICE
  \x00
 対戦パズルゲームをやる
 \x00
 テレビを見る
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -125,14 +125,14 @@ MALE_DIALOGUE:
 \n \x10\xf1\x07\x102
 \n MALE NAMEﾜ	MALE NAME
 \n 
-CHOICE:
+CHOICE
  \x00
 恋愛シミュレーションをやる
 \x00
 テレビを見る
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -230,14 +230,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT \n 　ま、まあ、とりあえずやろうよ、これって対戦出来るんでしょ？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 （手を抜く）
 \x00
 （全力で）
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -300,14 +300,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT \n 　・・・わかったわよ！今度は負けないからね！」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 （手を抜く）
 \x00
 （全力で）
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -358,14 +358,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT 　いいわよ～、やりましょ！」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 （手を抜く）
 \x00
 （全力で）
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -420,14 +420,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT 　いいわよ、負けても泣かないでね☆」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 （手を抜く）
 \x00
 （全力で）
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -472,14 +472,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT \n 　・・・また、なんてもの買ってくるのよ・・・」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 （真剣にやる）
 \x00
 （てきとうにやる）
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -519,14 +519,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT ・・・ま、いいけどね・・・」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 （真剣にやる）
 \x00
 （てきとうにやる）
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -571,14 +571,14 @@ FEMALE_DIALOGUE:
 「またぁ～？・・・結構はまってるのね」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 （真剣にやる）
 \x00
 （てきとうにやる）
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -617,14 +617,14 @@ FEMALE_DIALOGUE:
 「え、ゲームするの？じゃ、今日は違う娘から告白されないとね☆」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 （真剣にやる）
 \x00
 （てきとうにやる）
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -671,14 +671,14 @@ FEMALE_DIALOGUE:
 「どうにかなんないかなぁ、この人達って」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 でも、俺達が選んだんだぜ
 \x00
 じゃあ、自分で立候補する？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -712,14 +712,14 @@ FEMALE_DIALOGUE:
  CLICKWAIT \n 　私、こういう雄大な景色を見るのって大好きなの」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 俺もだよ
 \x00
 そうかぁ？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -741,7 +741,7 @@ CLEAR_TEXTBOX
 がんばれよ～
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -767,14 +767,14 @@ CLEAR_TEXTBOX
  CLICKWAIT \n 　・・・だめねえ、感受性の無い人ってのは」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 悪かったな
 \x00
 いやいや、やっぱりそういう景色は生で見ないと！
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -806,14 +806,14 @@ FEMALE_DIALOGUE:
 「ねぇねぇ、MALE NAMEはどんなＣＭが好き？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 スポーツメーカーのやつがいいなぁ
 \x00
 し、下着メーカーのやつが・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -854,14 +854,14 @@ FEMALE_DIALOGUE:
 「キャー、たっくやく～ん、かっこいい！」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 あ、あのなぁ
 \x00
 そうだなぁ、かっこいいよな
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -871,14 +871,14 @@ B\x1c\x1d
 \n 「妬かない、妬かない」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 妬いてなんかないって
 \x00
 いや、だって・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -918,14 +918,14 @@ FEMALE_DIALOGUE:
 「でも昔見た映画って、ずいぶんと面白かったような気がするんだけど　気のせいかな？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 純粋だったからじゃない？
 \x00
 まあ、作り手も好き勝手してたみたいだしね
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -966,14 +966,14 @@ FEMALE_DIALOGUE:
 「あははははははははは～、おもしろ～い！」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 はははははは！
 \x00
 それにしても、よく笑うよな
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00

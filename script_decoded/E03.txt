@@ -118,14 +118,14 @@ MALE_DIALOGUE:
 「それにしても・・・」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 派手な服着てるなぁ
 \x00
 結構テレビ映りいいよな
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -192,14 +192,14 @@ FEMALE_DIALOGUE:
 「・・・・・わかる？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ちょっとわかんないなぁ
 \x00
 ああわかるよ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -256,14 +256,14 @@ CLEAR_TEXTBOX
  CLICKWAIT 　じゃあ答えは何？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 共和党だろ
 \x00
 民主党だろ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -537,14 +537,14 @@ FEMALE_DIALOGUE:
 「ねぇ、また一緒にお風呂屋さんに行こうよ！」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 うーん、どうせなら・・・
 \x00
 そうだな
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -783,14 +783,14 @@ FEMALE_DIALOGUE:
 「いいから！　ねぇ、正直に答えてね」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ああ、ちょっと太ったかもな
 \x00
 別にそんなことは無いと思うけど・・・
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -852,14 +852,14 @@ NARRATION_DIALOGUE:
 少しあきれた様子で頭をかいていたあなたは、寝室にいる恋人に声をかけた
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 頑張れ～！応援してるぞ～！
 \x00
 何か手伝おうか？
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1213,14 +1213,14 @@ FEMALE_DIALOGUE:
 「ねぇ、どんな感じ？」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 気持ちいいよ
 \x00
 くすぐったいよ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1293,14 +1293,14 @@ FEMALE_DIALOGUE:
 「はい、終了だよ！」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 ああ、ありがとな
 \x00
 え～、もうちょっと、このままでいさせてくれ～
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00

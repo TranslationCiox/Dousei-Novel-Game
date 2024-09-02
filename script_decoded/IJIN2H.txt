@@ -67,7 +67,7 @@ MALE_DIALOGUE:
 「（さて・・・あまり知り合いに会わない道を行かないとな・・・）」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 繁華街
 \x00
@@ -76,7 +76,7 @@ CHOICE:
 公園の中を通る
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -257,7 +257,7 @@ MALE_DIALOGUE:
 「（さて・・・あまり知り合いに会わない道を行かないとな・・・）」
 CLEAR_TEXTBOX
 
-CHOICE:
+CHOICE
  \x00
 繁華街
 \x00
@@ -266,7 +266,7 @@ CHOICE:
 公園の中を通る
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00

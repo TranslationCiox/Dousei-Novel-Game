@@ -81,7 +81,7 @@
 ﾄ
 \x00
 
-CHOICE:
+CHOICE
  \x00
 そろそろ寝よっか・・・
 \x00
@@ -96,7 +96,7 @@ CHOICE:
 \x00
 &
 \n 
-CHOICE:
+CHOICE
  \x00
 そろそろ寝よっか・・・
 \x00
@@ -105,7 +105,7 @@ CHOICE:
 （いきなりキスする）
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 \x15\x03
 \x00
@@ -118,7 +118,7 @@ END_CHOICE:
 \x00
 \x10y
 \n 
-CHOICE:
+CHOICE
  \x00
 そろそろ寝よっか・・・
 \x00
@@ -127,7 +127,7 @@ CHOICE:
 （いきなり押し倒す！）
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 \x15\x03
 \x00
@@ -138,7 +138,7 @@ y
 \n \x00
 \x04
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -162,14 +162,14 @@ CLEAR_TEXTBOX
 !(_CG20
 \x00
 
-CHOICE:
+CHOICE
  \x00
 明日に備えて眠る
 \x00
 イタズラしてしまう
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -460,14 +460,14 @@ B
 \x00
 \x00
 
-CHOICE:
+CHOICE
  \x00
 いきなりキス
 \x00
 さわる
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -480,7 +480,7 @@ NARRATION_DIALOGUE:
 くびすじ
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -680,7 +680,7 @@ CLEAR_TEXTBOX
 下の方に手をのばす
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -959,7 +959,7 @@ e\x11\x17m
 自分で準備する
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 \x15\x04
 \x00
@@ -1026,7 +1026,7 @@ E\x13\x17
 ぬぉりゃあああああぁぁぁ～～～
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 \x15
 \x00
@@ -1293,7 +1293,7 @@ A\x1a\x15
 \x10\x90\x1a\x15
 \n 『さわる』場所をクリックして下さい。シーツをクリックするとメニューに戻れます
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 \x15\x02
 \x00
@@ -1715,7 +1715,7 @@ CLEAR_TEXTBOX
 (_CG19
 \x00
 
-CHOICE:
+CHOICE
  \x00
 動く
 \x00
@@ -1724,7 +1724,7 @@ CHOICE:
 体位変更
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
@@ -1779,7 +1779,7 @@ MALE NAMEｻ!
 後背位
 \x00
 \x00
-END_CHOICE:
+END_CHOICE
  \n \x00
 NARRATION_DIALOGUE:
 \x00
