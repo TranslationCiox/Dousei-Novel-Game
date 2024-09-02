@@ -22,97 +22,98 @@ import re
 # \x1a Seems to indicate an end of a segment in the script.
 # \x1d female nametag.
 # \x1e male nametag.
+# \x2e (also written as a period ".") seems to be used before GIF sequences.
 # \xff end a file.
 patterns = [
     {
         "pattern": [b'\x01'],
         #
-        "action": "NEWLINE\n"
+        "action": "[01]NEWLINE\n"
     },
     {
         "pattern": [b'\x02'],
         #
-        "action": "CLEAR_TEXTBOX\n"
+        "action": "[02]CLEAR_TEXTBOX\n"
     },
     {
         "pattern": [b'\x04'],
         #
-        "action": "MOVE_TO_OTHER_SEGMENT\n"
+        "action": "[04]MOVE_TO_OTHER_SEGMENT\n"
     },
     {
         "pattern": [b'\x05'],
         #
-        "action": "CLICKWAIT\n"
+        "action": "[05]CLICKWAIT\n"
     },
     {
         "pattern": [b'\x10'],
         #
-        "action": "MALE_NAME\n"
+        "action": "[10]MALE_NAME\n"
     },
     {
         "pattern": [b'\x11'],
         #
-        "action": "FEMALE_NAME\n"
+        "action": "[11]FEMALE_NAME\n"
     },
     {
         "pattern": [b'\x12'],
         #
-        "action": "MALE_SURNAME\n"
+        "action": "[12]MALE_SURNAME\n"
     },
     {
         "pattern": [b'\x13'],
         #
-        "action": "FEMALE_SURNAME\n"
+        "action": "[13]FEMALE_SURNAME\n"
     },
     {
         "pattern": [b'\x15'],
         #
-        "action": "NO_NAMETAG\n"
+        "action": "[15]NO_NAMETAG\n"
     },
     {
         "pattern": [b'\x16'],
         #
-        "action": "END_CHOICE\n"
+        "action": "[16]END_CHOICE\n"
     },
     {
         "pattern": [b'\x17'],
         #
-        "action": "CHOICE\n"
+        "action": "[17]CHOICE\n"
     },
     {
         "pattern": [b'\x19'],
         #
-        "action": "GOTO_FILE\n"
+        "action": "[19]GOTO_FILE\n"
     },
     {
-        "pattern": [b'\x20'],
+        "pattern": [b' '],
         #
-        "action": "LOAD_MUSIC\n"
-    },
-    {
-        "pattern": [b'\x1a'],
-        #
-        "action": "END_OF_SEGMENT\n"
+        "action": "[20]LOAD_MUSIC\n"
     },
     {
         "pattern": [b'('],
         #
-        "action": "LOAD_GRAPHICS\n"
+        "action": "[28]LOAD_GRAPHICS\n"
+    },
+    {
+        "pattern": [b'\x1a'],
+        #
+        "action": "[1a]END_OF_SEGMENT\n"
     },
     {
         "pattern": [b'\x1d'],
         #
-        "action": "FEMALE_NAMETAG\n"
+        "action": "[1d]FEMALE_NAMETAG\n"
     },
     {
         "pattern": [b'\x1e'],
         #
-        "action": "MALE_NAMETAG\n"
+        "action": "[1e]MALE_NAMETAG\n"
     },
     {
         "pattern": [b'\xff'],
         #
-        "action": "END_FILE"
+        "action": "[ff]END_FILE"
     },
 ]
 
@@ -132,7 +133,7 @@ def contains_japanese(text):
 def parse_bytecode(data):
     list_bytecodes = []
     byte_list = [data[i:i+1] for i in range(len(data))]
-    split_values = {b'\x00', b'\x01', b'\x05', b'(', b'\x1a', b'\x04', b'\x11', b'\x15', b'\x19'}
+    split_values = {b'\x00', b'\x01', b'\x05', b'\x08', b'\x10', b'(', b'\x1a', b'\x04', b'\x11', b'\x15', b'\x19'}
     current_byte = byte_list[0]
     for byte in byte_list:
         if byte in split_values:
