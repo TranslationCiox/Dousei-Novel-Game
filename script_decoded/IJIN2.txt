@@ -1,4 +1,6 @@
-\x11\x11\x16\x08
+\x11
+\x11
+\x16\x08
 \x00
 \x15\x1e
 \x00
@@ -75,7 +77,8 @@ w
 \x00
 \x10\x1c\x10\x10\xec
 \x00
-\x11\x17W
+\x11
+\x17W
 \x00
 NO_NAMETAG:
 \x00
@@ -108,7 +111,8 @@ NO_NAMETAG:
 \x00
 ｱ
 \x00
-MALE NAMEﾞMALE NAME
+MALE NAMEﾞ
+GOTO_FILE \x10\xec
 \x00
 \x1f
 MOVE_TO_OTHER_SEGMENT
@@ -166,7 +170,7 @@ LOAD_FILE _CGB02B
 \x00
 B
 NEWLINE
-「MODEくん、ちょっと」
+「MALE SURNAMEくん、ちょっと」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -231,7 +235,7 @@ B
 NEWLINE
 「そうそう恵ちゃん！
 NEWLINE
-　で、恵ちゃんにはウエイトレスの仕事をやって貰おうと思ってるんだ　けど、教育係をMODEくんにまかせてもいいかな？」
+　で、恵ちゃんにはウエイトレスの仕事をやって貰おうと思ってるんだ　けど、教育係をMALE SURNAMEくんにまかせてもいいかな？」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -266,7 +270,7 @@ CLEAR_TEXTBOX
 MALE_NAMETAG:
 「えーっと、恵ちゃんだっけ
 NEWLINE
-　俺の名前は、MODEMALE NAME。よろしくな」
+　俺の名前は、MALE SURNAMEMALE NAME。よろしくな」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -289,7 +293,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-恵とFEMALE NAMEとの強烈なギャップに少し悩んだが、とりあえず仕事を教えることにした
+恵と
+\x11
+との強烈なギャップに少し悩んだが、とりあえず仕事を教えることにした
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -591,7 +597,7 @@ CLEAR_TEXTBOX
 \x00
 7
 NEWLINE
-「MODEさんのおかげです」
+「MALE SURNAMEさんのおかげです」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -694,9 +700,9 @@ NO_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 俺でいいのかい
 \x00
 ・・・俺、彼女がいるんだ・・・
@@ -711,7 +717,7 @@ CLEAR_TEXTBOX
 \x00
 \x81\x147
 NEWLINE
-「・・・MODEさんが
+「・・・MALE SURNAMEさんが
 CLICKWAIT
 　いいんです」
 CLICKWAIT
@@ -768,9 +774,9 @@ NO_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 わかった
 \x00
 悪い・・・
@@ -841,7 +847,7 @@ CLEAR_TEXTBOX
 \x00
 7
 NEWLINE
-「MODEさん」
+「MALE SURNAMEさん」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -852,7 +858,7 @@ CLEAR_TEXTBOX
 \x00
 7
 NEWLINE
-「私、MODEさんの彼女ぐらい愛して貰える彼氏を見つけますね」
+「私、MALE SURNAMEさんの彼女ぐらい愛して貰える彼氏を見つけますね」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -951,7 +957,7 @@ CLEAR_TEXTBOX
 \x00
 7
 NEWLINE
-「あの・・・MODEさん？」
+「あの・・・MALE SURNAMEさん？」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -993,9 +999,9 @@ NO_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 いいよ
 \x00
 えっと今日はちょっと・・・
@@ -1119,7 +1125,7 @@ CLEAR_TEXTBOX
 \x00
 7
 NEWLINE
-「あの・・・・・MODEさん」
+「あの・・・・・MALE SURNAMEさん」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1130,7 +1136,7 @@ CLEAR_TEXTBOX
 \x00
 7
 NEWLINE
-「MODEさんて・・・・・いつも楽しそうですね」
+「MALE SURNAMEさんて・・・・・いつも楽しそうですね」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1190,7 +1196,7 @@ CLEAR_TEXTBOX
 \x00
 7
 NEWLINE
-「あの・・・MODEさん」
+「あの・・・MALE SURNAMEさん」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1201,7 +1207,7 @@ CLEAR_TEXTBOX
 \x00
 7
 NEWLINE
-「MODEさんて・・・・・どんな娘が好きですか」
+「MALE SURNAMEさんて・・・・・どんな娘が好きですか」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1469,9 +1475,9 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 繁華街
 \x00
 裏通り
@@ -1492,8 +1498,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAMEｾ)FEMALE NAME
-NEWLINE
+MALE NAMEｾ)
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x02
 \x00
@@ -1580,9 +1587,9 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 繁華街
 \x00
 裏通り
@@ -1608,8 +1615,9 @@ i
 \x00
 NEWLINE
 \x00
-MALE NAMEｧ,FEMALE NAME
-NEWLINE
+MALE NAMEｧ,
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x02
 \x00

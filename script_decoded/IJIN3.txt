@@ -10,7 +10,8 @@ NEWLINE
 \x00
 \x10\x91
 \x00
-\x11\x16)
+\x11
+\x16)
 \x00
 \x15\x02
 \x00
@@ -22,7 +23,8 @@ CLEAR_TEXTBOX
 CLICKWAIT
 \x10\x91
 \x00
-\x11\x16)
+\x11
+\x16)
 \x00
 \x15
 MOVE_TO_OTHER_SEGMENT
@@ -33,7 +35,8 @@ CLEAR_TEXTBOX
 \x00
 \x10\x1e\x07\x10\x91
 \x00
-\x11\x16)
+\x11
+\x16)
 \x00
 \x15\x06
 \x00
@@ -43,7 +46,8 @@ C
 \x00
 \x10a\r\x10\x91
 \x00
-\x11\x16\x0c
+\x11
+\x16\x0c
 \x00
 \x15\n
 \x00
@@ -59,7 +63,8 @@ MOVE_TO_OTHER_SEGMENT
 \x00
 \x10m\x0f\x10\x91
 \x00
-\x11\x17M
+\x11
+\x17M
 \x00
 NO_NAMETAG:
 \x00
@@ -74,7 +79,8 @@ u
 \x00
 \x10n\x14\x10\x91
 \x00
-\x11\x16\x0c
+\x11
+\x16\x0c
 \x00
 \x15\x14
 \x00
@@ -371,9 +377,9 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 中学生ぐらいかな・・・
 \x00
 もしかして高校生とか？
@@ -641,9 +647,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 じゃあチーズケーキを１つ
 \x00
 じゃあ君を・・・
@@ -877,9 +883,9 @@ CLICKWAIT
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 じゃあチョコレートケーキを１つ
 \x00
 じゃあ君を・・・
@@ -892,7 +898,8 @@ NO_NAMETAG:
 \x00
 CLEAR_TEXTBOX
 \x00
-1\x198
+1
+GOTO_FILE 8
 NEWLINE
 「（チョコレートケーキですね
 CLICKWAIT
@@ -1321,9 +1328,9 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 繁華街
 \x00
 裏通り
@@ -1344,8 +1351,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x10\xe4'\x11\x16
-NEWLINE
+\x10\xe4'
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x02
 \x00

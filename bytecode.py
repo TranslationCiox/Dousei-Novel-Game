@@ -4,47 +4,22 @@ import re
 
 
 ##### Notes:
-# ( loads graphical things like backgrounds.
-# Music is loaded by just using the music name surrounded by \x00
 # \x01 seems to be a new line.
 # \x02 wipes the textbox
 # \x04 Seems to be related to flags and moving to other segments.
 # \x05 is a clickwait, but will continue on the same line.
+# \x12 male surname.
+# \x16 end a choice.
+# \x17 gives a choice.
+# \x18 go to a different file (used in INIT to go to MAIN).
+# \x19 go to a different file (seems to be more commonly used).
+# \x20 (also written as a space " " character) loads music.
+# \x28 (also written as the "(" character) load graphical things like backgrounds.
 # \x1a Seems to indicate an end of a segment in the script.
-# \x1d female nametag
-# \x1e male nametag
-# \x17 gives a choice
+# \x1d female nametag.
+# \x1e male nametag.
+# \xff end a file.
 patterns = [
-    {
-        "pattern": [b'\xff'],
-        #
-        "action": "END_FILE"
-    },
-    {
-        "pattern": [b'\x17', b'\x01'],
-        #
-        "action": "\nCHOICE\n "
-    },
-    {
-        "pattern": [b'\x11\x16'],
-        #
-        "action": "END_CHOICE\n "
-    },
-    {
-        "pattern": [b'\x15', b'\x01'],
-        #
-        "action": "NO_NAMETAG:\n"
-    },
-    {
-        "pattern": [b'\x1d', b'\x01'],
-        #
-        "action": "FEMALE_NAMETAG:\n"
-    },
-    {
-        "pattern": [b'\x1e', b'\x01'],
-        #
-        "action": "MALE_NAMETAG:\n"
-    },
     {
         "pattern": [b'\x01'],
         #
@@ -66,6 +41,31 @@ patterns = [
         "action": "CLICKWAIT\n"
     },
     {
+        "pattern": [b'\x11', b'\x16'],
+        #
+        "action": "END_CHOICE\n "
+    },
+    {
+        "pattern": [b'\x15', b'\x01'],
+        #
+        "action": "NO_NAMETAG:\n"
+    },
+    {
+        "pattern": [b'\x17'],
+        #
+        "action": "CHOICE\n "
+    },
+    {
+        "pattern": [b'\x19'],
+        #
+        "action": "GOTO_FILE "
+    },
+    {
+        "pattern": [b'\x20'],
+        #
+        "action": "LOAD MUSIC "
+    },
+    {
         "pattern": [b'\x1a'],
         #
         "action": "END_OF_SEGMENT\n"
@@ -74,6 +74,21 @@ patterns = [
         "pattern": [b'('],
         #
         "action": "LOAD_FILE "
+    },
+    {
+        "pattern": [b'\x1d', b'\x01'],
+        #
+        "action": "FEMALE_NAMETAG:\n"
+    },
+    {
+        "pattern": [b'\x1e', b'\x01'],
+        #
+        "action": "MALE_NAMETAG:\n"
+    },
+    {
+        "pattern": [b'\xff'],
+        #
+        "action": "END_FILE"
     },
 ]
 
@@ -92,7 +107,7 @@ def contains_japanese(text):
 def parse_bytecode(data):
     list_bytecodes = []
     byte_list = [data[i:i+1] for i in range(len(data))]
-    split_values = {b'\x00', b'\x01', b'\x05', b'(', b'\x1a', b'\x04'}
+    split_values = {b'\x00', b'\x01', b'\x05', b'(', b'\x1a', b'\x04', b'\x11', b'\x19'}
     current_byte = byte_list[0]
     for byte in byte_list:
         if byte in split_values:
@@ -133,8 +148,8 @@ def save_text(lines, output_path):
                 line = line.replace("", "MALE NAME")   # \x10
                 line = line.replace("", "FEMALE NAME") # \x11
                 line = line.replace("", "CLEAR_TEXTBOX\n") # \x02 Clear textbox
-                line = line.replace("", "AUTO-")      # \x04 Probably used for auto-mode.
-                line = line.replace("", "MODE")       # \x12 Probably used for auto-mode.
+                line = line.replace("", "AUTO-")           # \x04 Probably used for auto-mode.
+                line = line.replace("", "MALE SURNAME")    # \x12 Male Surname
 
                 f.write(line + "\n")
             else:

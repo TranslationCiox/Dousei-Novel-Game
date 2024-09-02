@@ -8,7 +8,7 @@ LOAD_FILE OP01
 NO_NAMETAG:
 CLEAR_TEXTBOX
 MOVE_TO_OTHER_SEGMENT
-MODE　　　　　きっかけは、ほんのささいな出来事だった
+MALE SURNAME　　　　　きっかけは、ほんのささいな出来事だった
 \x00
 kP\x15
 NEWLINE
@@ -110,7 +110,8 @@ CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
 CLEAR_TEXTBOX
-FEMALE NAMEは、マンションを見上げると満足そうな表情を見せた
+\x11
+は、マンションを見上げると満足そうな表情を見せた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -122,7 +123,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-彼女の名前はFEMALE NAME
+彼女の名前は
+\x11
 CLICKWAIT
 NEWLINE
 学生時代からつきあっている彼女で、今から一緒に住むパートナーだ
@@ -147,7 +149,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-少し、にやけているあなたを、FEMALE NAMEは不思議そうに見つめた
+少し、にやけているあなたを、
+\x11
+は不思議そうに見つめた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -170,7 +174,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたの言葉に、FEMALE NAMEは嬉しそうな笑顔を返した
+あなたの言葉に、
+\x11
+は嬉しそうな笑顔を返した
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -252,7 +258,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは少し恥じらいの表情を浮かべながら、あなたの顔を見上げた
+\x11
+は少し恥じらいの表情を浮かべながら、あなたの顔を見上げた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -297,7 +304,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-うっすらと頬を染め、小さな声でつぶやいているFEMALE NAMEの唇を、あなたは再びふさいだ
+うっすらと頬を染め、小さな声でつぶやいている
+\x11
+の唇を、あなたは再びふさいだ
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -359,7 +368,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-少し恥ずかしげに目をそらすFEMALE NAMEの首筋に、軽くキスをして、そのまま胸の方へと舌をはわした
+少し恥ずかしげに目をそらす
+\x11
+の首筋に、軽くキスをして、そのまま胸の方へと舌をはわした
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -369,7 +380,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、少し体をふるわせ、あなたの頭を両腕で抱えた
+\x11
+は、少し体をふるわせ、あなたの頭を両腕で抱えた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -384,7 +396,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-少し困ったような表情を見せるFEMALE NAMEに、あなたはいたずらっ子のような笑顔を返した
+少し困ったような表情を見せる
+\x11
+に、あなたはいたずらっ子のような笑顔を返した
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -417,7 +431,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-もうすっかりと堅くなった、乳首から口を離したあなたは、FEMALE NAMEの足を開き、その間にある茂みへと顔を埋めた
+もうすっかりと堅くなった、乳首から口を離したあなたは、
+\x11
+の足を開き、その間にある茂みへと顔を埋めた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -447,7 +463,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 MALE_NAMETAG:
-「美味しいよ、FEMALE NAMEのここ」
+「美味しいよ、
+\x11
+のここ」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -457,7 +475,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、あなたの言葉も耳に入らない様子で、打ち寄せる快感に身を委ねていた
+\x11
+は、あなたの言葉も耳に入らない様子で、打ち寄せる快感に身を委ねていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -472,7 +491,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたの言葉に、FEMALE NAMEは、こくんと小さく頷いた
+あなたの言葉に、
+\x11
+は、こくんと小さく頷いた
 CLICKWAIT
 NEWLINE
 それを合図に、あなたは、ぐいっと腰を前につきだした
@@ -487,7 +508,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEの膣中は、あなたの物にねっとりと、まとわりついてきた
+\x11
+の膣中は、あなたの物にねっとりと、まとわりついてきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -502,7 +524,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたが再び腰を動かし始めると、FEMALE NAMEは、自らも積極的に腰を動かし始めた
+あなたが再び腰を動かし始めると、
+\x11
+は、自らも積極的に腰を動かし始めた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -525,7 +549,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-激しく、FEMALE NAMEの膣内に、出入りを繰り返すペニスは、もう限界を迎えようとしていた
+激しく、
+\x11
+の膣内に、出入りを繰り返すペニスは、もう限界を迎えようとしていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -554,7 +580,8 @@ LOAD_FILE _CG12b
 \x00
 h\x15
 NEWLINE
-FEMALE NAMEは、一瞬全身を硬直させた後、力が抜けたように、ぐったりと寝そべった
+\x11
+は、一瞬全身を硬直させた後、力が抜けたように、ぐったりと寝そべった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -588,7 +615,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEはにっこりと笑うと、頭まで隠れるように布団をかぶった
+\x11
+はにっこりと笑うと、頭まで隠れるように布団をかぶった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00

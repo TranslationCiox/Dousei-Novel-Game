@@ -1,7 +1,8 @@
 !!
 LOAD_FILE KURO
 \x00
-\x11\x17t
+\x11
+\x17t
 \x00
 \x15
 \x00

@@ -24,8 +24,7 @@ CLICKWAIT
 \x00
 \x1e
 \x00
- 
-\x00
+LOAD MUSIC \x00
 \x18MAIN
 \x00
 END_FILE

@@ -2,9 +2,9 @@
 \x00
 >
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 パチンコに行く
 \x00
 競馬に行く
@@ -35,11 +35,14 @@ LOAD_FILE _CGAI01
  DS02
 \x00
 NO_NAMETAG:
-二人で朝御飯を食べていると、FEMALE NAMEが、あなたに声をかけてきた
+二人で朝御飯を食べていると、
+\x11
+が、あなたに声をかけてきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x11\x16\x10
+\x11
+\x16\x10
 \x00
 \x15
 \x00
@@ -68,7 +71,8 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x11\x16\x10
+\x11
+\x16\x10
 \x00
 \x15
 \x00
@@ -77,9 +81,9 @@ CLEAR_TEXTBOX
 \x00
 `
 NEWLINE
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 アルバイトを探す
 \x00
 １人で行動する
@@ -89,9 +93,9 @@ CHOICE
 \x00
 \x10\x87
 NEWLINE
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 １人で行動する
 \x00
 ２人で行動する
@@ -185,9 +189,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 パチンコに行く
 \x00
 競馬に行く
@@ -244,9 +248,9 @@ MOVE_TO_OTHER_SEGMENT
 NEWLINE
 \x10e
 CLICKWAIT
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 ずっと家にいる
 \x00
 出かける
@@ -340,9 +344,9 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 他を探す
 \x00
 パチンコ店　　　　時給　１,０００円　勤務時間８時間
@@ -388,7 +392,9 @@ NEWLINE
 \x00
 CLEAR_TEXTBOX
 \x00
-MALE NAMEｪ	FEMALE NAME
+MALE NAMEｪ	
+\x11
+\x16\x08
 \x00
 \x15M
 \x00
@@ -406,7 +412,9 @@ NEWLINE
 イベントスタッフ　日給１,４５００円　実働時間８時間
 \x00
 \x00
-MALE NAMEﾛFEMALE NAME
+MALE NAMEﾛ
+\x11
+\x16\x08
 \x00
 \x157
 \x00
@@ -422,7 +430,9 @@ NEWLINE
 遊園地　　　　　　日給１,２０００円　実働時間８時間
 \x00
 \x00
-MALE NAMEﾛFEMALE NAME
+MALE NAMEﾛ
+\x11
+\x16\x08
 \x00
 \x15\x1e
 \x00
@@ -521,8 +531,9 @@ P
 ﾈ
 \x00
 MALE NAMEﾓ
-FEMALE NAME
-NEWLINE
+
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x02
 \x00
@@ -550,8 +561,9 @@ CLICKWAIT
 \x96
 \x00
 MALE NAMEﾓ
-FEMALE NAME
-NEWLINE
+
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x03
 \x00
@@ -579,8 +591,9 @@ L
 ｪ
 \x00
 MALE NAMEﾓ
-FEMALE NAME
-NEWLINE
+
+END_CHOICE
+ NEWLINE
 \x00
 \x15
 MOVE_TO_OTHER_SEGMENT
@@ -609,8 +622,9 @@ x
 x
 \x00
 MALE NAMEﾓ
-FEMALE NAME
-NEWLINE
+
+END_CHOICE
+ NEWLINE
 \x00
 \x15
 CLICKWAIT
@@ -639,8 +653,9 @@ F
 ﾈ
 \x00
 MALE NAMEﾓ
-FEMALE NAME
-NEWLINE
+
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x06
 \x00
@@ -668,8 +683,9 @@ H
 ｪ
 \x00
 MALE NAMEﾓ
-FEMALE NAME
-NEWLINE
+
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x07
 \x00
@@ -697,8 +713,9 @@ x
 x
 \x00
 MALE NAMEﾓ
-FEMALE NAME
-NEWLINE
+
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x08
 \x00
@@ -829,7 +846,8 @@ CLEAR_TEXTBOX
 \x00
  DS01
 \x00
-\x11\x16\x10
+\x11
+\x16\x10
 \x00
 NO_NAMETAG:
 \x00
@@ -838,7 +856,9 @@ CLEAR_TEXTBOX
 \x81\r
 LOAD_FILE _CGB01A
 \x00
-.\x0b\x10F\x0e\x11\x16\x10
+.\x0b\x10F\x0e
+\x11
+\x16\x10
 \x00
 \x15\x02
 \x00
@@ -847,7 +867,9 @@ CLEAR_TEXTBOX
 \x9a\r
 LOAD_FILE _CGB02A
 \x00
-.\x0c\x10F\x0e\x11\x16\x10
+.\x0c\x10F\x0e
+\x11
+\x16\x10
 \x00
 \x15\x03
 \x00
@@ -856,7 +878,9 @@ CLEAR_TEXTBOX
 ｳ
 LOAD_FILE _CGB03A
 \x00
-.\r\x10F\x0e\x11\x16\x10
+.\r\x10F\x0e
+\x11
+\x16\x10
 \x00
 \x15
 MOVE_TO_OTHER_SEGMENT
@@ -866,7 +890,9 @@ CLEAR_TEXTBOX
 ﾌ
 LOAD_FILE _CGB04A
 \x00
-.\x0e\x10F\x0e\x11\x16\x10
+.\x0e\x10F\x0e
+\x11
+\x16\x10
 \x00
 \x15
 CLICKWAIT
@@ -876,7 +902,9 @@ CLEAR_TEXTBOX
 \xe5\r
 LOAD_FILE _CGB05A
 \x00
-.\x0f\x10F\x0e\x11\x16\x10
+.\x0f\x10F\x0e
+\x11
+\x16\x10
 \x00
 \x15\x06
 \x00
@@ -885,7 +913,9 @@ CLEAR_TEXTBOX
 \xfe\r
 LOAD_FILE _CGB06A
 \x00
-.\x10\x10F\x0e\x11\x16\x10
+.\x10\x10F\x0e
+\x11
+\x16\x10
 \x00
 \x15\x07
 \x00
@@ -894,7 +924,11 @@ CLEAR_TEXTBOX
 \x17\x0e
 LOAD_FILE _CGB07A
 \x00
-.\x11\x10F\x0e\x11\x16\x10
+.
+\x11
+\x10F\x0e
+\x11
+\x16\x10
 \x00
 \x15\x08
 \x00
@@ -903,7 +937,9 @@ CLEAR_TEXTBOX
 0\x0e
 LOAD_FILE _CGB08A
 \x00
-.\x12\x10F\x0e\x11\x16\x10
+.\x12\x10F\x0e
+\x11
+\x16\x10
 \x00
 \x15\t
 \x00
@@ -943,8 +979,8 @@ CLEAR_TEXTBOX
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-.\x19\x15
-NEWLINE
+.
+GOTO_FILE NO_NAMETAG:
 小一時間ばかり打って、財布の中の金が半分ぐらいになった時、突然当たりが来た
 CLICKWAIT
 CLEAR_TEXTBOX
@@ -992,15 +1028,17 @@ CLEAR_TEXTBOX
 \x00
 \r
 \x00
-\x10a\x12\x11\x16
-MOVE_TO_OTHER_SEGMENT
+\x10a\x12
+END_CHOICE
+ MOVE_TO_OTHER_SEGMENT
 \x00
 \x15<
 \x00
 \x03
 \x00
-}\x11\x15
-NEWLINE
+}
+\x11
+NO_NAMETAG:
 しかし、それからも、金がなくなる頃に当たりがくるという状況が続き、夕方になっても、財布の中身はなんら変わることはなかった
 CLICKWAIT
 CLEAR_TEXTBOX
@@ -1066,9 +1104,9 @@ CLEAR_TEXTBOX
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 よーし男なら『１　－　２』一点勝負！
 \x00
 よーし男なら『１　－　５』一点勝負！
@@ -1148,9 +1186,9 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 な～んにもしない
 \x00
 掃除でもしよっか
@@ -1181,7 +1219,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは冷蔵庫からジュースを２本だしてくると、隣に座り込んだ
+\x11
+は冷蔵庫からジュースを２本だしてくると、隣に座り込んだ
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1195,18 +1234,21 @@ LOAD_FILE _CGB00
 .
 END_OF_SEGMENT
 NO_NAMETAG:
-FEMALE NAMEはテレビをつけると、体を密着させて、幸せそうな顔でテレビを見ていた
+\x11
+はテレビをつけると、体を密着させて、幸せそうな顔でテレビを見ていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x10r\x1b\x11\x16
-NEWLINE
+\x10r\x1b
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x02
 \x00
 CLEAR_TEXTBOX
 \x00
-ｧ DS03
+ｧ
+GOTO_FILE  DS03
 \x00
 FEMALE_NAMETAG:
 「へぇ、めずらしい
@@ -1225,7 +1267,8 @@ LOAD_FILE _CGB00
 \x00
 .\x1c\x15
 NEWLINE
-FEMALE NAMEはここぞとばかりに色々なことを頼み込み、ほとんど大掃除になってしまった
+\x11
+はここぞとばかりに色々なことを頼み込み、ほとんど大掃除になってしまった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1243,7 +1286,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEの言葉は、お世辞半分だったかもしれないが、その言葉は掃除の疲れを忘れさせてくれるものだった
+\x11
+の言葉は、お世辞半分だったかもしれないが、その言葉は掃除の疲れを忘れさせてくれるものだった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1263,10 +1307,13 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは大きく溜息をつきながら、洗濯物を洗濯機の中に放り込んでいた
+\x11
+は大きく溜息をつきながら、洗濯物を洗濯機の中に放り込んでいた
 CLICKWAIT
 CLEAR_TEXTBOX
-しかし、しばらくすると、FEMALE NAMEもゲームに興味をしめし、真っ昼間から大ゲーム大会になっていた
+しかし、しばらくすると、
+\x11
+もゲームに興味をしめし、真っ昼間から大ゲーム大会になっていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1287,7 +1334,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、疲れ切った表情で笑った
+\x11
+は、疲れ切った表情で笑った
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1309,9 +1357,9 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 買い物にでも行こうか？
 \x00
 映画にでも行こうか？
@@ -1326,7 +1374,9 @@ NO_NAMETAG:
 \x00
 CLEAR_TEXTBOX
 \x00
-\x16\x1e\x11\x16\x1b
+\x16\x1e
+\x11
+\x16\x1b
 \x00
 \x15\x84\x03
 MOVE_TO_OTHER_SEGMENT
@@ -1354,7 +1404,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、にこやかな顔で腕を取り、足早に歩き始めた
+\x11
+は、にこやかな顔で腕を取り、足早に歩き始めた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1380,7 +1431,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、６階建てのショッピングセンターを何度も往復し、次々と買い物をしていった
+\x11
+は、６階建てのショッピングセンターを何度も往復し、次々と買い物をしていった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1390,14 +1442,17 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x10\xe8!\x11\x16
-NEWLINE
+\x10\xe8!
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x02
 \x00
 CLEAR_TEXTBOX
 \x00
-\t \x11\x16\x1b
+\t 
+\x11
+\x16\x1b
 \x00
 \x15\x84\x03
 MOVE_TO_OTHER_SEGMENT
@@ -1425,7 +1480,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、にこやかな顔で腕を取り、足早に歩き始めた
+\x11
+は、にこやかな顔で腕を取り、足早に歩き始めた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1457,11 +1513,14 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEはあなたの腕をとると、嬉しそうな顔で映画館へと入っていった
+\x11
+はあなたの腕をとると、嬉しそうな顔で映画館へと入っていった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-.\x14\x10\xe8!\x11\x16\x1b
+.\x14\x10\xe8!
+\x11
+\x16\x1b
 \x00
 \x15\x84\x03
 MOVE_TO_OTHER_SEGMENT
@@ -1486,7 +1545,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたの言葉を聞いた瞬間、FEMALE NAMEは飛び上がって喜んだ
+あなたの言葉を聞いた瞬間、
+\x11
+は飛び上がって喜んだ
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1496,7 +1557,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、靴を履きかけのあなたの手をとって、早足で歩き出した
+\x11
+は、靴を履きかけのあなたの手をとって、早足で歩き出した
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1510,7 +1572,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEの目は、子供のように輝いていた
+\x11
+の目は、子供のように輝いていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1524,7 +1587,8 @@ CLEAR_TEXTBOX
 \x00
 .\x1b\x15
 NEWLINE
-FEMALE NAMEの宣言したとおり、結局この日は、日が暮れるまで遊び倒した２人だった
+\x11
+の宣言したとおり、結局この日は、日が暮れるまで遊び倒した２人だった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00

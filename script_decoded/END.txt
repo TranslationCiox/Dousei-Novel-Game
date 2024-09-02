@@ -1,4 +1,6 @@
-\x11\x11\x16\r
+\x11
+\x11
+\x16\r
 \x00
 ﾄ	
 MOVE_TO_OTHER_SEGMENT
@@ -20,7 +22,8 @@ MOVE_TO_OTHER_SEGMENT
 \x00
 \x10\x8b\x02\x10g
 \x00
-\x11\x16 
+\x11
+\x16 
 \x00
 \x15 \x03
 MOVE_TO_OTHER_SEGMENT
@@ -34,7 +37,8 @@ B
 \x00
 MALE NAMEｵMALE NAMEg
 \x00
-\x11\x16\r
+\x11
+\x16\r
 \x00
 \x15\x88\x13
 MOVE_TO_OTHER_SEGMENT
@@ -43,7 +47,8 @@ S
 \x00
 \x10\n\x13\x10g
 \x00
-\x11\x16 
+\x11
+\x16 
 \x00
 ﾞ
 MOVE_TO_OTHER_SEGMENT
@@ -85,10 +90,13 @@ LOAD_FILE _ED01_1
 \x00
 NO_NAMETAG:
 CLEAR_TEXTBOX
-FEMALE NAMEは裸であなたの上に逆さまに覆い被さっていた
+\x11
+は裸であなたの上に逆さまに覆い被さっていた
 CLICKWAIT
 CLEAR_TEXTBOX
-すっかり淫乱な顔つきになっていたFEMALE NAMEは嬉しそうにあなたの物をもてあそんでいた
+すっかり淫乱な顔つきになっていた
+\x11
+は嬉しそうにあなたの物をもてあそんでいた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -106,7 +114,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEはあなたのペニスの先っぽを２、３度軽くなめると、おもむろに口に含んだ
+\x11
+はあなたのペニスの先っぽを２、３度軽くなめると、おもむろに口に含んだ
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -136,7 +145,9 @@ LOAD_FILE _CGAA01
  DS02
 \x00
 NO_NAMETAG:
-あなたは意を決して、いつものようにリビングに寝転がってテレビを見ていたFEMALE NAMEに声をかけた
+あなたは意を決して、いつものようにリビングに寝転がってテレビを見ていた
+\x11
+に声をかけた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -151,7 +162,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは体を起こして、きょとんとした表情であなたを見つめた
+\x11
+は体を起こして、きょとんとした表情であなたを見つめた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -181,7 +193,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-口ごもっているあなたを不思議にそうに見ていたFEMALE NAMEは、少し肩をすくめた後、再び寝転がろうとした
+口ごもっているあなたを不思議にそうに見ていた
+\x11
+は、少し肩をすくめた後、再び寝転がろうとした
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -203,7 +217,8 @@ LOAD_FILE V1
 \x00
 NO_NAMETAG:
 CLEAR_TEXTBOX
-FEMALE NAMEは倒しかけた体をむりやり起こして、あなたの顔をじっと見つめた
+\x11
+は倒しかけた体をむりやり起こして、あなたの顔をじっと見つめた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -231,7 +246,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEはかるく首を振った
+\x11
+はかるく首を振った
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -260,7 +276,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは『あの日』と全く変わらない表情であなたに尋ねてきた
+\x11
+は『あの日』と全く変わらない表情であなたに尋ねてきた
 CLICKWAIT
 CLEAR_TEXTBOX
 あなたは少し戸惑ったが、今度はしっかりとした答えを返した
@@ -275,7 +292,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 FEMALE_NAMETAG:
-その答えに、FEMALE NAMEはにっこりと笑った
+その答えに、
+\x11
+はにっこりと笑った
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -288,10 +307,14 @@ CLEAR_TEXTBOX
 数カ月後、２人は小さな教会にいた
 CLICKWAIT
 CLEAR_TEXTBOX
-純白のウエディングドレスに身を包み、神父の言葉に聞き入っているFEMALE NAMEの姿は今までのどの姿よりも綺麗だった
+純白のウエディングドレスに身を包み、神父の言葉に聞き入っている
+\x11
+の姿は今までのどの姿よりも綺麗だった
 CLICKWAIT
 CLEAR_TEXTBOX
-思わず見とれてしまっていたあなたに、FEMALE NAMEが優しく笑いかけてきた
+思わず見とれてしまっていたあなたに、
+\x11
+が優しく笑いかけてきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -372,7 +395,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたはお世話になった産婦人科の先生たちに挨拶を済ませると、外で待っているFEMALE NAMEの元へと走っていった
+あなたはお世話になった産婦人科の先生たちに挨拶を済ませると、外で待っている
+\x11
+の元へと走っていった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -399,7 +424,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたが大きな声で話していると、FEMALE NAMEが口に人差し指をあててウインクした
+あなたが大きな声で話していると、
+\x11
+が口に人差し指をあててウインクした
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -479,7 +506,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、優しい視線をあなたと赤ちゃんへ送った
+\x11
+は、優しい視線をあなたと赤ちゃんへ送った
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -536,7 +564,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは洗濯物を片づけていた手を止めて、あなたを見た
+\x11
+は洗濯物を片づけていた手を止めて、あなたを見た
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -629,7 +658,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは優しげに微笑むと、チラッと時計を見た
+\x11
+は優しげに微笑むと、チラッと時計を見た
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -660,7 +690,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-楽しげに話しかけてくるFEMALE NAMEの顔は、５年前と全く変わっていなかった
+楽しげに話しかけてくる
+\x11
+の顔は、５年前と全く変わっていなかった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00

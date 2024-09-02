@@ -120,9 +120,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 わかったよ
 \x00
 えっと、どうやってたたむんだ？
@@ -202,7 +202,8 @@ CLEAR_TEXTBOX
 \x00
 \x14
 \x00
-\x11\x16\x0e
+\x11
+\x16\x0e
 \x00
 \x15
 \x00
@@ -226,9 +227,9 @@ CLICKWAIT
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 ああ
 \x00
 な、なんかすごい下着があるぞ
@@ -241,8 +242,7 @@ NO_NAMETAG:
 \x00
 CLEAR_TEXTBOX
 \x00
-\x19
-CLICKWAIT
+GOTO_FILE CLICKWAIT
 FEMALE_NAMETAG:
 「たたみ方ってわかる？
 CLICKWAIT
@@ -299,7 +299,8 @@ CLEAR_TEXTBOX
 \x00
 \x14
 \x00
-\x11\x16\x0e
+\x11
+\x16\x0e
 \x00
 \x15
 \x00
@@ -324,9 +325,9 @@ CLICKWAIT
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 わかった
 \x00
 このタオルって・・・・・
@@ -386,7 +387,8 @@ CLEAR_TEXTBOX
 \x00
 \x14
 \x00
-\x11\x16\x0e
+\x11
+\x16\x0e
 \x00
 \x15
 \x00
@@ -410,9 +412,9 @@ CLICKWAIT
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 ＯＫ
 \x00
 靴下かぁ、わかったよ
@@ -469,7 +471,8 @@ CLEAR_TEXTBOX
 \x00
 \x14
 \x00
-\x11\x16\x0e
+\x11
+\x16\x0e
 \x00
 \x15
 \x00
@@ -493,9 +496,9 @@ CLICKWAIT
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 じゃあ、テーブルを拭くよ
 \x00
 じゃあ、洗い物を手伝うよ
@@ -550,7 +553,8 @@ CLEAR_TEXTBOX
 \x00
 \x14
 \x00
-\x11\x16\x0e
+\x11
+\x16\x0e
 \x00
 \x15
 \x00
@@ -577,9 +581,9 @@ CLICKWAIT
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 肩ぁ～？そんなにこってるのか？
 \x00
 ああ、いいよ
@@ -648,7 +652,8 @@ CLEAR_TEXTBOX
 \x00
 \x14
 \x00
-\x11\x16\x0e
+\x11
+\x16\x0e
 \x00
 \x15
 \x00
@@ -687,9 +692,9 @@ CLICKWAIT
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 ああ、わかった
 \x00
 え、そんなに出すの？
@@ -734,8 +739,9 @@ CLEAR_TEXTBOX
 \x00
 \x14
 \x00
-\x10F\x11\x1d
-NEWLINE
+\x10F
+\x11
+FEMALE_NAMETAG:
 「何言ってんのよ、これでも少ないぐらいなんだからぁ
 CLICKWAIT
 NEWLINE
@@ -759,14 +765,16 @@ CLEAR_TEXTBOX
 \x00
 \x14
 \x00
-\x11\x16\x0e
+\x11
+\x16\x0e
 \x00
 \x15
 \x00
 \x00
 \x03
 \x00
-[\x11
+[
+\x11
 \x00
 \x0e
 \x00

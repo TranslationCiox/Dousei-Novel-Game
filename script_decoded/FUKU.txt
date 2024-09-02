@@ -40,7 +40,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたが小さく頷くと、FEMALE NAMEの顔が見る見るうちに笑顔に変わっていった
+あなたが小さく頷くと、
+\x11
+の顔が見る見るうちに笑顔に変わっていった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -63,12 +65,14 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは服の入っている紙袋を大事そうにもって、寝室へと入っていった
+\x11
+は服の入っている紙袋を大事そうにもって、寝室へと入っていった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEの姿が見えなくなってから、あなたはニヤッとした表情を浮かべた
+\x11
+の姿が見えなくなってから、あなたはニヤッとした表情を浮かべた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -78,7 +82,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたの声が終わらないうちに、寝室からFEMALE NAMEの驚きの声が聞こえてきた
+あなたの声が終わらないうちに、寝室から
+\x11
+の驚きの声が聞こえてきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -88,7 +94,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたは笑いをこらえながら、寝室の中にいるFEMALE NAMEに声をかけた
+あなたは笑いをこらえながら、寝室の中にいる
+\x11
+に声をかけた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -128,11 +136,13 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、あきらめたような口調で返事を返すと、服を着替えだした
+\x11
+は、あきらめたような口調で返事を返すと、服を着替えだした
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x11\x174
+\x11
+\x174
 \x00
 NO_NAMETAG:
 \x00
@@ -145,20 +155,24 @@ NO_NAMETAG:
 d
 MOVE_TO_OTHER_SEGMENT
 NO_NAMETAG:
-数分後、FEMALE NAMEが少し恥ずかしそうな顔で、寝室から出てきた
+数分後、
+\x11
+が少し恥ずかしそうな顔で、寝室から出てきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 MALE NAMEｪ
 MOVE_TO_OTHER_SEGMENT
 NO_NAMETAG:
-数分後、あなたが寝室へ入ると、FEMALE NAMEが少し恥ずかしそうな顔で振り返った
+数分後、あなたが寝室へ入ると、
+\x11
+が少し恥ずかしそうな顔で振り返った
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 MALE NAMEﾊ	<
 \x00
-\x19\x07
+GOTO_FILE \x07
 MOVE_TO_OTHER_SEGMENT
 <
 \x00
@@ -180,7 +194,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-楽しそうなあなたとは対照的に、FEMALE NAMEは頭を抱え込んでしまった
+楽しそうなあなたとは対照的に、
+\x11
+は頭を抱え込んでしまった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -215,11 +231,13 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは紙袋を抱えると、ゆっくりと寝室に向かった
+\x11
+は紙袋を抱えると、ゆっくりと寝室に向かった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x11\x174
+\x11
+\x174
 \x00
 NO_NAMETAG:
 \x00
@@ -231,13 +249,17 @@ NO_NAMETAG:
 \x00
 ﾐ
 NEWLINE
-数分後、FEMALE NAMEが少し恥ずかしそうな顔で、寝室から出てきた
+数分後、
+\x11
+が少し恥ずかしそうな顔で、寝室から出てきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 \x10\x16\x07\x15
 NEWLINE
-数分後、あなたが寝室へ入ると、FEMALE NAMEが少し恥ずかしそうな顔で振り返った
+数分後、あなたが寝室へ入ると、
+\x11
+が少し恥ずかしそうな顔で振り返った
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -260,7 +282,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは大きな溜息をつくと、紙袋を持って、寝室へと歩きだした
+\x11
+は大きな溜息をつくと、紙袋を持って、寝室へと歩きだした
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -270,7 +293,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたの冗談めかした問いに、FEMALE NAMEは笑顔を浮かべて振り返った
+あなたの冗談めかした問いに、
+\x11
+は笑顔を浮かべて振り返った
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -291,11 +316,13 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは楽しげにそう言うと、軽い足どりで寝室へと入っていった
+\x11
+は楽しげにそう言うと、軽い足どりで寝室へと入っていった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x11\x174
+\x11
+\x174
 \x00
 NO_NAMETAG:
 \x00
@@ -307,17 +334,22 @@ NO_NAMETAG:
 \x00
 \x8c\t\x15
 NEWLINE
-数分後、FEMALE NAMEが楽しそうな顔で、寝室から出てきた
+数分後、
+\x11
+が楽しそうな顔で、寝室から出てきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 MALE NAMEﾊ	
 NEWLINE
-数分後、あなたが寝室へ入ると、FEMALE NAMEが楽しそうな顔で振り返った
+数分後、あなたが寝室へ入ると、
+\x11
+が楽しそうな顔で振り返った
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x11\x174
+\x11
+\x174
 \x00
 NO_NAMETAG:
 \x00
@@ -333,7 +365,9 @@ MOVE_TO_OTHER_SEGMENT
 \x00
 NEWLINE
 \x00
-\x10oS\x10q\n\x11\x172
+\x10oS\x10q\n
+\x11
+\x172
 \x00
 NO_NAMETAG:
 \x00
@@ -354,7 +388,9 @@ r
 \x00
 NEWLINE
 \x00
-\x10r\n\x10q\n\x11\x173
+\x10r\n\x10q\n
+\x11
+\x173
 \x00
 NO_NAMETAG:
 \x00
@@ -376,7 +412,9 @@ r
 NEWLINE
 \x00
 MALE NAMEｨ&MALE NAMEq
-FEMALE NAME*
+
+\x11
+\x17*
 \x00
 NO_NAMETAG:
 \x00
@@ -398,7 +436,9 @@ r
 NEWLINE
 \x00
 MALE NAME｢7MALE NAMEq
-FEMALE NAME5
+
+\x11
+\x175
 \x00
 NO_NAMETAG:
 \x00
@@ -427,7 +467,9 @@ LOAD_FILE Z1
 \x00
 NO_NAMETAG:
 CLEAR_TEXTBOX
-着替えが終わったFEMALE NAMEが、チョコンとベッドの上に座る
+着替えが終わった
+\x11
+が、チョコンとベッドの上に座る
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -442,7 +484,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あまりに日常からかけ離れたFEMALE NAMEの姿に目の前がくらくらする
+あまりに日常からかけ離れた
+\x11
+の姿に目の前がくらくらする
 CLICKWAIT
 NEWLINE
 深みのある、あい色の服の絶妙なシルエット、そしてヒラヒラとした装飾のフリルとのコントラストがひときわ服を引き立てている
@@ -570,7 +614,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEはベッドのはしに座っていたが、とてとてと中央まで膝で歩いて来る
+\x11
+はベッドのはしに座っていたが、とてとてと中央まで膝で歩いて来る
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -602,7 +647,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-いきなりの展開で少し驚いたFEMALE NAMEだが、そっと手をペニスにのばし、そっと根元から揉みしだき、そのまま舌をもっていき、亀頭の裏筋をチロチロと舐めあげる
+いきなりの展開で少し驚いた
+\x11
+だが、そっと手をペニスにのばし、そっと根元から揉みしだき、そのまま舌をもっていき、亀頭の裏筋をチロチロと舐めあげる
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -612,7 +659,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは口いっぱいに亀頭を含んだまま、大きく張った竿の部分を舐めあげ、裏筋を尖らせた舌の先でなぞる
+\x11
+は口いっぱいに亀頭を含んだまま、大きく張った竿の部分を舐めあげ、裏筋を尖らせた舌の先でなぞる
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -640,7 +688,8 @@ NO_NAMETAG:
 すっかりなりきっている二人だが、まんざらでもない様子であった
 CLICKWAIT
 NEWLINE
-FEMALE NAMEはブラブラと揺れている玉袋を、コロコロと指でもて遊びながらペニスの先端のひときわ敏感な部分を舌と唇を使って吸いあげる
+\x11
+はブラブラと揺れている玉袋を、コロコロと指でもて遊びながらペニスの先端のひときわ敏感な部分を舌と唇を使って吸いあげる
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -658,7 +707,9 @@ NO_NAMETAG:
 カリをせめられてかなりツボにきたのか、のけぞり悶えて耐える
 CLICKWAIT
 NEWLINE
-やられてばかりではいられない、こちらも反撃とばかりに、ペニスをむさぼるFEMALE NAMEのスカートを背中越しからめくりあげる
+やられてばかりではいられない、こちらも反撃とばかりに、ペニスをむさぼる
+\x11
+のスカートを背中越しからめくりあげる
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -678,7 +729,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-すると、FEMALE NAMEがペニスを半分口に入れながら反論する
+すると、
+\x11
+がペニスを半分口に入れながら反論する
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -716,10 +769,14 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-なおも吸いあげてくるFEMALE NAMEに反撃を開始する
+なおも吸いあげてくる
+\x11
+に反撃を開始する
 CLICKWAIT
 NEWLINE
-くまさんパンティの股部分の脇から直接割れ目を攻撃するとその瞬間ビクッとFEMALE NAMEが身体を震わす
+くまさんパンティの股部分の脇から直接割れ目を攻撃するとその瞬間ビクッと
+\x11
+が身体を震わす
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -742,7 +799,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-ほおばっていたペニスから口をはなし、背筋をのけぞらしFEMALE NAMEはあえぎ声をあげる
+ほおばっていたペニスから口をはなし、背筋をのけぞらし
+\x11
+はあえぎ声をあげる
 CLICKWAIT
 CLEAR_TEXTBOX
 調子に乗って、自分はそのまま膣内に指を２本挿入してGスポットをえぐり攻撃する
@@ -755,15 +814,20 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-一気に２つの敏感な部分を攻められたFEMALE NAMEは、狂ったように悶絶している
+一気に２つの敏感な部分を攻められた
+\x11
+は、狂ったように悶絶している
 CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE NAMEはもうフェラチオどころではなくなっていた
+\x11
+はもうフェラチオどころではなくなっていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-そのまま攻めつづけると、FEMALE NAMEは背中からベッドへもんどりうつように倒れていった
+そのまま攻めつづけると、
+\x11
+は背中からベッドへもんどりうつように倒れていった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -827,7 +891,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-わざと意地悪してFEMALE NAMEを焦らしてやるとなかなかおもしろい
+わざと意地悪して
+\x11
+を焦らしてやるとなかなかおもしろい
 NEWLINE
 何かすごく新鮮味を感じる
 CLICKWAIT
@@ -851,7 +917,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-硬く熱くいきりたった肉棒でFEMALE NAMEのほてったヴァギナをかき回し、子宮の奥まで届く勢いで腰を突き上げると、ヌチャヌチャといやらしい音が部屋中に響きわたる
+硬く熱くいきりたった肉棒で
+\x11
+のほてったヴァギナをかき回し、子宮の奥まで届く勢いで腰を突き上げると、ヌチャヌチャといやらしい音が部屋中に響きわたる
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -883,7 +951,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-ずんずんと正常位で腰を振りつつFEMALE NAMEの方を見ると、胸がタプタプと前後に揺れている
+ずんずんと正常位で腰を振りつつ
+\x11
+の方を見ると、胸がタプタプと前後に揺れている
 CLICKWAIT
 CLEAR_TEXTBOX
 慣性のついた胸独特の揺れかたが見ていてとても興奮する
@@ -904,7 +974,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは自らの性欲をすべて吐き出すかのように、自分のペニスを求め、淫らな姿をみせつけあえぐ
+\x11
+は自らの性欲をすべて吐き出すかのように、自分のペニスを求め、淫らな姿をみせつけあえぐ
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -930,12 +1001,16 @@ CLEAR_TEXTBOX
 NO_NAMETAG:
 もういきそうだっ
 NEWLINE
-自分はFEMALE NAMEにかぶさると、抱きしめるように手を回した
+自分は
+\x11
+にかぶさると、抱きしめるように手を回した
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-よりいっそう腰の動きを早めると、FEMALE NAMEも応えるかのように首に腕を絡ませてくる
+よりいっそう腰の動きを早めると、
+\x11
+も応えるかのように首に腕を絡ませてくる
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -971,7 +1046,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-ビリビリと雷が走った感触が体中を駆け抜け、FEMALE NAMEが飛ぶような勢いで身体をのけぞらせる
+ビリビリと雷が走った感触が体中を駆け抜け、
+\x11
+が飛ぶような勢いで身体をのけぞらせる
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -991,7 +1068,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-しばらくして、添い寝していたFEMALE NAMEがうれしそうに話す
+しばらくして、添い寝していた
+\x11
+がうれしそうに話す
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1034,7 +1113,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-目の前に現われたFEMALE NAMEは、目を白黒させながら自分の姿を見つめる
+目の前に現われた
+\x11
+は、目を白黒させながら自分の姿を見つめる
 CLICKWAIT
 NEWLINE
 それは、膝上10cm位のやや短めのヒラヒラしたスカートに、白いブラウスにリボン
@@ -1078,7 +1159,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは口では文句をつけているが、顔を見てみるとそんなにいやがってはいないようであった
+\x11
+は口では文句をつけているが、顔を見てみるとそんなにいやがってはいないようであった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1101,7 +1183,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEの顔に笑顔がもどる。少しはにかんでいて、すごくかわいい
+\x11
+の顔に笑顔がもどる。少しはにかんでいて、すごくかわいい
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1127,7 +1210,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-少し悩んだ後、おもむろにベッドに腰かけたFEMALE NAMEは、スカートの裾をたくしあげた
+少し悩んだ後、おもむろにベッドに腰かけた
+\x11
+は、スカートの裾をたくしあげた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1168,7 +1253,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEはぷうと頬を膨らます。すねてる姿がまた愛らしい
+\x11
+はぷうと頬を膨らます。すねてる姿がまた愛らしい
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1193,7 +1279,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-そう言うと、FEMALE NAMEは足をそろえて持ち上げて、ショーツを脱がせと言わんばかりにこちらにつきだしてきた
+そう言うと、
+\x11
+は足をそろえて持ち上げて、ショーツを脱がせと言わんばかりにこちらにつきだしてきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1203,7 +1291,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEのエヘヘという顔を見ながら、もう既に湿っているショーツを片足を残して脱がす
+\x11
+のエヘヘという顔を見ながら、もう既に湿っているショーツを片足を残して脱がす
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1218,10 +1307,14 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-そう言って、FEMALE NAMEは大きく両足を開く
+そう言って、
+\x11
+は大きく両足を開く
 CLICKWAIT
 CLEAR_TEXTBOX
-この妙なシチュエーションに興奮したらしいFEMALE NAMEは秘部をビショビショにしていて、開かれた割れ目からはネチャッと音をたてながら愛液が糸を引いている
+この妙なシチュエーションに興奮したらしい
+\x11
+は秘部をビショビショにしていて、開かれた割れ目からはネチャッと音をたてながら愛液が糸を引いている
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1231,7 +1324,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-そう言いながら、服を一気に脱ぎ捨てるとFEMALE NAMEをベッドに押し倒した
+そう言いながら、服を一気に脱ぎ捨てると
+\x11
+をベッドに押し倒した
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1244,7 +1339,8 @@ LOAD_FILE 14_2
 \x00
 NO_NAMETAG:
 CLEAR_TEXTBOX
-FEMALE NAMEの服の上から胸をもみしだく。下はブラを着けておらず、ツンと尖った乳首が、服の上からでも確認出来る
+\x11
+の服の上から胸をもみしだく。下はブラを着けておらず、ツンと尖った乳首が、服の上からでも確認出来る
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1254,7 +1350,10 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEの口を口で塞ぎ、舌と舌を絡ませる。ピチャピチャといやらしい音がして、なお、気分は高揚していき、FEMALE NAMEの呼吸が荒くなっていく
+\x11
+の口を口で塞ぎ、舌と舌を絡ませる。ピチャピチャといやらしい音がして、なお、気分は高揚していき、
+\x11
+の呼吸が荒くなっていく
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1269,7 +1368,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-じれったく感じたのか、FEMALE NAMEは自らブラウスのボタンを外しだす
+じれったく感じたのか、
+\x11
+は自らブラウスのボタンを外しだす
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1307,7 +1408,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-もう待ち切れないのかFEMALE NAMEは自分に乗りかかり、自らペニスを秘部に導いていく
+もう待ち切れないのか
+\x11
+は自分に乗りかかり、自らペニスを秘部に導いていく
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1317,12 +1420,16 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-熱くなったこわばりが、FEMALE NAMEの秘唇にゆっくりとそして少しずつ挿入されていく
+熱くなったこわばりが、
+\x11
+の秘唇にゆっくりとそして少しずつ挿入されていく
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-そして完全に挿入されると、FEMALE NAMEは自らそのまま腰をゆっくりとグラインドさせていく
+そして完全に挿入されると、
+\x11
+は自らそのまま腰をゆっくりとグラインドさせていく
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1332,12 +1439,16 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-ぞくに言う座位の体制でFEMALE NAMEは、少しずつ、そして激しく上下にピストン運動を繰り返す
+ぞくに言う座位の体制で
+\x11
+は、少しずつ、そして激しく上下にピストン運動を繰り返す
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-それに合わせて、FEMALE NAMEの胸もブルブルと小刻みに揺れ動き、それがまた見ていてとてもいやらしく卑猥だ
+それに合わせて、
+\x11
+の胸もブルブルと小刻みに揺れ動き、それがまた見ていてとてもいやらしく卑猥だ
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1347,7 +1458,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEはもう口から出る声は言葉にならない
+\x11
+はもう口から出る声は言葉にならない
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1375,7 +1487,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-一瞬、FEMALE NAMEの身体がビクンと痙攣する
+一瞬、
+\x11
+の身体がビクンと痙攣する
 CLICKWAIT
 NEWLINE
 そのまま、もたれるように崩れおちてゆく身体を自分は受け止めた
@@ -1397,7 +1511,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-寝そべりながら、FEMALE NAMEが甘い声で問いかけてくる
+寝そべりながら、
+\x11
+が甘い声で問いかけてくる
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1407,7 +1523,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-うふふと笑いながらFEMALE NAMEは言った
+うふふと笑いながら
+\x11
+は言った
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1534,7 +1652,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-よく見るとFEMALE NAMEの髪形がいつもと微妙に違う
+よく見ると
+\x11
+の髪形がいつもと微妙に違う
 NEWLINE
 なんだか心無しか、後ろの方の髪の毛先が『縦ロール』している気がする
 CLICKWAIT
@@ -1559,7 +1679,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-そういってFEMALE NAMEは、くるりとその場で一回転する
+そういって
+\x11
+は、くるりとその場で一回転する
 NEWLINE
 ふわっとめくれあがったスカートの中にチラリとアンダースコートのフリフリが見えた
 CLICKWAIT
@@ -1571,7 +1693,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-ピタッと止まったFEMALE NAMEは浮き上がるスカートを両手でおさえると、爽やかに自分に笑いかける
+ピタッと止まった
+\x11
+は浮き上がるスカートを両手でおさえると、爽やかに自分に笑いかける
 NEWLINE
 お世辞を言う訳では無く素直に可愛いと思ってしまう
 CLICKWAIT
@@ -1583,7 +1707,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-小悪魔みたいな顔でFEMALE NAMEは問いかける
+小悪魔みたいな顔で
+\x11
+は問いかける
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1625,7 +1751,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-突然の事に少し動きが固まるが、白い肌の太股に挟まれたアンダースコートを見てムラムラとスケベ心が沸き上がり、自分は本能のままにFEMALE NAMEをベッドに押し倒した
+突然の事に少し動きが固まるが、白い肌の太股に挟まれたアンダースコートを見てムラムラとスケベ心が沸き上がり、自分は本能のままに
+\x11
+をベッドに押し倒した
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1637,7 +1765,9 @@ CLEAR_TEXTBOX
 NO_NAMETAG:
 そのまま二人ともベッドで抱きあったままゴロゴロと転がり回る
 NEWLINE
-ニャ～ニャ～と言いながらじゃれてくるFEMALE NAMEが可愛くてしかたない
+ニャ～ニャ～と言いながらじゃれてくる
+\x11
+が可愛くてしかたない
 NEWLINE
 甘えてくるその姿がまるでねこのようだ
 CLICKWAIT
@@ -1661,9 +1791,13 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-さんざんじゃれあって、ふと気がつくとFEMALE NAMEの顔が目の前にあった
+さんざんじゃれあって、ふと気がつくと
+\x11
+の顔が目の前にあった
 NEWLINE
-しばらく見つめあうとFEMALE NAMEは、ゆっくりと口を重ねていった
+しばらく見つめあうと
+\x11
+は、ゆっくりと口を重ねていった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1673,7 +1807,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-しばらくキスを交わした後、テニスウェアをめくりあげ、FEMALE NAMEの胸を露出させる
+しばらくキスを交わした後、テニスウェアをめくりあげ、
+\x11
+の胸を露出させる
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1691,10 +1827,13 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-自分はFEMALE NAMEの柔らかな乳首をキュッとつまみあげて二本の指で揉みあげる
+自分は
+\x11
+の柔らかな乳首をキュッとつまみあげて二本の指で揉みあげる
 CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE NAMEの息が徐々に荒くなっていくのがわかる
+\x11
+の息が徐々に荒くなっていくのがわかる
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1704,7 +1843,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEがあえぎ始める
+\x11
+があえぎ始める
 NEWLINE
 そのまま乳首をもてあそびながら首筋を舌でなぞりつつ、硬くなりつつある敏感な乳首をチュパチュパと音をたてながら吸い上げる
 CLICKWAIT
@@ -1729,19 +1869,26 @@ LOAD_FILE 16_3
 \x00
 NO_NAMETAG:
 CLEAR_TEXTBOX
-FEMALE NAMEは、顔を真っ赤にさせながら目をそらした
+\x11
+は、顔を真っ赤にさせながら目をそらした
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-自分はそのまま体を反転させて寝そべり、FEMALE NAMEを上にひざまずかせてシックスナインのポーズをとる
+自分はそのまま体を反転させて寝そべり、
+\x11
+を上にひざまずかせてシックスナインのポーズをとる
 NEWLINE
-そのままFEMALE NAMEのショーツに手をかけると一気に膝までずりおとす
+そのまま
+\x11
+のショーツに手をかけると一気に膝までずりおとす
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-それによりFEMALE NAMEの恥ずかしい秘部が顔の正面にあらわれる
+それにより
+\x11
+の恥ずかしい秘部が顔の正面にあらわれる
 NEWLINE
 膝をつくことで軽く割れ目が左右に開き、そこは光を反射してヌラヌラといやらしく濡れて光っていた
 CLICKWAIT
@@ -1763,7 +1910,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-唐突に自分はFEMALE NAMEの秘部を前から後ろへとペロンと舐め上げる
+唐突に自分は
+\x11
+の秘部を前から後ろへとペロンと舐め上げる
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1773,7 +1922,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-体を引くようにFEMALE NAMEはビクッと体をひくつかせる
+体を引くように
+\x11
+はビクッと体をひくつかせる
 NEWLINE
 面白がって割れ目を舌でほじくり回すと、まるいおしりが目の前でプルプルと動き回る
 CLICKWAIT
@@ -1802,7 +1953,11 @@ CLEAR_TEXTBOX
 NO_NAMETAG:
 そのまま膨張してきたクリトリスを舌で攻めたてると秘裂は愛液でいっそうぬちゃぬちゃと音をたてて、ひくひくと震える
 NEWLINE
-指と舌との同時攻撃でFEMALE NAMEは、今にもイッてしまう勢いでFEMALE NAMEはあえぐ
+指と舌との同時攻撃で
+\x11
+は、今にもイッてしまう勢いで
+\x11
+はあえぐ
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1814,7 +1969,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは湿ったあえぎ声を放ちながら、必死に哀願する
+\x11
+は湿ったあえぎ声を放ちながら、必死に哀願する
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1826,12 +1982,16 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-もうFEMALE NAMEは怒涛の如く押し寄せてくる欲望と興奮に完全に身をまかせていた
+もう
+\x11
+は怒涛の如く押し寄せてくる欲望と興奮に完全に身をまかせていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-自分はFEMALE NAMEのスカートを脱がすと四つん這いにひざまつかしたまま、そのままバックから挿入を試みる
+自分は
+\x11
+のスカートを脱がすと四つん這いにひざまつかしたまま、そのままバックから挿入を試みる
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1858,14 +2018,16 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEはよりいっそう、大きな声であえぐ
+\x11
+はよりいっそう、大きな声であえぐ
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
 びちょびちょに濡れた蜜壺は次から次へとよだれを垂らす
 NEWLINE
-FEMALE NAMEの狭間は吸い付くように、きつく締め付けてくる
+\x11
+の狭間は吸い付くように、きつく締め付けてくる
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1894,7 +2056,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-リズミカルなこの音とFEMALE NAMEの淫らなあえぎ声がシンクロして、激しい興奮を呼び寄せた
+リズミカルなこの音と
+\x11
+の淫らなあえぎ声がシンクロして、激しい興奮を呼び寄せた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1907,7 +2071,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEの頬がいっそう赤く火照っている
+\x11
+の頬がいっそう赤く火照っている
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1925,7 +2090,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-既に前戯だけで絶頂近くまで昇りつめていたFEMALE NAMEは、ひときわ大きな声を放ち、膣に挿入されたペニスをギューギューっと締めつけてくる
+既に前戯だけで絶頂近くまで昇りつめていた
+\x11
+は、ひときわ大きな声を放ち、膣に挿入されたペニスをギューギューっと締めつけてくる
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1949,7 +2116,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-腰の動きが激しく速くなる。もう止まることはないというぐらいのピストン運動が繰り返され加速していくFEMALE NAMEが下半身をくねらせて、自らも腰を振り続ける
+腰の動きが激しく速くなる。もう止まることはないというぐらいのピストン運動が繰り返され加速していく
+\x11
+が下半身をくねらせて、自らも腰を振り続ける
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1965,12 +2134,16 @@ CLEAR_TEXTBOX
 NO_NAMETAG:
 激しい快感が脳天を突き抜ける
 NEWLINE
-背中にビクッと電流が走りFEMALE NAMEがのけぞる
+背中にビクッと電流が走り
+\x11
+がのけぞる
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-同時にドクドクっと熱いスペルマがFEMALE NAMEの膣内に注ぎ込まれ、大量に発射されたそれは、結合部分から溢れるようにたれでてきた
+同時にドクドクっと熱いスペルマが
+\x11
+の膣内に注ぎ込まれ、大量に発射されたそれは、結合部分から溢れるようにたれでてきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1984,7 +2157,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-横でスヤスヤと寝息をたてるFEMALE NAMEを見ながら、コーチプレイに持ち込む事が出来なかった事を悔やむ。
+横でスヤスヤと寝息をたてる
+\x11
+を見ながら、コーチプレイに持ち込む事が出来なかった事を悔やむ。
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2011,7 +2186,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、少しとまどいながら、自分の姿を見つめていた
+\x11
+は、少しとまどいながら、自分の姿を見つめていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2034,7 +2210,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、少し困ったような表情を見せながらも、久しぶりの体操服の感触にまんざらでもない様子だった
+\x11
+は、少し困ったような表情を見せながらも、久しぶりの体操服の感触にまんざらでもない様子だった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2052,7 +2229,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-久しぶりに見るFEMALE NAMEの体操服姿に、あなたはだんだんと興奮してきた
+久しぶりに見る
+\x11
+の体操服姿に、あなたはだんだんと興奮してきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2067,7 +2246,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-床に座り込んで、少し体操のまねごとをしていたFEMALE NAMEが、きょとんとした表情であなたを見上げた
+床に座り込んで、少し体操のまねごとをしていた
+\x11
+が、きょとんとした表情であなたを見上げた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2117,7 +2298,8 @@ LOAD_FILE 17_2
 \x00
 NO_NAMETAG:
 CLEAR_TEXTBOX
-FEMALE NAMEは、大きく足を開いて座り直し、ブルマの上から秘処を指でなぞった
+\x11
+は、大きく足を開いて座り直し、ブルマの上から秘処を指でなぞった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2127,7 +2309,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、少し抑えた声を出しながら、割れ目に軽い刺激をあたえていた
+\x11
+は、少し抑えた声を出しながら、割れ目に軽い刺激をあたえていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2147,7 +2330,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたの言葉に、こくりと頷いたFEMALE NAMEは、ブルマを横にずらすと、そこから指を潜り込ませた
+あなたの言葉に、こくりと頷いた
+\x11
+は、ブルマを横にずらすと、そこから指を潜り込ませた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2157,7 +2342,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-グチュグチュと、淫猥な音が響く中、FEMALE NAMEの指の動きは激しさを増していった
+グチュグチュと、淫猥な音が響く中、
+\x11
+の指の動きは激しさを増していった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2172,7 +2359,11 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたは、FEMALE NAMEの足の間に入り込むと、間近で濡れ濡れになっているFEMALE NAMEの秘処をのぞき込んだ
+あなたは、
+\x11
+の足の間に入り込むと、間近で濡れ濡れになっている
+\x11
+の秘処をのぞき込んだ
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2187,7 +2378,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-恥ずかしそうに顔を背けるFEMALE NAMEだったが、割れ目の中に挿入されている指の動きは、激しさを増すばかりだった
+恥ずかしそうに顔を背ける
+\x11
+だったが、割れ目の中に挿入されている指の動きは、激しさを増すばかりだった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2207,7 +2400,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-思い切り体をのけぞらすFEMALE NAMEの様子を見て調子づいたあなたは、悪巧みを思いついた
+思い切り体をのけぞらす
+\x11
+の様子を見て調子づいたあなたは、悪巧みを思いついた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2245,12 +2440,16 @@ LOAD_FILE 17_3
 \x00
 NO_NAMETAG:
 CLEAR_TEXTBOX
-ぼんやりとした表情を浮かべていたFEMALE NAMEは、文句を言うこともなく、素直にあなたの指示に従った
+ぼんやりとした表情を浮かべていた
+\x11
+は、文句を言うこともなく、素直にあなたの指示に従った
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたは、すっかり濡れてシミになっているブルマを、ぐいっと横にずらすと、少し大きめのバイブをFEMALE NAMEの秘処に挿入していった
+あなたは、すっかり濡れてシミになっているブルマを、ぐいっと横にずらすと、少し大きめのバイブを
+\x11
+の秘処に挿入していった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2260,7 +2459,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、大きく息を吐きながら、体をのけぞらせた
+\x11
+は、大きく息を吐きながら、体をのけぞらせた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2283,7 +2483,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、全身に力を入れ、打ち寄せる快感に必死に耐えていた
+\x11
+は、全身に力を入れ、打ち寄せる快感に必死に耐えていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2303,7 +2504,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-今まで味わったことのない感触に、FEMALE NAMEの体は大きく反り返った
+今まで味わったことのない感触に、
+\x11
+の体は大きく反り返った
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2313,7 +2516,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、入れられている物を抜こうと、下半身の方へ手を伸ばしてきたが、あなたに阻まれてしまった
+\x11
+は、入れられている物を抜こうと、下半身の方へ手を伸ばしてきたが、あなたに阻まれてしまった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2328,7 +2532,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、そのたびに、びくっと体をふるわせた
+\x11
+は、そのたびに、びくっと体をふるわせた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2348,7 +2553,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-グチャリ、グチャリと、大きな音を立てて、バイブはFEMALE NAMEの膣内を暴れ回った
+グチャリ、グチャリと、大きな音を立てて、バイブは
+\x11
+の膣内を暴れ回った
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2368,7 +2575,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたは、FEMALE NAMEの腰が揺れるほど、激しくバイブを突き動かした
+あなたは、
+\x11
+の腰が揺れるほど、激しくバイブを突き動かした
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2378,7 +2587,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-ひときわ大きな声を上げたFEMALE NAMEが、次の瞬間ぐったりとその場に倒れ込んだ
+ひときわ大きな声を上げた
+\x11
+が、次の瞬間ぐったりとその場に倒れ込んだ
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2387,7 +2598,9 @@ LOAD_FILE _CGB00
  DS02
 \x00
 NO_NAMETAG:
-事が終わってからしばらく、FEMALE NAMEはぼんやりとした表情で座り込んでいた
+事が終わってからしばらく、
+\x11
+はぼんやりとした表情で座り込んでいた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2412,7 +2625,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、少し怒った顔で、あなたにバイブを投げてきた
+\x11
+は、少し怒った顔で、あなたにバイブを投げてきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2439,7 +2653,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、この服が気に入ったのか、鏡に自分の姿を映しながら、くるくると回ったりしていた
+\x11
+は、この服が気に入ったのか、鏡に自分の姿を映しながら、くるくると回ったりしていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2456,7 +2671,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、嬉しそうに微笑んでいた
+\x11
+は、嬉しそうに微笑んでいた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2471,7 +2687,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、結構楽しそうにキャラクターを演じていた
+\x11
+は、結構楽しそうにキャラクターを演じていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2532,7 +2749,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-すさまじい気合いを入れたFEMALE NAMEだったが、結果はあなたの圧勝だった
+すさまじい気合いを入れた
+\x11
+だったが、結果はあなたの圧勝だった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2547,7 +2766,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-本気で悔しがっているFEMALE NAMEに、あなたはにやにやとした視線を送った
+本気で悔しがっている
+\x11
+に、あなたはにやにやとした視線を送った
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2592,7 +2813,8 @@ LOAD_FILE 18_3
 \x00
 NO_NAMETAG:
 CLEAR_TEXTBOX
-FEMALE NAMEが、胸の部分をはだけると、たわわな乳房がはじけ出た
+\x11
+が、胸の部分をはだけると、たわわな乳房がはじけ出た
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2617,7 +2839,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、恥じらいの表情を浮かべながら、顔を背けていた
+\x11
+は、恥じらいの表情を浮かべながら、顔を背けていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2644,7 +2867,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-恥ずかしそうに、ショーツを脱ぐFEMALE NAMEのしぐさに、あなたの下半身は急激に熱を帯びてきた
+恥ずかしそうに、ショーツを脱ぐ
+\x11
+のしぐさに、あなたの下半身は急激に熱を帯びてきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2654,7 +2879,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-よく見ると、FEMALE NAMEも、このシチュエーションに興奮しているのか、乳首はピンッとたち、秘処は湿り気を帯びているようだった
+よく見ると、
+\x11
+も、このシチュエーションに興奮しているのか、乳首はピンッとたち、秘処は湿り気を帯びているようだった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2664,7 +2891,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-もじもじと、切なそうに体を動かしていたFEMALE NAMEは、潤んだ目であなたを見つめていた
+もじもじと、切なそうに体を動かしていた
+\x11
+は、潤んだ目であなたを見つめていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2674,7 +2903,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたは、服を脱ぐと、FEMALE NAMEの前に横たわった
+あなたは、服を脱ぐと、
+\x11
+の前に横たわった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2697,7 +2928,8 @@ LOAD_FILE 18_2
 \x00
 NO_NAMETAG:
 CLEAR_TEXTBOX
-FEMALE NAMEは、おそるおそる、あなたの体をまたぐと、ゆっくりとペニスを自分の中へ沈めていった
+\x11
+は、おそるおそる、あなたの体をまたぐと、ゆっくりとペニスを自分の中へ沈めていった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2707,7 +2939,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-苦しそうに息を吐きながら、FEMALE NAMEは、あなたの物を全部飲み込んだ
+苦しそうに息を吐きながら、
+\x11
+は、あなたの物を全部飲み込んだ
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2722,7 +2956,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、少し腰を浮かすと、ゆっくりと腰を落としてきた
+\x11
+は、少し腰を浮かすと、ゆっくりと腰を落としてきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2737,7 +2972,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、だんだんと慣れてきたのか、ずいぶんと激しく腰を動かし始めた
+\x11
+は、だんだんと慣れてきたのか、ずいぶんと激しく腰を動かし始めた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2767,7 +3003,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEの秘処から、大量の愛液があふれ、あなたの下半身をぬらし始めたとき、あなたも限界を迎えた
+\x11
+の秘処から、大量の愛液があふれ、あなたの下半身をぬらし始めたとき、あなたも限界を迎えた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2782,7 +3019,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEの体が、一瞬硬直した後、ぐったりとあなたの上に倒れてきた
+\x11
+の体が、一瞬硬直した後、ぐったりとあなたの上に倒れてきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2796,7 +3034,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたが満足げに頷いているのを、FEMALE NAMEが不服そうな顔で見ていた
+あなたが満足げに頷いているのを、
+\x11
+が不服そうな顔で見ていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2804,7 +3044,9 @@ MALE_NAMETAG:
 「・・・どうした？　怒ったのか？
 CLICKWAIT
 NEWLINE
-　FEMALE NAMEだって結構楽しんでたじゃないか」
+\x81@
+\x11
+だって結構楽しんでたじゃないか」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -2833,7 +3075,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-力強くそう言い切るFEMALE NAMEを、あなたは呆然と見つめた
+力強くそう言い切る
+\x11
+を、あなたは呆然と見つめた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00

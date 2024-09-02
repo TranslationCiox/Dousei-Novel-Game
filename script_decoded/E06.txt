@@ -1,4 +1,6 @@
-\x11\x11\x16\x08
+\x11
+\x11
+\x16\x08
 \x00
 \x15Z
 \x00
@@ -6,9 +8,12 @@ CLEAR_TEXTBOX
 \x00
 \x11
 \x00
-\x10D\x11\x10c
+\x10D
+\x11
+\x10c
 \x00
-\x11\x16\x08
+\x11
+\x16\x08
 \x00
 \x15Y
 \x00
@@ -18,7 +23,8 @@ CLEAR_TEXTBOX
 \x00
 \x10'\x1d\x10c
 \x00
-\x11\x16\x08
+\x11
+\x16\x08
 \x00
 \x15X
 \x00
@@ -26,7 +32,8 @@ CLEAR_TEXTBOX
 \x00
 D
 \x00
-\x11\x17$
+\x11
+\x17$
 \x00
 NO_NAMETAG:
 \x00
@@ -38,7 +45,8 @@ CLEAR_TEXTBOX
 \x00
 \x10b\x0e\x10c
 \x00
-\x11\x16\x08
+\x11
+\x16\x08
 \x00
 \x15D
 \x00
@@ -50,7 +58,8 @@ U
 \x00
 \x10c
 \x00
-\x11\x16\x08
+\x11
+\x16\x08
 \x00
 \x15K
 \x00
@@ -79,9 +88,9 @@ CLICKWAIT
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 ああ、いいよ
 \x00
 ちょっと賛成できね～な
@@ -133,9 +142,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 なあ、金あんのか？
 \x00
 で、いつ頃いくんだ？
@@ -224,9 +233,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 わかったよ行ってもいいから・・・
 \x00
 ・・・・・・・・・・
@@ -316,9 +325,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 え、女の子だけでスキー？
 \x00
 おいおい、すべれるのか？
@@ -382,9 +391,9 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 準備？　なんの？
 \x00
 ああ、例のアレの？
@@ -460,9 +469,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 今度連れていってやるよ
 \x00
 俺も行きてーよ
@@ -481,9 +490,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 ああ、いいよ
 \x00
 それは、ちょっとまずくないか？
@@ -529,8 +538,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x10C\x11\x1d
-NEWLINE
+\x10C
+\x11
+FEMALE_NAMETAG:
 「・・・・そうだね
 CLICKWAIT
 　じゃあ、今度２人きりで温泉行こうよ！
@@ -548,7 +558,9 @@ LOAD_FILE _CGAA01
  DS02
 \x00
 NO_NAMETAG:
-あなたとFEMALE NAMEがバラエティー番組を見ていると、画面の上に事故のテロップが入った
+あなたと
+\x11
+がバラエティー番組を見ていると、画面の上に事故のテロップが入った
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -579,10 +591,13 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、不安げな表情で電話をかけた
+\x11
+は、不安げな表情で電話をかけた
 CLICKWAIT
 CLEAR_TEXTBOX
-しばらくしてFEMALE NAMEは、ため息をつきながら、受話器を置いた
+しばらくして
+\x11
+は、ため息をつきながら、受話器を置いた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -607,7 +622,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、不安そうな顔でテレビに目を向けた
+\x11
+は、不安そうな顔でテレビに目を向けた
 CLICKWAIT
 CLEAR_TEXTBOX
 しばらくしてバラエティー番組が終わりニュースが始まったが、トップニュースは先ほどのトンネル事故の事だった
@@ -626,7 +642,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-テレビのニュースを見ていたFEMALE NAMEの顔が、徐々にこわばってきた
+テレビのニュースを見ていた
+\x11
+の顔が、徐々にこわばってきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -648,7 +666,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEの顔からはどんどんと血の気が引いてきた
+\x11
+の顔からはどんどんと血の気が引いてきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -668,7 +687,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEはいきなり立ち上がると、玄関へと向かった
+\x11
+はいきなり立ち上がると、玄関へと向かった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -678,7 +698,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたはあわてて後を追うと、FEMALE NAMEの手をつかんだ
+あなたはあわてて後を追うと、
+\x11
+の手をつかんだ
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -688,10 +710,13 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-必死にあなたの手を振りほどこうとするFEMALE NAMEの頬を、あなたは軽くたたいた
+必死にあなたの手を振りほどこうとする
+\x11
+の頬を、あなたは軽くたたいた
 CLICKWAIT
 CLEAR_TEXTBOX
-FEMALE NAMEはびっくりした表情を浮かべて、あなたを見上げた
+\x11
+はびっくりした表情を浮かべて、あなたを見上げた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -721,7 +746,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは少し落ちつきを取り戻し、部屋の中へと入っていった
+\x11
+は少し落ちつきを取り戻し、部屋の中へと入っていった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -736,7 +762,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEはふるえる手で受話器を上げると、旅館へと電話をかけた
+\x11
+はふるえる手で受話器を上げると、旅館へと電話をかけた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -752,7 +779,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは力無く受話器を置いた
+\x11
+は力無く受話器を置いた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -772,7 +800,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたは、うつむいてじっと唇を噛んでいるFEMALE NAMEの手をそっと握った
+あなたは、うつむいてじっと唇を噛んでいる
+\x11
+の手をそっと握った
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -782,7 +812,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEはあなたの言葉に頷きながら、両手であなたの手を握りしめた
+\x11
+はあなたの言葉に頷きながら、両手であなたの手を握りしめた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -797,7 +828,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、いつものように食事の後片づけをしながら、あなたに声をかけてきた
+\x11
+は、いつものように食事の後片づけをしながら、あなたに声をかけてきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -837,7 +869,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-いつのまにか後片づけを終えたFEMALE NAMEが、あなたの隣に座り込んだ
+いつのまにか後片づけを終えた
+\x11
+が、あなたの隣に座り込んだ
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -847,7 +881,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、あなたの顔をのぞき込むようにして声をかけてきた
+\x11
+は、あなたの顔をのぞき込むようにして声をかけてきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -882,7 +917,8 @@ LOAD_FILE w1b
 \x00
 NO_NAMETAG:
 CLEAR_TEXTBOX
-FEMALE NAMEは、ゆっくりとあなたに顔を近づけると、唇を重ねてきた
+\x11
+は、ゆっくりとあなたに顔を近づけると、唇を重ねてきた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00

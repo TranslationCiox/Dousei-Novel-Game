@@ -1,8 +1,8 @@
 LOAD_FILE LOAD_FILE KURO
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 最初から始める
 \x00
 続きから始める
@@ -79,8 +79,7 @@ NEWLINE
 ｼCLEAR_TEXTBOX
 
 \x00
- 
-\x00
+LOAD MUSIC \x00
 NEWLINE
 \x00
 \x00
@@ -88,8 +87,9 @@ NEWLINE
 \x00
 d
 \x00
-,\x11\x16
-\x00
+,
+END_CHOICE
+ \x00
 \x00
 \x15
 \x00
@@ -100,8 +100,9 @@ MOVE_TO_OTHER_SEGMENT
 \x00
 \x10\x06
 \x00
--\x11\x16
-\x00
+-
+END_CHOICE
+ \x00
 \x00
 \x15
 \x00
@@ -112,7 +113,8 @@ MOVE_TO_OTHER_SEGMENT
 \x00
 \x10\x82
 \x00
-i\x19OP
+i
+GOTO_FILE OP
 \x00
 MOVE_TO_OTHER_SEGMENT
 \x00
@@ -141,9 +143,10 @@ MOVE_TO_OTHER_SEGMENT
 \x00
 LOAD_FILE _CGBK
 \x00
-\x19A01
+GOTO_FILE A01
 \x00
-\x11\x16\x08
+\x11
+\x16\x08
 \x00
 \x15[
 \x00
@@ -151,12 +154,13 @@ CLEAR_TEXTBOX
 \x00
 ﾜ
 \x00
-\x19ST
+GOTO_FILE ST
 \x00
 \x10
 \x00
 \x00
-\x11\x16\x08
+\x11
+\x16\x08
 \x00
 \x152
 \x00
@@ -166,7 +170,8 @@ CLEAR_TEXTBOX
 \x00
 \x10\x17
 END_OF_SEGMENT
-\x11\x16\x08
+\x11
+\x16\x08
 \x00
 \x15Z
 \x00
@@ -185,7 +190,8 @@ NO_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x11\x16\x10
+\x11
+\x16\x10
 \x00
 \x15
 \x00
@@ -199,7 +205,7 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x19OFF
+GOTO_FILE OFF
 \x00
 \x10\x8a
 NEWLINE
@@ -208,9 +214,11 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x19B01
+GOTO_FILE B01
 \x00
-\x10Y\x0e\x11\x16\x08
+\x10Y\x0e
+\x11
+\x16\x08
 \x00
 \x15Y
 \x00
@@ -268,7 +276,8 @@ CLEAR_TEXTBOX
 \x00
 LOAD_FILE _CGB12A
 \x00
-\x11\x16\x10
+\x11
+\x16\x10
 \x00
 \x15
 \x00
@@ -281,7 +290,7 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x19OFF
+GOTO_FILE OFF
 \x00
 \x10\x9c\x03\x1e
 NEWLINE
@@ -289,9 +298,11 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x19B01
+GOTO_FILE B01
 \x00
-\x10Y\x0e\x11\x16\x10
+\x10Y\x0e
+\x11
+\x16\x10
 \x00
 \x15
 \x00
@@ -303,7 +314,8 @@ CLEAR_TEXTBOX
 \x00
 \x02\n
 \x00
-ｺOFF
+ｺ
+GOTO_FILE OFF
 \x00
 \x10Y\x0e
 LOAD_FILE _CGAI01
@@ -357,8 +369,9 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x103\r\x11\x16
-MOVE_TO_OTHER_SEGMENT
+\x103\r
+END_CHOICE
+ MOVE_TO_OTHER_SEGMENT
 \x00
 NO_NAMETAG:
 \x00
@@ -386,8 +399,9 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x103\r\x11\x16
-MOVE_TO_OTHER_SEGMENT
+\x103\r
+END_CHOICE
+ MOVE_TO_OTHER_SEGMENT
 \x00
 \x15\x02
 \x00
@@ -410,8 +424,9 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x103\r\x11\x16
-MOVE_TO_OTHER_SEGMENT
+\x103\r
+END_CHOICE
+ MOVE_TO_OTHER_SEGMENT
 \x00
 \x15\x03
 \x00
@@ -432,8 +447,9 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x103\r\x11\x16
-MOVE_TO_OTHER_SEGMENT
+\x103\r
+END_CHOICE
+ MOVE_TO_OTHER_SEGMENT
 \x00
 \x15
 MOVE_TO_OTHER_SEGMENT
@@ -461,8 +477,9 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x103\r\x11\x16
-MOVE_TO_OTHER_SEGMENT
+\x103\r
+END_CHOICE
+ MOVE_TO_OTHER_SEGMENT
 \x00
 \x15
 CLICKWAIT
@@ -487,8 +504,9 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x103\r\x11\x16
-MOVE_TO_OTHER_SEGMENT
+\x103\r
+END_CHOICE
+ MOVE_TO_OTHER_SEGMENT
 \x00
 \x15\x06
 \x00
@@ -510,8 +528,9 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x103\r\x11\x16
-MOVE_TO_OTHER_SEGMENT
+\x103\r
+END_CHOICE
+ MOVE_TO_OTHER_SEGMENT
 \x00
 \x15\n
 \x00
@@ -524,7 +543,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEが広告を見ながら、嬉しそうな声を上げた
+\x11
+が広告を見ながら、嬉しそうな声を上げた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -537,12 +557,15 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたは、そんなFEMALE NAMEの様子をぼんやりと眺めていた
+あなたは、そんな
+\x11
+の様子をぼんやりと眺めていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x103\r\x11\x16
-MOVE_TO_OTHER_SEGMENT
+\x103\r
+END_CHOICE
+ MOVE_TO_OTHER_SEGMENT
 \x00
 \x15\x0b
 \x00
@@ -555,7 +578,8 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、新聞を広げてため息をついた
+\x11
+は、新聞を広げてため息をついた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -574,8 +598,9 @@ NO_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x103\r\x11\x16
-MOVE_TO_OTHER_SEGMENT
+\x103\r
+END_CHOICE
+ MOVE_TO_OTHER_SEGMENT
 \x00
 \x15\x0c
 \x00
@@ -638,8 +663,9 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x103\r\x11\x16
-MOVE_TO_OTHER_SEGMENT
+\x103\r
+END_CHOICE
+ MOVE_TO_OTHER_SEGMENT
 \x00
 NO_NAMETAG:
 \x00
@@ -663,8 +689,9 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x103\r\x11\x16
-MOVE_TO_OTHER_SEGMENT
+\x103\r
+END_CHOICE
+ MOVE_TO_OTHER_SEGMENT
 \x00
 \x15\x02
 \x00
@@ -683,8 +710,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x103\r\x11\x16
-MOVE_TO_OTHER_SEGMENT
+\x103\r
+END_CHOICE
+ MOVE_TO_OTHER_SEGMENT
 \x00
 \x15\x03
 \x00
@@ -701,8 +729,9 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x103\r\x11\x16
-MOVE_TO_OTHER_SEGMENT
+\x103\r
+END_CHOICE
+ MOVE_TO_OTHER_SEGMENT
 \x00
 \x15
 MOVE_TO_OTHER_SEGMENT
@@ -737,7 +766,8 @@ CLICKWAIT
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x11\x16\x06
+\x11
+\x16\x06
 \x00
 \x15\x0f
 \x00
@@ -759,18 +789,21 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x19B01
+GOTO_FILE B01
 \x00
 \x1b
 \x00
 \x00
-a\x0e\x10\x90\x0e\x11\x16\x08
+a\x0e\x10\x90\x0e
+\x11
+\x16\x08
 \x00
 \x15\x06
 \x00
 MOVE_TO_OTHER_SEGMENT
 \x00
-u\x0e\x19SHOP
+u\x0e
+GOTO_FILE SHOP
 \x00
 \x10\x90\x0e\x1e
 NEWLINE
@@ -783,11 +816,12 @@ NEWLINE
 \x00
 MALE NAMEｯ DS02
 \x00
-\x19D01
+GOTO_FILE D01
 \x00
 \x1bj
 \x00
-ｯST
+ｯ
+GOTO_FILE ST
 \x00
 \x10
 \x00
@@ -817,7 +851,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-そう言いながら台所へと入っていったFEMALE NAMEは、チャーハンを作り始めた
+そう言いながら台所へと入っていった
+\x11
+は、チャーハンを作り始めた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -846,13 +882,15 @@ FEMALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x11\x16\r
+\x11
+\x16\r
 \x00
 \x152
 \x00
 \x03
 \x00
-%\x11
+%
+\x11
 LOAD_FILE _CGRY02
 \x00
 FEMALE_NAMETAG:
@@ -886,11 +924,13 @@ END_CHOICE
 \x00
 CLEAR_TEXTBOX
 \x00
-ｦMODE
+ｦMALE SURNAME
 LOAD_FILE _CGRY08
 \x00
 FEMALE_NAMETAG:
-「超豪華、FEMALE NAME特製スペシャルディナーよ～
+「超豪華、
+\x11
+特製スペシャルディナーよ～
 CLICKWAIT
 NEWLINE
 　腕によりをかけて作ったんだから味わって食べてね☆」
@@ -927,12 +967,14 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEは、あなたが食べている間中、にこにことその姿を見ていた
+\x11
+は、あなたが食べている間中、にこにことその姿を見ていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAMEﾞFEMALE NAME
-MOVE_TO_OTHER_SEGMENT
+MALE NAMEﾞ
+END_CHOICE
+ MOVE_TO_OTHER_SEGMENT
 \x00
 NO_NAMETAG:
 \x00
@@ -942,7 +984,9 @@ CLEAR_TEXTBOX
 LOAD_FILE _CGRY05
 \x00
 FEMALE_NAMETAG:
-「苦心惨憺、FEMALE NAME特製、真心ディナーよ～
+「苦心惨憺、
+\x11
+特製、真心ディナーよ～
 CLICKWAIT
 NEWLINE
 　ちょっと見栄えが悪いかもしれないけど・・・・・
@@ -960,7 +1004,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-勢いよく食べ出すあなたの横顔を、FEMALE NAMEは、心配そうに見つめていた
+勢いよく食べ出すあなたの横顔を、
+\x11
+は、心配そうに見つめていた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -977,7 +1023,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-あなたの言葉に、FEMALE NAMEは顔をほころばせた
+あなたの言葉に、
+\x11
+は顔をほころばせた
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -990,12 +1038,14 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 NO_NAMETAG:
-FEMALE NAMEの言葉につられて、あなたは、ついつい食べ過ぎてしまった
+\x11
+の言葉につられて、あなたは、ついつい食べ過ぎてしまった
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAMEﾞFEMALE NAME
-MOVE_TO_OTHER_SEGMENT
+MALE NAMEﾞ
+END_CHOICE
+ MOVE_TO_OTHER_SEGMENT
 \x00
 \x15\x02
 \x00
@@ -1040,8 +1090,9 @@ NO_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAMEﾞFEMALE NAME
-MOVE_TO_OTHER_SEGMENT
+MALE NAMEﾞ
+END_CHOICE
+ MOVE_TO_OTHER_SEGMENT
 \x00
 \x15\x03
 \x00
@@ -1079,7 +1130,8 @@ CLEAR_TEXTBOX
 \x00
 \n\x17\x10\x17
 END_OF_SEGMENT
-\x11\x16\x0e
+\x11
+\x16\x0e
 \x00
 NO_NAMETAG:
 \x00
@@ -1118,7 +1170,8 @@ CLEAR_TEXTBOX
 \x00
 2
 \x00
-\x11\x16\x0e
+\x11
+\x16\x0e
 \x00
 NO_NAMETAG:
 \x00
@@ -1130,7 +1183,8 @@ NO_NAMETAG:
 \x00
 \xfa
 \x00
-\x11\x16\x0f
+\x11
+\x16\x0f
 \x00
 NO_NAMETAG:
 \x00
@@ -1149,7 +1203,8 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x11\x16\x08
+\x11
+\x16\x08
 \x00
 \x15\x0e
 \x00
@@ -1171,11 +1226,13 @@ LOAD_FILE \x00
 \x00
 \x02\n
 \x00
-5\x18\x19E03
+5\x18
+GOTO_FILE E03
 \x00
 \x10\x17
 END_OF_SEGMENT
-\x11\x16\x08
+\x11
+\x16\x08
 \x00
 \x15D
 \x00
@@ -1193,11 +1250,13 @@ END_OF_SEGMENT
 \x00
 \x02\n
 \x00
-`\x18\x19E06
+`\x18
+GOTO_FILE E06
 \x00
 \x10\x17
 END_OF_SEGMENT
-\x11\x16\x08
+\x11
+\x16\x08
 \x00
 \x15K
 \x00
@@ -1207,11 +1266,13 @@ NO_NAMETAG:
 \x00
 \x02\x0f
 \x00
-{\x18\x19E06
+{\x18
+GOTO_FILE E06
 \x00
 \x10\x17
 END_OF_SEGMENT
-\x11\x16 
+\x11
+\x16 
 \x00
 \x15\xf4
 NEWLINE
@@ -1222,11 +1283,13 @@ NO_NAMETAG:
 \x00
 \x07\x0f
 \x00
-\x96\x18\x19E07
+\x96\x18
+GOTO_FILE E07
 \x00
 \x10\x17
 END_OF_SEGMENT
-\x11\x16 
+\x11
+\x16 
 \x00
 \x15\x90
 NEWLINE
@@ -1238,11 +1301,13 @@ MOVE_TO_OTHER_SEGMENT
 \x00
 \x02\x0f
 \x00
-ｱE07
+ｱ
+GOTO_FILE E07
 \x00
 \x10\x17
 END_OF_SEGMENT
-\x11\x16 
+\x11
+\x16 
 \x00
 \x15,
 NEWLINE
@@ -1254,11 +1319,13 @@ MOVE_TO_OTHER_SEGMENT
 \x00
 \x02\x0f
 \x00
-ﾌE07
+ﾌ
+GOTO_FILE E07
 \x00
 \x10\x17
 END_OF_SEGMENT
-\x11\x172
+\x11
+\x172
 \x00
 \x177
 \x00
@@ -1295,13 +1362,14 @@ END_OF_SEGMENT
 \x00
 \x02\x0f\n
 \x00
-\x14\x19\x19FUKU
+\x14
+GOTO_FILE GOTO_FILE FUKU
 \x00
 \x10\x17
 END_OF_SEGMENT
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 リビングに行く
 \x00
 寝室に行く
@@ -1318,26 +1386,29 @@ CLEAR_TEXTBOX
 END_OF_SEGMENT
 LOAD_FILE _CGB00
 \x00
-\x11\x16\x08
+\x11
+\x16\x08
 \x00
 \x15
 CLICKWAIT
 \x00
 \x03
 \x00
-g\x19\x17
-NEWLINE
+g
+GOTO_FILE CHOICE
+ NEWLINE
 \x00
 話す
 \x00
 \x00
  DS06
 \x00
-\x19K01
+GOTO_FILE K01
 \x00
 \x10\n
 END_OF_SEGMENT
-\x11\x17b
+\x11
+\x17b
 \x00
 \x17c
 \x00
@@ -1345,8 +1416,9 @@ END_OF_SEGMENT
 \x00
 \n
 \x00
-ｧ
-NEWLINE
+ｧ
+GOTO_FILE CHOICE
+ NEWLINE
 \x00
 話す
 \x00
@@ -1357,8 +1429,9 @@ NEWLINE
 ケーキを食べる
 \x00
 \x00
-MALE NAMEﾆ
-NEWLINE
+MALE NAMEﾆ
+GOTO_FILE CHOICE
+ NEWLINE
 \x00
 話す
 \x00
@@ -1376,7 +1449,8 @@ NO_NAMETAG:
 \x00
 CLEAR_TEXTBOX
 \x00
-ﾟK01
+ﾟ
+GOTO_FILE GOTO_FILE K01
 \x00
 \x10\n
 END_OF_SEGMENT
@@ -1387,7 +1461,8 @@ END_CHOICE
 \x00
 CLEAR_TEXTBOX
 \x00
-\xf2\x19\x19T01
+\xf2
+GOTO_FILE GOTO_FILE T01
 \x00
 \x10\n
 END_OF_SEGMENT
@@ -1400,11 +1475,11 @@ CLEAR_TEXTBOX
 \x00
 CLICKWAIT
 END_OF_SEGMENT
-\x19G01
+GOTO_FILE G01
 \x00
 \x10\n
 END_OF_SEGMENT
-\x19K02
+GOTO_FILE K02
 \x00
 \x10\x17
 END_OF_SEGMENT
@@ -1413,7 +1488,7 @@ r
 \x00
 NEWLINE
 \x00
-\x19H01
+GOTO_FILE H01
 \x00
 \x1cs
 \x00
@@ -1423,9 +1498,9 @@ END_OF_SEGMENT
 \x00
 =
 END_OF_SEGMENT
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 おやすみなさい
 \x00
 \x00
@@ -1436,13 +1511,14 @@ r
 \x00
 \x10L
 END_OF_SEGMENT
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 寝室に行く
 \x00
 \x00
-\x11\x17$
+\x11
+\x17$
 \x00
 \x16\x08
 \x00
@@ -1466,7 +1542,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 MALE_NAMETAG:
-「・・・・・・・・FEMALE NAME・・・」
+「・・・・・・・・
+\x11
+・・・」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -1486,7 +1564,8 @@ s
 \x00
 LOAD_FILE KURO
 \x00
-\x11\x16\x07
+\x11
+\x16\x07
 \x00
 \x15
 \x00
@@ -1500,9 +1579,9 @@ CLEAR_TEXTBOX
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 保存しない
 \x00
 保存する
@@ -1516,8 +1595,9 @@ END_CHOICE
 \x00
 CLEAR_TEXTBOX
 \x00
-X\x1b\x10\r\x1b\x10h\x1b\x11\x16
-NEWLINE
+X\x1b\x10\r\x1b\x10h\x1b
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x02
 \x00
@@ -1528,10 +1608,11 @@ CLICKWAIT
 \x00
 \x06
 \x00
-\x11\x16\x06
+\x11
+\x16\x06
 \x00
-\x15\x19
-\x00
+\x15
+GOTO_FILE \x00
 CLEAR_TEXTBOX
 \x00
 x\x1b\x0c\r
@@ -1587,7 +1668,8 @@ NEWLINE
 \x00
 \x14
 \x00
-\x11\x16\r
+\x11
+\x16\r
 \x00
 \x15
 \x00
@@ -1598,7 +1680,8 @@ CLICKWAIT
 \x00
 ｱ
 \x00
-\x11\x16\x0e
+\x11
+\x16\x0e
 \x00
 \x15
 \x00
@@ -1611,7 +1694,8 @@ CLICKWAIT
 \x00
 \x00
 \x00
-\x11\x16\x0e
+\x11
+\x16\x0e
 \x00
 \x15\xe7\x03
 MOVE_TO_OTHER_SEGMENT
@@ -1624,7 +1708,8 @@ MOVE_TO_OTHER_SEGMENT
 \x00
 o
 \x00
-\x11\x16\x0f
+\x11
+\x16\x0f
 \x00
 \x15
 \x00
@@ -1638,12 +1723,14 @@ NEWLINE
 \x00
 \x00
 \x00
-\x11\x16\x0f
+\x11
+\x16\x0f
 \x00
 \x15\xe7\x03
 MOVE_TO_OTHER_SEGMENT
 \x00
-\x11\x1c
+\x11
+\x1c
 \x00
 \x0f
 \x00
@@ -1651,7 +1738,8 @@ MOVE_TO_OTHER_SEGMENT
 \x00
 ｱ
 \x00
-\x11\x16\x1b
+\x11
+\x16\x1b
 \x00
 \x15\xe8\x03
 MOVE_TO_OTHER_SEGMENT
@@ -1664,7 +1752,8 @@ MOVE_TO_OTHER_SEGMENT
 \x00
 2
 \x00
-\x11\x16#
+\x11
+\x16#
 \x00
 \x15\xe8\x03
 MOVE_TO_OTHER_SEGMENT
@@ -1673,7 +1762,9 @@ MOVE_TO_OTHER_SEGMENT
 \x00
 #
 \x00
-\xe8\x03\x11\x16#
+\xe8\x03
+\x11
+\x16#
 \x00
 \x15 \x03
 MOVE_TO_OTHER_SEGMENT
@@ -1688,7 +1779,8 @@ U\x1c\x03\x1e
 \x00
 \r\t
 \x00
-\x11\x16\x1e
+\x11
+\x16\x1e
 \x00
 NO_NAMETAG:
 \x00
@@ -1700,7 +1792,8 @@ e\x1c
 \x00
 \x00
 \x00
-\x11\x16\x1e
+\x11
+\x16\x1e
 \x00
 \x15\xe7\x03
 MOVE_TO_OTHER_SEGMENT

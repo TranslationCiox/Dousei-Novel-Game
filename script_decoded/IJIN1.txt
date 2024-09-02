@@ -1,4 +1,6 @@
-\x11\x11\x16\x08
+\x11
+\x11
+\x16\x08
 \x00
 \x15\x1e
 \x00
@@ -32,7 +34,8 @@ NEWLINE
 NEWLINE
 \x10\x07
 NEWLINE
-\x11\x16'
+\x11
+\x16'
 \x00
 \x15\x02
 \x00
@@ -42,7 +45,8 @@ D
 \x00
 \x10\xee\x07\x10\x07
 NEWLINE
-\x11\x16'
+\x11
+\x16'
 \x00
 \x15\x03
 \x00
@@ -52,7 +56,8 @@ U
 \x00
 \x10\x99\x0b\x10\x07
 NEWLINE
-\x11\x16'
+\x11
+\x16'
 \x00
 \x15\x06
 \x00
@@ -62,7 +67,8 @@ f
 \x00
 \x10}\x0f\x10\x07
 NEWLINE
-\x11\x16'
+\x11
+\x16'
 \x00
 \x15\t
 \x00
@@ -72,7 +78,8 @@ w
 \x00
 \x10\xe0\x14\x10\x07
 NEWLINE
-\x11\x16'
+\x11
+\x16'
 \x00
 \x15\x0b
 \x00
@@ -101,7 +108,8 @@ END_OF_SEGMENT
 \x00
 \x10\xfd)\x10\x07
 NEWLINE
-\x11\x17E
+\x11
+\x17E
 \x00
 NO_NAMETAG:
 \x00
@@ -116,7 +124,8 @@ NO_NAMETAG:
 \x00
 \x10\x07!\x10\x07
 NEWLINE
-\x11\x16'
+\x11
+\x16'
 \x00
 \x15\x0e
 \x00
@@ -870,9 +879,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 ええ、いますよ
 \x00
 いや～、いないんですよ
@@ -1087,9 +1096,9 @@ CLICKWAIT
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 いいっスよ
 \x00
 いや、ちょっと・・・
@@ -1450,9 +1459,9 @@ CLICKWAIT
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 つきあいますよ
 \x00
 今日はちょっと・・・
@@ -1565,9 +1574,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 わかりました、じゃあゆっくり考え事をして下さいね
 \x00
 何かあったんですか
@@ -1732,9 +1741,9 @@ NO_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 ・・・いいっスよ
 \x00
 すんません、やっぱ俺は・・・
@@ -2087,9 +2096,9 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 繁華街
 \x00
 裏通り
@@ -2115,8 +2124,9 @@ i
 \x00
 NEWLINE
 \x00
-MALE NAMEﾇ<FEMALE NAME
-NEWLINE
+MALE NAMEﾇ<
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x02
 \x00
@@ -2257,9 +2267,9 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 繁華街
 \x00
 裏通り

@@ -25,9 +25,9 @@ CLEAR_TEXTBOX
 \x10d
 \x00
 END_OF_SEGMENT
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 ほかのところへ行く
 \x00
 ゲーム屋
@@ -73,17 +73,18 @@ CLEAR_TEXTBOX
 \x00
 ﾄ
 \x00
-\x10+\t\x11\x16\x07
+\x10+\t
+\x11
+\x16\x07
 \x00
 \x15\x06
 \x00
 CLEAR_TEXTBOX
 \x00
- 
-NEWLINE
-
+LOAD MUSIC NEWLINE
 CHOICE
- \x00
+ NEWLINE
+\x00
 ほかのところへ行く
 \x00
 あやしげなお店
@@ -114,9 +115,9 @@ CLEAR_TEXTBOX
 FEMALE_NAMETAG:
 \x10m\x0c\x10N
 NEWLINE
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 ほかのところへ行く
 \x00
 家に帰る
@@ -145,7 +146,8 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x11\x17^
+\x11
+\x17^
 \x00
 NO_NAMETAG:
 \x00
@@ -170,9 +172,9 @@ LOAD_FILE _CGS00
 \x10d
 \x00
 END_OF_SEGMENT
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 やっぱりいらない
 \x00
 対戦パズルゲーム　　　　　　定価　５８００円
@@ -216,7 +218,9 @@ CLEAR_TEXTBOX
 \x00
 \x10\xe4
 NEWLINE
-\x10\x82\x03\x11\x16\r
+\x10\x82\x03
+\x11
+\x16\r
 \x00
 \x15:
 \x00
@@ -236,9 +240,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 はい
 \x00
 やっぱやめます
@@ -285,7 +289,8 @@ CLEAR_TEXTBOX
 NEWLINE
 \x10~
 MOVE_TO_OTHER_SEGMENT
-\x11\x16\r
+\x11
+\x16\r
 \x00
 \x15D
 \x00
@@ -307,9 +312,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 はい
 \x00
 やっぱやめます
@@ -348,7 +353,8 @@ LOAD_FILE _CGS00
 \x10d
 \x00
 END_OF_SEGMENT
-\x11\x16\x07
+\x11
+\x16\x07
 \x00
 NO_NAMETAG:
 \x00
@@ -376,9 +382,10 @@ T
 \x00
 NEWLINE
 \x00
-\x19IJIN3
+GOTO_FILE IJIN3
 \x00
-\x11\x17N
+\x11
+\x17N
 \x00
 NO_NAMETAG:
 \x00
@@ -429,9 +436,9 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 やっぱりやめとこ
 \x00
 チョコレートケーキ　　　　　　定価　３００円
@@ -454,14 +461,17 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x10\x1f\t\x11\x16
-NEWLINE
+\x10\x1f\t
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x02
 \x00
 CLEAR_TEXTBOX
 \x00
-3\x07\x11\x16\r
+3\x07
+\x11
+\x16\r
 \x00
 \x15\x06
 \x00
@@ -481,9 +491,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 はい
 \x00
 やっぱやめます
@@ -523,14 +533,17 @@ CLEAR_TEXTBOX
 \x00
 \x100\x07\x10i
 CLICKWAIT
-\x10\x1f\t\x11\x16
-NEWLINE
+\x10\x1f\t
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x03
 \x00
 CLEAR_TEXTBOX
 \x00
-0\x08\x11\x16\r
+0\x08
+\x11
+\x16\r
 \x00
 \x15
 MOVE_TO_OTHER_SEGMENT
@@ -551,9 +564,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 はい
 \x00
 やっぱやめます
@@ -593,7 +606,9 @@ CLEAR_TEXTBOX
 \x00
 \x10-\x08\x10i
 CLICKWAIT
-\x10\x1f\t\x11\x16\r
+\x10\x1f\t
+\x11
+\x16\r
 \x00
 \x15
 MOVE_TO_OTHER_SEGMENT
@@ -614,9 +629,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 はい
 \x00
 やっぱやめます
@@ -672,7 +687,8 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x11\x17e
+\x11
+\x17e
 \x00
 \x17g
 \x00
@@ -692,9 +708,9 @@ LOAD_FILE _CGS00
 \x10d
 \x00
 END_OF_SEGMENT
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 やっぱりいらない
 \x00
 指輪　　　　　　　　　　　　定価　６００００円
@@ -715,14 +731,17 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x10`\x0c\x11\x16
-NEWLINE
+\x10`\x0c
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x02
 \x00
 CLEAR_TEXTBOX
 \x00
-b\x0b\x11\x17e
+b\x0b
+\x11
+\x17e
 \x00
 NO_NAMETAG:
 \x00
@@ -738,7 +757,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAMEｸ	FEMALE NAME
+MALE NAMEｸ	
+\x11
+\x16\r
 \x00
 \x15X\x02\x03
 \x00
@@ -754,9 +775,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 はい
 \x00
 やっぱやめます
@@ -783,7 +804,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAME_MALE NAMEｸ	MALE NAME`FEMALE NAMEg
+MALE NAME_MALE NAMEｸ	MALE NAME`
+\x11
+\x17g
 \x00
 NO_NAMETAG:
 \x00
@@ -798,7 +821,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAMEｸ	FEMALE NAME
+MALE NAMEｸ	
+\x11
+\x16\r
 \x00
 \x15\x90
 NEWLINE
@@ -816,9 +841,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 はい
 \x00
 やっぱやめます
@@ -864,7 +889,8 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x11\x172
+\x11
+\x172
 \x00
 \x173
 \x00
@@ -893,9 +919,9 @@ LOAD_FILE _CGS00
 \x10d
 \x00
 END_OF_SEGMENT
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 次を見てみよう
 \x00
 メイド服　　　　　　　　　　定価　４００００円
@@ -912,8 +938,10 @@ NO_NAMETAG:
 \x00
 CLEAR_TEXTBOX
 \x00
-ｱFEMALE NAME
-NEWLINE
+ｱ
+\x11
+CHOICE
+ NEWLINE
 \x00
 前に戻ろう　　　　　　　　　　　　　
 \x00
@@ -931,14 +959,18 @@ NO_NAMETAG:
 \x00
 CLEAR_TEXTBOX
 \x00
-MALE NAME!MALE NAMEｮFEMALE NAMEFEMALE NAME
-NEWLINE
+MALE NAME!MALE NAMEｮ
+\x11
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x02
 \x00
 CLEAR_TEXTBOX
 \x00
-ｸMALE NAMEFEMALE NAME4
+ｸMALE NAME
+\x11
+\x174
 \x00
 NO_NAMETAG:
 \x00
@@ -950,7 +982,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x10!\r\x11\x16\r
+\x10!\r
+\x11
+\x16\r
 \x00
 \x15d
 \x00
@@ -968,9 +1002,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 はい
 \x00
 やっぱやめます
@@ -1038,14 +1072,19 @@ NO_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAMEｵMALE NAMEMALE NAME!MALE NAMEｮFEMALE NAMEFEMALE NAME
-NEWLINE
+MALE NAMEｵMALE NAMEMALE NAME!MALE NAMEｮ
+\x11
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x03
 \x00
 CLEAR_TEXTBOX
 \x00
-ｮFEMALE NAMEFEMALE NAME5
+ｮ
+\x11
+\x11
+\x175
 \x00
 NO_NAMETAG:
 \x00
@@ -1057,27 +1096,32 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x10!\r\x11\x16\r
+\x10!\r
+\x11
+\x16\r
 \x00
 \x15^
 NEWLINE
 \x03
 \x00
-LOAD_FILE \x11D
+LOAD_FILE \x11
+D
 NEWLINE
 「お客さん、お金が足りませんよぉ」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAME!MALE NAMEｫFEMALE NAMED
+MALE NAME!MALE NAMEｫ
+\x11
+D
 NEWLINE
 「これで、よろしいですかぁ？」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 はい
 \x00
 やっぱやめます
@@ -1090,7 +1134,9 @@ NO_NAMETAG:
 \x00
 CLEAR_TEXTBOX
 \x00
-ｨFEMALE NAME
+ｨ
+\x11
+\x0c\r
 \x00
 ^
 NEWLINE
@@ -1105,26 +1151,36 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAMEｫFEMALE NAMEMALE NAME!MALE NAMEｮFEMALE NAMEMALE NAMEFEMALE NAME
-NEWLINE
+MALE NAMEｫ
+\x11
+MALE NAME!MALE NAMEｮ
+\x11
+\x10\x87\x14
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x02
 \x00
 CLEAR_TEXTBOX
 \x00
-ｩMODEFEMALE NAME2
+ｩMALE SURNAME
+\x11
+\x172
 \x00
 NO_NAMETAG:
 \x00
 CLEAR_TEXTBOX
 \x00
-\xe9\x11\x1e
-NEWLINE
+\xe9
+\x11
+MALE_NAMETAG:
 「あ、これは買ってたなぁ」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x10!\r\x11\x16\r
+\x10!\r
+\x11
+\x16\r
 \x00
 \x15\x90
 NEWLINE
@@ -1136,15 +1192,15 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAME!MALE NAMEｦMODED
+MALE NAME!MALE NAMEｦMALE SURNAMED
 NEWLINE
 「これで、よろしいんですかぁ？」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 はい
 \x00
 やっぱやめます
@@ -1157,7 +1213,7 @@ NO_NAMETAG:
 \x00
 CLEAR_TEXTBOX
 \x00
-｣MODE
+｣MALE SURNAME
 \x00
 \x90
 NEWLINE
@@ -1172,14 +1228,17 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-MALE NAMEｦMODEMALE NAME!MALE NAMEFEMALE NAME
-NEWLINE
+MALE NAMEｦMALE SURNAMEMALE NAME!MALE NAME
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x03
 \x00
 CLEAR_TEXTBOX
 \x00
-\x9f\x13\x11\x173
+\x9f\x13
+\x11
+\x173
 \x00
 NO_NAMETAG:
 \x00
@@ -1191,13 +1250,15 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x10!\r\x11\x16\r
+\x10!\r
+\x11
+\x16\r
 \x00
 \x15\x90
 NEWLINE
 \x03
 \x00
-\x19\x13D
+GOTO_FILE \x13D
 NEWLINE
 「お客さん、お金が足りませんよぉ」
 CLICKWAIT
@@ -1209,9 +1270,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 はい
 \x00
 やっぱやめます
@@ -1239,7 +1300,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x10\x9c\x13\x10!\r\x10\x87\x14\x11\x17*
+\x10\x9c\x13\x10!\r\x10\x87\x14
+\x11
+\x17*
 \x00
 NO_NAMETAG:
 \x00
@@ -1251,7 +1314,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-\x10!\r\x11\x16\r
+\x10!\r
+\x11
+\x16\r
 \x00
 \x15\x96
 \x00
@@ -1270,9 +1335,9 @@ NEWLINE
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 はい
 \x00
 やっぱやめます

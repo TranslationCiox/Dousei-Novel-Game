@@ -4,7 +4,8 @@ MOVE_TO_OTHER_SEGMENT
 \x00
 NEWLINE
 \x00
-\x11\x17W
+\x11
+\x17W
 \x00
 NO_NAMETAG:
 \x00
@@ -24,7 +25,8 @@ NO_NAMETAG:
 \x00
 \x10<
 \x00
-\x11\x17Y
+\x11
+\x17Y
 \x00
 NO_NAMETAG:
 \x00
@@ -89,9 +91,9 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 繁華街
 \x00
 裏通り
@@ -113,8 +115,9 @@ CLICKWAIT
 CLEAR_TEXTBOX
 \x00
 MALE NAMEｪCLEAR_TEXTBOX
-FEMALE NAME
-NEWLINE
+
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x02
 \x00
@@ -191,7 +194,7 @@ NEWLINE
 「・・・痛いのは覚悟しています・・・・・
 CLICKWAIT
 NEWLINE
-　でも、MODEさんだったら我慢出来そうな気が・・・します」
+　でも、MALE SURNAMEさんだったら我慢出来そうな気が・・・します」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -251,7 +254,7 @@ NEWLINE
 「・・・いえ、今は苦しいよりも・・・うれしい方が大きいんです
 CLICKWAIT
 NEWLINE
-　・・・体全体で・・・MODEさんを感じることが出来るから・・・」
+　・・・体全体で・・・MALE SURNAMEさんを感じることが出来るから・・・」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -336,7 +339,7 @@ CLEAR_TEXTBOX
 \x00
 7
 NEWLINE
-「・・・・MODEさん・・・」
+「・・・・MALE SURNAMEさん・・・」
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
@@ -409,9 +412,9 @@ MALE_NAMETAG:
 CLICKWAIT
 CLEAR_TEXTBOX
 \x00
-
 CHOICE
- \x00
+ NEWLINE
+\x00
 繁華街
 \x00
 裏通り
@@ -437,8 +440,9 @@ i
 \x00
 NEWLINE
 \x00
-\x10\\\x0e\x11\x16
-NEWLINE
+\x10\\\x0e
+END_CHOICE
+ NEWLINE
 \x00
 \x15\x02
 \x00
