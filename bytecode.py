@@ -8,7 +8,11 @@ import re
 # \x02 wipes the textbox
 # \x04 Seems to be related to flags and moving to other segments.
 # \x05 is a clickwait, but will continue on the same line.
+# \x10 male name.
+# \x11 female name.
 # \x12 male surname.
+# \x13 female surname.
+# \x15 ???
 # \x16 end a choice.
 # \x17 gives a choice.
 # \x18 go to a different file (used in INIT to go to MAIN).
@@ -41,29 +45,49 @@ patterns = [
         "action": "CLICKWAIT\n"
     },
     {
-        "pattern": [b'\x11', b'\x16'],
+        "pattern": [b'\x10'],
         #
-        "action": "END_CHOICE\n "
+        "action": "MALE_NAME\n"
     },
     {
-        "pattern": [b'\x15', b'\x01'],
+        "pattern": [b'\x11'],
         #
-        "action": "NO_NAMETAG:\n"
+        "action": "FEMALE_NAME\n"
+    },
+    {
+        "pattern": [b'\x12'],
+        #
+        "action": "MALE_SURNAME\n"
+    },
+    {
+        "pattern": [b'\x13'],
+        #
+        "action": "FEMALE_SURNAME\n"
+    },
+    {
+        "pattern": [b'\x15'],
+        #
+        "action": "NO_NAMETAG\n"
+    },
+    {
+        "pattern": [b'\x16'],
+        #
+        "action": "END_CHOICE\n"
     },
     {
         "pattern": [b'\x17'],
         #
-        "action": "CHOICE\n "
+        "action": "CHOICE\n"
     },
     {
         "pattern": [b'\x19'],
         #
-        "action": "GOTO_FILE "
+        "action": "GOTO_FILE\n"
     },
     {
         "pattern": [b'\x20'],
         #
-        "action": "LOAD MUSIC "
+        "action": "LOAD_MUSIC\n"
     },
     {
         "pattern": [b'\x1a'],
@@ -73,17 +97,17 @@ patterns = [
     {
         "pattern": [b'('],
         #
-        "action": "LOAD_FILE "
+        "action": "LOAD_GRAPHICS\n"
     },
     {
-        "pattern": [b'\x1d', b'\x01'],
+        "pattern": [b'\x1d'],
         #
-        "action": "FEMALE_NAMETAG:\n"
+        "action": "FEMALE_NAMETAG\n"
     },
     {
-        "pattern": [b'\x1e', b'\x01'],
+        "pattern": [b'\x1e'],
         #
-        "action": "MALE_NAMETAG:\n"
+        "action": "MALE_NAMETAG\n"
     },
     {
         "pattern": [b'\xff'],
@@ -99,7 +123,8 @@ def contains_japanese(text):
         '\u3040-\u309F'  # Hiragana
         '\u30A0-\u30FF'  # Katakana
         '\u4E00-\u9FFF'  # Kanji
-        '\uFF00-\uFFEF'  # Full-width characters
+        '\uFF00-\uFF64'  # Full-width characters (excluding half-width katakana range)
+        '\uFFA0-\uFFEF'  # Full-width characters after half-width katakana range
         ']+'
     )
     return bool(pattern.search(text))
@@ -107,7 +132,7 @@ def contains_japanese(text):
 def parse_bytecode(data):
     list_bytecodes = []
     byte_list = [data[i:i+1] for i in range(len(data))]
-    split_values = {b'\x00', b'\x01', b'\x05', b'(', b'\x1a', b'\x04', b'\x11', b'\x19'}
+    split_values = {b'\x00', b'\x01', b'\x05', b'(', b'\x1a', b'\x04', b'\x11', b'\x15', b'\x19'}
     current_byte = byte_list[0]
     for byte in byte_list:
         if byte in split_values:
