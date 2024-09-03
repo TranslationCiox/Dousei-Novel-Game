@@ -6,6 +6,7 @@ import re
 ##### Notes:
 # \x01 seems to be a new line.
 # \x02 wipes the textbox
+# \x03 maybe, if the next character is 5c "\" and after that 72 "r" it might be one of the random wakeup dialogues.
 # \x04 Seems to be related to flags and moving to other segments.
 # \x05 is a clickwait, but will continue on the same line.
 # \x10 male name.
@@ -28,92 +29,92 @@ import re
 # \xff end a file.
 patterns = [
     {
-        "pattern": [b'\x01'],
+        "pattern": ["b'\\x01'"],
         #
         "action": "[01]NEWLINE\n"
     },
     {
-        "pattern": [b'\x02'],
+        "pattern": ["b'\\x02'"],
         #
         "action": "[02]CLEAR_TEXTBOX\n"
     },
     {
-        "pattern": [b'\x04'],
+        "pattern": ["b'\\x04'"],
         #
         "action": "[04]MOVE_TO_OTHER_SEGMENT\n"
     },
     {
-        "pattern": [b'\x05'],
+        "pattern": ["b'\\x05'"],
         #
         "action": "[05]CLICKWAIT\n"
     },
     {
-        "pattern": [b'\x10'],
+        "pattern": ["b'\\x10'"],
         #
         "action": "[10]MALE_NAME\n"
     },
     {
-        "pattern": [b'\x11'],
+        "pattern": ["b'\\x11'"],
         #
         "action": "[11]FEMALE_NAME\n"
     },
     {
-        "pattern": [b'\x12'],
+        "pattern": ["b'\\x12'"],
         #
         "action": "[12]MALE_SURNAME\n"
     },
     {
-        "pattern": [b'\x13'],
+        "pattern": ["b'\\x13'"],
         #
         "action": "[13]FEMALE_SURNAME\n"
     },
     {
-        "pattern": [b'\x15'],
+        "pattern": ["b'\\x15'"],
         #
         "action": "[15]NO_NAMETAG\n"
     },
     {
-        "pattern": [b'\x16'],
+        "pattern": ["b'\\x16'"],
         #
         "action": "[16]END_CHOICE\n"
     },
     {
-        "pattern": [b'\x17'],
+        "pattern": ["b'\\x17'"],
         #
         "action": "[17]CHOICE\n"
     },
     {
-        "pattern": [b'\x19'],
+        "pattern": ["b'\\x19'"],
         #
         "action": "[19]GOTO_FILE\n"
     },
     {
-        "pattern": [b' '],
+        "pattern": ["b' '"],
         #
         "action": "[20]LOAD_MUSIC\n"
     },
     {
-        "pattern": [b'('],
+        "pattern": ["b'('"],
         #
         "action": "[28]LOAD_GRAPHICS\n"
     },
     {
-        "pattern": [b'\x1a'],
+        "pattern": ["b'\\x1a'"],
         #
         "action": "[1a]END_OF_SEGMENT\n"
     },
     {
-        "pattern": [b'\x1d'],
+        "pattern": ["b'\\x1d'"],
         #
         "action": "[1d]FEMALE_NAMETAG\n"
     },
     {
-        "pattern": [b'\x1e'],
+        "pattern": ["b'\\x1e'"],
         #
         "action": "[1e]MALE_NAMETAG\n"
     },
     {
-        "pattern": [b'\xff'],
+        "pattern": ["b'\\xff'"],
         #
         "action": "[ff]END_FILE"
     },
@@ -134,24 +135,29 @@ def contains_japanese(text):
 
 def parse_bytecode(data):
     list_bytecodes = []
+
     byte_list = [data[i:i+1] for i in range(len(data))]
-    split_values = {b'\x00', b'\x01', b'\x05', b'\x08', b'\x10',
-                    b'(',    b'\x1a', b'\x04', b'\x11', b'\x15',
-                    b'\x19', b'\x20', b'\x2e', b'\x09', b'\x6c'}
-    current_byte = byte_list[0]
+
+    byte_counter = 0
     for byte in byte_list:
-        if byte in split_values:
-            if current_byte:
-                list_bytecodes.append(current_byte)
-            list_bytecodes.append(byte)
-            current_byte = None
+        current_byte = str(bytes(byte, "932"))
+        if len(current_byte) == 7:
+            list_bytecodes.append(current_byte)
+            byte_counter += 1
         else:
-            if current_byte is None:
-                current_byte = byte
+            previous_byte = str(bytes(byte_list[byte_counter - 1], "932"))
+            next_byte = str(bytes(byte_list[byte_counter + 1], "932"))
+            if len(previous_byte) != 7 or len(next_byte) != 7:
+                if len(previous_byte) != 7:
+                    list_bytecodes[-1] = list_bytecodes[-1] + byte
+                    byte_counter += 1
+                else:
+                    list_bytecodes.append(byte)
+                    byte_counter += 1
             else:
-                current_byte += byte
-    if current_byte:
-        list_bytecodes.append(current_byte)
+                list_bytecodes.append(current_byte)
+                byte_counter += 1
+
     return list_bytecodes
 
 def match_pattern(line_segment, pattern):
@@ -172,9 +178,7 @@ def save_text(lines, output_path):
         while line_counter < len(lines):
             line = lines[line_counter]
 
-            if contains_japanese(line.decode("932", errors='ignore')):
-                print(line.decode("932", errors='ignore'))
-                line = line.decode("932", errors='ignore')
+            if contains_japanese(line):
                 line = line.replace("", "MALE NAME")   # \x10
                 line = line.replace("", "FEMALE NAME") # \x11
                 line = line.replace("", "CLEAR_TEXTBOX\n") # \x02 Clear textbox
@@ -210,7 +214,7 @@ def process_files(input_dir="scripts", output_dir="scripts_txts"):
 
         with open(os.path.join(input_dir, fs), "rb") as f:
             data = f.read()
-
+        data = data.decode("932", errors='ignore')
         list_bytes = parse_bytecode(data)
 
         if list_bytes:

@@ -1,5 +1,4 @@
 [11]FEMALE_NAME
-[11]FEMALE_NAME
 [16]END_CHOICE
 \x08
 \x00
@@ -28,7 +27,8 @@ Y
 "
 \x00
 [10]MALE_NAME
-'\x1d
+'
+[1d]FEMALE_NAMETAG
 [10]MALE_NAME
 c
 \x00
@@ -44,7 +44,8 @@ X
 D
 \x00
 [11]FEMALE_NAME
-\x17$
+[17]CHOICE
+$
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -54,12 +55,13 @@ D
 >
 \x00
 [10]MALE_NAME
-\x9e\x0b
+\x0b
 [10]MALE_NAME
 A
 \x00
 [10]MALE_NAME
-b\x0e
+b
+\x0e
 [10]MALE_NAME
 c
 \x00
@@ -95,11 +97,9 @@ c
 \xae
 \x08
 [1a]END_OF_SEGMENT
-[28]LOAD_GRAPHICS
-_CGAA01
+CGAA0
 \x00
-[20]LOAD_MUSIC
-DS02
+S0
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -193,7 +193,9 @@ $
 \x00
 [02]CLEAR_TEXTBOX
 \x00
-\xd2\x03\x1d
+\xd2
+\x03
+[1d]FEMALE_NAMETAG
 [01]NEWLINE
 「えっとぉ・・・ま、まあ、あの・・・・・
 [05]CLICKWAIT
@@ -296,7 +298,8 @@ I
 \x00
 [02]CLEAR_TEXTBOX
 \x00
-\xbc\x07
+\xbc
+\x07
 [04]MOVE_TO_OTHER_SEGMENT
 $
 \x00
@@ -342,9 +345,7 @@ $
 「でも、結局ダメになっちゃったね～
 [05]CLICKWAIT
 [01]NEWLINE
-　ごめ～ん・・・しょうがないから２
-l
-で行ってきて・・・
+　ごめ～ん・・・しょうがないから２人で行ってきて・・・
 [05]CLICKWAIT
 [01]NEWLINE
 　うん・・・わかった、楽しみにしてるから・・・うん、じゃあね」
@@ -359,18 +360,14 @@ l
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-「はぁ・・・私も一
-l
-暮らししてた方が良かったのかなぁ・・・」
+「はぁ・・・私も一人暮らししてた方が良かったのかなぁ・・・」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [1a]END_OF_SEGMENT
-[28]LOAD_GRAPHICS
-_CGAA04
+CGAA0
 \x00
-[20]LOAD_MUSIC
-DS02
+S0
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -407,7 +404,8 @@ DS02
 \x00
 [02]CLEAR_TEXTBOX
 \x00
-\x9c\n\x1d
+\n
+[1d]FEMALE_NAMETAG
 [01]NEWLINE
 「ううん、違うよ
 [05]CLICKWAIT
@@ -423,14 +421,13 @@ DS02
 「何言ってんのよー！最近は若い娘だってよく行くんだよー！
 [05]CLICKWAIT
 [01]NEWLINE
-　ほら、テレビでもよく『美
-l
-ＯＬゆけむりの～』みたいなのがあるで　しょ」
+　ほら、テレビでもよく『美人ＯＬゆけむりの～』みたいなのがあるで　しょ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [10]MALE_NAME
-\x9d\x0b\x1d
+\x0b
+[1d]FEMALE_NAMETAG
 [01]NEWLINE
 「違うわよ！　話しはちゃんと最後まで聞きなさい！
 [05]CLICKWAIT
@@ -455,11 +452,9 @@ l
 [02]CLEAR_TEXTBOX
 \x00
 [1a]END_OF_SEGMENT
-[28]LOAD_GRAPHICS
-_CGAA01
+CGAA0
 \x00
-[20]LOAD_MUSIC
-DS02
+S0
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -484,7 +479,8 @@ DS02
 \x00
 [02]CLEAR_TEXTBOX
 \x00
-\x93\x0c\x1d
+\x0c
+[1d]FEMALE_NAMETAG
 [01]NEWLINE
 「あ～、もう忘れてる～！
 [05]CLICKWAIT
@@ -498,7 +494,8 @@ DS02
 \x00
 [10]MALE_NAME
 \x00
-\r\x1d
+\r
+[1d]FEMALE_NAMETAG
 [01]NEWLINE
 「そ、例の温泉旅行の準備なの
 [05]CLICKWAIT
@@ -535,11 +532,9 @@ DS02
 [02]CLEAR_TEXTBOX
 \x00
 [1a]END_OF_SEGMENT
-[28]LOAD_GRAPHICS
-_CGAA01
+CGAA0
 \x00
-[20]LOAD_MUSIC
-DS02
+S0
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -627,16 +622,10 @@ A
 そう・・だね
 [05]CLICKWAIT
 [01]NEWLINE
-　確かに１
-l
-身の２
-l
-を呼ぶのは、ちょっと可哀想かも・・・
+　確かに１人身の２人を呼ぶのは、ちょっと可哀想かも・・・
 [05]CLICKWAIT
 [01]NEWLINE
-　じゃあ、やっぱり、２
-l
-きりで行こうね」
+　じゃあ、やっぱり、２人きりで行こうね」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -647,9 +636,7 @@ C
 [01]NEWLINE
 「・・・・そうだね
 [05]CLICKWAIT
-　じゃあ、今度２
-l
-きりで温泉行こうよ！
+　じゃあ、今度２人きりで温泉行こうよ！
 [05]CLICKWAIT
 [01]NEWLINE
 　ね、ね、決まりね！
@@ -659,11 +646,9 @@ l
 [02]CLEAR_TEXTBOX
 \x00
 [1a]END_OF_SEGMENT
-[28]LOAD_GRAPHICS
-_CGAA01
+CGAA0
 \x00
-[20]LOAD_MUSIC
-DS02
+S0
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -675,9 +660,7 @@ DS02
 \x00
 [1e]MALE_NAMETAG
 [01]NEWLINE
-「へ～、トン
-l
-ル内で落盤事故か～」
+「へ～、トンネル内で落盤事故か～」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -710,7 +693,7 @@ l
 [11]FEMALE_NAME
 は、不安げな表情で電話をかけた
 [05]CLICKWAIT
-CLEAR_TEXTBOX
+[02]CLEAR_TEXTBOX
 しばらくして
 [11]FEMALE_NAME
 は、ため息をつきながら、受話器を置いた
@@ -746,25 +729,17 @@ CLEAR_TEXTBOX
 [11]FEMALE_NAME
 は、不安そうな顔でテレビに目を向けた
 [05]CLICKWAIT
-CLEAR_TEXTBOX
-しばらくしてバラエティー番組が終わりニュースが始まったが、トップニュースは先ほどのトン
-l
-ル事故の事だった
+[02]CLEAR_TEXTBOX
+しばらくしてバラエティー番組が終わりニュースが始まったが、トップニュースは先ほどのトンネル事故の事だった
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-「今日未明、なんとかスキー場近くの○○トン
-l
-ルで落盤事故があり
+「今日未明、なんとかスキー場近くの○○トンネルで落盤事故があり
 [05]CLICKWAIT
 [01]NEWLINE
-　少なくとも車数十台、５０
-l
-以上の
-l
-が行方不明になっています
+　少なくとも車数十台、５０人以上の人が行方不明になっています
 [05]CLICKWAIT
 [01]NEWLINE
 　落盤の詳しい原因については・・・・・」
@@ -785,11 +760,9 @@ l
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
-[28]LOAD_GRAPHICS
-_CGAA02
+CGAA0
 \x00
-[20]LOAD_MUSIC
-DS13
+S1
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -978,11 +951,9 @@ DS13
 [02]CLEAR_TEXTBOX
 \x00
 [1a]END_OF_SEGMENT
-[28]LOAD_GRAPHICS
-_CGAA01
+CGAA0
 \x00
-[20]LOAD_MUSIC
-DS02
+S0
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
@@ -1089,11 +1060,9 @@ DS02
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
-[28]LOAD_GRAPHICS
-w1b
+1
 \x00
-[20]LOAD_MUSIC
-DS10
+S1
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
@@ -1104,17 +1073,13 @@ DS10
 [02]CLEAR_TEXTBOX
 \x00
 [1a]END_OF_SEGMENT
-[28]LOAD_GRAPHICS
-_CGAA01
+CGAA0
 \x00
-[20]LOAD_MUSIC
-DS02
+S0
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋
-l
-が食事の後片づけをしていると、不意に電話が鳴った
+恋人が食事の後片づけをしていると、不意に電話が鳴った
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1125,9 +1090,7 @@ l
 ああ、真弓！・・・今どこ？
 [05]CLICKWAIT
 [01]NEWLINE
-[20]LOAD_MUSIC
-[20]LOAD_MUSIC
-・・・ああ、旅館から～・・・えっ？
+  ・・・ああ、旅館から～・・・えっ？
 [05]CLICKWAIT
 [01]NEWLINE
 　はいはい、楽しそうでようございましたねぇ！」
@@ -1136,22 +1099,16 @@ l
 \x00
 [1d]FEMALE_NAMETAG
 [01]NEWLINE
-\x81u
-[20]LOAD_MUSIC
-・ん・・うんうん・・・わかったぁ、じゃあ期待してるね
+「 ・ん・・うんうん・・・わかったぁ、じゃあ期待してるね
 [05]CLICKWAIT
 [01]NEWLINE
-[20]LOAD_MUSIC
-[20]LOAD_MUSIC
-・・・じゃあね、バイバイ」
+  ・・・じゃあね、バイバイ」
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋
-l
-は受話器を置くとハァ～と大きな溜息をついた
+恋人は受話器を置くとハァ～と大きな溜息をついた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1184,9 +1141,7 @@ l
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋
-l
-は冗談ぽく、怒りの声をあげた
+恋人は冗談ぽく、怒りの声をあげた
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00
@@ -1248,9 +1203,7 @@ l
 \x00
 [15]NO_NAMETAG
 [01]NEWLINE
-恋
-l
-は笑って答えると、食事の後片づけを再開した
+恋人は笑って答えると、食事の後片づけを再開した
 [05]CLICKWAIT
 [02]CLEAR_TEXTBOX
 \x00

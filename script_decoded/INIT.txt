@@ -1,12 +1,11 @@
-jj
-[28]LOAD_GRAPHICS
-TAC01
+TAC0
 \x00
-g
-[28]LOAD_GRAPHICS
-TAC02
+TAC0
 \x00
-hk\x1e4\x0e
+
+[1e]MALE_NAMETAG
+4
+\x0e
 \x00
 \x0f
 \x00
@@ -28,6 +27,7 @@ hk\x1e4\x0e
 \x00
 [20]LOAD_MUSIC
 \x00
-\x18MAIN
+\x18
+I
 \x00
 [ff]END_FILE
