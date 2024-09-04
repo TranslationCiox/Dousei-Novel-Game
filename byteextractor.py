@@ -140,15 +140,17 @@ def decode_shift_jis_with_binary(data):
         # Shift JIS: 0x81-0x9F, 0xE0-0xEF are first byte ranges of multi-byte characters
         return (0x81 <= byte <= 0x9F) or (0xE0 <= byte <= 0xEF)
 
+    def is_shift_jis_single_byte(byte):
+        # Single byte characters in Shift JIS (like ・) are in the range 0xA1-0xDF
+        return 0xA1 <= byte <= 0xDF
+
     decoded_parts = []
     i = 0
     while i < len(data):
         byte = data[i]
         try:
-            # If it's likely a Shift JIS byte, attempt to decode it
             if is_shift_jis_byte(byte):
-                # Attempt to decode as Shift JIS
-                # Find the length of the sequence (1 or 2 bytes)
+                # Handle multibyte characters
                 if (i + 1 < len(data)) and (
                         (0xA1 <= data[i + 1] <= 0xDF) or (0x40 <= data[i + 1] <= 0x7E) or (0x80 <= data[i + 1] <= 0xFC)):
                     segment = data[i:i + 2]
@@ -157,12 +159,19 @@ def decode_shift_jis_with_binary(data):
                     segment = bytes([byte])
                     i += 1
 
-                decoded_text = segment.decode("shift_jis")
-                decoded_parts.append(decoded_text.encode("shift_jis"))
+                decoded_text = segment.decode("shift_jis", errors="strict")
+                decoded_parts.append(decoded_text.encode("shift_jis", errors="strict"))
+
+            elif is_shift_jis_single_byte(byte):
+                # Handle single byte characters like ・
+                decoded_text = bytes([byte]).decode("shift_jis", errors="strict")
+                decoded_parts.append(decoded_text.encode("shift_jis", errors="strict"))
+                i += 1
             else:
                 # Otherwise, treat it as binary data
                 decoded_parts.append(data[i:i + 1])
                 i += 1
+
         except (UnicodeDecodeError, IndexError):
             # Handle errors gracefully, treat as binary
             decoded_parts.append(data[i:i + 1])
@@ -187,14 +196,14 @@ def parse_bytecode(data):
 
             if len(previous_byte) != 7 or len(next_byte) != 7:
                 if len(previous_byte) != 7:
-                    list_bytecodes[-1] = list_bytecodes[-1] + byte[-1].decode('shift_jis')
+                    list_bytecodes[-1] = list_bytecodes[-1] + byte[-1].decode('shift_jis', errors="strict")
                     byte_counter += 1
                 else:
-                    list_bytecodes.append(byte[-1].decode('shift_jis'))
+                    list_bytecodes.append(byte[-1].decode('shift_jis', errors="strict"))
                     byte_counter += 1
             else:
                 if byte[-1] != b'\n':
-                    list_bytecodes.append(byte[-1].decode('shift_jis'))
+                    list_bytecodes.append(byte[-1].decode('shift_jis', errors="strict"))
                 else:
                     list_bytecodes.append("\\x0a")
                 byte_counter += 1
