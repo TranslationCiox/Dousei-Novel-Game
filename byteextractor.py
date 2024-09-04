@@ -214,7 +214,7 @@ def match_pattern(line_segment, pattern):
 
 # Function to process and save extracted text
 def save_text(lines, output_path):
-    with open(output_path, "w", errors="replace") as f:
+    with open(output_path, "w") as f:
         line_counter = 0
         while line_counter < len(lines):
             line = lines[line_counter]
